@@ -39,7 +39,7 @@
       ],
       "cc": [],
       "date": "2025-03-23T10:39:17.000Z",
-      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div></body>",
       "hiddenReasons": [],
       "attachments": [
         {
@@ -65,7 +65,7 @@
       ],
       "cc": [],
       "date": "2025-05-31T12:41:47.000Z",
-      "bodyHtml": "<div style=\"white-space: pre-wrap\">Lugupeetud harid.ee vastutav andmetöötleja\n\nPöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses harid.ee, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.\n\nManuses on ametlik taotlus, milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).\n\nPalun teavitage taotluse kättesaamisest.\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of harid.ee,\n\nI am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by harid.ee, potentially leading to its disclosure to unauthorised parties without a clear legal basis.\n\nPlease find attached a formal application exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).\n\nPlease confirm receipt of this request.\n\nKind regards,\nGregor Eesmaa\n</div>",
+      "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Lugupeetud harid.ee vastutav andmetöötleja\n\nPöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses harid.ee, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.\n\nManuses on ametlik taotlus, milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).\n\nPalun teavitage taotluse kättesaamisest.\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of harid.ee,\n\nI am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by harid.ee, potentially leading to its disclosure to unauthorised parties without a clear legal basis.\n\nPlease find attached a formal application exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).\n\nPlease confirm receipt of this request.\n\nKind regards,\nGregor Eesmaa\n</div></body>",
       "hiddenReasons": [],
       "attachments": [
         {
@@ -104,7 +104,7 @@
       ],
       "cc": [],
       "date": "2025-05-31T18:47:45.000Z",
-      "bodyHtml": "<div dir=\"ltr\">Saadan igaks juhuks ka eraldi taotluse ja aruande PDFid, mis asusid eelmise meili manuses digiallkirjastatud konteineris.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>Just in case, providing also the request and the report PDF files, that were in the digitally signed container attached to the previous email.<br><br>Kind regards,<br>Gregor Eesmaa</div><br>",
+      "bodyHtml": "<head></head><body><div dir=\"ltr\">Saadan igaks juhuks ka eraldi taotluse ja aruande PDFid, mis asusid eelmise meili manuses digiallkirjastatud konteineris.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>Just in case, providing also the request and the report PDF files, that were in the digitally signed container attached to the previous email.<br><br>Kind regards,<br>Gregor Eesmaa</div><br>\n</body>",
       "hiddenReasons": [
         "providing-container-contents"
       ],
@@ -137,7 +137,7 @@
       ],
       "cc": [],
       "date": "2025-06-16T12:12:33.000Z",
-      "bodyHtml": "<div style=\"white-space: pre-wrap\">Tere!\nKinnitame, et oleme taotluse kätte saanud 02.05.2025 ja vastame sellele taotluses toodud tähtaja jooksul.\n\nLugupidamisega\n\n\nMirjam Reinthal\nÕigus- ja personalipoliitika osakond\nõigusnõunik-andmekaitsespetsialist\nHaridus- ja Teadusministeerium\n7352405\nMirjam.Reinthal@hm.ee</div>",
+      "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Tere!\nKinnitame, et oleme taotluse kätte saanud 02.05.2025 ja vastame sellele taotluses toodud tähtaja jooksul.\n\nLugupidamisega\n\n\nMirjam Reinthal\nÕigus- ja personalipoliitika osakond\nõigusnõunik-andmekaitsespetsialist\nHaridus- ja Teadusministeerium\n7352405\nMirjam.Reinthal@hm.ee</div></body>",
       "hiddenReasons": [],
       "attachments": []
     },
@@ -157,7 +157,7 @@
       ],
       "cc": [],
       "date": "2025-06-27T06:34:54.000Z",
-      "bodyHtml": "<div style=\"white-space: pre-wrap\">Lugupeetud Gregor Eesmaa\n\nTäname Teid pöördumise eest ning kinnitame, et mõistame Teie muret seoses isikuandmete töötlemisega teenuses HarID.\n\nOlete õigesti viidanud probleemile, mis puudutab kasutajakonto olemasolu loendamise (account enumeration) võimalust meiliaadressi vahetamise vormil. Tuvastatud turvanõrkus on kinnitust leidnud ning arendaja töötab praegu lahenduse kallal. Esialgse ajakava kohaselt avaldame paranduse 30. juunil 2025.\n\nTeie esitatud taotlused ja vastuväited, mis tuginevad isikuandmete kaitse üldmääruse (IKÜM) artiklitele 15, 18 ja 21, on asjakohased. Arvestame neid paranduse teostamisel.\n\nKui Teil on täiendavaid küsimusi, oleme meelsasti valmis vastama.\n\nLugupidamisega\n\n\nMirjam Reinthal\nÕigus- ja personalipoliitika osakond\nõigusnõunik-andmekaitsespetsialist\nHaridus- ja Teadusministeerium\n7352405\nMirjam.Reinthal@hm.ee</div>",
+      "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Lugupeetud Gregor Eesmaa\n\nTäname Teid pöördumise eest ning kinnitame, et mõistame Teie muret seoses isikuandmete töötlemisega teenuses HarID.\n\nOlete õigesti viidanud probleemile, mis puudutab kasutajakonto olemasolu loendamise (account enumeration) võimalust meiliaadressi vahetamise vormil. Tuvastatud turvanõrkus on kinnitust leidnud ning arendaja töötab praegu lahenduse kallal. Esialgse ajakava kohaselt avaldame paranduse 30. juunil 2025.\n\nTeie esitatud taotlused ja vastuväited, mis tuginevad isikuandmete kaitse üldmääruse (IKÜM) artiklitele 15, 18 ja 21, on asjakohased. Arvestame neid paranduse teostamisel.\n\nKui Teil on täiendavaid küsimusi, oleme meelsasti valmis vastama.\n\nLugupidamisega\n\n\nMirjam Reinthal\nÕigus- ja personalipoliitika osakond\nõigusnõunik-andmekaitsespetsialist\nHaridus- ja Teadusministeerium\n7352405\nMirjam.Reinthal@hm.ee</div></body>",
       "hiddenReasons": [],
       "attachments": []
     }

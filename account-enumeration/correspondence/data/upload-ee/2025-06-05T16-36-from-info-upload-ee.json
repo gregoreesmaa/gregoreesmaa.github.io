@@ -14,7 +14,7 @@
   ],
   "cc": [],
   "date": "2025-06-05T16:36:22.000Z",
-  "bodyHtml": "Hmm, njah, affected ja selected rows näitas debug andmetes ridade arvuga kaudselt ära kasutaja olemasolu.<div>Need kaks muutujat regamise ja parooli taastamise lehel ning login lehel on nüüd peidus (ainult siis kui päriselt submit teha, tavalisel GET päringul mis ainult vormi kuvab on jätkuvalt näha).</div><div><br></div><div>Tervitades,</div><div>Upload.ee Meeskond<br id=\"lineBreakAtBeginningOfMessage\"><div><br></div><br></div>",
+  "bodyHtml": "<head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"></head><body style=\"overflow-wrap: break-word; -webkit-nbsp-mode: space; line-break: after-white-space;\">Hmm, njah, affected ja selected rows näitas debug andmetes ridade arvuga kaudselt ära kasutaja olemasolu.<div>Need kaks muutujat regamise ja parooli taastamise lehel ning login lehel on nüüd peidus (ainult siis kui päriselt submit teha, tavalisel GET päringul mis ainult vormi kuvab on jätkuvalt näha).</div><div><br></div><div>Tervitades,</div><div>Upload.ee Meeskond<br id=\"lineBreakAtBeginningOfMessage\"><div><br></div><br></div></body>",
   "hiddenReasons": [],
   "attachments": []
 }

@@ -14,7 +14,7 @@
   ],
   "cc": [],
   "date": "2025-03-16T19:20:21.000Z",
-  "bodyHtml": "Hi,<br>\n<br>\nThank you for sending us the vulnerability you found.<br>\nWe are currently evaluating it. We will inform you about the evaluation within 15 days.<br>\n<br>\nBest Regards,<br>\nNotino Security Team<br>\n<a href=\"https://www.notino.com/bug-bounty.html\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.notino.com/bug-bounty.html</a><br>",
+  "bodyHtml": "<head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=us-ascii\"></head><body>Hi,<br>\n<br>\nThank you for sending us the vulnerability you found.<br>\nWe are currently evaluating it. We will inform you about the evaluation within 15 days.<br>\n<br>\nBest Regards,<br>\nNotino Security Team<br>\n<a href=\"https://www.notino.com/bug-bounty.html\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.notino.com/bug-bounty.html</a><br>\n\n</body>",
   "hiddenReasons": [
     "automated-reply"
   ],

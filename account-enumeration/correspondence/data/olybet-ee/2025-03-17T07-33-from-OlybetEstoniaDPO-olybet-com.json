@@ -14,7 +14,7 @@
   ],
   "cc": [],
   "date": "2025-03-17T07:33:55.000Z",
-  "bodyHtml": "<div style=\"white-space: pre-wrap\">Tere, Gregor \n\nTänud info eest. Kätte saadud. \n\nHead,\nOlyBet DPO</div>",
+  "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Tere, Gregor \n\nTänud info eest. Kätte saadud. \n\nHead,\nOlyBet DPO</div></body>",
   "hiddenReasons": [],
   "attachments": [
     {

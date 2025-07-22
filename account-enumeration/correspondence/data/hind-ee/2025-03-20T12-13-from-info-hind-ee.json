@@ -14,7 +14,7 @@
   ],
   "cc": [],
   "date": "2025-03-20T12:13:43.000Z",
-  "bodyHtml": "<div dir=\"ltr\">Hello,<div><br></div><div>Thank you very much for your observations and recommendations.&nbsp;</div><div>We will take your information into account and implement the necessary system changes as soon as possible.</div><div><p>Best regards,<br>Andrius | Hind.ee</p></div></div><br>",
+  "bodyHtml": "<head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body><div dir=\"ltr\">Hello,<div><br></div><div>Thank you very much for your observations and recommendations.&nbsp;</div><div>We will take your information into account and implement the necessary system changes as soon as possible.</div><div><p>Best regards,<br>Andrius | Hind.ee</p></div></div><br>\n</body>",
   "hiddenReasons": [],
   "attachments": []
 }
