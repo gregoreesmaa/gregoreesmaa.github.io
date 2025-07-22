@@ -1,0 +1,22 @@
+{
+  "id": "2025-03-16T19-19-from-donotreply-aripaev-ee",
+  "type": "email",
+  "subject": "[TaskID: 626646] Re: User email address enumeration vulnerability on aripaev.ee  | Pöördumise registreerimiskood :<AR3E385E0FE816>",
+  "from": {
+    "address": "donotreply@aripaev.ee",
+    "name": ""
+  },
+  "to": [
+    {
+      "address": "gregor.eesmaa@ut.ee",
+      "name": ""
+    }
+  ],
+  "cc": [],
+  "date": "2025-03-16T19:19:09.000Z",
+  "bodyHtml": "<p>Tere</p>\n\n<p>Aitäh kirja eest! </p>\n\n<p>Vastame Teile esimesel võimalusel, hiljemalt ühe tööpäeva jooksul. </p>\n\n<p>\nKäesolev kiri on saadetud automaatselt, palume sellele mitte vastata. Tellimusi saate lihtsalt ja kiirelt vormistada veebilehel <a href=\"https://pood.aripaev.ee/\"> https://pood.aripaev.ee/</a>.\n</p>\n\n<p>Heade soovidega</p>\n\nÄripäeva tellimiskeskus<br>\nÄripäev AS | <a href=\"https://www.aripaev.ee\">aripaev.ee</a><br>\nE-post: tellimiskeskus@aripaev.ee<br>\nTelefon: +372 667 0099<br>",
+  "hiddenReasons": [
+    "automated-reply"
+  ],
+  "attachments": []
+}

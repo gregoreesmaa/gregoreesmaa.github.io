@@ -1,0 +1,25 @@
+{
+  "id": "2025-05-18T13-23-from-gregor-eesmaa-ut-ee",
+  "type": "email",
+  "subject": "Re: User email address enumeration vulnerability on kuldnebors.ee",
+  "from": {
+    "address": "gregor.eesmaa@ut.ee",
+    "name": "Gregor Eesmaa"
+  },
+  "to": [
+    {
+      "address": "rainer.nagel@allepal.ee",
+      "name": ""
+    }
+  ],
+  "cc": [
+    {
+      "address": "info@kuldnebors.ee",
+      "name": ""
+    }
+  ],
+  "date": "2025-05-18T13:23:10.000Z",
+  "bodyHtml": "<pre><div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">Hello,<br><br>We are pleased to inform you, that we reassessed kuldnebors.ee <br>on 2025-05-03 and have found that the previously identified<br>account enumeration vulnerability is now sufficiently mitigated.<br><br>We appreciate your attention and action in addressing this<br>security concern.<br><br>Thank you,<br><br>Gregor Eesmaa<br>Computer Science MSc student<br>University of Tartu, Institute of Computer Science</div></pre>\n<div id=\"appendonsend\"></div>",
+  "hiddenReasons": [],
+  "attachments": []
+}

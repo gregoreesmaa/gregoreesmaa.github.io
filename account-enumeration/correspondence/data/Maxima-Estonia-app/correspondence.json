@@ -1,0 +1,241 @@
+{
+  "service": {
+    "id": "Maxima-Estonia-app",
+    "name": "Maxima Estonia app",
+    "type": "app",
+    "stats": {
+      "dates": {
+        "first": "2025-04-06T19:24:34.000Z",
+        "firstResponse": "2025-07-02T09:25:31.000Z",
+        "firstGdprRequest": "2025-06-21T12:43:23.000Z",
+        "firstGdprResponse": "2025-07-02T09:25:31.000Z",
+        "last": "2025-07-21T10:38:19.000Z"
+      },
+      "counts": {
+        "total": 7,
+        "sent": 4,
+        "received": {
+          "automated": 1,
+          "manual": 2,
+          "total": 3
+        }
+      }
+    }
+  },
+  "emails": [
+    {
+      "id": "2025-04-06T19-24-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on MAXIMA Estonia app",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "dpo@maxima.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-04-06T19:24:34.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your mobile app is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 284311
+        }
+      ]
+    },
+    {
+      "id": "2025-04-27T20-12-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on MAXIMA Estonia app",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "klienditugi@maxima.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-04-27T20:12:37.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your mobile app is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 284394
+        }
+      ]
+    },
+    {
+      "id": "2025-04-27T20-12-from-klienditugi-maxima-ee",
+      "type": "email",
+      "subject": "Automatic reply: User email address enumeration vulnerability on MAXIMA Estonia app",
+      "from": {
+        "address": "klienditugi@maxima.ee",
+        "name": "klienditugi | MAXIMA Eesti"
+      },
+      "to": [
+        {
+          "address": "gregor.eesmaa@ut.ee",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-04-27T20:12:58.000Z",
+      "bodyHtml": "<div class=\"WordSection1\">\n<p class=\"MsoNormal\" style=\"margin-bottom:12.0pt;text-autospace:none\"><span style=\"color:black;background:white;mso-highlight:white\">Tere\n</span><span style=\"color:black\"><o:p></o:p></span></p>\n<p class=\"MsoNormal\" style=\"text-autospace:none\"><span style=\"color:black;background:white;mso-highlight:white\">Täname Teid kirja eest!\n<o:p></o:p></span></p>\n\n<p class=\"MsoNormal\" style=\"text-autospace:none\"><span style=\"color:black;background:white;mso-highlight:white\">Vastame pöördumistele ja oleme Teile abiks tööpäeviti, E-R&nbsp; 8.00-17.00.<o:p></o:p></span></p>\n\n<p class=\"MsoNormal\" style=\"text-autospace:none\"><span style=\"color:black;background:white;mso-highlight:white\">Tuleme Teie sisulise kirja juurde tagasi võimalikult kiiresti, kuid p</span><span lang=\"EN-US\" style=\"color:black;background:white;mso-highlight:white\">öö</span><span style=\"color:black;background:white;mso-highlight:white\">rdumise\n menetlemine v</span><span lang=\"EN-US\" style=\"color:black;background:white;mso-highlight:white\">õ</span><span style=\"color:black;background:white;mso-highlight:white\">ib v</span><span lang=\"EN-US\" style=\"color:black;background:white;mso-highlight:white\">õ</span><span style=\"color:black;background:white;mso-highlight:white\">tta\n kuni 15 t</span><span lang=\"EN-US\" style=\"color:black;background:white;mso-highlight:white\">öö</span><span style=\"color:black;background:white;mso-highlight:white\">p</span><span lang=\"EN-US\" style=\"color:black;background:white;mso-highlight:white\">ä</span><span style=\"color:black;background:white;mso-highlight:white\">eva.<o:p></o:p></span></p>\n\n\n<p class=\"MsoNormal\" style=\"text-autospace:none\"><span style=\"color:black;background:white;mso-highlight:white\">Heade soovidega<o:p></o:p></span></p>\n\n<p class=\"MsoNormal\" style=\"text-autospace:none\"><span style=\"color:black;background:white;mso-highlight:white\">Maxima klienditugi<o:p></o:p></span></p>\n<p class=\"MsoNormal\" style=\"text-autospace:none\"><span style=\"color:black;background:white;mso-highlight:white\">E-R (tööpäevadel) 8.00-17.00<o:p></o:p></span></p>\n<p class=\"MsoNormal\" style=\"text-autospace:none\"><span style=\"color:black;background:white;mso-highlight:white\">800 2121 (tasuta infoliin)<o:p></o:p></span></p>\n<p class=\"MsoNormal\" style=\"text-autospace:none\"><span style=\"color:black;background:white;mso-highlight:white\"><a href=\"mailto:klienditugi@maxima.ee\"><span style=\"color:#0563C1\">klienditugi@maxima.ee</span></a>\n<o:p></o:p></span></p>\n\n</div>",
+      "hiddenReasons": [
+        "automated-reply"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "2025-06-21T12-43-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "IKÜM taotlus seoses isikuandmete töötlemisega äpis MAXIMA Estonia / GDPR Request Regarding Processing of Personal Data on MAXIMA Estonia app",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "dpo@maxima.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-21T12:43:23.000Z",
+      "bodyHtml": "<pre class=\"elementToProof\"><div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">Lugupeetud MAXIMA Estonia äpi vastutav andmetöötleja<br><br>Pöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega äpis MAXIMA Estonia, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.<br><br>Manuses on ametlik taotlus (samuti digiallkirjastatud kujul), milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).<br><br>Palun teavitage taotluse kättesaamisest.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>Dear Data Controller of MAXIMA Estonia app,<br><br>I am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by MAXIMA Estonia app, potentially leading to its disclosure to unauthorised parties without a clear legal basis.<br><br>Please find attached a formal application (also in digitally signed form) exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).<br><br>Please confirm receipt of this request.<br><br>Kind regards,<br>Gregor Eesmaa</div></pre>",
+      "hiddenReasons": [
+        "sent-from-wrong-email"
+      ],
+      "attachments": [
+        {
+          "filename": "taotlus-request.asice",
+          "contentType": "application/vnd.etsi.asic-e+zip",
+          "size": 331559,
+          "contentPath": "content-taotlus-request-asice",
+          "contents": [
+            {
+              "filename": "taotlus-request.pdf",
+              "contentType": "application/pdf",
+              "size": 67314
+            },
+            {
+              "filename": "vulnerability-reassessment-report.pdf",
+              "contentType": "application/pdf",
+              "size": 272902
+            }
+          ]
+        },
+        {
+          "filename": "taotlus-request.pdf",
+          "contentType": "application/pdf",
+          "size": 67314
+        },
+        {
+          "filename": "vulnerability-reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 272902
+        }
+      ]
+    },
+    {
+      "id": "2025-06-21T18-11-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "IKÜM taotlus seoses isikuandmete töötlemisega äpis MAXIMA Estonia / GDPR Request Regarding Processing of Personal Data on MAXIMA Estonia app",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "dpo@maxima.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-21T18:11:46.000Z",
+      "bodyHtml": "<div dir=\"ltr\">Lugupeetud MAXIMA Estonia äpi vastutav andmetöötleja<br><br>Pöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega äpis MAXIMA Estonia, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.<br><br>Manuses on ametlik taotlus (samuti digiallkirjastatud kujul), milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).<br><br>Palun teavitage taotluse kättesaamisest.<br><br>Lugupidamisega<br>Gregor Eesmaa<div><br></div><div><br></div><div>PS. Saatsin varem samasisulise emaili valelt meiliaadressilt. Lisaks viitasin valesti vea ilmnemise kohad – viga esineb parooli lähtestamise vormil (ainult Androidil) ja kasutaja registreerimise vormil. Parandatud taotlus manuses.<br><br>--<br><br>Dear Data Controller of MAXIMA Estonia app,<br><br>I am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by MAXIMA Estonia app, potentially leading to its disclosure to unauthorised parties without a clear legal basis.<br><br>Please find attached a formal application (also in digitally signed form) exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).<br><br>Please confirm receipt of this request.<br><br>Kind regards,<br>Gregor Eesmaa</div><div><br></div><div><br></div><div>PS. I sent the same email previously from the wrong email address. I also mis-referenced vulnerable forms – the flaw is apparent in the password reset form (only on Android)&nbsp;and account registration form. Corrected request is attached.</div></div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "taotlus-request.pdf",
+          "contentType": "application/pdf",
+          "size": 67250
+        },
+        {
+          "filename": "vulnerability-reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 321870
+        },
+        {
+          "filename": "taotlus-request.asice",
+          "contentType": "application/vnd.etsi.asic-e+zip",
+          "size": 369634,
+          "contentPath": "content-taotlus-request-asice",
+          "contents": [
+            {
+              "filename": "taotlus-request.pdf",
+              "contentType": "application/pdf",
+              "size": 67250
+            },
+            {
+              "filename": "vulnerability-reassessment-report.pdf",
+              "contentType": "application/pdf",
+              "size": 321870
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2025-07-02T09-25-from-dpo-maxima-ee",
+      "type": "email",
+      "subject": "RE: IKÜM taotlus seoses isikuandmete töötlemisega äpis MAXIMA Estonia / GDPR Request Regarding Processing of Personal Data on MAXIMA Estonia app",
+      "from": {
+        "address": "dpo@maxima.ee",
+        "name": "DPO | MAXIMA Eesti"
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-07-02T09:25:31.000Z",
+      "bodyHtml": "<div class=\"WordSection1\">\n<p class=\"MsoNormal\"><span style=\"mso-fareast-language:EN-US\">Tere<o:p></o:p></span></p>\n\n<p class=\"MsoNormal\"><span style=\"mso-fareast-language:EN-US\">Kinnitan, et oleme Teie taotluse kätte saanud ning tegeleme sellega.\n<o:p></o:p></span></p>\n\n<p class=\"MsoNormal\"><span style=\"mso-fareast-language:EN-US\">Lugupidamisega<o:p></o:p></span></p>\n\n<p class=\"MsoNormal\"><b><span lang=\"EN-US\" style=\"font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">Liisa Ojangu<o:p></o:p></span></b></p>\n<p class=\"MsoNormal\"><span lang=\"EN-US\" style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">Andmekaitsespetsialist/ Data Protection Officer<o:p></o:p></span></p>\n<div>\n<div class=\"MsoNormal\"><b><i><span lang=\"EN-US\" style=\"font-size:8.0pt;color:#1F497D\">\n<hr size=\"1\" width=\"100%\" noshade=\"\" style=\"color:#004990\" align=\"left\">\n</span></i></b></div>\n</div>\n<p class=\"MsoNormal\"><b><i><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">MAXIMA EESTI OU</span></i></b><b><i><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\"><o:p></o:p></span></i></b></p>\n<p class=\"MsoNormal\"><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">Aiandi tn 13/2, Mustamäe linnaosa, 12918 Tallinn, Eesti<i><o:p></o:p></i></span></p>\n<p class=\"MsoNormal\"><i><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">Mobile:\n</span></i><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">+372 5347 2007<o:p></o:p></span></p>\n<p class=\"MsoNormal\"><i><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">E-post / e-mail</span></i><i><span lang=\"EN-US\" style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\"><o:p></o:p></span></i></p>\n<p class=\"MsoNormal\"><span lang=\"EN-US\" style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\"><a href=\"mailto:liisa.ojangu@maxima.ee\">liisa.ojangu@maxima.ee</a>\n<o:p></o:p></span></p>\n<p class=\"MsoNormal\"><u><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\"><a href=\"http://www.maxima.ee/\"><span style=\"color:#1F497D\">www.maxima.ee</span></a><o:p></o:p></span></u></p>\n<div class=\"MsoNormal\" align=\"center\" style=\"text-align:center\"><span lang=\"LT\" style=\"font-size:7.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">\n<hr size=\"1\" width=\"100%\" noshade=\"\" style=\"color:#004990\" align=\"center\">\n</span></div>\n\n<p class=\"MsoNormal\"><i><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">Selle kirja saite MAXIMA EE OÜ&nbsp; e-posti süsteemilt ja see on ette nähtud ainult adressaadile. Kirjas ja selle lisades olev informatsioon võib olla konfidentsiaalne\n ja selle kasutamine või avaldamine on piiratud. Kui Te saite selle kirja eksituse tõttu, informeerime, et selle kirja ja tema lisade avaldamine teistele isikutele, kopeerimine ja muul viisil levitamine on rangelt keelatud ja võib olla seadusevastane. Palume\n tagastada see kiri ja kõik lisad saatjale e-posti teel ning kustuda see kiri koos kõigi lisadega.</span></i><i><span lang=\"LT\" style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\"><o:p></o:p></span></i></p>\n<p class=\"MsoNormal\"><i><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">MAXIMA EE OÜ ametliku tegevusega mitteseotud arvamused, järeldused ja muu informatsioon ei või olla mõistetud kui ettevõtte poolt esitatud või toetatav.\n</span></i><i><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#004990\">Privaatsusteatis. Sellele elektroonilisele kirjale rakenduvate MAXIMA Eesti OÜ privaatsuspõhimõtetega saate tutvuda sellel\n<a href=\"http://www.maxima.ee/privaatsus\"><span style=\"color:blue\">lingil</span></a>.</span></i><i><span lang=\"LT\" style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\"><o:p></o:p></span></i></p>\n\n<p class=\"MsoNormal\"><i><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">This message has been sent by e-mail system of MAXIMA EE OÜ and it is intended for the addressee only. It may contain confidential or legally privileged information.\n If you received this e-mail in error, you are hereby notified that any disclosure, copying, distribution of this information is strictly prohibited and may be unlawful. Please return this e-mail without producing, distributing or retaining copies thereof.\n Opinions, conclusions and other information in this message that do not relate to the official business of MAXIMA EE OÜ shall be understood as neither given nor endorsed by it.\n</span></i><i><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#004990\">Personal data notice. Information about Privacy policy of MAXIMA Eesti OÜ that is applied to this electronic message can be reached\n<a href=\"http://www.maxima.ee/privaatsus\"><span style=\"color:blue\">here</span></a>.</span></i><i><span lang=\"LT\" style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\"><o:p></o:p></span></i></p>\n<div class=\"MsoNormal\" align=\"center\" style=\"text-align:center\"><span lang=\"LT\" style=\"font-size:7.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#00B0F0\">\n\n</span></div>\n\n\n\n<div style=\"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in 0in 0in\">\n\n</div>\n\n\n</div>",
+      "hiddenReasons": [],
+      "attachments": []
+    },
+    {
+      "id": "2025-07-21T10-38-from-dpo-maxima-ee",
+      "type": "email",
+      "subject": "RE: IKÜM taotlus seoses isikuandmete töötlemisega äpis MAXIMA Estonia / GDPR Request Regarding Processing of Personal Data on MAXIMA Estonia app",
+      "from": {
+        "address": "dpo@maxima.ee",
+        "name": "DPO | MAXIMA Eesti"
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-07-21T10:38:19.000Z",
+      "bodyHtml": "<div class=\"WordSection1\">\n<p class=\"MsoNormal\"><span style=\"mso-fareast-language:EN-US\">Lugupeetud Gregor Eesmaa<o:p></o:p></span></p>\n<p>Olen viimase kuu jooksul koostöös IT osakonnaga püüdnud leida ammendavat vastust Teie tõstatatud teemale ja taotlustele. Teema, millele viitate – võimalik\n<strong><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">account enumeration</span></strong> turvarisk – vajab põhjalikku sisemist hinnangut. Paraku on juuni ja juuli peamised puhkuste kuud ja protsessid ning koostöö osakondade vahel ei toimu siis tavapärase\n kiirusega. <o:p></o:p></p>\n<p>Kuivõrd Teie pöördumine on keskmisest keerukam ja soovime Teie tõstatatud teemaga põhjalikult tegeleda, mitte anda stampvastust, pikendame<strong><span style=\"font-family:&quot;Calibri&quot;,sans-serif\"> kooskõlas IKÜM artikli 12 lõikega 3</span></strong> Teie taotlusele\n vastamise tähtaega kuni 01.08.2025. Võimalusel vastame varem. &nbsp;<o:p></o:p></p>\n<p>Kinnitan, et võtame Teie pöördumist tõsiselt ning hindame Teie aktiivset rolli oma isikuandmete kaitsel.<o:p></o:p></p>\n<p class=\"MsoNormal\">Lugupidamisega<o:p></o:p></p>\n<p class=\"MsoNormal\"><b><span lang=\"EN-US\" style=\"font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">Liisa Ojangu<o:p></o:p></span></b></p>\n<p class=\"MsoNormal\"><span lang=\"EN-US\" style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">Andmekaitsespetsialist/ Data Protection Officer<o:p></o:p></span></p>\n<div>\n<div>\n<div class=\"MsoNormal\"><b><i><span lang=\"EN-US\" style=\"font-size:8.0pt;color:#1F497D\">\n<hr size=\"1\" width=\"100%\" noshade=\"\" style=\"color:#004990\" align=\"left\">\n</span></i></b></div>\n</div>\n</div>\n<p class=\"MsoNormal\"><b><i><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">MAXIMA EESTI OU</span></i></b><b><i><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\"><o:p></o:p></span></i></b></p>\n<p class=\"MsoNormal\"><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">Aiandi tn 13/2, Mustamäe linnaosa, 12918 Tallinn, Eesti<i><o:p></o:p></i></span></p>\n<p class=\"MsoNormal\"><i><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">Mobile:\n</span></i><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">+372 5347 2007<o:p></o:p></span></p>\n<p class=\"MsoNormal\"><i><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">E-post / e-mail</span></i><i><span lang=\"EN-US\" style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\"><o:p></o:p></span></i></p>\n<p class=\"MsoNormal\"><span lang=\"EN-US\" style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\"><a href=\"mailto:liisa.ojangu@maxima.ee\"><span style=\"color:#0563C1\">liisa.ojangu@maxima.ee</span></a>\n<o:p></o:p></span></p>\n<p class=\"MsoNormal\"><u><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\"><a href=\"http://www.maxima.ee/\"><span style=\"color:#1F497D\">www.maxima.ee</span></a><o:p></o:p></span></u></p>\n<div class=\"MsoNormal\" align=\"center\" style=\"text-align:center\"><span lang=\"LT\" style=\"font-size:7.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">\n<hr size=\"1\" width=\"100%\" noshade=\"\" style=\"color:#004990\" align=\"center\">\n</span></div>\n\n<p class=\"MsoNormal\"><b><i><span lang=\"EN-US\" style=\"font-size:6.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">Selle kirja saite MAXIMA Eesti OÜ e-posti süsteemilt ja see on ette nähtud ainult adressaadile. Kirjas ja selle lisades olev informatsioon võib\n olla konfidentsiaalne ja selle kasutamine või avaldamine on piiratud. Kui Te saite selle kirja eksituse tõttu, informeerime, et selle kirja ja tema lisade avaldamine teistele isikutele, kopeerimine ja muul viisil levitamine on rangelt keelatud ja võib olla\n seadusevastane. Palume tagastada see kiri ja kõik lisad saatjale e-posti teel ning kustutada see kiri koos kõikide lisadega. MAXIMA Eesti OÜ ametliku tegevusega mitteseotud arvamused, järeldused ja muu informatsioon ei saa olla tõlgendatav kui ettevõtte poolt\n esitatav või toetatav. </span></i></b><b><i><span style=\"font-size:6.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">Privaatsusteatis. Sellele elektroonilisele kirjale rakenduvate MAXIMA Eesti OÜ privaatsuspõhimõtetega saate tutvuda sellel\n</span></i></b><a href=\"http://www.maxima.ee/privaatsus\"><b><i><span style=\"font-size:6.0pt;font-family:&quot;Arial&quot;,sans-serif;color:blue\">lingil</span></i></b></a><b><i><span style=\"font-size:6.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">.<o:p></o:p></span></i></b></p>\n\n<p class=\"MsoNormal\"><b><i><span lang=\"EN-US\" style=\"font-size:6.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">This message has been sent by e-mail system of MAXIMA Eesti OÜ and it is intended for the addressee only. It may contain confidential or legally\n privileged information. If you received this e-mail in error, you are hereby notified that any disclosure, copying, distribution of this information is strictly prohibited and may be unlawful. Please return this e-mail without producing, distributing or retaining\n copies thereof. Opinions, conclusions and other information in this message that do not relate to the official business of MAXIMA Eesti OÜ shall be understood as neither given nor endorsed by it. Personal data notice. Information about Privacy policy of MAXIMA\n Eesti OÜ that is applied to this electronic message can be reached </span></i></b><a href=\"http://www.maxima.ee/privaatsus\"><b><i><span lang=\"EN-US\" style=\"font-size:6.0pt;font-family:&quot;Arial&quot;,sans-serif;color:blue\">here</span></i></b></a><b><i><span lang=\"EN-US\" style=\"font-size:6.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">.<o:p></o:p></span></i></b></p>\n<div>\n<div class=\"MsoNormal\"><i><span lang=\"EN-US\" style=\"font-size:6.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D\">\n\n</span></i></div>\n</div>\n\n\n\n\n\n\n<div style=\"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in 0in 0in\">\n\n</div>\n\n\n</div>",
+      "hiddenReasons": [],
+      "attachments": []
+    }
+  ]
+}

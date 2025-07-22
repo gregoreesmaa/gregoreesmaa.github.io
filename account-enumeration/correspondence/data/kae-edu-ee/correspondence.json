@@ -1,0 +1,240 @@
+{
+  "service": {
+    "id": "kae-edu-ee",
+    "name": "kae.edu.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:44.000Z",
+        "firstResponse": "2025-06-01T06:25:44.000Z",
+        "firstGdprRequest": "2025-05-31T12:42:05.000Z",
+        "firstGdprResponse": "2025-06-01T06:25:44.000Z",
+        "last": "2025-06-04T15:29:02.000Z"
+      },
+      "counts": {
+        "total": 7,
+        "sent": 5,
+        "received": {
+          "automated": 0,
+          "manual": 2,
+          "total": 2
+        }
+      }
+    }
+  },
+  "emails": [
+    {
+      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on kae.edu.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "margus.koiduste@gmail.com",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-16T19:18:44.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 176356
+        }
+      ]
+    },
+    {
+      "id": "2025-03-23T10-39-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on kae.edu.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "robert.peetsalu@gmail.com",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-23T10:39:21.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 176544
+        }
+      ]
+    },
+    {
+      "id": "2025-05-31T12-42-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "IKÜM taotlus seoses isikuandmete töötlemisega teenuses kae.edu.ee / GDPR Request Regarding Processing of Personal Data on kae.edu.ee",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "robert.peetsalu@gmail.com",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-31T12:42:05.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Lugupeetud kae.edu.ee vastutav andmetöötleja\n\nPöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses kae.edu.ee, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.\n\nManuses on ametlik taotlus, milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).\n\nPalun teavitage taotluse kättesaamisest.\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of kae.edu.ee,\n\nI am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by kae.edu.ee, potentially leading to its disclosure to unauthorised parties without a clear legal basis.\n\nPlease find attached a formal application exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).\n\nPlease confirm receipt of this request.\n\nKind regards,\nGregor Eesmaa\n</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "taotlus-request.asice",
+          "contentType": "application/vnd.etsi.asic-e+zip",
+          "size": 216245,
+          "contentPath": "content-taotlus-request-asice",
+          "contents": [
+            {
+              "filename": "taotlus-request.pdf",
+              "contentType": "application/pdf",
+              "size": 65326
+            },
+            {
+              "filename": "vulnerability-reassessment-report.pdf",
+              "contentType": "application/pdf",
+              "size": 149726
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2025-05-31T18-50-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses kae.edu.ee / GDPR Request Regarding Processing of Personal Data on kae.edu.ee",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "robert.peetsalu@gmail.com",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-31T18:50:15.000Z",
+      "bodyHtml": "<div dir=\"ltr\">Saadan igaks juhuks ka eraldi taotluse ja aruande PDFid, mis asusid eelmise meili manuses digiallkirjastatud konteineris.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>Just in case, providing also the request and the report PDF files, that were in the digitally signed container attached to the previous email.<br><br>Kind regards,<br>Gregor Eesmaa</div><br>",
+      "hiddenReasons": [
+        "providing-container-contents"
+      ],
+      "attachments": [
+        {
+          "filename": "taotlus-request.pdf",
+          "contentType": "application/pdf",
+          "size": 65326
+        },
+        {
+          "filename": "vulnerability-reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 149726
+        }
+      ]
+    },
+    {
+      "id": "2025-06-01T06-25-from-robert-peetsalu-gmail-com",
+      "type": "email",
+      "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses kae.edu.ee / GDPR Request Regarding Processing of Personal Data on kae.edu.ee",
+      "from": {
+        "address": "robert.peetsalu@gmail.com",
+        "name": "Robert Peetsalu"
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-01T06:25:44.000Z",
+      "bodyHtml": "<div dir=\"auto\"><div>Tere Gregor,<div dir=\"auto\"><br></div><div dir=\"auto\">Sain taotluse kätte ja vaatasin läbi. Tunnistan, et on tõesti võimalik registreerimisvormi selliselt kuritarvitada. Kahjuks aga ei ole tegu aktiivselt arendatava tarkvaraga ja pakutud lahendust me teostada ei saa. Selle asemel eemaldame KAE Kooli konto registreerimisvormi, et sellist kuritarvitamist vältida. Rakendust saavad edasi kasutada vaid õpilased, kellel juba on KAE Kooli konto või kes autendivad end Google või Facebook kontoga.</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">Edu,</div><div dir=\"auto\">Robert Peetsalu</div><br><br></div></div>",
+      "hiddenReasons": [],
+      "attachments": []
+    },
+    {
+      "id": "2025-06-01T11-48-from-margus-koiduste-gmail-com",
+      "type": "email",
+      "subject": "Fwd: IKÜM taotlus seoses isikuandmete töötlemisega teenuses kae.edu.ee / GDPR Request Regarding Processing of Personal Data on kae.edu.ee",
+      "from": {
+        "address": "margus.koiduste@gmail.com",
+        "name": "Margus Koiduste"
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": ""
+        }
+      ],
+      "cc": [
+        {
+          "address": "robert.peetsalu@gmail.com",
+          "name": ""
+        }
+      ],
+      "date": "2025-06-01T11:48:22.000Z",
+      "bodyHtml": "<div dir=\"ltr\"><div class=\"gmail_quote gmail_quote_container\">Tere Gregor!</div><div class=\"gmail_quote gmail_quote_container\"><br></div><div class=\"gmail_quote gmail_quote_container\">Tegin muudatuse&nbsp;\n\n<a href=\"http://kae.edu.ee/\" rel=\"noreferrer noreferrer\" target=\"_blank\">kae.edu.ee</a>&nbsp;lehel. Palun kinnita, et kasutusele võetud meetmeted&nbsp;rahuldavad sind.</div><div class=\"gmail_quote gmail_quote_container\"><br></div><div class=\"gmail_quote gmail_quote_container\">Margus Koiduste<br><br><div class=\"gmail_quote\">Lugupeetud  vastutav andmetöötleja\n\nPöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse\n(IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses\n, mida pean ebaseaduslikuks ning mis võib viia nende\navaldamiseni selleks volitamata isikutele ilma selge õigusliku\naluseta.\n\nManuses on ametlik taotlus, milles teostan oma õigusi IKÜM artiklite\n15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete\nvõtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu\ntaotluse saamisest).\n\nPalun teavitage taotluse kättesaamisest.\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of ,\n\nI am contacting you to formally raise concerns under the General Data\nProtection Regulation (GDPR) regarding what I believe to be the\nunlawful processing of my personal data by , potentially\nleading to its disclosure to unauthorised parties without a clear\nlegal basis.\n\nPlease find attached a formal application exercising my rights under\nArticles 15, 18, and 21 of the GDPR. I request that you review and act\nupon it accordingly, within the timeframe established by Article 12(3)\nof the GDPR (one month from receipt).\n\nPlease confirm receipt of this request.\n\nKind regards,\nGregor Eesmaa\n</div>\n</div></div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "taotlus-request.asice",
+          "contentType": "application/octet-stream",
+          "size": 216245,
+          "contentPath": "content-taotlus-request-asice",
+          "contents": [
+            {
+              "filename": "taotlus-request.pdf",
+              "contentType": "application/pdf",
+              "size": 65326
+            },
+            {
+              "filename": "vulnerability-reassessment-report.pdf",
+              "contentType": "application/pdf",
+              "size": 149726
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2025-06-04T15-29-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses kae.edu.ee / GDPR Request Regarding Processing of Personal Data on kae.edu.ee",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "margus.koiduste@gmail.com",
+          "name": "Margus Koiduste"
+        }
+      ],
+      "cc": [
+        {
+          "address": "robert.peetsalu@gmail.com",
+          "name": ""
+        }
+      ],
+      "date": "2025-06-04T15:29:02.000Z",
+      "bodyHtml": "<div dir=\"ltr\">Tere!<div><br></div><div>Lahendus on teoorias OK. Hetkel annab leht \"Error: Page not found\", seetõttu seda kinnitada ei saa. Lehe mittetoimimine on samuti lahendus, kuigi kurvem.</div><div><br></div><div>Kõike paremat</div><div>Gregor Eesmaa</div><div><br></div><div>--</div><div><br></div><div>Hello!</div><div><br></div><div>The solution is OK in theory. Currently the page is showing \"Error: Page not found\", thus I can not confirm that specifically. The page not working is also a solution, but a sad one.</div><div><br></div><div>Kind regards</div><div>Gregor Eesmaa</div></div><br>",
+      "hiddenReasons": [],
+      "attachments": []
+    }
+  ]
+}

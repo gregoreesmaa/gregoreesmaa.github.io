@@ -1,0 +1,26 @@
+{
+  "id": "2025-03-17T07-33-from-OlybetEstoniaDPO-olybet-com",
+  "type": "email",
+  "subject": "FW: User email address enumeration vulnerability on olybet.ee",
+  "from": {
+    "address": "OlybetEstoniaDPO@olybet.com",
+    "name": "Olybet Estonia DPO"
+  },
+  "to": [
+    {
+      "address": "gregor.eesmaa@ut.ee",
+      "name": ""
+    }
+  ],
+  "cc": [],
+  "date": "2025-03-17T07:33:55.000Z",
+  "bodyHtml": "<div style=\"white-space: pre-wrap\">Tere, Gregor \n\nTänud info eest. Kätte saadud. \n\nHead,\nOlyBet DPO</div>",
+  "hiddenReasons": [],
+  "attachments": [
+    {
+      "filename": "report.pdf",
+      "contentType": "application/pdf",
+      "size": 313988
+    }
+  ]
+}

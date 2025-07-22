@@ -1,0 +1,226 @@
+{
+  "service": {
+    "id": "LIDL-Plus-app",
+    "name": "LIDL Plus app",
+    "type": "app",
+    "stats": {
+      "dates": {
+        "first": "2025-04-06T19:24:34.000Z",
+        "firstGdprRequest": "2025-06-21T12:38:38.000Z",
+        "last": "2025-06-21T18:14:05.000Z"
+      },
+      "counts": {
+        "total": 5,
+        "sent": 5,
+        "received": {
+          "automated": 0,
+          "manual": 0,
+          "total": 0
+        }
+      }
+    }
+  },
+  "emails": [
+    {
+      "id": "2025-04-06T19-24-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on LIDL Plus app",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "bugbounty@lidl.com",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-04-06T19:24:34.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your mobile app is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 723671
+        }
+      ]
+    },
+    {
+      "id": "2025-04-27T20-12-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on LIDL Plus app",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "andmekaitse@lidlplus.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-04-27T20:12:37.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your mobile app is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 723768
+        }
+      ]
+    },
+    {
+      "id": "2025-06-21T12-38-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "IKÜM taotlus seoses isikuandmete töötlemisega äpis LIDL Plus / GDPR Request Regarding Processing of Personal Data on LIDL Plus app",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "andmekaitse@lidlplus.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-21T12:38:38.000Z",
+      "bodyHtml": "<pre class=\"elementToProof\"><div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">Lugupeetud LIDL Plus äpi vastutav andmetöötleja<br><br>Pöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega äpis LIDL Plus, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.<br><br>Manuses on ametlik taotlus (samuti digiallkirjastatud kujul), milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).<br><br>Palun teavitage taotluse kättesaamisest.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>Dear Data Controller of LIDL Plus app,<br><br>I am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by LIDL Plus app, potentially leading to its disclosure to unauthorised parties without a clear legal basis.<br><br>Please find attached a formal application (also in digitally signed form) exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).<br><br>Please confirm receipt of this request.<br><br>Kind regards,<br>Gregor Eesmaa</div></pre>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>",
+      "hiddenReasons": [
+        "sent-from-wrong-email"
+      ],
+      "attachments": [
+        {
+          "filename": "taotlus-request.asice",
+          "contentType": "application/vnd.etsi.asic-e+zip",
+          "size": 591626,
+          "contentPath": "content-taotlus-request-asice",
+          "contents": [
+            {
+              "filename": "taotlus-request.pdf",
+              "contentType": "application/pdf",
+              "size": 67026
+            },
+            {
+              "filename": "vulnerability-reassessment-report.pdf",
+              "contentType": "application/pdf",
+              "size": 562049
+            }
+          ]
+        },
+        {
+          "filename": "taotlus-request.pdf",
+          "contentType": "application/pdf",
+          "size": 67026
+        },
+        {
+          "filename": "vulnerability-reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 562049
+        }
+      ]
+    },
+    {
+      "id": "2025-06-21T17-56-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "IKÜM taotlus seoses isikuandmete töötlemisega äpis LIDL Plus / GDPR Request Regarding Processing of Personal Data on LIDL Plus app",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "andmekaitse@lidlplus.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-21T17:56:46.000Z",
+      "bodyHtml": "<div dir=\"ltr\">Lugupeetud LIDL Plus äpi vastutav andmetöötleja<br><br>Pöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega äpis LIDL Plus, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.<br><br>Manuses on ametlik taotlus (samuti digiallkirjastatud kujul), milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).<br><br>Palun teavitage taotluse kättesaamisest.<br><br>Lugupidamisega<br>Gregor Eesmaa<div><br></div><div><br></div><div>PS. Saatsin varem samasisulise emaili valelt meiliaadressilt.<br><br>--<br><br>Dear Data Controller of LIDL Plus app,<br><br>I am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by LIDL Plus app, potentially leading to its disclosure to unauthorised parties without a clear legal basis.<br><br>Please find attached a formal application (also in digitally signed form) exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).<br><br>Please confirm receipt of this request.<br><br>Kind regards,<br>Gregor Eesmaa<div><br></div><div><br></div><div>PS. I sent the same email previously from the wrong email address.</div></div></div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "taotlus-request.pdf",
+          "contentType": "application/pdf",
+          "size": 67026
+        },
+        {
+          "filename": "taotlus-request.asice",
+          "contentType": "application/vnd.etsi.asic-e+zip",
+          "size": 591626,
+          "contentPath": "content-taotlus-request-asice",
+          "contents": [
+            {
+              "filename": "taotlus-request.pdf",
+              "contentType": "application/pdf",
+              "size": 67026
+            },
+            {
+              "filename": "vulnerability-reassessment-report.pdf",
+              "contentType": "application/pdf",
+              "size": 562049
+            }
+          ]
+        },
+        {
+          "filename": "vulnerability-reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 562049
+        }
+      ]
+    },
+    {
+      "id": "2025-06-21T18-14-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega äpis LIDL Plus / GDPR Request Regarding Processing of Personal Data on LIDL Plus app",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "andmekaitse@lidlplus.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-21T18:14:05.000Z",
+      "bodyHtml": "<div dir=\"ltr\">Viitasin valesti vea ilmnemise kohad – viga esineb parooli lähtestamise vormil, kasutaja registreerimise vormil ja meiliaadressi vahetamise vormil. Parandatud taotlus manuses.<div><br></div><div>Lugupidamisega<br>Gregor Eesmaa<br><div><br></div><div>--<br><div><br></div><div>I mis-referenced vulnerable forms – the flaw is apparent in the password reset form, account registration form and email change form. Corrected request is attached.</div></div><div><br></div><div>Kind regards,<br>Gregor Eesmaa</div></div></div><br>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "taotlus-request.pdf",
+          "contentType": "application/pdf",
+          "size": 66999
+        },
+        {
+          "filename": "vulnerability-reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 562049
+        },
+        {
+          "filename": "taotlus-request.asice",
+          "contentType": "application/vnd.etsi.asic-e+zip",
+          "size": 591602,
+          "contentPath": "content-taotlus-request-asice",
+          "contents": [
+            {
+              "filename": "taotlus-request.pdf",
+              "contentType": "application/pdf",
+              "size": 66999
+            },
+            {
+              "filename": "vulnerability-reassessment-report.pdf",
+              "contentType": "application/pdf",
+              "size": 562049
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

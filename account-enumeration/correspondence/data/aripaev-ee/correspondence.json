@@ -1,0 +1,277 @@
+{
+  "service": {
+    "id": "aripaev-ee",
+    "name": "aripaev.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:36.000Z",
+        "firstResponse": "2025-06-30T11:41:04.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:42.000Z",
+        "firstGdprResponse": "2025-06-30T11:41:04.000Z",
+        "last": "2025-07-17T07:52:08.000Z"
+      },
+      "counts": {
+        "total": 9,
+        "sent": 5,
+        "received": {
+          "automated": 3,
+          "manual": 1,
+          "total": 4
+        }
+      }
+    }
+  },
+  "emails": [
+    {
+      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on aripaev.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "andmekaitse@aripaev.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-16T19:18:36.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 153963
+        }
+      ]
+    },
+    {
+      "id": "2025-03-16T19-19-from-donotreply-aripaev-ee",
+      "type": "email",
+      "subject": "[TaskID: 626646] Re: User email address enumeration vulnerability on aripaev.ee  | Pöördumise registreerimiskood :<AR3E385E0FE816>",
+      "from": {
+        "address": "donotreply@aripaev.ee",
+        "name": ""
+      },
+      "to": [
+        {
+          "address": "gregor.eesmaa@ut.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-16T19:19:09.000Z",
+      "bodyHtml": "<p>Tere</p>\n\n<p>Aitäh kirja eest! </p>\n\n<p>Vastame Teile esimesel võimalusel, hiljemalt ühe tööpäeva jooksul. </p>\n\n<p>\nKäesolev kiri on saadetud automaatselt, palume sellele mitte vastata. Tellimusi saate lihtsalt ja kiirelt vormistada veebilehel <a href=\"https://pood.aripaev.ee/\"> https://pood.aripaev.ee/</a>.\n</p>\n\n<p>Heade soovidega</p>\n\nÄripäeva tellimiskeskus<br>\nÄripäev AS | <a href=\"https://www.aripaev.ee\">aripaev.ee</a><br>\nE-post: tellimiskeskus@aripaev.ee<br>\nTelefon: +372 667 0099<br>",
+      "hiddenReasons": [
+        "automated-reply"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "2025-03-23T10-39-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on aripaev.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "online@aripaev.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-23T10:39:13.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 153995
+        }
+      ]
+    },
+    {
+      "id": "2025-05-31T12-41-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "IKÜM taotlus seoses isikuandmete töötlemisega teenuses aripaev.ee / GDPR Request Regarding Processing of Personal Data on aripaev.ee",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "andmekaitse@aripaev.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-31T12:41:42.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Lugupeetud aripaev.ee vastutav andmetöötleja\n\nPöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses aripaev.ee, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.\n\nManuses on ametlik taotlus, milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).\n\nPalun teavitage taotluse kättesaamisest.\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of aripaev.ee,\n\nI am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by aripaev.ee, potentially leading to its disclosure to unauthorised parties without a clear legal basis.\n\nPlease find attached a formal application exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).\n\nPlease confirm receipt of this request.\n\nKind regards,\nGregor Eesmaa\n</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "taotlus-request.asice",
+          "contentType": "application/vnd.etsi.asic-e+zip",
+          "size": 309764,
+          "contentPath": "content-taotlus-request-asice",
+          "contents": [
+            {
+              "filename": "taotlus-request.pdf",
+              "contentType": "application/pdf",
+              "size": 65430
+            },
+            {
+              "filename": "vulnerability-reassessment-report.pdf",
+              "contentType": "application/pdf",
+              "size": 250796
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2025-05-31T12-45-from-donotreply-aripaev-ee",
+      "type": "email",
+      "subject": "[TaskID: 647456] Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses aripaev.ee / GDPR Request Regarding Processing of Personal Data on aripaev.ee  | Pöördumise registreerimiskood :<AR0DE82D5E2F02>",
+      "from": {
+        "address": "donotreply@aripaev.ee",
+        "name": ""
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-31T12:45:10.000Z",
+      "bodyHtml": "<p>Tere</p>\n\n<p>Aitäh kirja eest! </p>\n\n<p>Vastame Teile esimesel võimalusel, hiljemalt ühe tööpäeva jooksul. </p>\n\n<p>\nKäesolev kiri on saadetud automaatselt, palume sellele mitte vastata. Tellimusi saate lihtsalt ja kiirelt vormistada veebilehel <a href=\"https://pood.aripaev.ee/\"> https://pood.aripaev.ee/</a>.\n</p>\n\n<p>Heade soovidega</p>\n\nÄripäeva tellimiskeskus<br>\nÄripäev AS | <a href=\"https://www.aripaev.ee\">aripaev.ee</a><br>\nE-post: tellimiskeskus@aripaev.ee<br>\nTelefon: +372 667 0099<br>",
+      "hiddenReasons": [
+        "automated-reply"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "2025-05-31T18-41-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses aripaev.ee / GDPR Request Regarding Processing of Personal Data on aripaev.ee",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "andmekaitse@aripaev.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-31T18:41:52.000Z",
+      "bodyHtml": "<div dir=\"ltr\">Saadan igaks juhuks ka eraldi taotluse ja aruande PDFid, mis asusid eelmise meili manuses digiallkirjastatud konteineris.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>Just in case, providing also the request and the report PDF files, that were in the digitally signed container attached to the previous email.<br><br>Kind regards,<br>Gregor Eesmaa</div><br>",
+      "hiddenReasons": [
+        "providing-container-contents"
+      ],
+      "attachments": [
+        {
+          "filename": "taotlus-request.pdf",
+          "contentType": "application/pdf",
+          "size": 65430
+        },
+        {
+          "filename": "vulnerability-reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 250796
+        }
+      ]
+    },
+    {
+      "id": "2025-05-31T18-43-from-donotreply-aripaev-ee",
+      "type": "email",
+      "subject": "[TaskID: 647469] Re: Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses aripaev.ee / GDPR Request Regarding Processing of Personal Data on aripaev.ee  | Pöördumise registreerimiskood :<AR9A58BE3843CE>",
+      "from": {
+        "address": "donotreply@aripaev.ee",
+        "name": ""
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-31T18:43:36.000Z",
+      "bodyHtml": "<p>Tere</p>\n\n<p>Aitäh kirja eest! </p>\n\n<p>Vastame Teile esimesel võimalusel, hiljemalt ühe tööpäeva jooksul. </p>\n\n<p>\nKäesolev kiri on saadetud automaatselt, palume sellele mitte vastata. Tellimusi saate lihtsalt ja kiirelt vormistada veebilehel <a href=\"https://pood.aripaev.ee/\"> https://pood.aripaev.ee/</a>.\n</p>\n\n<p>Heade soovidega</p>\n\nÄripäeva tellimiskeskus<br>\nÄripäev AS | <a href=\"https://www.aripaev.ee\">aripaev.ee</a><br>\nE-post: tellimiskeskus@aripaev.ee<br>\nTelefon: +372 667 0099<br>",
+      "hiddenReasons": [
+        "automated-reply"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "2025-06-30T11-41-from-Maarja-Pild-triniti-ee",
+      "type": "email",
+      "subject": "IKÜM taotlus seoses isikuandmete töötlemisega teenuses aripaev.ee / GDPR Request Regarding Processing of Personal Data on aripaev.ee",
+      "from": {
+        "address": "Maarja.Pild@triniti.ee",
+        "name": "Maarja Pild-Freiberg I TRINITI"
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-30T11:41:04.000Z",
+      "bodyHtml": "<div class=\"WordSection1\">\n<p class=\"MsoNormal\"><span lang=\"ET\" style=\"font-size:10.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif\">Austatud Gregor Eesmaa<o:p></o:p></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"ET\" style=\"font-size:10.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif\">AB TRINITI esindab Äripäev ASi. Kliendi nimel ja palvel edastame vastuse Teie kui andmesubjekti päringule ja küsimustele.\n<o:p></o:p></span></p>\n\n<div>\n<div>\n<div>\n<div>\n<div>\n<p class=\"MsoNormal\" style=\"margin-bottom:12.0pt\"><span lang=\"ET\" style=\"font-size:10.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;mso-ligatures:standardcontextual\">Lugupidamisega</span><span lang=\"ET\" style=\"font-size:10.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif\"><o:p></o:p></span></p>\n<p class=\"MsoNormal\" style=\"line-height:10.5pt;mso-line-height-rule:exactly\"><b><span lang=\"ET\" style=\"font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\">Maarja Pild-Freiberg</span></b><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\"><br>\n</span><span lang=\"ET\" style=\"font-size:9.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#008CC8;mso-ligatures:standardcontextual\">Vande<a href=\"http://triniti.ee/meeskond/maarja-pild/\"><span style=\"color:#008CC8;text-decoration:none\">advokaat</span></a> /\n Assotsieerunud partner </span><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\"><br>\n<br>\n</span><b><span lang=\"ET\" style=\"font-size:9.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\">Advokaadibüroo TRINITI</span></b><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\"><br>\nMaakri Kvartal | </span><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\">Maakri 19/1</span><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\">,\n Tallinn<br>\n</span><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#008CC8;mso-ligatures:standardcontextual\">T:</span><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\">\n<a href=\"tel:%206%20850%20950\"><span style=\"color:#333333;text-decoration:none\">6 850 950</span></a> |\n</span><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#008CC8;mso-ligatures:standardcontextual\">M:</span><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\">\n<a href=\"mbl:%2055%2032%20624\"><span style=\"color:#333333;text-decoration:none\">55 32 624</span></a><o:p></o:p></span></p>\n\n<p class=\"MsoNormal\" style=\"line-height:9.0pt;mso-line-height-rule:exactly\"><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\"><a href=\"http://triniti.ee/\" target=\"_blank\"><span style=\"color:#008CC8\">triniti.ee</span></a>\n | <a href=\"https://www.facebook.com/trinitiestonia?fref=ts\" target=\"_blank\"><span style=\"color:#008CC8\">Facebook</span></a> |\n<a href=\"https://www.linkedin.com/company/triniti-estonia\" target=\"_blank\"><span style=\"color:#008CC8\">LinkedIn</span></a>\n<br>\n<br>\n</span><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:darkgray;mso-ligatures:standardcontextual\">Käesolev e-kiri ja selle lisad on konfidentsiaalsed ning võivad sisaldada kliendisaladust, mis on seadusega kaitstud.<br>\nJuhul, kui Te ei ole e-kirja määratud adressaat, palume sellest meile teada anda ja e-kiri koos lisadega kustutada.<br>\nKäesoleva e-kirja loata avalikustamine, kopeerimine, levitamine või selle sisu muul viisil kasutamine on keelatud\n</span><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\"><o:p></o:p></span></p>\n</div>\n\n\n\n\n\n\n</div>\n</div>\n</div>\n</div>\n</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "Äripäev AS vastus andmesubjekti päringule_2025 06 30.asice",
+          "contentType": "application/octet-stream",
+          "size": 133432,
+          "contentPath": "content-Äripäev AS vastus andmesubjekti päringule_2025 06 30-asice",
+          "contents": [
+            {
+              "filename": "Äripäev AS vastus andmesubjekti päringule_2025 06 30.pdf",
+              "contentType": "application/pdf",
+              "size": 136124
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2025-07-17T07-52-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses aripaev.ee / GDPR Request Regarding Processing of Personal Data on aripaev.ee",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "Maarja.Pild@triniti.ee",
+          "name": "Maarja Pild-Freiberg I TRINITI"
+        }
+      ],
+      "cc": [],
+      "date": "2025-07-17T07:52:08.000Z",
+      "bodyHtml": "<div dir=\"ltr\">Tere!<div><br></div><div>Suur tänu vastamast! Et kinnitasite&nbsp;mainitud töötlemise aluseks olevat&nbsp;IKÜM&nbsp;artikli 6.1.a, soovin antud nõusoleku tagasi võtta IKÜM artikli 7.3 alusel.</div><div><br></div><div>Lisaks palun täpsustage, et, millal ja millises sõnastuses vastava nõusoleku andnud olen (vastavalt IKÜM artiklile 7.1).</div><div><br></div><div>Kõike paremat</div><div>Gregor Eesmaa</div></div><br>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "image001.jpg",
+          "contentType": "image/jpeg",
+          "size": 8225
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "2025-06-16T13-00-from-info-aeromotors-ee",
+  "type": "email",
+  "subject": "Re: Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses aeromotors.ee / GDPR Request Regarding Processing of Personal Data on aeromotors.ee (nr. 392620)",
+  "from": {
+    "address": "info@aeromotors.ee",
+    "name": "Kerstin (Aero Motors)"
+  },
+  "to": [
+    {
+      "address": "gregoreesmaa1@gmail.com",
+      "name": "Gregor Eesmaa"
+    }
+  ],
+  "cc": [],
+  "date": "2025-06-16T13:00:11.000Z",
+  "bodyHtml": "<div class=\"content-div\" style=\"padding-left: 10px; padding-right:14px; line-height: 18px; font-family: 'Calibri, sans-serif'; font-size: 11px; color:#333;\">\n   <!--<div style=\"color: #ffffff;\"></div>-->\n    <div class=\"latest-comment\" style=\"font-size:16px\">Lugupeetud Gregor Eesmaa<p dir=\"ltr\">Täname, et juhtisite tähelepanu sellele teemale. Seoses esile tõstatatud tähelepanekuga anname alljärgnevalt täiendavat teavet meie süsteemi toimimise kohta kliendikonto loomise ja haldamise kontekstis.</p><p dir=\"ltr\">Meie kliendikonto loomise ja haldamise süsteemid on kujundatud kasutajasõbralikkuse ja turvalisuse tasakaalustamiseks. Käitumine, mille puhul süsteem võib anda märku, kas konkreetse e-posti aadressiga konto eksisteerib, on vajalik selleks, et pakkuda kasutajatele selget ja arusaadavat tagasisidet näiteks parooli taastamise, konto registreerimise või e-posti muutmise protsessides.</p><p dir=\"ltr\">Selle konkreetse andmetöötluse õiguslik alus on GDPR artikkel 6 lõige 1 punkt f:<br>_\"Isikuandmete töötlemine on vajalik vastutava töötleja või kolmanda isiku õigustatud huvi korral, välja arvatud juhul, kui sellise huvi kaaluvad üles andmesubjekti huvid või põhiõigused ja -vabadused, mille nimel tuleb kaitsta isikuandmeid, eriti juhul kui andmesubjekt on laps.\"_</p><p dir=\"ltr\">Meie õigustatud huvi on tagada sujuv ja tõhus kasutajakogemus, võimaldades kasutajatel intuitiivselt oma kontoga seotud toiminguid teha. Täiesti üldsõnaline või ebaselge tagasiside võib põhjustada segadust, suurendada klienditoe koormust ning vähendada teenuse kvaliteeti.</p><p dir=\"ltr\">Andmetöötlustoimingute kavandamisel ja rakendamisel lähtutakse kehtivatest õigusnormidest ning praktikast, mis toetab kasutajakogemuse selgust ja teenuse kvaliteeti, tagades samal ajal isikuandmete kaitse vastavalt kehtivatele nõuetele.</p><p dir=\"ltr\">Lugupidamisega</p><p dir=\"ltr\">Aero Motors OÜ<br>aeromotors.ee<br>info@aeromotors.ee<br><br></p></div><br><br>\n  </div>\n<span style=\"color:#FFFFFF\" aria-hidden=\"true\" class=\"zd_encoded_id\">[4E04JY-RKGZY]</span>\n<div itemscope=\"\" itemtype=\"http://schema.org/EmailMessage\" style=\"display:none\">  <div itemprop=\"action\" itemscope=\"\" itemtype=\"http://schema.org/ViewAction\">    <link itemprop=\"url\" href=\"https://aeromotorshelp.zendesk.com/hc/requests/392620\">    <meta itemprop=\"name\" content=\"View ticket\">  </div></div>",
+  "hiddenReasons": [],
+  "attachments": []
+}

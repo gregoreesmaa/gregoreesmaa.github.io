@@ -1,0 +1,171 @@
+{
+  "service": {
+    "id": "go3-tv",
+    "name": "go3.tv",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:49.000Z",
+        "firstResponse": "2025-06-05T10:50:48.000Z",
+        "firstGdprRequest": "2025-05-31T12:42:10.000Z",
+        "firstGdprResponse": "2025-06-05T10:50:48.000Z",
+        "last": "2025-06-05T10:50:48.000Z"
+      },
+      "counts": {
+        "total": 5,
+        "sent": 4,
+        "received": {
+          "automated": 0,
+          "manual": 1,
+          "total": 1
+        }
+      }
+    }
+  },
+  "emails": [
+    {
+      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on play.tv3.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "andmekaitse@tv3.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-16T19:18:49.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 295227
+        }
+      ]
+    },
+    {
+      "id": "2025-03-23T10-39-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on play.tv3.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "tv3@tv3.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-23T10:39:25.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 295253
+        }
+      ]
+    },
+    {
+      "id": "2025-05-31T12-42-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "IKÜM taotlus seoses isikuandmete töötlemisega teenuses go3.tv / GDPR Request Regarding Processing of Personal Data on go3.tv",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "andmekaitse@tv3.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-31T12:42:10.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Lugupeetud go3.tv vastutav andmetöötleja\n\nPöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses go3.tv, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.\n\nManuses on ametlik taotlus, milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).\n\nPalun teavitage taotluse kättesaamisest.\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of go3.tv,\n\nI am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by go3.tv, potentially leading to its disclosure to unauthorised parties without a clear legal basis.\n\nPlease find attached a formal application exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).\n\nPlease confirm receipt of this request.\n\nKind regards,\nGregor Eesmaa\n</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "taotlus-request.asice",
+          "contentType": "application/vnd.etsi.asic-e+zip",
+          "size": 399580,
+          "contentPath": "content-taotlus-request-asice",
+          "contents": [
+            {
+              "filename": "taotlus-request.pdf",
+              "contentType": "application/pdf",
+              "size": 65478
+            },
+            {
+              "filename": "vulnerability-reassessment-report.pdf",
+              "contentType": "application/pdf",
+              "size": 352849
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2025-05-31T18-46-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses go3.tv / GDPR Request Regarding Processing of Personal Data on go3.tv",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "andmekaitse@tv3.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-31T18:46:37.000Z",
+      "bodyHtml": "<div dir=\"ltr\">Saadan igaks juhuks ka eraldi taotluse ja aruande PDFid, mis asusid eelmise meili manuses digiallkirjastatud konteineris.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>Just in case, providing also the request and the report PDF files, that were in the digitally signed container attached to the previous email.<br><br>Kind regards,<br>Gregor Eesmaa</div><br>",
+      "hiddenReasons": [
+        "providing-container-contents"
+      ],
+      "attachments": [
+        {
+          "filename": "taotlus-request.pdf",
+          "contentType": "application/pdf",
+          "size": 65478
+        },
+        {
+          "filename": "vulnerability-reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 352849
+        }
+      ]
+    },
+    {
+      "id": "2025-06-05T10-50-from-andmekaitse-tv3-ee",
+      "type": "email",
+      "subject": "RE: IKÜM taotlus seoses isikuandmete töötlemisega teenuses go3.tv / GDPR Request Regarding Processing of Personal Data on go3.tv",
+      "from": {
+        "address": "andmekaitse@tv3.ee",
+        "name": "Andmekaitse"
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-05T10:50:48.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Tere!\n\nTänan pöördumise eest. Kinnitan, et oleme Teie taotluse kätte saanud ja vastame regulatsioonis ette nähtud aja ehk 1 kuu jooksul.\n\n\nLugupidamisega\n\nRaili Kaul\nandmekaitsespetsialist\n\nAS Go3 Baltics\nTV3 Group\nPeterburi tee 81, Tallinn\n\ngo3.tv\ntv3group.eu</div>",
+      "hiddenReasons": [],
+      "attachments": []
+    }
+  ]
+}

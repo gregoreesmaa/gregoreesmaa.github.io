@@ -1,0 +1,20 @@
+{
+  "id": "2025-03-17T06-36-from-isikuandmed-postimeesgrupp-ee",
+  "type": "email",
+  "subject": "RE: User email address enumeration vulnerability on postimees.ee",
+  "from": {
+    "address": "isikuandmed@postimeesgrupp.ee",
+    "name": ""
+  },
+  "to": [
+    {
+      "address": "gregor.eesmaa@ut.ee",
+      "name": "Gregor Eesmaa"
+    }
+  ],
+  "cc": [],
+  "date": "2025-03-17T06:36:31.000Z",
+  "bodyHtml": "<div style=\"white-space: pre-wrap\">Tere,\n\nKinnitan, et saime teie kirja kätte.\n\nLugupidamisega,\n\nPostimees Grupp AS\nisikuandmed@postimeesgrupp.ee</div>",
+  "hiddenReasons": [],
+  "attachments": []
+}

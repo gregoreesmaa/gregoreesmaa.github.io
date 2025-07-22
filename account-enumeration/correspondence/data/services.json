@@ -1,0 +1,1306 @@
+[
+  {
+    "id": "1182-ee",
+    "name": "1182.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-23T10:39:24.000Z",
+        "firstGdprRequest": "2025-05-31T12:42:12.000Z",
+        "last": "2025-05-31T18:40:37.000Z"
+      },
+      "counts": {
+        "total": 3,
+        "sent": 3,
+        "received": {
+          "automated": 0,
+          "manual": 0,
+          "total": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "aboutyou-ee",
+    "name": "aboutyou.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:34.000Z",
+        "firstResponse": "2025-03-18T10:49:50.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:39.000Z",
+        "firstGdprResponse": "2025-05-31T12:47:23.000Z",
+        "last": "2025-07-16T12:51:51.000Z"
+      },
+      "counts": {
+        "total": 17,
+        "sent": 8,
+        "received": {
+          "automated": 2,
+          "manual": 7,
+          "total": 9
+        }
+      }
+    }
+  },
+  {
+    "id": "aeromotors-ee",
+    "name": "aeromotors.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:37.000Z",
+        "firstResponse": "2025-06-02T07:08:17.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:46.000Z",
+        "firstGdprResponse": "2025-06-02T07:08:17.000Z",
+        "last": "2025-06-21T19:39:38.000Z"
+      },
+      "counts": {
+        "total": 9,
+        "sent": 5,
+        "received": {
+          "automated": 2,
+          "manual": 2,
+          "total": 4
+        }
+      }
+    }
+  },
+  {
+    "id": "amoremi-ee",
+    "name": "amoremi.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:43.000Z",
+        "firstResponse": "2025-03-17T07:50:08.000Z",
+        "last": "2025-05-18T14:16:56.000Z"
+      },
+      "counts": {
+        "total": 4,
+        "sent": 3,
+        "received": {
+          "automated": 0,
+          "manual": 1,
+          "total": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "apolloklubi-ee",
+    "name": "apolloklubi.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:49.000Z",
+        "firstResponse": "2025-03-18T16:42:54.000Z",
+        "last": "2025-05-18T14:22:29.000Z"
+      },
+      "counts": {
+        "total": 4,
+        "sent": 2,
+        "received": {
+          "automated": 0,
+          "manual": 2,
+          "total": 2
+        }
+      }
+    }
+  },
+  {
+    "id": "aripaev-ee",
+    "name": "aripaev.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:36.000Z",
+        "firstResponse": "2025-06-30T11:41:04.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:42.000Z",
+        "firstGdprResponse": "2025-06-30T11:41:04.000Z",
+        "last": "2025-07-17T07:52:08.000Z"
+      },
+      "counts": {
+        "total": 9,
+        "sent": 5,
+        "received": {
+          "automated": 3,
+          "manual": 1,
+          "total": 4
+        }
+      }
+    }
+  },
+  {
+    "id": "barbora-ee",
+    "name": "barbora.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:45.000Z",
+        "firstResponse": "2025-03-23T11:01:02.000Z",
+        "firstGdprRequest": "2025-05-31T12:42:06.000Z",
+        "last": "2025-05-31T18:42:29.000Z"
+      },
+      "counts": {
+        "total": 6,
+        "sent": 4,
+        "received": {
+          "automated": 1,
+          "manual": 1,
+          "total": 2
+        }
+      }
+    }
+  },
+  {
+    "id": "bet365-ee",
+    "name": "bet365.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:41.000Z",
+        "firstResponse": "2025-05-31T14:16:54.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:57.000Z",
+        "firstGdprResponse": "2025-05-31T14:16:54.000Z",
+        "last": "2025-05-31T17:59:41.000Z"
+      },
+      "counts": {
+        "total": 5,
+        "sent": 4,
+        "received": {
+          "automated": 0,
+          "manual": 1,
+          "total": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "Circle-K-app",
+    "name": "Circle K app",
+    "type": "app",
+    "stats": {
+      "dates": {
+        "first": "2025-04-06T19:24:35.000Z",
+        "firstResponse": "2025-04-07T10:48:54.000Z",
+        "firstGdprRequest": "2025-06-21T12:31:46.000Z",
+        "firstGdprResponse": "2025-06-25T10:09:37.000Z",
+        "last": "2025-07-20T15:49:17.000Z"
+      },
+      "counts": {
+        "total": 10,
+        "sent": 4,
+        "received": {
+          "automated": 2,
+          "manual": 4,
+          "total": 6
+        }
+      }
+    }
+  },
+  {
+    "id": "city24-ee",
+    "name": "city24.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:48.000Z",
+        "firstResponse": "2025-03-28T11:02:42.000Z",
+        "last": "2025-05-18T14:28:31.000Z"
+      },
+      "counts": {
+        "total": 4,
+        "sent": 3,
+        "received": {
+          "automated": 0,
+          "manual": 1,
+          "total": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "cvkeskus-ee",
+    "name": "cvkeskus.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:37.000Z",
+        "firstResponse": "2025-06-30T18:36:36.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:43.000Z",
+        "firstGdprResponse": "2025-06-30T18:36:36.000Z",
+        "last": "2025-06-30T18:36:36.000Z"
+      },
+      "counts": {
+        "total": 5,
+        "sent": 4,
+        "received": {
+          "automated": 0,
+          "manual": 1,
+          "total": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "delfi-ee",
+    "name": "delfi.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:37.000Z",
+        "firstResponse": "2025-03-19T13:48:09.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:44.000Z",
+        "last": "2025-05-31T18:43:32.000Z"
+      },
+      "counts": {
+        "total": 6,
+        "sent": 3,
+        "received": {
+          "automated": 2,
+          "manual": 1,
+          "total": 3
+        }
+      }
+    }
+  },
+  {
+    "id": "ekool-eu",
+    "name": "ekool.eu",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-04-27T19:59:31.000Z",
+        "firstResponse": "2025-05-05T08:53:36.000Z",
+        "firstGdprRequest": "2025-06-22T08:08:16.000Z",
+        "firstGdprResponse": "2025-06-25T07:22:33.000Z",
+        "last": "2025-07-11T11:28:32.000Z"
+      },
+      "counts": {
+        "total": 9,
+        "sent": 3,
+        "received": {
+          "automated": 2,
+          "manual": 4,
+          "total": 6
+        }
+      }
+    }
+  },
+  {
+    "id": "eliis-eu",
+    "name": "eliis.eu",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-04-27T19:59:46.000Z",
+        "firstResponse": "2025-04-28T07:26:03.000Z",
+        "last": "2025-06-01T08:39:10.000Z"
+      },
+      "counts": {
+        "total": 3,
+        "sent": 2,
+        "received": {
+          "automated": 0,
+          "manual": 1,
+          "total": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "Elisa-Raamat-app",
+    "name": "Elisa Raamat app",
+    "type": "app",
+    "stats": {
+      "dates": {
+        "first": "2025-04-06T19:24:33.000Z",
+        "firstGdprRequest": "2025-06-21T12:35:06.000Z",
+        "last": "2025-06-21T18:16:22.000Z"
+      },
+      "counts": {
+        "total": 4,
+        "sent": 4,
+        "received": {
+          "automated": 0,
+          "manual": 0,
+          "total": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "elron-ee",
+    "name": "elron.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:32.000Z",
+        "firstResponse": "2025-06-02T06:17:18.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:35.000Z",
+        "firstGdprResponse": "2025-06-02T06:17:18.000Z",
+        "last": "2025-06-02T06:17:18.000Z"
+      },
+      "counts": {
+        "total": 5,
+        "sent": 4,
+        "received": {
+          "automated": 0,
+          "manual": 1,
+          "total": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "euronics-ee",
+    "name": "euronics.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:51.000Z",
+        "firstResponse": "2025-04-21T09:07:20.000Z",
+        "firstGdprRequest": "2025-06-24T08:10:26.000Z",
+        "firstGdprResponse": "2025-07-11T09:54:01.000Z",
+        "last": "2025-07-11T09:54:01.000Z"
+      },
+      "counts": {
+        "total": 6,
+        "sent": 4,
+        "received": {
+          "automated": 0,
+          "manual": 2,
+          "total": 2
+        }
+      }
+    }
+  },
+  {
+    "id": "flirtic-ee",
+    "name": "flirtic.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:42.000Z",
+        "firstResponse": "2025-06-03T12:26:02.000Z",
+        "firstGdprRequest": "2025-05-31T12:42:00.000Z",
+        "firstGdprResponse": "2025-06-03T12:26:02.000Z",
+        "last": "2025-06-27T11:30:07.000Z"
+      },
+      "counts": {
+        "total": 7,
+        "sent": 5,
+        "received": {
+          "automated": 0,
+          "manual": 2,
+          "total": 2
+        }
+      }
+    }
+  },
+  {
+    "id": "forum-ee",
+    "name": "forum.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:50.000Z",
+        "firstResponse": "2025-03-22T08:21:33.000Z",
+        "firstGdprRequest": "2025-05-31T12:42:14.000Z",
+        "firstGdprResponse": "2025-06-29T20:55:00.000Z",
+        "last": "2025-06-29T20:55:00.000Z"
+      },
+      "counts": {
+        "total": 6,
+        "sent": 4,
+        "received": {
+          "automated": 0,
+          "manual": 2,
+          "total": 2
+        }
+      }
+    }
+  },
+  {
+    "id": "forum-solnet-ee",
+    "name": "forum.solnet.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:36.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:40.000Z",
+        "last": "2025-05-31T18:46:06.000Z"
+      },
+      "counts": {
+        "total": 3,
+        "sent": 3,
+        "received": {
+          "automated": 0,
+          "manual": 0,
+          "total": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "fv-ee",
+    "name": "fv.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:47.000Z",
+        "firstResponse": "2025-03-16T19:26:29.000Z",
+        "firstGdprRequest": "2025-06-24T08:10:35.000Z",
+        "last": "2025-06-24T08:10:35.000Z"
+      },
+      "counts": {
+        "total": 5,
+        "sent": 2,
+        "received": {
+          "automated": 2,
+          "manual": 1,
+          "total": 3
+        }
+      }
+    }
+  },
+  {
+    "id": "geenius-ee",
+    "name": "geenius.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:47.000Z",
+        "firstResponse": "2025-03-18T08:28:20.000Z",
+        "firstGdprRequest": "2025-06-24T08:10:40.000Z",
+        "firstGdprResponse": "2025-06-26T08:04:58.000Z",
+        "last": "2025-06-26T08:04:58.000Z"
+      },
+      "counts": {
+        "total": 5,
+        "sent": 3,
+        "received": {
+          "automated": 0,
+          "manual": 2,
+          "total": 2
+        }
+      }
+    }
+  },
+  {
+    "id": "go3-tv",
+    "name": "go3.tv",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:49.000Z",
+        "firstResponse": "2025-06-05T10:50:48.000Z",
+        "firstGdprRequest": "2025-05-31T12:42:10.000Z",
+        "firstGdprResponse": "2025-06-05T10:50:48.000Z",
+        "last": "2025-06-05T10:50:48.000Z"
+      },
+      "counts": {
+        "total": 5,
+        "sent": 4,
+        "received": {
+          "automated": 0,
+          "manual": 1,
+          "total": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "harid-ee",
+    "name": "harid.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-23T10:39:17.000Z",
+        "firstResponse": "2025-06-16T12:12:33.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:47.000Z",
+        "firstGdprResponse": "2025-06-16T12:12:33.000Z",
+        "last": "2025-06-27T06:34:54.000Z"
+      },
+      "counts": {
+        "total": 5,
+        "sent": 3,
+        "received": {
+          "automated": 0,
+          "manual": 2,
+          "total": 2
+        }
+      }
+    }
+  },
+  {
+    "id": "hind-ee",
+    "name": "hind.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:33.000Z",
+        "firstResponse": "2025-03-20T12:13:43.000Z",
+        "firstGdprRequest": "2025-06-24T08:10:45.000Z",
+        "firstGdprResponse": "2025-07-17T11:52:46.000Z",
+        "last": "2025-07-17T11:52:46.000Z"
+      },
+      "counts": {
+        "total": 6,
+        "sent": 3,
+        "received": {
+          "automated": 0,
+          "manual": 3,
+          "total": 3
+        }
+      }
+    }
+  },
+  {
+    "id": "iha-ee",
+    "name": "iha.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:35.000Z",
+        "firstGdprRequest": "2025-06-24T08:23:57.000Z",
+        "last": "2025-06-24T08:23:57.000Z"
+      },
+      "counts": {
+        "total": 2,
+        "sent": 2,
+        "received": {
+          "automated": 0,
+          "manual": 0,
+          "total": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "ikea-ee",
+    "name": "ikea.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:41.000Z",
+        "firstResponse": "2025-06-03T06:54:42.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:55.000Z",
+        "firstGdprResponse": "2025-06-03T06:54:42.000Z",
+        "last": "2025-06-30T13:10:11.000Z"
+      },
+      "counts": {
+        "total": 7,
+        "sent": 4,
+        "received": {
+          "automated": 1,
+          "manual": 2,
+          "total": 3
+        }
+      }
+    }
+  },
+  {
+    "id": "inforegister-ee",
+    "name": "inforegister.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:49.000Z",
+        "last": "2025-05-31T07:30:58.000Z"
+      },
+      "counts": {
+        "total": 4,
+        "sent": 2,
+        "received": {
+          "automated": 2,
+          "manual": 0,
+          "total": 2
+        }
+      }
+    }
+  },
+  {
+    "id": "jpg-ope-ee",
+    "name": "jpg.ope.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-04-27T19:59:43.000Z",
+        "firstResponse": "2025-04-29T05:43:06.000Z",
+        "firstGdprRequest": "2025-06-01T15:20:00Z",
+        "firstGdprResponse": "2025-06-02T05:37:24.000Z",
+        "last": "2025-06-21T19:00:06.000Z"
+      },
+      "counts": {
+        "total": 7,
+        "sent": 4,
+        "received": {
+          "automated": 0,
+          "manual": 4,
+          "total": 4
+        }
+      }
+    }
+  },
+  {
+    "id": "jupiter-err-ee",
+    "name": "jupiter.err.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:32.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:34.000Z",
+        "last": "2025-05-31T18:39:48.000Z"
+      },
+      "counts": {
+        "total": 5,
+        "sent": 4,
+        "received": {
+          "automated": 1,
+          "manual": 0,
+          "total": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "jysk-ee",
+    "name": "jysk.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:34.000Z",
+        "firstResponse": "2025-04-01T06:30:56.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:38.000Z",
+        "firstGdprResponse": "2025-06-12T11:18:18.000Z",
+        "last": "2025-07-01T14:00:36.000Z"
+      },
+      "counts": {
+        "total": 9,
+        "sent": 5,
+        "received": {
+          "automated": 1,
+          "manual": 3,
+          "total": 4
+        }
+      }
+    }
+  },
+  {
+    "id": "k-rauta-ee",
+    "name": "k-rauta.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:43.000Z",
+        "firstGdprRequest": "2025-05-31T12:42:02.000Z",
+        "last": "2025-05-31T18:49:37.000Z"
+      },
+      "counts": {
+        "total": 3,
+        "sent": 3,
+        "received": {
+          "automated": 0,
+          "manual": 0,
+          "total": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "kae-edu-ee",
+    "name": "kae.edu.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:44.000Z",
+        "firstResponse": "2025-06-01T06:25:44.000Z",
+        "firstGdprRequest": "2025-05-31T12:42:05.000Z",
+        "firstGdprResponse": "2025-06-01T06:25:44.000Z",
+        "last": "2025-06-04T15:29:02.000Z"
+      },
+      "counts": {
+        "total": 7,
+        "sent": 5,
+        "received": {
+          "automated": 0,
+          "manual": 2,
+          "total": 2
+        }
+      }
+    }
+  },
+  {
+    "id": "kaup24-ee",
+    "name": "kaup24.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:41.000Z",
+        "firstResponse": "2025-06-04T04:35:36.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:56.000Z",
+        "firstGdprResponse": "2025-06-04T04:35:36.000Z",
+        "last": "2025-06-04T04:35:36.000Z"
+      },
+      "counts": {
+        "total": 7,
+        "sent": 4,
+        "received": {
+          "automated": 2,
+          "manual": 1,
+          "total": 3
+        }
+      }
+    }
+  },
+  {
+    "id": "kava-ee",
+    "name": "kava.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:33.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:36.000Z",
+        "last": "2025-05-31T18:51:08.000Z"
+      },
+      "counts": {
+        "total": 4,
+        "sent": 4,
+        "received": {
+          "automated": 0,
+          "manual": 0,
+          "total": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "kuldnebors-ee",
+    "name": "kuldnebors.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:38.000Z",
+        "last": "2025-05-18T13:23:10.000Z"
+      },
+      "counts": {
+        "total": 3,
+        "sent": 3,
+        "received": {
+          "automated": 0,
+          "manual": 0,
+          "total": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "kv-ee",
+    "name": "kv.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:35.000Z",
+        "firstResponse": "2025-04-21T09:07:20.000Z",
+        "firstGdprRequest": "2025-06-24T08:46:09.000Z",
+        "firstGdprResponse": "2025-07-16T09:06:07.000Z",
+        "last": "2025-07-16T09:06:07.000Z"
+      },
+      "counts": {
+        "total": 8,
+        "sent": 5,
+        "received": {
+          "automated": 0,
+          "manual": 3,
+          "total": 3
+        }
+      }
+    }
+  },
+  {
+    "id": "LIDL-Plus-app",
+    "name": "LIDL Plus app",
+    "type": "app",
+    "stats": {
+      "dates": {
+        "first": "2025-04-06T19:24:34.000Z",
+        "firstGdprRequest": "2025-06-21T12:38:38.000Z",
+        "last": "2025-06-21T18:14:05.000Z"
+      },
+      "counts": {
+        "total": 5,
+        "sent": 5,
+        "received": {
+          "automated": 0,
+          "manual": 0,
+          "total": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "Maxima-Estonia-app",
+    "name": "Maxima Estonia app",
+    "type": "app",
+    "stats": {
+      "dates": {
+        "first": "2025-04-06T19:24:34.000Z",
+        "firstResponse": "2025-07-02T09:25:31.000Z",
+        "firstGdprRequest": "2025-06-21T12:43:23.000Z",
+        "firstGdprResponse": "2025-07-02T09:25:31.000Z",
+        "last": "2025-07-21T10:38:19.000Z"
+      },
+      "counts": {
+        "total": 7,
+        "sent": 4,
+        "received": {
+          "automated": 1,
+          "manual": 2,
+          "total": 3
+        }
+      }
+    }
+  },
+  {
+    "id": "moodle-edu-ee",
+    "name": "moodle.edu.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:40.000Z",
+        "firstResponse": "2025-03-18T09:08:00.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:53.000Z",
+        "firstGdprResponse": "2025-06-02T05:38:00.000Z",
+        "last": "2025-06-02T05:38:00.000Z"
+      },
+      "counts": {
+        "total": 7,
+        "sent": 3,
+        "received": {
+          "automated": 2,
+          "manual": 2,
+          "total": 4
+        }
+      }
+    }
+  },
+  {
+    "id": "nami-nami-ee",
+    "name": "nami-nami.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:42.000Z",
+        "firstResponse": "2025-06-02T04:25:31.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:58.000Z",
+        "firstGdprResponse": "2025-06-02T04:25:31.000Z",
+        "last": "2025-06-21T18:54:51.000Z"
+      },
+      "counts": {
+        "total": 7,
+        "sent": 5,
+        "received": {
+          "automated": 0,
+          "manual": 2,
+          "total": 2
+        }
+      }
+    }
+  },
+  {
+    "id": "notino-ee",
+    "name": "notino.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:46.000Z",
+        "firstGdprRequest": "2025-05-31T12:42:07.000Z",
+        "last": "2025-05-31T18:52:32.000Z"
+      },
+      "counts": {
+        "total": 4,
+        "sent": 3,
+        "received": {
+          "automated": 1,
+          "manual": 0,
+          "total": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "ohtuleht-ee",
+    "name": "ohtuleht.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:46.000Z",
+        "firstResponse": "2025-03-24T10:41:15.000Z",
+        "firstGdprRequest": "2025-05-31T12:42:08.000Z",
+        "last": "2025-05-31T18:53:12.000Z"
+      },
+      "counts": {
+        "total": 6,
+        "sent": 5,
+        "received": {
+          "automated": 0,
+          "manual": 1,
+          "total": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "okidoki-ee",
+    "name": "okidoki.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:40.000Z",
+        "firstResponse": "2025-03-18T07:46:52.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:51.000Z",
+        "firstGdprResponse": "2025-06-02T09:15:17.000Z",
+        "last": "2025-06-26T07:32:20.000Z"
+      },
+      "counts": {
+        "total": 7,
+        "sent": 3,
+        "received": {
+          "automated": 1,
+          "manual": 3,
+          "total": 4
+        }
+      }
+    }
+  },
+  {
+    "id": "olybet-ee",
+    "name": "olybet.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:47.000Z",
+        "firstResponse": "2025-03-17T07:33:55.000Z",
+        "firstGdprRequest": "2025-06-24T08:44:28.000Z",
+        "firstGdprResponse": "2025-07-01T07:12:05.000Z",
+        "last": "2025-07-01T07:12:05.000Z"
+      },
+      "counts": {
+        "total": 6,
+        "sent": 4,
+        "received": {
+          "automated": 0,
+          "manual": 2,
+          "total": 2
+        }
+      }
+    }
+  },
+  {
+    "id": "opiq-ee",
+    "name": "opiq.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:50.000Z",
+        "firstResponse": "2025-03-17T09:20:04.000Z",
+        "last": "2025-05-18T13:18:35.000Z"
+      },
+      "counts": {
+        "total": 3,
+        "sent": 2,
+        "received": {
+          "automated": 0,
+          "manual": 1,
+          "total": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "osport-ee",
+    "name": "osport.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:45.000Z",
+        "last": "2025-03-23T10:39:22.000Z"
+      },
+      "counts": {
+        "total": 2,
+        "sent": 2,
+        "received": {
+          "automated": 0,
+          "manual": 0,
+          "total": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "paavlikaltsukas-ee",
+    "name": "paavlikaltsukas.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:40.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:52.000Z",
+        "last": "2025-05-31T18:54:09.000Z"
+      },
+      "counts": {
+        "total": 4,
+        "sent": 4,
+        "received": {
+          "automated": 0,
+          "manual": 0,
+          "total": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "peaasi-ee",
+    "name": "peaasi.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-04-27T19:59:41.000Z",
+        "firstResponse": "2025-06-10T19:42:38.000Z",
+        "firstGdprRequest": "2025-06-08T15:58:11.000Z",
+        "firstGdprResponse": "2025-06-10T19:42:38.000Z",
+        "last": "2025-06-10T19:42:38.000Z"
+      },
+      "counts": {
+        "total": 5,
+        "sent": 2,
+        "received": {
+          "automated": 2,
+          "manual": 1,
+          "total": 3
+        }
+      }
+    }
+  },
+  {
+    "id": "piletilevi-ee",
+    "name": "piletilevi.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:39.000Z",
+        "firstResponse": "2025-06-30T10:34:18.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:50.000Z",
+        "firstGdprResponse": "2025-06-30T10:34:18.000Z",
+        "last": "2025-06-30T10:34:18.000Z"
+      },
+      "counts": {
+        "total": 5,
+        "sent": 4,
+        "received": {
+          "automated": 0,
+          "manual": 1,
+          "total": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "postimees-ee",
+    "name": "postimees.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:38.000Z",
+        "firstResponse": "2025-03-17T06:36:31.000Z",
+        "firstGdprRequest": "2025-06-24T08:10:51.000Z",
+        "last": "2025-06-24T08:21:52.000Z"
+      },
+      "counts": {
+        "total": 6,
+        "sent": 4,
+        "received": {
+          "automated": 0,
+          "manual": 2,
+          "total": 2
+        }
+      }
+    }
+  },
+  {
+    "id": "ResQ-app",
+    "name": "ResQ app",
+    "type": "app",
+    "stats": {
+      "dates": {
+        "first": "2025-04-06T19:24:35.000Z",
+        "firstResponse": "2025-06-24T15:25:45.000Z",
+        "firstGdprRequest": "2025-06-21T12:47:44.000Z",
+        "firstGdprResponse": "2025-06-24T15:25:45.000Z",
+        "last": "2025-06-24T15:25:45.000Z"
+      },
+      "counts": {
+        "total": 5,
+        "sent": 4,
+        "received": {
+          "automated": 0,
+          "manual": 1,
+          "total": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "rimi-ee",
+    "name": "rimi.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:51.000Z",
+        "firstResponse": "2025-04-04T09:09:46.000Z",
+        "firstGdprRequest": "2025-06-24T13:51:54.000Z",
+        "last": "2025-06-24T13:51:54.000Z"
+      },
+      "counts": {
+        "total": 7,
+        "sent": 4,
+        "received": {
+          "automated": 2,
+          "manual": 1,
+          "total": 3
+        }
+      }
+    }
+  },
+  {
+    "id": "solnet-ee",
+    "name": "solnet.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:44.000Z",
+        "firstGdprRequest": "2025-05-31T12:42:03.000Z",
+        "last": "2025-05-31T12:42:03.000Z"
+      },
+      "counts": {
+        "total": 2,
+        "sent": 2,
+        "received": {
+          "automated": 0,
+          "manual": 0,
+          "total": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "soov-ee",
+    "name": "soov.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:35.000Z",
+        "firstResponse": "2025-03-17T06:36:05.000Z",
+        "last": "2025-05-18T13:21:37.000Z"
+      },
+      "counts": {
+        "total": 5,
+        "sent": 3,
+        "received": {
+          "automated": 0,
+          "manual": 2,
+          "total": 2
+        }
+      }
+    }
+  },
+  {
+    "id": "stena-ee",
+    "name": "stena.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:48.000Z",
+        "firstResponse": "2025-05-31T18:11:34.000Z",
+        "firstGdprRequest": "2025-05-31T12:42:11.000Z",
+        "firstGdprResponse": "2025-05-31T18:11:34.000Z",
+        "last": "2025-05-31T18:11:34.000Z"
+      },
+      "counts": {
+        "total": 3,
+        "sent": 2,
+        "received": {
+          "automated": 0,
+          "manual": 1,
+          "total": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "upload-ee",
+    "name": "upload.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:39.000Z",
+        "firstResponse": "2025-03-16T20:04:05.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:48.000Z",
+        "firstGdprResponse": "2025-05-31T13:17:03.000Z",
+        "last": "2025-06-09T09:57:48.000Z"
+      },
+      "counts": {
+        "total": 12,
+        "sent": 6,
+        "received": {
+          "automated": 0,
+          "manual": 6,
+          "total": 6
+        }
+      }
+    }
+  },
+  {
+    "id": "www-ee",
+    "name": "www.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:46.000Z",
+        "firstGdprRequest": "2025-06-01T13:04:09.000Z",
+        "last": "2025-06-01T13:09:09.000Z"
+      },
+      "counts": {
+        "total": 6,
+        "sent": 4,
+        "received": {
+          "automated": 2,
+          "manual": 0,
+          "total": 2
+        }
+      }
+    }
+  },
+  {
+    "id": "zalando-ee",
+    "name": "zalando.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:43.000Z",
+        "firstGdprRequest": "2025-05-31T12:42:01.000Z",
+        "last": "2025-05-31T18:55:06.000Z"
+      },
+      "counts": {
+        "total": 4,
+        "sent": 3,
+        "received": {
+          "automated": 1,
+          "manual": 0,
+          "total": 1
+        }
+      }
+    }
+  }
+]

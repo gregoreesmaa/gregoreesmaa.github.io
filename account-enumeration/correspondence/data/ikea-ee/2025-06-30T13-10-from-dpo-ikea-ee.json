@@ -1,0 +1,20 @@
+{
+  "id": "2025-06-30T13-10-from-dpo-ikea-ee",
+  "type": "email",
+  "subject": "RE: IKÜM taotlus seoses isikuandmete töötlemisega teenuses ikea.ee / GDPR Request Regarding Processing of Personal Data on ikea.ee",
+  "from": {
+    "address": "dpo@ikea.ee",
+    "name": "DPO IKEA EE"
+  },
+  "to": [
+    {
+      "address": "gregoreesmaa1@gmail.com",
+      "name": "Gregor Eesmaa"
+    }
+  ],
+  "cc": [],
+  "date": "2025-06-30T13:10:11.000Z",
+  "bodyHtml": "<div class=\"WordSection1\">\n<p class=\"MsoNormal\">Hello, <o:p></o:p></p>\n\n<p class=\"MsoNormal\">Thank you once again for reaching out to us and bringing this matter to our attention. Please be assured that we, IKEA Estonia, are committed to continuously improving our products and services in line with the highest standards for privacy\n and information security.&nbsp; <o:p></o:p></p>\n\n<p class=\"MsoNormal\">As described in Section 1.1. of our <a href=\"https://www.ikea.ee/en/privacy-policy-ikea-family\">\nPrivacy Policy for Loyalty Program and Digital Solutions</a>, your personal data (such as email) is needed so that you can create, update and log into your online account with us and use our services. We base this data processing on the necessity to conclude\n and perform the contract we have with you (Article 6(1)(b) GDPR).&nbsp; <o:p></o:p></p>\n\n<p class=\"MsoNormal\"><b>Our technical team has reviewed the report you kindly shared with us in relation to this data processing activity. We can confirm that we have now resolved the matters you have flagged on the account registration form, password reset\n form, and email change form. <o:p></o:p></b></p>\n\n<p class=\"MsoNormal\">We trust that this addresses the concerns you have raised and fulfills your request pursuant to Art. 15, 18 and 21 GDPR.\n<o:p></o:p></p>\n\n<p class=\"MsoNormal\">Please let us know in case you have any further questions. <o:p>\n</o:p></p>\n\n<p class=\"MsoNormal\">Best regards, <o:p></o:p></p>\n\n<p class=\"MsoNormal\">Data Protection Officer for IKEA Retail Baltics<o:p></o:p></p>\n\n<div style=\"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in 0in 0in\">\n\n</div>\n\n\n\n\n</div>",
+  "hiddenReasons": [],
+  "attachments": []
+}

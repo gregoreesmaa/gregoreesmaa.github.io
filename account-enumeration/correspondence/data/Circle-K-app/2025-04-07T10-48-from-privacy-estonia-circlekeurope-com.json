@@ -1,0 +1,20 @@
+{
+  "id": "2025-04-07T10-48-from-privacy-estonia-circlekeurope-com",
+  "type": "email",
+  "subject": "RE: User email address enumeration vulnerability on Circle K app",
+  "from": {
+    "address": "privacy_estonia@circlekeurope.com",
+    "name": "GM Privacy Estonia"
+  },
+  "to": [
+    {
+      "address": "gregor.eesmaa@ut.ee",
+      "name": "Gregor Eesmaa"
+    }
+  ],
+  "cc": [],
+  "date": "2025-04-07T10:48:54.000Z",
+  "bodyHtml": "Hello<br>\n<br>\nThank you, we've received your report. We'll review and revert.<br>\n<br>\nWith regards,<br>\n<br>\n<br>\nNele Laidvee<br>\nDirector Legal Affairs, Privacy Europe<br>\nAttorney at Law (Estonia) <br>\nCircle K AS<br>\nVisitor address: Schweigaards gate 16, 0191 Oslo<br>\nm: +372 5023549<br>\ne: <a href=\"mailto:Nele.Laidvee@circlekeurope.com\">Nele.Laidvee@circlekeurope.com</a><br>\n<a href=\"http://www.circlek.com\" target=\"_blank\">www.circlek.com</a><br>\n<br>\n<br>\n<br>\n<br>\n<br>",
+  "hiddenReasons": [],
+  "attachments": []
+}

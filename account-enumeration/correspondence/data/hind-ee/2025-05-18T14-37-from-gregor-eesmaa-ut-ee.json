@@ -1,0 +1,26 @@
+{
+  "id": "2025-05-18T14-37-from-gregor-eesmaa-ut-ee",
+  "type": "email",
+  "subject": "Re: User email address enumeration vulnerability on hind.ee",
+  "from": {
+    "address": "gregor.eesmaa@ut.ee",
+    "name": "Gregor Eesmaa"
+  },
+  "to": [
+    {
+      "address": "info@hind.ee",
+      "name": "Hind.ee"
+    }
+  ],
+  "cc": [],
+  "date": "2025-05-18T14:37:05.000Z",
+  "bodyHtml": "<pre><div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">Hello,<br><br>We have conducted a follow-up reassessment of the service, and we appreciate your commitment to <br>improving the security of your service. However, we also found that the account enumeration <br>vulnerability is still not fully mitigated.<br><br>The attached updated report provides an overview of the remaining concerns and is intended to guide <br>further corrective actions.<br><br>Best regards,<br>Gregor Eesmaa<br>Computer Science MSc student<br>University of Tartu, Institute of Computer Science</div></pre>\n<div id=\"appendonsend\"></div>",
+  "hiddenReasons": [],
+  "attachments": [
+    {
+      "filename": "reassessment-report.pdf",
+      "contentType": "application/pdf",
+      "size": 220233
+    }
+  ]
+}

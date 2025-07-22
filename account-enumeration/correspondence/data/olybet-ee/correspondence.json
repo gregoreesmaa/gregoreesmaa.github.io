@@ -1,0 +1,200 @@
+{
+  "service": {
+    "id": "olybet-ee",
+    "name": "olybet.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:47.000Z",
+        "firstResponse": "2025-03-17T07:33:55.000Z",
+        "firstGdprRequest": "2025-06-24T08:44:28.000Z",
+        "firstGdprResponse": "2025-07-01T07:12:05.000Z",
+        "last": "2025-07-01T07:12:05.000Z"
+      },
+      "counts": {
+        "total": 6,
+        "sent": 4,
+        "received": {
+          "automated": 0,
+          "manual": 2,
+          "total": 2
+        }
+      }
+    }
+  },
+  "emails": [
+    {
+      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on olybet.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "OlybetEstoniaDPO@olybet.com",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-16T19:18:47.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 313988
+        }
+      ]
+    },
+    {
+      "id": "2025-03-17T07-33-from-OlybetEstoniaDPO-olybet-com",
+      "type": "email",
+      "subject": "FW: User email address enumeration vulnerability on olybet.ee",
+      "from": {
+        "address": "OlybetEstoniaDPO@olybet.com",
+        "name": "Olybet Estonia DPO"
+      },
+      "to": [
+        {
+          "address": "gregor.eesmaa@ut.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-17T07:33:55.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Tere, Gregor \n\nTänud info eest. Kätte saadud. \n\nHead,\nOlyBet DPO</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 313988
+        }
+      ]
+    },
+    {
+      "id": "2025-03-23T10-07-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "Re: User email address enumeration vulnerability on olybet.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "OlybetEstoniaDPO@olybet.com",
+          "name": "Olybet Estonia DPO"
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-23T10:07:09.000Z",
+      "bodyHtml": "<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nHello,</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nDue to a mistake while compiling the earlier report, the section \"2.1 Password Reset Form\" was wrong in stating that \"the form shows an error message\". It should have read \"the resulting view appears visually different, compared to when the email is registered\".</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nThe corrected report is attached with Figure 1, which illustrates the vulnerability, also updated.</div>\n<div id=\"appendonsend\"></div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 628504
+        }
+      ]
+    },
+    {
+      "id": "2025-06-08T16-25-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "Re: User email address enumeration vulnerability on olybet.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "OlybetEstoniaDPO@olybet.com",
+          "name": "Olybet Estonia DPO"
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-08T16:25:28.000Z",
+      "bodyHtml": "<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nHello,</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nWe have conducted a follow-up reassessment of the service, and we appreciate your commitment to improving the security of your service. However, we also found that the account enumeration vulnerability is\n<b>still not fully mitigated</b>.</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nThe attached updated report provides an overview of the remaining concerns and is intended to guide further corrective actions.</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nBest regards,</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nGregor Eesmaa</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nComputer Science MSc student</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nUniversity of Tartu, Institute of Computer Science</div>\n<div id=\"appendonsend\"></div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 247579
+        }
+      ]
+    },
+    {
+      "id": "2025-06-24T08-44-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "IKÜM taotlus seoses isikuandmete töötlemisega teenuses olybet.ee / GDPR Request Regarding Processing of Personal Data on olybet.ee",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "OlybetEstoniaDPO@olybet.com",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-24T08:44:28.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Lugupeetud olybet.ee vastutav andmetöötleja\n\nPöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses olybet.ee, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.\n\nManuses on ametlik taotlus (samuti digiallkirjastatud kujul), milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).\n\nPalun teavitage taotluse kättesaamisest.\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of olybet.ee,\n\nI am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by olybet.ee, potentially leading to its disclosure to unauthorised parties without a clear legal basis.\n\nPlease find attached a formal application (also in digitally signed form) exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).\n\nPlease confirm receipt of this request.\n\nKind regards,\nGregor Eesmaa\n</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "taotlus-request.asice",
+          "contentType": "application/vnd.etsi.asic-e+zip",
+          "size": 309608,
+          "contentPath": "content-taotlus-request-asice",
+          "contents": [
+            {
+              "filename": "taotlus-request.pdf",
+              "contentType": "application/pdf",
+              "size": 65519
+            },
+            {
+              "filename": "vulnerability-reassessment-report.pdf",
+              "contentType": "application/pdf",
+              "size": 246353
+            }
+          ]
+        },
+        {
+          "filename": "taotlus-request.pdf",
+          "contentType": "application/pdf",
+          "size": 65519
+        },
+        {
+          "filename": "vulnerability-reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 246353
+        }
+      ]
+    },
+    {
+      "id": "2025-07-01T07-12-from-OlybetEstoniaDPO-olybet-com",
+      "type": "email",
+      "subject": "RE: IKÜM taotlus seoses isikuandmete töötlemisega teenuses olybet.ee / GDPR Request Regarding Processing of Personal Data on olybet.ee",
+      "from": {
+        "address": "OlybetEstoniaDPO@olybet.com",
+        "name": "Olybet Estonia DPO"
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-07-01T07:12:05.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Tere, Gregor \n\nKinnitame kättesaamist.\n\nLugupidamisega\nOlyBet andmekaitsespetsialist</div>",
+      "hiddenReasons": [],
+      "attachments": []
+    }
+  ]
+}

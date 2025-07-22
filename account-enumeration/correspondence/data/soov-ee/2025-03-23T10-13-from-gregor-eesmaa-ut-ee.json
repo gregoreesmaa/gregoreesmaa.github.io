@@ -1,0 +1,26 @@
+{
+  "id": "2025-03-23T10-13-from-gregor-eesmaa-ut-ee",
+  "type": "email",
+  "subject": "Re: User email address enumeration vulnerability on soov.ee",
+  "from": {
+    "address": "gregor.eesmaa@ut.ee",
+    "name": "Gregor Eesmaa"
+  },
+  "to": [
+    {
+      "address": "isikuandmed@postimeesgrupp.ee",
+      "name": ""
+    }
+  ],
+  "cc": [],
+  "date": "2025-03-23T10:13:07.000Z",
+  "bodyHtml": "<div class=\"elementToProof\" style=\"text-align: left; text-indent: 0px; background-color: rgb(255, 255, 255); margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: black;\">\nHello,</div>\n<div class=\"elementToProof\" style=\"text-align: left; text-indent: 0px; background-color: rgb(255, 255, 255); margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: black;\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"text-align: left; text-indent: 0px; background-color: rgb(255, 255, 255); margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: black;\">\nDue to a mistake while compiling the earlier report, the section \"2.1 Password Reset Form\" was wrong in stating that \"the form shows an error message\".&nbsp;</div>\n<div class=\"elementToProof\" style=\"text-align: left; text-indent: 0px; background-color: rgb(255, 255, 255); margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: black;\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"text-align: left; text-indent: 0px; background-color: rgb(255, 255, 255); margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: black;\">\nIt should have read \"there are subtle differences in the response received from the server, compared to when the email is registered\".</div>\n<div class=\"elementToProof\" style=\"text-align: left; text-indent: 0px; background-color: rgb(255, 255, 255); margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: black;\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"text-align: left; text-indent: 0px; background-color: rgb(255, 255, 255); margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: black;\">\nThe corrected report is attached.</div>\n<div class=\"elementToProof\" style=\"text-align: left; text-indent: 0px; background-color: rgb(255, 255, 255); margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: black;\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"text-align: left; text-indent: 0px; background-color: rgb(255, 255, 255); margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: black;\">\nBest regards,</div>\n<div class=\"elementToProof\" style=\"text-align: left; text-indent: 0px; background-color: rgb(255, 255, 255); margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: black;\">\nGregor Eesmaa</div>\n<div id=\"appendonsend\"></div>",
+  "hiddenReasons": [],
+  "attachments": [
+    {
+      "filename": "report.pdf",
+      "contentType": "application/pdf",
+      "size": 257171
+    }
+  ]
+}

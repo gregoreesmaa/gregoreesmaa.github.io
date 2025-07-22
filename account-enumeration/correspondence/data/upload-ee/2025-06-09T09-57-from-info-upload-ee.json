@@ -1,0 +1,20 @@
+{
+  "id": "2025-06-09T09-57-from-info-upload-ee",
+  "type": "email",
+  "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses upload.ee / GDPR Request Regarding Processing of Personal Data on upload.ee",
+  "from": {
+    "address": "info@upload.ee",
+    "name": "Upload Team"
+  },
+  "to": [
+    {
+      "address": "gregoreesmaa1@gmail.com",
+      "name": "Gregor Eesmaa"
+    }
+  ],
+  "cc": [],
+  "date": "2025-06-09T09:57:48.000Z",
+  "bodyHtml": "Njah, kui kirja välja ei saada siis tõlkesüsteemi kasutuskordade logi näitas erinevust jah. Nüüd on mysql ja tõlkesüsteemi info login+register+forgotpassword lehtedel kinni keeratud, juhul kui formi submit on toimunud.<div>Parooli lähtestamise leht peaks nüüd alati formi reseti triggerdama, see erisus on ka kadunud.</div><div><br></div><div>Tervitades,</div><div>Upload.ee Meeskond<br id=\"lineBreakAtBeginningOfMessage\"><div><br></div><br></div>",
+  "hiddenReasons": [],
+  "attachments": []
+}

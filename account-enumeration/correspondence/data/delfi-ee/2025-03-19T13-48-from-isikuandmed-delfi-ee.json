@@ -1,0 +1,20 @@
+{
+  "id": "2025-03-19T13-48-from-isikuandmed-delfi-ee",
+  "type": "email",
+  "subject": "RE: User email address enumeration vulnerability on delfi.ee",
+  "from": {
+    "address": "isikuandmed@delfi.ee",
+    "name": "EM Isikuandmed"
+  },
+  "to": [
+    {
+      "address": "gregor.eesmaa@ut.ee",
+      "name": "Gregor Eesmaa"
+    }
+  ],
+  "cc": [],
+  "date": "2025-03-19T13:48:09.000Z",
+  "bodyHtml": "<div style=\"white-space: pre-wrap\">Tere!\n\nKinnitame, et saadetud pöördumine on käes ja läbivaatamisel. \n\nLugupidamisega\nDelfi Meedia</div>",
+  "hiddenReasons": [],
+  "attachments": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2025-03-23T10-39-from-info-aeromotors-ee",
+  "type": "email",
+  "subject": "[n.354124] Aero Motors OÜ",
+  "from": {
+    "address": "info@aeromotors.ee",
+    "name": "Aero Motors"
+  },
+  "to": [
+    {
+      "address": "gregor.eesmaa@ut.ee",
+      "name": "Gregor Eesmaa"
+    }
+  ],
+  "cc": [],
+  "date": "2025-03-23T10:39:26.000Z",
+  "bodyHtml": "<div class=\"content-div\" style=\"padding-left: 10px; padding-right:14px; line-height: 18px; font-family: 'Calibri, sans-serif'; font-size: 11px; color:#333;\">\n   <!--<div style=\"color: #ffffff;\"></div>-->\n    <p dir=\"ltr\">Tere!</p><p dir=\"ltr\">Suur tänu pöördumise eest!<br>Vastame Teile esimesel võimalusel, kuid hiljemalt 3 tööpäeva jooksul.</p><p dir=\"ltr\">Heade soovidega,<br>Aero Motors OÜ<br>aeromotors.ee<br>+372 663 10 60<br>info@aeromotors.ee<br><img src=\"https://theme.zdassets.com/theme_assets/13792490/6b1b70f432a03bba24ac8bcf281457a2c983284f.png\"></p>\n  </div>\n<span style=\"color:#FFFFFF\" aria-hidden=\"true\" class=\"zd_encoded_id\">[4W5G5P-ZPNP4]</span>\n<div itemscope=\"\" itemtype=\"http://schema.org/EmailMessage\" style=\"display:none\">  <div itemprop=\"action\" itemscope=\"\" itemtype=\"http://schema.org/ViewAction\">    <link itemprop=\"url\" href=\"https://aeromotorshelp.zendesk.com/hc/requests/354124\">    <meta itemprop=\"name\" content=\"View ticket\">  </div></div>",
+  "hiddenReasons": [
+    "automated-reply"
+  ],
+  "attachments": []
+}

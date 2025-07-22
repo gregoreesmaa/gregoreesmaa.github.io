@@ -1,0 +1,188 @@
+{
+  "service": {
+    "id": "hind-ee",
+    "name": "hind.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:33.000Z",
+        "firstResponse": "2025-03-20T12:13:43.000Z",
+        "firstGdprRequest": "2025-06-24T08:10:45.000Z",
+        "firstGdprResponse": "2025-07-17T11:52:46.000Z",
+        "last": "2025-07-17T11:52:46.000Z"
+      },
+      "counts": {
+        "total": 6,
+        "sent": 3,
+        "received": {
+          "automated": 0,
+          "manual": 3,
+          "total": 3
+        }
+      }
+    }
+  },
+  "emails": [
+    {
+      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on hind.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "info@hind.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-16T19:18:33.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 193225
+        }
+      ]
+    },
+    {
+      "id": "2025-03-20T12-13-from-info-hind-ee",
+      "type": "email",
+      "subject": "Re: User email address enumeration vulnerability on hind.ee",
+      "from": {
+        "address": "info@hind.ee",
+        "name": "Hind.ee"
+      },
+      "to": [
+        {
+          "address": "gregor.eesmaa@ut.ee",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-20T12:13:43.000Z",
+      "bodyHtml": "<div dir=\"ltr\">Hello,<div><br></div><div>Thank you very much for your observations and recommendations.&nbsp;</div><div>We will take your information into account and implement the necessary system changes as soon as possible.</div><div><p>Best regards,<br>Andrius | Hind.ee</p></div></div><br>",
+      "hiddenReasons": [],
+      "attachments": []
+    },
+    {
+      "id": "2025-05-18T14-37-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "Re: User email address enumeration vulnerability on hind.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "info@hind.ee",
+          "name": "Hind.ee"
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-18T14:37:05.000Z",
+      "bodyHtml": "<pre><div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">Hello,<br><br>We have conducted a follow-up reassessment of the service, and we appreciate your commitment to <br>improving the security of your service. However, we also found that the account enumeration <br>vulnerability is still not fully mitigated.<br><br>The attached updated report provides an overview of the remaining concerns and is intended to guide <br>further corrective actions.<br><br>Best regards,<br>Gregor Eesmaa<br>Computer Science MSc student<br>University of Tartu, Institute of Computer Science</div></pre>\n<div id=\"appendonsend\"></div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 220233
+        }
+      ]
+    },
+    {
+      "id": "2025-06-04T10-18-from-info-hind-ee",
+      "type": "email",
+      "subject": "Re: User email address enumeration vulnerability on hind.ee",
+      "from": {
+        "address": "info@hind.ee",
+        "name": "Hind.ee"
+      },
+      "to": [
+        {
+          "address": "gregor.eesmaa@ut.ee",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-04T10:18:19.000Z",
+      "bodyHtml": "<div dir=\"ltr\">Hello,<div><br></div><div>We have considered your feedback and made the changes that our system allows.&nbsp;</div><div>Since we use the same system in multiple countries implementing changes is not straightforward.</div><div><p>Best regards,<br>Andrius | Hind.ee</p></div></div><br>",
+      "hiddenReasons": [],
+      "attachments": []
+    },
+    {
+      "id": "2025-06-24T08-10-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "IKÜM taotlus seoses isikuandmete töötlemisega teenuses hind.ee / GDPR Request Regarding Processing of Personal Data on hind.ee",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "info@hind.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-24T08:10:45.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Lugupeetud hind.ee vastutav andmetöötleja\n\nPöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses hind.ee, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.\n\nManuses on ametlik taotlus (samuti digiallkirjastatud kujul), milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).\n\nPalun teavitage taotluse kättesaamisest.\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of hind.ee,\n\nI am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by hind.ee, potentially leading to its disclosure to unauthorised parties without a clear legal basis.\n\nPlease find attached a formal application (also in digitally signed form) exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).\n\nPlease confirm receipt of this request.\n\nKind regards,\nGregor Eesmaa\n</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "taotlus-request.asice",
+          "contentType": "application/vnd.etsi.asic-e+zip",
+          "size": 228675,
+          "contentPath": "content-taotlus-request-asice",
+          "contents": [
+            {
+              "filename": "taotlus-request.pdf",
+              "contentType": "application/pdf",
+              "size": 65436
+            },
+            {
+              "filename": "vulnerability-reassessment-report.pdf",
+              "contentType": "application/pdf",
+              "size": 165840
+            }
+          ]
+        },
+        {
+          "filename": "taotlus-request.pdf",
+          "contentType": "application/pdf",
+          "size": 65436
+        },
+        {
+          "filename": "vulnerability-reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 165840
+        }
+      ]
+    },
+    {
+      "id": "2025-07-17T11-52-from-info-hind-ee",
+      "type": "email",
+      "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses hind.ee / GDPR Request Regarding Processing of Personal Data on hind.ee",
+      "from": {
+        "address": "info@hind.ee",
+        "name": "Hind.ee"
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-07-17T11:52:46.000Z",
+      "bodyHtml": "<div dir=\"ltr\">Hello,<br><br>Thank you for your message.<br><br>We have implemented the changes we reasonably could. Similar registration behavior is common among many other service providers.<br><br>Kind regards,<br>Hind.ee</div><br>",
+      "hiddenReasons": [],
+      "attachments": []
+    }
+  ]
+}

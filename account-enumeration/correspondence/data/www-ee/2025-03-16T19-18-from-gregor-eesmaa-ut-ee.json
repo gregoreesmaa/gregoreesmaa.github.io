@@ -1,0 +1,26 @@
+{
+  "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee",
+  "type": "email",
+  "subject": "User email address enumeration vulnerability on www.ee",
+  "from": {
+    "address": "gregor.eesmaa@ut.ee",
+    "name": "Gregor Eesmaa"
+  },
+  "to": [
+    {
+      "address": "info@www.ee",
+      "name": ""
+    }
+  ],
+  "cc": [],
+  "date": "2025-03-16T19:18:46.000Z",
+  "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+  "hiddenReasons": [],
+  "attachments": [
+    {
+      "filename": "report.pdf",
+      "contentType": "application/pdf",
+      "size": 192416
+    }
+  ]
+}

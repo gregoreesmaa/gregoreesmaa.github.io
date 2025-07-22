@@ -1,0 +1,250 @@
+{
+  "service": {
+    "id": "kv-ee",
+    "name": "kv.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:35.000Z",
+        "firstResponse": "2025-04-21T09:07:20.000Z",
+        "firstGdprRequest": "2025-06-24T08:46:09.000Z",
+        "firstGdprResponse": "2025-07-16T09:06:07.000Z",
+        "last": "2025-07-16T09:06:07.000Z"
+      },
+      "counts": {
+        "total": 8,
+        "sent": 5,
+        "received": {
+          "automated": 0,
+          "manual": 3,
+          "total": 3
+        }
+      }
+    }
+  },
+  "emails": [
+    {
+      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on kv.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "info@kv.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-16T19:18:35.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 170834
+        }
+      ]
+    },
+    {
+      "id": "2025-03-23T10-39-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on kv.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "rainer.nagel@allepal.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-23T10:39:13.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 170884
+        }
+      ]
+    },
+    {
+      "id": "2025-04-21T09-07-from-privaatsus-euronics-ee",
+      "type": "email",
+      "subject": "RE: User email address enumeration vulnerability on euronics.ee",
+      "from": {
+        "address": "privaatsus@euronics.ee",
+        "name": "Euronicsi privaatsus"
+      },
+      "to": [
+        {
+          "address": "gregor.eesmaa@ut.ee",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-04-21T09:07:20.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello Gregor,\n\nThank you for the information you provided about the vulnerabilities.\n\nSome fixes have already been implemented as of today, and a few more changes are planned in the near future by our development team.\n\nOnce again, thank you for bringing this to our attention.\n\nBest regards,\n\n\n\nAndrei Fjodorov\nAntista AS\nKliendilahenduste ja kvaliteedijuht\nLaki põik 6\n\n12918 Tallinn\nT +372&nbsp;640 6400\nwww.euronics.ee</div>",
+      "hiddenReasons": [],
+      "attachments": []
+    },
+    {
+      "id": "2025-05-18T14-32-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "Re: User email address enumeration vulnerability on euronics.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "privaatsus@euronics.ee",
+          "name": "Euronicsi privaatsus"
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-18T14:32:19.000Z",
+      "bodyHtml": "<pre><div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">Hello,<br><br>We have conducted a follow-up reassessment of the service, and we appreciate your commitment to <br>improving the security of your service. However, we also found that the account enumeration <br>vulnerability is still not fully mitigated.<br><br>The attached updated report provides an overview of the remaining concerns and is intended to guide <br>further corrective actions.<br><br>Best regards,<br>Gregor Eesmaa<br>Computer Science MSc student<br>University of Tartu, Institute of Computer Science</div></pre>\n<div id=\"appendonsend\"></div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 448197
+        }
+      ]
+    },
+    {
+      "id": "2025-05-18T14-40-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "Re: User email address enumeration vulnerability on kv.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "rainer.nagel@allepal.ee",
+          "name": ""
+        }
+      ],
+      "cc": [
+        {
+          "address": "info@kv.ee",
+          "name": ""
+        }
+      ],
+      "date": "2025-05-18T14:40:06.000Z",
+      "bodyHtml": "<pre><div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">Hello,<br><br>We have conducted a follow-up reassessment of the service, and we appreciate your commitment to <br>improving the security of your service. However, we also found that the account enumeration <br>vulnerability is still not fully mitigated.<br><br>The attached updated report provides an overview of the remaining concerns and is intended to guide <br>further corrective actions.<br><br>Best regards,<br>Gregor Eesmaa<br>Computer Science MSc student<br>University of Tartu, Institute of Computer Science</div></pre>\n<div id=\"appendonsend\"></div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 314079
+        }
+      ]
+    },
+    {
+      "id": "2025-05-27T07-52-from-rainer-nagel-allepal-ee",
+      "type": "email",
+      "subject": "Re: User email address enumeration vulnerability on kv.ee",
+      "from": {
+        "address": "rainer.nagel@allepal.ee",
+        "name": "Rainer Nagel"
+      },
+      "to": [
+        {
+          "address": "gregor.eesmaa@ut.ee",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [
+        {
+          "address": "info@kv.ee",
+          "name": ""
+        }
+      ],
+      "date": "2025-05-27T07:52:35.000Z",
+      "bodyHtml": "<div dir=\"ltr\"><div>Thank you for the feedback.. We use captcha as the last straw to prevent bots, because it also scares away some real users. So our business side prefers to use firewalls and third party service providers to filter our traffic and block suspicious attempts which seem&nbsp;to be automated attacks.. But yes, this different approach on registering form was not intentional- we will refactor this logic again, thanks for bringing it up in the post-test.</div><div><br></div><div><div dir=\"ltr\" class=\"gmail_signature\" data-smartmail=\"gmail_signature\"><div dir=\"ltr\">Regards<br><div>Rainer Nagel</div><div>AllePal OÜ</div><div>+3725146540<br></div></div></div></div><br></div><br>",
+      "hiddenReasons": [],
+      "attachments": []
+    },
+    {
+      "id": "2025-06-24T08-46-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "IKÜM taotlus seoses isikuandmete töötlemisega teenuses kv.ee / GDPR Request Regarding Processing of Personal Data on kv.ee",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "info@kv.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-24T08:46:09.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Lugupeetud kv.ee vastutav andmetöötleja\n\nPöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses kv.ee, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.\n\nManuses on ametlik taotlus (samuti digiallkirjastatud kujul), milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).\n\nPalun teavitage taotluse kättesaamisest.\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of kv.ee,\n\nI am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by kv.ee, potentially leading to its disclosure to unauthorised parties without a clear legal basis.\n\nPlease find attached a formal application (also in digitally signed form) exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).\n\nPlease confirm receipt of this request.\n\nKind regards,\nGregor Eesmaa\n</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "taotlus-request.asice",
+          "contentType": "application/vnd.etsi.asic-e+zip",
+          "size": 359772,
+          "contentPath": "content-taotlus-request-asice",
+          "contents": [
+            {
+              "filename": "taotlus-request.pdf",
+              "contentType": "application/pdf",
+              "size": 65059
+            },
+            {
+              "filename": "vulnerability-reassessment-report.pdf",
+              "contentType": "application/pdf",
+              "size": 312887
+            }
+          ]
+        },
+        {
+          "filename": "taotlus-request.pdf",
+          "contentType": "application/pdf",
+          "size": 65059
+        },
+        {
+          "filename": "vulnerability-reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 312887
+        }
+      ]
+    },
+    {
+      "id": "2025-07-16T09-06-from-tatjana-sychev-allepal-ee",
+      "type": "email",
+      "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses kv.ee / GDPR Request Regarding Processing of Personal Data on kv.ee",
+      "from": {
+        "address": "tatjana.sychev@allepal.ee",
+        "name": "Tatjana Sõtšev"
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-07-16T09:06:07.000Z",
+      "bodyHtml": "<div dir=\"ltr\"><div dir=\"ltr\"><div>Tere Gregor</div><div><br></div><div>Tänan Teid pöördumise eest.</div><div>Olen seisukohal, et <a href=\"http://kv.ee\">kv.ee</a> hetke süsteemi toimimine ei ole turvarisk ja ei riku isikuandmete töötlemise põhimõteid. Hetkeseisuga ei ole plaanis täiendavaid muudatusi süsteemis teha kui Andmekaitseinspektsioon just ei teata, et see on hädavajalik. Kui tunnete, et Teie kui andmesubjekti õigusi on rikutud saate pöörduda AKI poole vastava avaldusega.</div><div>Isikuandmete töötlemise korraga saate tutvuda siin <a href=\"https://www.kv.ee/andmekaitsetingimused\">https://www.kv.ee/andmekaitsetingimused</a></div><div><br></div><div>Lugupidamisega</div><div><br></div><div><div dir=\"ltr\" class=\"gmail_signature\"><div dir=\"ltr\"><span style=\"color:rgb(136,136,136)\">Tatjana Sõtšev</span><div style=\"color:rgb(136,136,136)\"><div>Menetlusspetsialist/Andmekaitsespetsialist</div><div>AllePal OÜ<br></div></div></div></div></div><br></div></div>",
+      "hiddenReasons": [],
+      "attachments": []
+    }
+  ]
+}

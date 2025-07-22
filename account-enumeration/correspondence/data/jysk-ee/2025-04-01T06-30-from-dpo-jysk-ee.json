@@ -1,0 +1,20 @@
+{
+  "id": "2025-04-01T06-30-from-dpo-jysk-ee",
+  "type": "email",
+  "subject": "FW: [JYSK Baltic ] Re: FW: User email address enumeration vulnerability on jysk.ee",
+  "from": {
+    "address": "dpo@jysk.ee",
+    "name": "DPO JYSK Estonia"
+  },
+  "to": [
+    {
+      "address": "gregor.eesmaa@ut.ee",
+      "name": ""
+    }
+  ],
+  "cc": [],
+  "date": "2025-04-01T06:30:56.000Z",
+  "bodyHtml": "<div class=\"WordSection1\">\n<div>\n<div>\n<div style=\"margin-top:18.75pt\">\n<p class=\"MsoNormal\" style=\"line-height:13.5pt\"><span lang=\"EN-GB\" style=\"font-size:11.0pt;font-family:&quot;Times New Roman&quot;,serif\">Dear Gregor, I confirm the receipt of your email. Thank you for providing the vulnerability report. I forwarded it to our IT department;\n they will look deeper into this. <o:p></o:p></span></p>\n\n<p class=\"MsoNormal\" style=\"line-height:13.5pt\"><span lang=\"EN-GB\" style=\"font-size:11.0pt;font-family:&quot;Times New Roman&quot;,serif\">Kind regards,\n<o:p></o:p></span></p>\n<p class=\"MsoNormal\" style=\"line-height:13.5pt\"><span lang=\"EN-GB\" style=\"font-size:11.0pt;font-family:&quot;Times New Roman&quot;,serif\">DPO JYSK Estonia<o:p></o:p></span></p>\n\n\n<table class=\"MsoNormalTable\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width:100.0%;border-collapse:collapse\">\n<tbody>\n<tr>\n<td width=\"100%\" style=\"width:100.0%;border:none;border-top:dotted #C5C5C5 1.0pt;padding:11.25pt 0cm 11.25pt 0cm\">\n<table class=\"MsoNormalTable\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width:100.0%;border-collapse:collapse\">\n<tbody>\n<tr>\n<td width=\"100%\" valign=\"top\" style=\"width:100.0%;padding:0cm 0cm 0cm 0cm\">\n\n<div style=\"margin-top:11.25pt;margin-bottom:11.25pt\">\n<p style=\"mso-margin-top-alt:11.25pt;margin-right:0cm;margin-bottom:11.25pt;margin-left:0cm;line-height:16.5pt\">\n</p>\n\n\n\n\n\n\n</div>\n\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n\n</div>\n\n</div>\n</div>",
+  "hiddenReasons": [],
+  "attachments": []
+}

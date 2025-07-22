@@ -1,0 +1,176 @@
+{
+  "service": {
+    "id": "piletilevi-ee",
+    "name": "piletilevi.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:39.000Z",
+        "firstResponse": "2025-06-30T10:34:18.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:50.000Z",
+        "firstGdprResponse": "2025-06-30T10:34:18.000Z",
+        "last": "2025-06-30T10:34:18.000Z"
+      },
+      "counts": {
+        "total": 5,
+        "sent": 4,
+        "received": {
+          "automated": 0,
+          "manual": 1,
+          "total": 1
+        }
+      }
+    }
+  },
+  "emails": [
+    {
+      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on piletilevi.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "mart@piletilevi.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-16T19:18:39.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 620037
+        }
+      ]
+    },
+    {
+      "id": "2025-03-23T10-39-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on piletilevi.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "info@piletilevi.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-23T10:39:18.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 620218
+        }
+      ]
+    },
+    {
+      "id": "2025-05-31T12-41-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "IKÜM taotlus seoses isikuandmete töötlemisega teenuses piletilevi.ee / GDPR Request Regarding Processing of Personal Data on piletilevi.ee",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "mart@piletilevi.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-31T12:41:50.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Lugupeetud piletilevi.ee vastutav andmetöötleja\n\nPöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses piletilevi.ee, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.\n\nManuses on ametlik taotlus, milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).\n\nPalun teavitage taotluse kättesaamisest.\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of piletilevi.ee,\n\nI am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by piletilevi.ee, potentially leading to its disclosure to unauthorised parties without a clear legal basis.\n\nPlease find attached a formal application exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).\n\nPlease confirm receipt of this request.\n\nKind regards,\nGregor Eesmaa\n</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "taotlus-request.asice",
+          "contentType": "application/vnd.etsi.asic-e+zip",
+          "size": 442709,
+          "contentPath": "content-taotlus-request-asice",
+          "contents": [
+            {
+              "filename": "taotlus-request.pdf",
+              "contentType": "application/pdf",
+              "size": 65357
+            },
+            {
+              "filename": "vulnerability-reassessment-report.pdf",
+              "contentType": "application/pdf",
+              "size": 388856
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2025-05-31T18-54-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses piletilevi.ee / GDPR Request Regarding Processing of Personal Data on piletilevi.ee",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "mart@piletilevi.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-31T18:54:35.000Z",
+      "bodyHtml": "<div dir=\"ltr\">Saadan igaks juhuks ka eraldi taotluse ja aruande PDFid, mis asusid eelmise meili manuses digiallkirjastatud konteineris.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>Just in case, providing also the request and the report PDF files, that were in the digitally signed container attached to the previous email.<br><br>Kind regards,<br>Gregor Eesmaa</div><br>",
+      "hiddenReasons": [
+        "providing-container-contents"
+      ],
+      "attachments": [
+        {
+          "filename": "taotlus-request.pdf",
+          "contentType": "application/pdf",
+          "size": 65357
+        },
+        {
+          "filename": "vulnerability-reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 388856
+        }
+      ]
+    },
+    {
+      "id": "2025-06-30T10-34-from-hanna-piletilevi-ee",
+      "type": "email",
+      "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses piletilevi.ee / GDPR Request Regarding Processing of Personal Data on piletilevi.ee",
+      "from": {
+        "address": "hanna@piletilevi.ee",
+        "name": "Hanna Jõgis"
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": ""
+        }
+      ],
+      "cc": [
+        {
+          "address": "mart@piletilevi.ee",
+          "name": "Mart Eensalu"
+        }
+      ],
+      "date": "2025-06-30T10:34:18.000Z",
+      "bodyHtml": "<div class=\"WordSection1\">\n<p class=\"MsoNormal\"><span lang=\"FI\" style=\"font-size:12.0pt;color:#212121\">Lugupeetud hr Eesmaa,</span><span style=\"color:#212121\"><o:p></o:p></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"FI\" style=\"font-size:12.0pt;color:#212121\">Täname teid 31. mai 2025. a kuupäevaga esitatud pöördumise eest, mis käsitleb teie isikuandmete töötlemist&nbsp;piletilevi.ee&nbsp;teenuses ning viitab võimalikule kontode loendamise turvanõrkusele.</span><span style=\"color:#212121\"><o:p></o:p></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"FI\" style=\"font-size:12.0pt;color:#212121\">Allpool esitame oma seisukoha ning vastuse teie andmesubjekti õigustel põhinevatele taotlustele GDPR artiklite 15, 18 ja 21 alusel.</span><span style=\"color:#212121\"><o:p></o:p></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"FI\" style=\"font-size:12.0pt;color:#212121\">Piletilevi oma senises praktikas ei ole käsitlenud e-posti aadressi üksinda isikuandmena (PII). Meie lähenemine on olnud kooskõlas laialdase tõlgendusega, mille kohaselt on e-posti\n aadress isikuandmetena käsitletav juhul, kui see võimaldab tuvastada konkreetset füüsilist isikut — näiteks juhul, kui aadress sisaldab isikukoodi või täisnime.</span><span style=\"color:#212121\"><o:p></o:p></span></p>\n<p class=\"MsoNormal\"><span lang=\"FI\" style=\"font-size:12.0pt;color:#212121\">Antud juhul ei hinnanud me konto olemasolu kaudset kinnitamist e-posti alusel kui andmeleket ega ebaseaduslikku töötlemist, kuna me ei omanud alust eeldada, et pelgalt aadressi olemasolu\n kinnitamine kujutab endast isiku tuvastamist.</span><span style=\"color:#212121\"><o:p></o:p></span></p>\n<p class=\"MsoNormal\"><span lang=\"FI\" style=\"font-size:12.0pt;color:#212121\">Samuti oleme arvestanud, et kasutajad võivad vabalt luua oma kontosid isikustamata e-posti aadressidega, ning seetõttu ei olnud meie hinnangul tegemist isikuandmete avaldamisega GDPR-i\n mõistes.</span><span style=\"color:#212121\"><o:p></o:p></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"FI\" style=\"font-size:12.0pt;color:#212121\">Samas, mõistame, et teie kui andmesubjekti hinnangul võib pelgalt konto olemasolu kinnitamine e-posti aadressi alusel moodustada isikuandmete töötlemise.</span><span style=\"color:#212121\"><o:p></o:p></span></p>\n<p class=\"MsoNormal\"><span style=\"font-size:12.0pt;color:#212121\">Seetõttu kinnitame, et:</span><span style=\"color:#212121\"><o:p></o:p></span></p>\n<ul style=\"margin-top:0cm\" type=\"disc\">\n<li class=\"MsoNormal\" style=\"color:#212121;mso-list:l1 level1 lfo1\"><span style=\"font-size:12.0pt\">Tegeleme hetkel võimalike muudatustega, et ühtlustada süsteemide vastuseid nii olemasolevatele kui mitteeksisteerivatele kontodele;</span><o:p></o:p></li><li class=\"MsoNormal\" style=\"color:#212121;mso-list:l1 level1 lfo1\"><span style=\"font-size:12.0pt\">Vaatame üle võimalused visuaalsete või tehniliste erinevuste kõrvaldamiseks, mis võiksid lubada konto olemasolu tuvastamist;</span><o:p></o:p></li><li class=\"MsoNormal\" style=\"color:#212121;mso-list:l1 level1 lfo1\"><span style=\"font-size:12.0pt\">Arutame CAPTCHA või muude meetmete rakendamist, mis vähendaksid automatiseeritud päringute riski;</span><o:p></o:p></li><li class=\"MsoNormal\" style=\"color:#212121;mso-list:l1 level1 lfo1\"><span style=\"font-size:12.0pt\">Hindame uuesti oma õigustatud huvi vastavust andmesubjektide õigustele ja ootustele.</span><o:p></o:p></li></ul>\n\n<p class=\"MsoNormal\"><span style=\"font-size:12.0pt;color:#212121\">Tuginedes antud olukorrale soovitame kasutajatel:</span><span style=\"color:#212121\"><o:p></o:p></span></p>\n<ul style=\"margin-top:0cm\" type=\"disc\">\n<li class=\"MsoNormal\" style=\"color:#212121;mso-list:l2 level1 lfo2\"><span style=\"font-size:12.0pt\">vältida isikut üheselt identifitseerivaid e-posti aadresse, nt isikukoodi või täisnimega aadresse;</span><o:p></o:p></li><li class=\"MsoNormal\" style=\"color:#212121;mso-list:l2 level1 lfo2\"><span style=\"font-size:12.0pt\">eelistada neutraalseid või pseudonüümseid aadresse, juhul kui soovitakse maksimeerida oma privaatsust.</span><o:p></o:p></li></ul>\n<p class=\"MsoNormal\"><span style=\"font-size:12.0pt;color:#212121\">See soovitus lähtub praktikas rakendatavatest privaatsuse tugevdamise põhimõtetest ning aitab vähendada isikuandmete juhuslikku avaldumist erinevates veebiteenustes.</span><span style=\"color:#212121\"><o:p></o:p></span></p>\n\n<p class=\"MsoNormal\"><span style=\"font-size:12.0pt;color:#212121\">Nagu GDPR artikkel 12(3) ette näeb, käsitleme teie pöördumist ametliku taotlusena. Edasised tegevused:</span><span style=\"color:#212121\"><o:p></o:p></span></p>\n<ul style=\"margin-top:0cm\" type=\"disc\">\n<li class=\"MsoNormal\" style=\"color:#212121;mso-list:l0 level1 lfo3\"><span lang=\"FI\" style=\"font-size:12.0pt\">Hinnangu ja parandusplaani koostamine;</span><o:p></o:p></li><li class=\"MsoNormal\" style=\"color:#212121;mso-list:l0 level1 lfo3\"><span lang=\"FI\" style=\"font-size:12.0pt\">Teie vastuväite ja piirangutaotluse registreerimine meie andmekaitsehaldusprotsessis.</span><o:p></o:p></li></ul>\n\n<p class=\"MsoNormal\"><span lang=\"FI\" style=\"font-size:12.0pt;color:#212121\">Täname teid konstruktiivse tagasiside ja teadliku turvanõrkuse teavituse eest. Kuigi meie senine praktika ei pidanud pelgalt e-posti aadressi isikuandmeteks, mõistame teie muret ning\n astume vajalikke samme, et vältida kaudseid andmelekke riske tulevikus.</span><span style=\"color:#212121\"><o:p></o:p></span></p>\n\n\n<div>\n<p class=\"MsoNormal\"><b><span lang=\"EN-US\" style=\"font-size:11.0pt;color:#413357\">Hanna Jõgis</span></b><span style=\"color:#212121\"><o:p></o:p></span></p>\n<p class=\"MsoNormal\"><span lang=\"EN-US\" style=\"font-size:11.0pt;color:#413357\">kliendisuhete ja teenuse kvaliteedi juht</span><span style=\"color:#212121\"><o:p></o:p></span></p>\n<p class=\"MsoNormal\"><span lang=\"EN-US\" style=\"font-size:11.0pt;color:#413357\">AS Piletilevi PLG</span><span style=\"color:#212121\"><o:p></o:p></span></p>\n\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt;color:#413357\">+ 372 </span><span lang=\"ET\" style=\"font-size:11.0pt;color:#413357\">5345 8505</span><span lang=\"ET\" style=\"color:#212121\"><o:p></o:p></span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom:12.0pt\"><span lang=\"ET\" style=\"font-size:11.0pt;color:#413357\"><a href=\"mailto:hanna@piletilevi.\"><span style=\"color:#413357;text-decoration:none\">hanna@piletilevi.</span></a>ee</span><span style=\"font-size:11.0pt;color:#413357\"><br>\n</span><span lang=\"ET\" style=\"font-size:11.0pt;color:#413357\"><a href=\"https://korraldaja.piletilevi.ee/\"><span style=\"color:#467886\">https://korraldaja.piletilevi.ee/</span></a></span><span lang=\"ET\" style=\"color:#212121\"><o:p></o:p></span></p>\n\n<table class=\"MsoNormalTable\" border=\"0\" cellspacing=\"3\" cellpadding=\"0\" width=\"600\" style=\"width:450.0pt\">\n<tbody>\n<tr>\n<td style=\"padding:.75pt .75pt .75pt .75pt\">\n<p class=\"MsoNormal\"><span style=\"font-size:7.5pt;color:#403257\">Käesolev e-kiri (k.a. selle võimalikud manused) sisaldab konfidentsiaalset informatsiooni, mille levitamine ega avalikustamine ilma saatja nõusolekuta ei ole lubatud. Kui Te olete selle e-kirja\n saanud eksituse läbi, palun kustutage see e-kiri ja kõik manused ning ärge levitage seda, ärge kasutage seda ja ärge avaldage selle sisu.</span><span style=\"color:#212121\"><o:p></o:p></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n\n</div>\n\n\n\n</div>",
+      "hiddenReasons": [],
+      "attachments": []
+    }
+  ]
+}

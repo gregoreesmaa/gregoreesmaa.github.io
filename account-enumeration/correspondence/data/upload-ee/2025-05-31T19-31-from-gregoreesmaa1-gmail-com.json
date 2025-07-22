@@ -1,0 +1,20 @@
+{
+  "id": "2025-05-31T19-31-from-gregoreesmaa1-gmail-com",
+  "type": "email",
+  "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses upload.ee / GDPR Request Regarding Processing of Personal Data on upload.ee",
+  "from": {
+    "address": "gregoreesmaa1@gmail.com",
+    "name": "Gregor Eesmaa"
+  },
+  "to": [
+    {
+      "address": "info@upload.ee",
+      "name": "Upload Team"
+    }
+  ],
+  "cc": [],
+  "date": "2025-05-31T19:31:58.000Z",
+  "bodyHtml": "<div dir=\"ltr\">Tere!<div><br></div><div>Tänan kiire vastuse eest!&nbsp;</div><div><div><br></div><div>Kahjuks ei lahenda probleemi&nbsp;ähmasemad veateated – võrreldes teavitust registreeritud ja registreerimata meiliaadresside korral on endiselt võimalik tuvastada kasutaja olemasolu. Nagu ka aruandes täpsustatud, peaksid <b>nii teavitus kui ka serveri vastus olema mõlemal juhul identsed</b>. Seda on võimalik saavutada näiteks teavitusega \"täpsemad juhised on saadetud meilile\" ning saates igal juhul meili, milles saab olukorda juba täpsemalt selgitada – näiteks registreerumisel kas siis, et kasutaja loomine õnnestus või et kasutaja on juba olemas.</div></div><div><br></div><div>Kui leiate, et tegu on ebamõistliku taotlusega, ning et veebileht toimib vastavalt IKÜM&nbsp;sätestatule, palun viidake andmete sellise töötlemise seaduslik alus vastavalt IKÜM&nbsp;artiklist 6(1).</div><div><br></div><div>Kõike paremat</div><div><br></div><div><i>PS. <a href=\"http://upload.ee\">upload.ee</a> on <a href=\"https://tranco-list.eu/\">Tranco listi</a> alusel võrdlemisi populaarne .ee veebileht. Näiteid muudest populaarsetest lehtedest, mille samalaadne funktsionaalsus toimib viisil, mis kasutaja olemasolu meiliaadressi järgi selleks volitamata isikule ei avalda: <a href=\"http://inforegister.ee\">inforegister.ee</a>, <a href=\"http://kuldnebors.ee\">kuldnebors.ee</a>, <a href=\"http://opiq.ee\">opiq.ee</a>, <a href=\"http://soov.ee\">soov.ee</a></i></div><div><br></div><div>--</div><div><br></div><div>Hello!</div><div><br></div><div>Thank you for the quick response!</div><div><br></div><div>Unfortunately, the problem is not solved by more vague error messages – comparing the message of registered and unregistered email addresses, it is still possible to determine account existence. As detailed in the report, <b>both the messaging and the server response should be identical in both situations</b>. That is possible to achieve, for example, by message \"further instructions have been sent to the email\" and always sending an email that could explain the situation – for example during registration, whether the account creation succeeded or that the account already exists.</div><div><br></div><div>Should you find this request unreasonable, and that the website is compliant with the GDPR, please cite the lawful basis for such processing from under the GDPR Article 6(1).</div><div><br></div><div>Best wishes</div><div><br></div><div><i>PS. <a href=\"http://upload.ee\">upload.ee</a> is quite&nbsp;a popular .ee website according to&nbsp;<a href=\"https://tranco-list.eu/\">Tranco list</a>. Some examples of other popular websites, whose equivalent functionality works in a way that does not reveal account existence by email to unauthorised parties: <a href=\"http://inforegister.ee\">inforegister.ee</a>, <a href=\"http://kuldnebors.ee\">kuldnebors.ee</a>, <a href=\"http://opiq.ee\">opiq.ee</a>, <a href=\"http://soov.ee\">soov.ee</a>.</i></div></div><br>",
+  "hiddenReasons": [],
+  "attachments": []
+}

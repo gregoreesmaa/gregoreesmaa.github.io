@@ -1,0 +1,20 @@
+{
+  "id": "2025-06-21T18-54-from-gregoreesmaa1-gmail-com",
+  "type": "email",
+  "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses nami-nami.ee / GDPR Request Regarding Processing of Personal Data on nami-nami.ee",
+  "from": {
+    "address": "gregoreesmaa1@gmail.com",
+    "name": "Gregor Eesmaa"
+  },
+  "to": [
+    {
+      "address": "petersoo@yahoo.com",
+      "name": "Pille Petersoo"
+    }
+  ],
+  "cc": [],
+  "date": "2025-06-21T18:54:51.000Z",
+  "bodyHtml": "<div dir=\"ltr\">Tere!<div><br></div><div>Kinnitan, et tänase seisuga (2025-06-21) enam kasutajakontode loendamise turvanõrkust (<i>account enumeration vulnerability</i>) veebilehelt ei tuvastanud.</div><div><br></div><div>Tänan tähelepanu ja tegude eest turvanõrkuse parandamisel!</div><div><br></div><div>Kõike paremat</div></div><br>",
+  "hiddenReasons": [],
+  "attachments": []
+}

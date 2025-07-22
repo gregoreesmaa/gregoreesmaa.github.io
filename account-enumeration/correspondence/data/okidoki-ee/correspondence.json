@@ -1,0 +1,207 @@
+{
+  "service": {
+    "id": "okidoki-ee",
+    "name": "okidoki.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:40.000Z",
+        "firstResponse": "2025-03-18T07:46:52.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:51.000Z",
+        "firstGdprResponse": "2025-06-02T09:15:17.000Z",
+        "last": "2025-06-26T07:32:20.000Z"
+      },
+      "counts": {
+        "total": 7,
+        "sent": 3,
+        "received": {
+          "automated": 1,
+          "manual": 3,
+          "total": 4
+        }
+      }
+    }
+  },
+  "emails": [
+    {
+      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on okidoki.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "klienditugi@okidoki.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-16T19:18:40.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 268095
+        }
+      ]
+    },
+    {
+      "id": "2025-03-16T19-18-from-klienditugi-okidoki-ee",
+      "type": "email",
+      "subject": "Teie kiri on kätte saanud",
+      "from": {
+        "address": "klienditugi@okidoki.ee",
+        "name": "okidoki"
+      },
+      "to": [
+        {
+          "address": "gregor.eesmaa@ut.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-16T19:18:53.000Z",
+      "bodyHtml": "Tere,<br>\n<br>\nTäname, et võtsite ühendust oki<em>doki</em> klienditoega.<br>\n<br>\nOleme teie pöördumise kätte saanud ja vaatame selle lähemal ajal läbi. <br>\nSoovitame tutvuda kasuliku informatsiooniga <a href=\"https://help.okidoki.ee/\">meie veebilehel</a>.  <br>\nVõimalik, et vastust teie küsimusele on seal olemas. <br>\n<br>\nKirjadele vastatakse saabumise järjekorras. Palume teil oma päringuid topelt mitte saata, see võib pikendada vastamise aega.<br>\n<br>\nTeenindame kliente e-posti teel, tööpäeviti 9.00 - 17.00.<br>\n<br>\n<br>\nLugupidamisega,<br>\noki<em>doki</em><br>\n<br>\n+++++++++++<br>\n<br>\nЗдравствуйте!<br>\n<br>\nБлагодарим за обращение в службу поддержки oki<em>doki</em>.<br>\n<br>\nМы получили ваш запрос и он будет рассмотрен в ближайшее время.<br>\nПросим вас ознакомиться с полезной информацией на нашей <a href=\"https://help.okidoki.ee/\">странице помощи</a>. <br>\nВозможно, там уже есть ответ на ваш вопрос.<br>\n<br>\nНа письма отвечают по мере поступления, в порядке очереди.<br>\nПожалуйста, не дублируйте ваш запрос, это увеличит время ответа.<br>\n<br>\nОбслуживание запросов производится исключительно с помощью электронной почты, по рабочим дням с 9.00 до 17.00.<br>\n<br>\nС уважением,<br>\noki<em>doki</em><br>\n<br>\n\t<span style=\"color: #9e9e9e; padding-top: 10px; border-top: 1px solid #eeeeee; font-size: 12px;\">Если вы получили это письмо по ошибке, просто проигнорируйте его.</span><br><img src=\"https://help.okidoki.com/tp_message/lCDHJ2VFDx+yonQn3juMJ8mAwRrpDgUbY00jXzI=\" alt=\"\" width=\"1\" height=\"1\" border=\"0\" style=\"height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;\">",
+      "hiddenReasons": [
+        "automated-reply"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "2025-03-18T07-46-from-klienditugi-okidoki-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on okidoki.ee",
+      "from": {
+        "address": "klienditugi@okidoki.ee",
+        "name": "Jana Lipponen"
+      },
+      "to": [
+        {
+          "address": "gregor.eesmaa@ut.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-18T07:46:52.000Z",
+      "bodyHtml": "<div style=\"max-width: 600px; line-height: 18px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color:#000000;\" id=\"staff_response\">\n        <p>\n                    Hello,<br>\n<br>\nThank you for reaching out and for your responsible disclosure. We appreciate your research and the effort put into this report.<br>\n<br>\nWe confirm receipt of your report and will review the findings internally. Our team will assess the necessary steps and consider implementing security improvements in accordance with best practices.<br>\n<br>\nBest regards,<br>\nSupport service\n                                    \n            </p>\n    \n    \n    \n</div>\n  <img src=\"https://help.okidoki.com/tp_message/lCDHJ2VFDx+yonl12DmMIM6GyXaBDgYZZk8rXw==\" alt=\"\" width=\"1\" height=\"1\" border=\"0\" style=\"height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;\">",
+      "hiddenReasons": [],
+      "attachments": []
+    },
+    {
+      "id": "2025-05-31T12-41-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "IKÜM taotlus seoses isikuandmete töötlemisega teenuses okidoki.ee / GDPR Request Regarding Processing of Personal Data on okidoki.ee",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "klienditugi@okidoki.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-31T12:41:51.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Lugupeetud okidoki.ee vastutav andmetöötleja\n\nPöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses okidoki.ee, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.\n\nManuses on ametlik taotlus, milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).\n\nPalun teavitage taotluse kättesaamisest.\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of okidoki.ee,\n\nI am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by okidoki.ee, potentially leading to its disclosure to unauthorised parties without a clear legal basis.\n\nPlease find attached a formal application exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).\n\nPlease confirm receipt of this request.\n\nKind regards,\nGregor Eesmaa\n</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "taotlus-request.asice",
+          "contentType": "application/vnd.etsi.asic-e+zip",
+          "size": 332415,
+          "contentPath": "content-taotlus-request-asice",
+          "contents": [
+            {
+              "filename": "taotlus-request.pdf",
+              "contentType": "application/pdf",
+              "size": 65320
+            },
+            {
+              "filename": "vulnerability-reassessment-report.pdf",
+              "contentType": "application/pdf",
+              "size": 277142
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2025-05-31T18-53-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses okidoki.ee / GDPR Request Regarding Processing of Personal Data on okidoki.ee",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "klienditugi@okidoki.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-31T18:53:40.000Z",
+      "bodyHtml": "<div dir=\"ltr\">Saadan igaks juhuks ka eraldi taotluse ja aruande PDFid, mis asusid eelmise meili manuses digiallkirjastatud konteineris.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>Just in case, providing also the request and the report PDF files, that were in the digitally signed container attached to the previous email.<br><br>Kind regards,<br>Gregor Eesmaa</div><br>",
+      "hiddenReasons": [
+        "providing-container-contents"
+      ],
+      "attachments": [
+        {
+          "filename": "taotlus-request.pdf",
+          "contentType": "application/pdf",
+          "size": 65320
+        },
+        {
+          "filename": "vulnerability-reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 277142
+        }
+      ]
+    },
+    {
+      "id": "2025-06-02T09-15-from-klienditugi-okidoki-ee",
+      "type": "email",
+      "subject": "IKÜM taotlus seoses isikuandmete töötlemisega teenuses okidoki.ee / GDPR Request Regarding Processing of Personal Data on okidoki.ee",
+      "from": {
+        "address": "klienditugi@okidoki.ee",
+        "name": "Jana Lipponen"
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-02T09:15:17.000Z",
+      "bodyHtml": "<div style=\"max-width: 600px; line-height: 18px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color:#000000;\" id=\"staff_response\">\n        <p>\n                    Tere,<br>\n<br>\nTäname Teid kirja eest.<br><br><br>Teie päring on kätte saadud. Vastame seaduses sätestatud tähtaja jooksul.<br>\nLugupidamisega,<br>\nKlienditugi\n                                    \n            </p>\n    \n    \n    \n</div>\n  <img src=\"https://help.okidoki.com/tp_message/lCHJLGZHCB+wonl33TmAIcqDyHaOCQMcY0gjVQ==\" alt=\"\" width=\"1\" height=\"1\" border=\"0\" style=\"height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;\">",
+      "hiddenReasons": [],
+      "attachments": []
+    },
+    {
+      "id": "2025-06-26T07-32-from-klienditugi-okidoki-ee",
+      "type": "email",
+      "subject": "IKÜM taotlus seoses isikuandmete töötlemisega teenuses okidoki.ee / GDPR Request Regarding Processing of Personal Data on okidoki.ee",
+      "from": {
+        "address": "klienditugi@okidoki.ee",
+        "name": "Jana Lipponen"
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-26T07:32:20.000Z",
+      "bodyHtml": "<div style=\"max-width: 600px; line-height: 18px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color:#000000;\" id=\"staff_response\">\n        <p>\n                    Tere,<br>\n<br>\nTäname ootamast.<br>\n<br>\nLugupeetud Gregor Eesmaa,<br>\n<br>\nOleme tutvunud  Teie 17.03.2025. aasta haavatavuste aruandes esitatud järeldustega, ning täname Teid nende teemade meie tähelepanu alla toomise eest. Meie platvormi kasutajate turvalisuse, privaatsuse ja usalduse tagamine on jätkuvalt meie kõrgeim prioriteet ning hindame Teie põhjalikkust nende probleemide esiletoomisel.<br>\n<br>\nMõistame Teie muret, seoses isikuandmete (nt e-posti aadressi) kasutajakontode loendamise rünnakute võimalikkusega. Kõik turvariskid hinnatakse ja kaardistatakse nende tõsiduse põhjal ning rakendatakse sobivaid tehnilisi ja organisatsioonilisi meetmeid, et tagada riskile vastav turvatase.<br>\n<br>\nTe viitasite oma aruandes järgmistele vormidele:<br>\n<br>\n1. parooli lähtestamise vorm<br>\n2. kasutaja registreerimise vorm<br>\n3. e-posti aadressi muutmise vorm<br>\n<br>\nEespool nimetatud punktide hindamise järel oleme koostanud järgmise tööplaani. Punktid 1 ja 3 on suhteliselt lihtsad lahendada ning need on kavas lõpetada juulis 2025. Punkt 2 nõuab aga registreerimisvoo märkimisväärset ümberkujundamist ja mõjutab mitmeid süsteemidevahelisi sõltuvusi. Meeskonna hinnangul võtab see töö aega kolm kuni kuus kuud ning oleme planeerinud selle 2025. aasta neljandasse kvartalisse. Tunnistades tuvastatud riski, rakendame 2025. aasta juulis registreerimisvormile ka ajutise kontrolli – kohandame oma pettustevastast süsteemi nii, et pärast mitut e-posti sisestamist lisatakse päringu teinud IP-aadress halli nimekirja ja kasutajale kuvatakse registreerimisel CAPTCHA. See ei ole lõplik lahendus, kuid takistab oluliselt pahatahtlikul isikul masskontrollide läbiviimist.<br>\n<br>\nUsume, et see plaan käsitleb Teie muresid ning kinnitab meie pühendumust kasutajate turvalisuse ja privaatsuse kaitsele.<br>\n<br>\nArvestame Teie uurimistöös pakutud alternatiivseid sõnastusi, ent ei saa garanteerida, et iga ettepanek ka rakendatakse. Näiteks peame hindama soovimatute e-kirjade saatmisega seotud võimalikke juriidilisi tagajärgi (soovitus peatükis 2.3).<br>\n<br>\nTehniliste meetmete kõrval oleme tugevdanud ka privaatsuse juhtimist. Isikuandmete kaitse üldmäärus (IKÜM) annab andmesubjektidele laia valiku õigusi. Täieliku vastavuse tagamiseks ja nende õiguste selgemaks selgitamiseks uuendasime hiljuti oma privaatsusteatist. Tehniline meeskond viimistleb praegu samme teatise avaldamiseks meie veebisaidil ning see saab peagi kättesaadavaks.<br>\n<br>\nAlljärgnevalt vastame Teie taotluses esitatud küsimustele.<br>\n<br>\n     1. IKÜM art 15 taotlus<br>\n<br>\nVastuseks Teie taotlusele, milles palusite viidata “IKÜM artikli 6 järgi kehtivale õiguslikule alusele, mille alusel töötlete minu (eelnevalt kirjeldatud) andmeid viisil, mis muudab need haavatavaks kasutajakontode loendamisele selleks volitamata isikutele”, selgitame järgmist.<br>\n<br>\nKonto loomisel palume kasutajatel esitada andmed Okidoki kasutajakonto loomiseks ja haldamiseks. Selle töötlemise õiguslik alus on lepingu täitmine (IKÜM art 6 lg 1 p b). Kuigi meie privaatsusteatises ei ole eraldi märgitud teavitusi selle kohta, kas e-posti aadress on juba kasutusel, kuulub see tegevus ikkagi eesmärgi „Okidoki kasutajakonto loomine ja haldamine“ alla. Sõnumite kuvamine kasutajatele, kes kasutavad parooli lähtestamise vormi, kasutaja registreerimise vormi või e-posti aadressi muutmise vormi, on osa laiemast konto taastamise teenusest, mida pakume kasutajatele põhilise teenuse osana. Kuigi sõnumi konkreetne sõnastus võib suurendada kasutajakontode loendamise ründe riski, ei tähenda see, et meil puuduks kehtiv õiguslik alus konto taastamise teenuse osutamiseks.<br>\n<br>\n     2. IKÜM art 18 ja 21 taotlus<br>\n<br>\nVastuväide, mida saab esitada IKÜM-i artikli 21 lõike 1 alusel, on piiratud andmetöötlusega, mis tugineb IKÜM-i artikli 6 lõike 1 punktidele e või f. Kuna kasutajakonto taastamise teenuse pakkumise õiguslik alus on IKÜM-i artikli 6 lõike 1 punkt b, puudub Teil õigus esitada selle andmetöötluse osas vastuväidet.<br>\n<br>\nOlete taotlenud ka oma isikuandmete töötlemise piiramist viisil, mis on haavatav kontode tuvastamise (account enumeration) suhtes, ning väitnud, et vaidlustate selle konkreetse töötlemise seaduslikkuse. Kuna Te ei ole täpsustanud, millisele sättele Teie taotlus tugineb, tõlgendame seda IKÜM-i artikli 18 lõike 1 punktide b ja d alusel esitatuna.<br>\n<br>\nKuna kirjeldatud andmetöötlus tugineb IKÜM-i artikli 6 lõike 1 punktile b, ei ole Teil õigust taotleda töötlemise piiramist IKÜM-i artikli 18 lõike 1 punkt d alusel.<br>\n<br>\nMis puudutab õigust piirata töötlemist IKÜM-i artikli 18 lõike 1 punkt b alusel, on andmetöötlus ebaseaduslik vaid juhul, kui IKÜM-i artikli 6 lõike 1 kohased õiguslikud alused ei kohaldu või enam ei kohaldu. See hõlmab olukordi, kus konkreetne seadus, regulatsioon või haldusakt kuulutab töötlemise ebaseaduslikuks. Kuna konto taastamise teenus põhineb kehtival õiguslikul alusel, puudub Teil õigus taotleda selle andmetöötluse piiramist IKÜM-i artikli 18 lõike 1 punkt b alusel.<br>\n<br>\nNeil põhjustel ei saa me seda konkreetset töötlemist piirata.<br>\n<br>\nSellegipoolest soovime veelkord avaldada siirast tunnustust Teie väärtusliku panuse eest meie platvormi turvalisuse tugevdamisse.<br>\n<br>\nLugupidamisega,<br>\nokidoki\n                                    \n            </p>\n    \n    \n    \n</div>\n  <img src=\"https://help.okidoki.com/tp_message/lCHJLGZHCB+wonl32TODKMqKwXaOCQMcY0gjVQ==\" alt=\"\" width=\"1\" height=\"1\" border=\"0\" style=\"height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;\">",
+      "hiddenReasons": [],
+      "attachments": []
+    }
+  ]
+}

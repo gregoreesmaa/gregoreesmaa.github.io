@@ -1,0 +1,33 @@
+{
+  "id": "2025-05-31T18-45-from-gregoreesmaa1-gmail-com",
+  "type": "email",
+  "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses forum.ee / GDPR Request Regarding Processing of Personal Data on forum.ee",
+  "from": {
+    "address": "gregoreesmaa1@gmail.com",
+    "name": "Gregor Eesmaa"
+  },
+  "to": [
+    {
+      "address": "info@forum.ee",
+      "name": ""
+    }
+  ],
+  "cc": [],
+  "date": "2025-05-31T18:45:10.000Z",
+  "bodyHtml": "<div dir=\"ltr\">Saadan igaks juhuks ka eraldi taotluse ja aruande PDFid, mis asusid eelmise meili manuses digiallkirjastatud konteineris.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>Just in case, providing also the request and the report PDF files, that were in the digitally signed container attached to the previous email.<br><br>Kind regards,<br>Gregor Eesmaa</div><br>",
+  "hiddenReasons": [
+    "providing-container-contents"
+  ],
+  "attachments": [
+    {
+      "filename": "taotlus-request.pdf",
+      "contentType": "application/pdf",
+      "size": 65523
+    },
+    {
+      "filename": "vulnerability-reassessment-report.pdf",
+      "contentType": "application/pdf",
+      "size": 527329
+    }
+  ]
+}

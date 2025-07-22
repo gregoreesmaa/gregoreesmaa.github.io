@@ -1,0 +1,20 @@
+{
+  "id": "2025-03-18T07-46-from-klienditugi-okidoki-ee",
+  "type": "email",
+  "subject": "User email address enumeration vulnerability on okidoki.ee",
+  "from": {
+    "address": "klienditugi@okidoki.ee",
+    "name": "Jana Lipponen"
+  },
+  "to": [
+    {
+      "address": "gregor.eesmaa@ut.ee",
+      "name": ""
+    }
+  ],
+  "cc": [],
+  "date": "2025-03-18T07:46:52.000Z",
+  "bodyHtml": "<div style=\"max-width: 600px; line-height: 18px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color:#000000;\" id=\"staff_response\">\n        <p>\n                    Hello,<br>\n<br>\nThank you for reaching out and for your responsible disclosure. We appreciate your research and the effort put into this report.<br>\n<br>\nWe confirm receipt of your report and will review the findings internally. Our team will assess the necessary steps and consider implementing security improvements in accordance with best practices.<br>\n<br>\nBest regards,<br>\nSupport service\n                                    \n            </p>\n    \n    \n    \n</div>\n  <img src=\"https://help.okidoki.com/tp_message/lCDHJ2VFDx+yonl12DmMIM6GyXaBDgYZZk8rXw==\" alt=\"\" width=\"1\" height=\"1\" border=\"0\" style=\"height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;\">",
+  "hiddenReasons": [],
+  "attachments": []
+}

@@ -1,0 +1,190 @@
+{
+  "service": {
+    "id": "ohtuleht-ee",
+    "name": "ohtuleht.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:46.000Z",
+        "firstResponse": "2025-03-24T10:41:15.000Z",
+        "firstGdprRequest": "2025-05-31T12:42:08.000Z",
+        "last": "2025-05-31T18:53:12.000Z"
+      },
+      "counts": {
+        "total": 6,
+        "sent": 5,
+        "received": {
+          "automated": 0,
+          "manual": 1,
+          "total": 1
+        }
+      }
+    }
+  },
+  "emails": [
+    {
+      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on ohtuleht.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "isikuandmed@ohtulehtkirjastus.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-16T19:18:46.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 301974
+        }
+      ]
+    },
+    {
+      "id": "2025-03-23T10-39-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on ohtuleht.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "urmas.talivee@ohtulehtkirjastus.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-23T10:39:22.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 302121
+        }
+      ]
+    },
+    {
+      "id": "2025-03-24T10-41-from-urmas-talivee-ohtulehtkirjastus-ee",
+      "type": "email",
+      "subject": "RE: User email address enumeration vulnerability on ohtuleht.ee",
+      "from": {
+        "address": "urmas.talivee@ohtulehtkirjastus.ee",
+        "name": "Urmas Talivee"
+      },
+      "to": [
+        {
+          "address": "gregor.eesmaa@ut.ee",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-24T10:41:15.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hi Gregor,\n\nThank you. I received report already and discussed about it internally. \n\nWith vulnerabilities found our decisions are as follows:\n\nRecommended solution to use generic error response when e-mail address is already in use or send an email to user, is not customer friendly who are sometimes not very skillful with using an IT and they need proper response for understanding what they are doing wrong. For example, Gmail also responses with message \"Account is taken\" when registering a new account with already registered name. \n\nTo use reCAPTCHA for anti bot is good recommendation, but still the attacker needs to log-in first and then start to dig with different e-mail addresses, which is not very easy to implement.\n\nI'm not aware if and what kind of protections our user account system provider (Piano Inc.) has, but they are one of the biggest solution providers for publishers around the globe and in Estonia, postimees.ee and delfi.ee are using same system. Feel free to contact to their support address support@piano.io to get more detailed answers. \n\nBecause of using international solution provider, implementing a new functionality as described your report, is not an easy job to do, but we'll discuss about it with our provider.\n\nParimat,\nUrmas Talivee</div>",
+      "hiddenReasons": [],
+      "attachments": []
+    },
+    {
+      "id": "2025-03-24T12-06-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "Re: User email address enumeration vulnerability on ohtuleht.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "urmas.talivee@ohtulehtkirjastus.ee",
+          "name": "Urmas Talivee"
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-24T12:06:04.000Z",
+      "bodyHtml": "<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nHello!</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"text-align: left; text-indent: 0px; margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nThank you for explaining your decisions!<br>\n<br>\n</div>\n<div class=\"elementToProof\" style=\"text-align: left; text-indent: 0px; margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nThank you for at least considering adding CAPTCHA to mitigate large-scale attacks. However, this still leaves the form vulnerable to small-scale/targeted attacks.</div>\n<div class=\"elementToProof\" style=\"text-align: left; text-indent: 0px; margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nRegarding the accessibility argument (not everyone being skillful with IT) – the functionality could still retain clear user experience even with generic responses on the forms. The helpful situation-specific detail / instructions could instead be provided\n over email. For example, for new registration, the email could provide means for account activation, and for existing accounts, it could provide means for account recovery. Similarly, in case of changing emails and already existing account, you could explain\n the situation over email and provide account recovery options.</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nConversely, I am curious, why the accessibility argument does not apply to the login form, being likely the most used from those tested. The login form currently does not reveal precise detail about what went wrong: \"See e-posti ja parooli kombinatsioon ei\n ole kasutuses\". Is there some other consideration for this behaviour? Similar observation holds for the password reset form.</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nRegarding Gmail having similar flaws – we are aware of this.&nbsp;Google's public stance seems to be twofold:&nbsp;</div>\n<blockquote style=\"margin-left: 0.8ex; padding-left: 1ex; border-left: 3px solid rgb(200, 200, 200);\">\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<b>User enumeration.</b>&nbsp;Reports outlining user enumeration are not within scope unless you can demonstrate that we don't have any rate limits in place to protect our users.</div>\n</blockquote>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n(<a href=\"https://bughunters.google.com/about/rules/google-friends/6625378258649088/google-and-alphabet-vulnerability-reward-program-vrp-rules#non-qualifying-vulnerabilities\" id=\"OWAe66ec586-b561-131d-72dc-bbc36e3a2109\" class=\"OWAAutoLink elementToProof\" style=\"margin: 0px; text-align: left;\">source</a>)</div>\n<blockquote style=\"margin-left: 0.8ex; padding-left: 1ex; border-left: 3px solid rgb(200, 200, 200);\">\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nWhen you sign up for a Google account and create a profile, your profile name is displayed in multiple locations and we generally allow other users who already know your email address or phone number to view your profile name. This approach is explained in\n our <a href=\"https://www.google.com/intl/en/policies/privacy/\" target=\"_blank\" id=\"OWA7874890e-1279-2057-5c7a-8dce33759035\" class=\"OWAAutoLink elementToProof\" rel=\"noopener\" style=\"text-align: left;\">\nPrivacy Policy</a>,</div>\n</blockquote>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n(<a href=\"https://bughunters.google.com/learn/invalid-reports/google-products/4983708328919040/ability-to-map-email-addresses-to-profile-names\" id=\"OWA2c112424-c5b2-1c80-e3c6-d035929616be\" class=\"OWAAutoLink\">source</a>)</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nWe believe Google's approach still goes against GDPR, for example in case of small-scale/targeted attacks and especially for non-customers (those who have not agreed to their Privacy Policy), as they might not want to reveal they are not customers of Google.\n To be clear, while, email address providers do not have a feasible way to hide their customers – knowing the email address\n<code>@gmail.com</code>, it is obvious – it is still possible to create Google accounts with other emails.</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nRegardless, they still seem interested in preventing large-scale attacks.</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nRegarding vulnerabilities and responsibility of Piano, in context&nbsp;of GDPR, we understand ohtuleht.ee to be the data controller and Piano Inc to be the data processor (source:\n<a href=\"https://gdpr-info.eu/art-4-gdpr/\" id=\"OWA4d21fb1b-a762-8e8e-e0bd-a6f2f3cc97c7\" class=\"OWAAutoLink\">\nGDPR article 4 – Definitions</a>). We understand that it is the responsibility of the controller to ensure processing is performed in accordance with GDPR (source:\n<a href=\"https://gdpr-info.eu/art-24-gdpr/\" id=\"OWA93e2a1cb-c7c3-5ff4-d77b-c0b76dcdb610\" class=\"OWAAutoLink\">\nGDPR article 24 – Responsibility of the controller</a>).</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nBest regards,</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nGregor Eesmaa</div>\n<div id=\"appendonsend\"></div>",
+      "hiddenReasons": [],
+      "attachments": []
+    },
+    {
+      "id": "2025-05-31T12-42-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "IKÜM taotlus seoses isikuandmete töötlemisega teenuses ohtuleht.ee / GDPR Request Regarding Processing of Personal Data on ohtuleht.ee",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "isikuandmed@ohtulehtkirjastus.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-31T12:42:08.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Lugupeetud ohtuleht.ee vastutav andmetöötleja\n\nPöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses ohtuleht.ee, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.\n\nManuses on ametlik taotlus, milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).\n\nPalun teavitage taotluse kättesaamisest.\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of ohtuleht.ee,\n\nI am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by ohtuleht.ee, potentially leading to its disclosure to unauthorised parties without a clear legal basis.\n\nPlease find attached a formal application exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).\n\nPlease confirm receipt of this request.\n\nKind regards,\nGregor Eesmaa\n</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "taotlus-request.asice",
+          "contentType": "application/vnd.etsi.asic-e+zip",
+          "size": 384533,
+          "contentPath": "content-taotlus-request-asice",
+          "contents": [
+            {
+              "filename": "taotlus-request.pdf",
+              "contentType": "application/pdf",
+              "size": 65378
+            },
+            {
+              "filename": "vulnerability-reassessment-report.pdf",
+              "contentType": "application/pdf",
+              "size": 337257
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2025-05-31T18-53-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses ohtuleht.ee / GDPR Request Regarding Processing of Personal Data on ohtuleht.ee",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "isikuandmed@ohtulehtkirjastus.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-31T18:53:12.000Z",
+      "bodyHtml": "<div dir=\"ltr\">Saadan igaks juhuks ka eraldi taotluse ja aruande PDFid, mis asusid eelmise meili manuses digiallkirjastatud konteineris.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>Just in case, providing also the request and the report PDF files, that were in the digitally signed container attached to the previous email.<br><br>Kind regards,<br>Gregor Eesmaa</div><br>",
+      "hiddenReasons": [
+        "providing-container-contents"
+      ],
+      "attachments": [
+        {
+          "filename": "taotlus-request.pdf",
+          "contentType": "application/pdf",
+          "size": 65378
+        },
+        {
+          "filename": "vulnerability-reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 337257
+        }
+      ]
+    }
+  ]
+}

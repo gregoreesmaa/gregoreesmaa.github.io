@@ -1,0 +1,168 @@
+{
+  "service": {
+    "id": "geenius-ee",
+    "name": "geenius.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:47.000Z",
+        "firstResponse": "2025-03-18T08:28:20.000Z",
+        "firstGdprRequest": "2025-06-24T08:10:40.000Z",
+        "firstGdprResponse": "2025-06-26T08:04:58.000Z",
+        "last": "2025-06-26T08:04:58.000Z"
+      },
+      "counts": {
+        "total": 5,
+        "sent": 3,
+        "received": {
+          "automated": 0,
+          "manual": 2,
+          "total": 2
+        }
+      }
+    }
+  },
+  "emails": [
+    {
+      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on geenius.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "telli@geenius.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-16T19:18:47.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 313559
+        }
+      ]
+    },
+    {
+      "id": "2025-03-18T08-28-from-joel-poldoja-geenius-ee",
+      "type": "email",
+      "subject": "Re: User email address enumeration vulnerability on geenius.ee",
+      "from": {
+        "address": "joel.poldoja@geenius.ee",
+        "name": "Joel Põldoja"
+      },
+      "to": [
+        {
+          "address": "gregor.eesmaa@ut.ee",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-18T08:28:20.000Z",
+      "bodyHtml": "<div dir=\"ltr\">Tere, Gregor!<div><br></div><div>Aitäh tähelepanu suunamast - tegeleme asjaga :)</div><div><br></div><div>Joel</div></div><br><div class=\"gmail_quote gmail_quote_container\"><div dir=\"ltr\" class=\"gmail_attr\">On Sun, Mar 16, 2025 at 9:19 PM 'Gregor Eesmaa' via <a href=\"mailto:telli@telli.ee\">telli@telli.ee</a> &lt;<a href=\"mailto:telli@geenius.ee\">telli@geenius.ee</a>&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\">Hello,<br>\n<br>\nDuring our research on user account enumeration flaws on Estonian <br>\nonline services, we found that your website is vulnerable to the <br>\nexposure of registered user email addresses.<br>\n<br>\nThe vulnerability report is attached.<br>\n<br>\nWe would appreciate it if you could confirm receipt of this email<br>\nto prevent us from reaching out to you through other channels.<br>\n<br>\nBest regards,<br>\nGregor Eesmaa<br>\nComputer Science MSc student<br>\nUniversity of Tartu, Institute of Computer Science</blockquote></div><div><br clear=\"all\"></div><div><br></div><span class=\"gmail_signature_prefix\">-- </span><br><div dir=\"ltr\" class=\"gmail_signature\"><div dir=\"ltr\"><div style=\"color:rgb(34,34,34)\">Tervitades,</div><div dir=\"ltr\" style=\"color:rgb(34,34,34)\">Joel Põldoja<div>Geenius Meedia</div><div>Tellimuste äri juht</div><div><font size=\"1\"><br></font></div><div><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div><font size=\"1\">5307 4021</font></div><div><a href=\"mailto:joel.poldoja@geenius.ee\" style=\"color:rgb(17,85,204)\" target=\"_blank\"><font size=\"1\">joel.poldoja@geenius.ee</font></a></div><div><font size=\"1\"><a href=\"http://www.geenius.ee\" target=\"_blank\">www.geenius.ee</a></font></div><div><font size=\"1\"><br></font></div><div><b><font size=\"1\">Geenius Meedia</font></b></div><div><font size=\"1\">VEEBIS: <a href=\"http://auto.geenius.ee\" target=\"_blank\">autogeenius</a> | <a href=\"http://digi.geenius.ee\" target=\"_blank\">digigeenius</a> | <a href=\"https://digipro.geenius.ee/\" target=\"_blank\">digiPRO</a> | <a href=\"https://diktor.geenius.ee/\" target=\"_blank\">diktor</a> | <a href=\"https://kodu.geenius.ee/\" target=\"_blank\">kodugeenius</a> | <a href=\"https://raha.geenius.ee/\" target=\"_blank\">rahageenius</a> | <a href=\"https://rikas.geenius.ee/\" target=\"_blank\">rikas</a> | <a href=\"https://rohe.geenius.ee/\" target=\"_blank\">rohegeenius</a>&nbsp;</font><span style=\"font-size:x-small\">| <a href=\"https://tervise.geenius.ee/\" target=\"_blank\">tervisegeenius</a>&nbsp;| <a href=\"https://ari.geenius.ee/\" target=\"_blank\">ärigeenius</a></span><span style=\"font-size:x-small\">&nbsp;|</span><span style=\"font-size:x-small\">&nbsp;<a href=\"https://e-kaubandus.geenius.ee/\" target=\"_blank\">e-kaubandus</a></span><span style=\"font-size:x-small\">&nbsp;|</span><span style=\"font-size:x-small\">&nbsp;<a href=\"https://rmp.geenius.ee/\" target=\"_blank\">RMP</a></span></div><div><font size=\"1\">PABERIL: Autoleht | Autoleht Ekstra | [digi]</font></div></div></div></div></div></div></div></div></div></div></div>",
+      "hiddenReasons": [],
+      "attachments": []
+    },
+    {
+      "id": "2025-05-18T14-35-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "Re: User email address enumeration vulnerability on geenius.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "joel.poldoja@geenius.ee",
+          "name": "Joel Põldoja"
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-18T14:35:39.000Z",
+      "bodyHtml": "<pre><div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">Hello,<br><br>We have conducted a follow-up reassessment of the service, and we appreciate your commitment to <br>improving the security of your service. However, we also found that the account enumeration <br>vulnerability is still not fully mitigated.<br><br>The attached updated report provides an overview of the remaining concerns and is intended to guide <br>further corrective actions.<br><br>Best regards,<br>Gregor Eesmaa<br>Computer Science MSc student<br>University of Tartu, Institute of Computer Science</div></pre>\n<div id=\"appendonsend\"></div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 521441
+        }
+      ]
+    },
+    {
+      "id": "2025-06-24T08-10-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "IKÜM taotlus seoses isikuandmete töötlemisega teenuses geenius.ee / GDPR Request Regarding Processing of Personal Data on geenius.ee",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "telli@geenius.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-24T08:10:40.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Lugupeetud geenius.ee vastutav andmetöötleja\n\nPöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses geenius.ee, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.\n\nManuses on ametlik taotlus (samuti digiallkirjastatud kujul), milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).\n\nPalun teavitage taotluse kättesaamisest.\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of geenius.ee,\n\nI am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by geenius.ee, potentially leading to its disclosure to unauthorised parties without a clear legal basis.\n\nPlease find attached a formal application (also in digitally signed form) exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).\n\nPlease confirm receipt of this request.\n\nKind regards,\nGregor Eesmaa\n</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "taotlus-request.asice",
+          "contentType": "application/vnd.etsi.asic-e+zip",
+          "size": 667179,
+          "contentPath": "content-taotlus-request-asice",
+          "contents": [
+            {
+              "filename": "taotlus-request.pdf",
+              "contentType": "application/pdf",
+              "size": 65851
+            },
+            {
+              "filename": "vulnerability-reassessment-report.pdf",
+              "contentType": "application/pdf",
+              "size": 618931
+            }
+          ]
+        },
+        {
+          "filename": "taotlus-request.pdf",
+          "contentType": "application/pdf",
+          "size": 65851
+        },
+        {
+          "filename": "vulnerability-reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 618931
+        }
+      ]
+    },
+    {
+      "id": "2025-06-26T08-04-from-joel-poldoja-geenius-ee",
+      "type": "email",
+      "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses geenius.ee / GDPR Request Regarding Processing of Personal Data on geenius.ee",
+      "from": {
+        "address": "joel.poldoja@geenius.ee",
+        "name": "Joel Põldoja"
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-26T08:04:58.000Z",
+      "bodyHtml": "<div dir=\"ltr\">Tere, Gregor!<div><br></div><div>Saime sinu kirja kätte ja täname, et juhid tähelepanu meie nõrkustele.</div><div><br></div><div>See töö on meil IT-kalendris, aga kuna hetkel puhatakse aktiivselt, siis saame sellega edasi tegeleda alates 7. juulist.</div><div><br></div><div>Hoian sind asjaga kursis.</div><div><br></div><div>Joel</div></div><br><div class=\"gmail_quote gmail_quote_container\"></div>",
+      "hiddenReasons": [],
+      "attachments": []
+    }
+  ]
+}

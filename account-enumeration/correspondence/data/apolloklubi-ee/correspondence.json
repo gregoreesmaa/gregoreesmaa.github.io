@@ -1,0 +1,117 @@
+{
+  "service": {
+    "id": "apolloklubi-ee",
+    "name": "apolloklubi.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:49.000Z",
+        "firstResponse": "2025-03-18T16:42:54.000Z",
+        "last": "2025-05-18T14:22:29.000Z"
+      },
+      "counts": {
+        "total": 4,
+        "sent": 2,
+        "received": {
+          "automated": 0,
+          "manual": 2,
+          "total": 2
+        }
+      }
+    }
+  },
+  "emails": [
+    {
+      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on apolloklubi.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "andmekaitse@apollogroup.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-16T19:18:49.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 219341
+        }
+      ]
+    },
+    {
+      "id": "2025-03-18T16-42-from-andmekaitse-apollogroup-ee",
+      "type": "email",
+      "subject": "Re: User email address enumeration vulnerability on apolloklubi.ee",
+      "from": {
+        "address": "andmekaitse@apollogroup.ee",
+        "name": ""
+      },
+      "to": [
+        {
+          "address": "gregor.eesmaa@ut.ee",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-18T16:42:54.000Z",
+      "bodyHtml": "<div dir=\"ltr\" style=\"font-family: Aptos, Arial, Helvetica, sans-serif; font-size: 12pt;\">\nTere!</div>\n<div dir=\"ltr\" style=\"font-family: Aptos, Arial, Helvetica, sans-serif; font-size: 12pt;\">\n<br>\n</div>\n<div dir=\"ltr\" style=\"font-family: Aptos, Arial, Helvetica, sans-serif; font-size: 12pt;\">\nTäname, et võtsite meiega ühendust.</div>\n<div dir=\"ltr\" style=\"font-family: Aptos, Arial, Helvetica, sans-serif; font-size: 12pt;\">\nKiri on kohale jõudnud.</div>\n<div dir=\"ltr\" style=\"font-family: Aptos, Arial, Helvetica, sans-serif; font-size: 12pt;\">\n<br>\n</div>\n<div dir=\"ltr\"><br>\n</div>\n<div id=\"ms-outlook-mobile-signature\">\n<div style=\"page:WordSection1\">\n<div>\n<p style=\"margin:0cm;font-size:11pt;font-family:Calibri, sans-serif\"><span lang=\"ET\" style=\"font-size: 12pt; color: rgb(33, 33, 33);\">Tervitades,</span></p>\n<p style=\"margin:0cm;font-size:11pt;font-family:Calibri, sans-serif\"><b><span style=\"font-size: 12pt; color: rgb(33, 33, 33);\">Risto Kasepuu</span></b><span style=\"color: rgb(33, 33, 33);\"><o:p></o:p></span></p>\n<p style=\"margin:0cm;font-size:11pt;font-family:Calibri, sans-serif;caret-color:rgb(33, 33, 33);orphans:auto;text-align:start;widows:auto;word-spacing:0px\">\n<span style=\"font-size: 12pt; color: rgb(33, 33, 33);\">Apollo Group OÜ</span><span style=\"color: rgb(33, 33, 33);\"><o:p></o:p></span></p>\n<p style=\"margin:0cm;font-size:11pt;font-family:Calibri, sans-serif;caret-color:rgb(33, 33, 33);orphans:auto;text-align:start;widows:auto;word-spacing:0px\">\n<span lang=\"ET\" style=\"font-size: 12pt; color: rgb(33, 33, 33);\">DPO</span><span lang=\"ET\" style=\"color: rgb(33, 33, 33);\"><o:p></o:p></span></p>\n\n</div>\n<div>\n\n</div>\n</div>\n</div>",
+      "hiddenReasons": [],
+      "attachments": []
+    },
+    {
+      "id": "2025-04-14T12-48-from-andmekaitse-apollogroup-ee",
+      "type": "email",
+      "subject": "Re: User email address enumeration vulnerability on apolloklubi.ee",
+      "from": {
+        "address": "andmekaitse@apollogroup.ee",
+        "name": ""
+      },
+      "to": [
+        {
+          "address": "gregor.eesmaa@ut.ee",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-04-14T12:48:40.000Z",
+      "bodyHtml": "<p dir=\"ltr\" class=\"MsoNormal\" style=\"text-align: left; text-indent: 0px; margin: 0cm;\">\n<span style=\"font-family: Aptos, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">&nbsp;Tere!</span></p>\n\n<p class=\"MsoNormal\" style=\"text-align: left; text-indent: 0px; margin: 0cm;\"><span style=\"font-family: Aptos, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">Täname teavitamise eest.</span></p>\n<p class=\"MsoNormal\" style=\"text-align: left; text-indent: 0px; margin: 0cm;\"><span style=\"font-family: Aptos, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">Oleme oma süsteeme täiendanud ja potentsiaalsed haavatavused mitigeerinud.</span></p>\n<div dir=\"ltr\" style=\"font-family: Aptos, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div dir=\"ltr\" style=\"font-family: Aptos, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div dir=\"ltr\" style=\"font-family: Aptos, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nTervitades,</div>\n<div style=\"font-family: Aptos, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nRisto Kasepuu</div>\n<div style=\"font-family: Aptos, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nApollo Group OÜ</div>\n<div style=\"font-family: Aptos, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nDPO</div>\n<div dir=\"ltr\" style=\"font-family: Aptos, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div dir=\"ltr\" style=\"font-family: Aptos, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>",
+      "hiddenReasons": [],
+      "attachments": []
+    },
+    {
+      "id": "2025-05-18T14-22-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "Re: User email address enumeration vulnerability on apolloklubi.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "andmekaitse@apollogroup.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-18T14:22:29.000Z",
+      "bodyHtml": "<pre><div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">Hello,<br><br>We have conducted a follow-up reassessment of the service, and we appreciate your commitment to <br>improving the security of your service. However, we also found that the account enumeration <br>vulnerability is still not fully mitigated.<br><br>The attached updated report provides an overview of the remaining concerns and is intended to guide <br>further corrective actions.<br><br>Best regards,<br>Gregor Eesmaa<br>Computer Science MSc student<br>University of Tartu, Institute of Computer Science</div></pre>\n<div id=\"appendonsend\"></div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 397488
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2025-05-18T20-42-from-gregor-eesmaa-ut-ee",
+  "type": "email",
+  "subject": "Re: User email address enumeration vulnerability on postimees.ee",
+  "from": {
+    "address": "gregor.eesmaa@ut.ee",
+    "name": "Gregor Eesmaa"
+  },
+  "to": [
+    {
+      "address": "isikuandmed@postimeesgrupp.ee",
+      "name": ""
+    }
+  ],
+  "cc": [],
+  "date": "2025-05-18T20:42:24.000Z",
+  "bodyHtml": "<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nHello,<br>\n<br>\nWe have conducted a follow-up reassessment of the service, and we appreciate your commitment to<br>\nimproving the security of your service. However, we also found that the account enumeration<br>\nvulnerability is still not fully mitigated.<br>\n<br>\nThe attached updated report provides an overview of the remaining concerns and is intended to guide<br>\nfurther corrective actions.<br>\n<br>\nBest regards,<br>\nGregor Eesmaa<br>\nComputer Science MSc student<br>\nUniversity of Tartu, Institute of Computer Science</div>\n<div id=\"appendonsend\"></div>",
+  "hiddenReasons": [],
+  "attachments": [
+    {
+      "filename": "reassessment-report.pdf",
+      "contentType": "application/pdf",
+      "size": 386218
+    }
+  ]
+}

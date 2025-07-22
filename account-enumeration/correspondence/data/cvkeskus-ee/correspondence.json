@@ -1,0 +1,171 @@
+{
+  "service": {
+    "id": "cvkeskus-ee",
+    "name": "cvkeskus.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:37.000Z",
+        "firstResponse": "2025-06-30T18:36:36.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:43.000Z",
+        "firstGdprResponse": "2025-06-30T18:36:36.000Z",
+        "last": "2025-06-30T18:36:36.000Z"
+      },
+      "counts": {
+        "total": 5,
+        "sent": 4,
+        "received": {
+          "automated": 0,
+          "manual": 1,
+          "total": 1
+        }
+      }
+    }
+  },
+  "emails": [
+    {
+      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on cvkeskus.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "dpo@cvkeskus.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-16T19:18:37.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 367981
+        }
+      ]
+    },
+    {
+      "id": "2025-03-23T10-39-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on cvkeskus.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "info@cvkeskus.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-23T10:39:14.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 395384
+        }
+      ]
+    },
+    {
+      "id": "2025-05-31T12-41-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "IKÜM taotlus seoses isikuandmete töötlemisega teenuses cvkeskus.ee / GDPR Request Regarding Processing of Personal Data on cvkeskus.ee",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "dpo@cvkeskus.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-31T12:41:43.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Lugupeetud cvkeskus.ee vastutav andmetöötleja\n\nPöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses cvkeskus.ee, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.\n\nManuses on ametlik taotlus, milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).\n\nPalun teavitage taotluse kättesaamisest.\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of cvkeskus.ee,\n\nI am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by cvkeskus.ee, potentially leading to its disclosure to unauthorised parties without a clear legal basis.\n\nPlease find attached a formal application exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).\n\nPlease confirm receipt of this request.\n\nKind regards,\nGregor Eesmaa\n</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "taotlus-request.asice",
+          "contentType": "application/vnd.etsi.asic-e+zip",
+          "size": 434930,
+          "contentPath": "content-taotlus-request-asice",
+          "contents": [
+            {
+              "filename": "taotlus-request.pdf",
+              "contentType": "application/pdf",
+              "size": 65539
+            },
+            {
+              "filename": "vulnerability-reassessment-report.pdf",
+              "contentType": "application/pdf",
+              "size": 400762
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2025-05-31T18-42-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses cvkeskus.ee / GDPR Request Regarding Processing of Personal Data on cvkeskus.ee",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "dpo@cvkeskus.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-31T18:42:56.000Z",
+      "bodyHtml": "<div dir=\"ltr\">Saadan igaks juhuks ka eraldi taotluse ja aruande PDFid, mis asusid eelmise meili manuses digiallkirjastatud konteineris.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>Just in case, providing also the request and the report PDF files, that were in the digitally signed container attached to the previous email.<br><br>Kind regards,<br>Gregor Eesmaa</div><br>",
+      "hiddenReasons": [
+        "providing-container-contents"
+      ],
+      "attachments": [
+        {
+          "filename": "taotlus-request.pdf",
+          "contentType": "application/pdf",
+          "size": 65539
+        },
+        {
+          "filename": "vulnerability-reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 400762
+        }
+      ]
+    },
+    {
+      "id": "2025-06-30T18-36-from-dpo-cvkeskus-ee",
+      "type": "email",
+      "subject": "RE: IKÜM taotlus seoses isikuandmete töötlemisega teenuses cvkeskus.ee / GDPR Request Regarding Processing of Personal Data on cvkeskus.ee",
+      "from": {
+        "address": "dpo@cvkeskus.ee",
+        "name": "CVKeskus.ee DPO"
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-30T18:36:36.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Lugupeetud Gregor Eesmaa\n\nSoovime kinnitada, et oleme Teie kirja kätte saanud ja täname Teid siiralt põhjaliku analüüsi eest. Hindame kõrgelt Teie pühendumust ja panust andmekaitsele. \nTeie esitatud päringule ammendava vastuse koostamine eeldab mitmete õiguslike ja tehniliste asjaolude ettevõttesisest põhjalikku kaalumist ja seetõttu ei ole meil kahjuks võimalik vastata Teie päringule 30 päeva jooksul. \nPalume Teilt mõistvat suhtumist ja võtame Teiega ühendust hiljemalt järgmise 14 päeva jooksul. \n\nTäname Teid kannatlikkuse eest ja vabandame esinenud viivituse pärast!\n\n\nLugupidamisega,\n\nCV Keskus OÜ\n&nbsp;</div>",
+      "hiddenReasons": [],
+      "attachments": []
+    }
+  ]
+}

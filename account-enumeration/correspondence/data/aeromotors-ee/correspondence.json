@@ -1,0 +1,255 @@
+{
+  "service": {
+    "id": "aeromotors-ee",
+    "name": "aeromotors.ee",
+    "type": "website",
+    "stats": {
+      "dates": {
+        "first": "2025-03-16T19:18:37.000Z",
+        "firstResponse": "2025-06-02T07:08:17.000Z",
+        "firstGdprRequest": "2025-05-31T12:41:46.000Z",
+        "firstGdprResponse": "2025-06-02T07:08:17.000Z",
+        "last": "2025-06-21T19:39:38.000Z"
+      },
+      "counts": {
+        "total": 9,
+        "sent": 5,
+        "received": {
+          "automated": 2,
+          "manual": 2,
+          "total": 4
+        }
+      }
+    }
+  },
+  "emails": [
+    {
+      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on aeromotors.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "info@aeromotors.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-16T19:18:37.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 407219
+        }
+      ]
+    },
+    {
+      "id": "2025-03-16T19-18-from-info-aeromotors-ee",
+      "type": "email",
+      "subject": "[n.350589] Aero Motors OÜ",
+      "from": {
+        "address": "info@aeromotors.ee",
+        "name": "Aero Motors"
+      },
+      "to": [
+        {
+          "address": "gregor.eesmaa@ut.ee",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-16T19:18:52.000Z",
+      "bodyHtml": "<div class=\"content-div\" style=\"padding-left: 10px; padding-right:14px; line-height: 18px; font-family: 'Calibri, sans-serif'; font-size: 11px; color:#333;\">\n   <!--<div style=\"color: #ffffff;\"></div>-->\n    <p dir=\"ltr\">Tere!</p><p dir=\"ltr\">Suur tänu pöördumise eest!<br>Vastame Teile esimesel võimalusel, kuid hiljemalt 3 tööpäeva jooksul.</p><p dir=\"ltr\">Heade soovidega,<br>Aero Motors OÜ<br>aeromotors.ee<br>+372 663 10 60<br>info@aeromotors.ee<br><img src=\"https://theme.zdassets.com/theme_assets/13792490/6b1b70f432a03bba24ac8bcf281457a2c983284f.png\"></p>\n  </div>\n<span style=\"color:#FFFFFF\" aria-hidden=\"true\" class=\"zd_encoded_id\">[G3P2NG-DV2X9]</span>\n<div itemscope=\"\" itemtype=\"http://schema.org/EmailMessage\" style=\"display:none\">  <div itemprop=\"action\" itemscope=\"\" itemtype=\"http://schema.org/ViewAction\">    <link itemprop=\"url\" href=\"https://aeromotorshelp.zendesk.com/hc/requests/350589\">    <meta itemprop=\"name\" content=\"View ticket\">  </div></div>",
+      "hiddenReasons": [
+        "automated-reply"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "2025-03-23T10-39-from-gregor-eesmaa-ut-ee",
+      "type": "email",
+      "subject": "User email address enumeration vulnerability on aeromotors.ee",
+      "from": {
+        "address": "gregor.eesmaa@ut.ee",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "info@aeromotors.eu",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-23T10:39:16.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "report.pdf",
+          "contentType": "application/pdf",
+          "size": 407252
+        }
+      ]
+    },
+    {
+      "id": "2025-03-23T10-39-from-info-aeromotors-ee",
+      "type": "email",
+      "subject": "[n.354124] Aero Motors OÜ",
+      "from": {
+        "address": "info@aeromotors.ee",
+        "name": "Aero Motors"
+      },
+      "to": [
+        {
+          "address": "gregor.eesmaa@ut.ee",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-23T10:39:26.000Z",
+      "bodyHtml": "<div class=\"content-div\" style=\"padding-left: 10px; padding-right:14px; line-height: 18px; font-family: 'Calibri, sans-serif'; font-size: 11px; color:#333;\">\n   <!--<div style=\"color: #ffffff;\"></div>-->\n    <p dir=\"ltr\">Tere!</p><p dir=\"ltr\">Suur tänu pöördumise eest!<br>Vastame Teile esimesel võimalusel, kuid hiljemalt 3 tööpäeva jooksul.</p><p dir=\"ltr\">Heade soovidega,<br>Aero Motors OÜ<br>aeromotors.ee<br>+372 663 10 60<br>info@aeromotors.ee<br><img src=\"https://theme.zdassets.com/theme_assets/13792490/6b1b70f432a03bba24ac8bcf281457a2c983284f.png\"></p>\n  </div>\n<span style=\"color:#FFFFFF\" aria-hidden=\"true\" class=\"zd_encoded_id\">[4W5G5P-ZPNP4]</span>\n<div itemscope=\"\" itemtype=\"http://schema.org/EmailMessage\" style=\"display:none\">  <div itemprop=\"action\" itemscope=\"\" itemtype=\"http://schema.org/ViewAction\">    <link itemprop=\"url\" href=\"https://aeromotorshelp.zendesk.com/hc/requests/354124\">    <meta itemprop=\"name\" content=\"View ticket\">  </div></div>",
+      "hiddenReasons": [
+        "automated-reply"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "2025-05-31T12-41-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "IKÜM taotlus seoses isikuandmete töötlemisega teenuses aeromotors.ee / GDPR Request Regarding Processing of Personal Data on aeromotors.ee",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "info@aeromotors.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-31T12:41:46.000Z",
+      "bodyHtml": "<div style=\"white-space: pre-wrap\">Lugupeetud aeromotors.ee vastutav andmetöötleja\n\nPöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses aeromotors.ee, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.\n\nManuses on ametlik taotlus, milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).\n\nPalun teavitage taotluse kättesaamisest.\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of aeromotors.ee,\n\nI am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by aeromotors.ee, potentially leading to its disclosure to unauthorised parties without a clear legal basis.\n\nPlease find attached a formal application exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).\n\nPlease confirm receipt of this request.\n\nKind regards,\nGregor Eesmaa\n</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "taotlus-request.asice",
+          "contentType": "application/vnd.etsi.asic-e+zip",
+          "size": 372026,
+          "contentPath": "content-taotlus-request-asice",
+          "contents": [
+            {
+              "filename": "taotlus-request.pdf",
+              "contentType": "application/pdf",
+              "size": 65775
+            },
+            {
+              "filename": "vulnerability-reassessment-report.pdf",
+              "contentType": "application/pdf",
+              "size": 329647
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2025-05-31T18-41-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses aeromotors.ee / GDPR Request Regarding Processing of Personal Data on aeromotors.ee",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "info@aeromotors.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-05-31T18:41:19.000Z",
+      "bodyHtml": "<div dir=\"ltr\">Saadan igaks juhuks ka eraldi taotluse ja aruande PDFid, mis asusid eelmise meili manuses digiallkirjastatud konteineris.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>Just in case, providing also the request and the report PDF files, that were in the digitally signed container attached to the previous email.<br><br>Kind regards,<br>Gregor Eesmaa</div><br>",
+      "hiddenReasons": [
+        "providing-container-contents"
+      ],
+      "attachments": [
+        {
+          "filename": "taotlus-request.pdf",
+          "contentType": "application/pdf",
+          "size": 65775
+        },
+        {
+          "filename": "vulnerability-reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 329647
+        }
+      ]
+    },
+    {
+      "id": "2025-06-02T07-08-from-info-aeromotors-ee",
+      "type": "email",
+      "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses aeromotors.ee / GDPR Request Regarding Processing of Personal Data on aeromotors.ee (nr. 386044)",
+      "from": {
+        "address": "info@aeromotors.ee",
+        "name": "Kerstin (Aero Motors)"
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-02T07:08:17.000Z",
+      "bodyHtml": "<div class=\"content-div\" style=\"padding-left: 10px; padding-right:14px; line-height: 18px; font-family: 'Calibri, sans-serif'; font-size: 11px; color:#333;\">\n   <!--<div style=\"color: #ffffff;\"></div>-->\n    <div class=\"latest-comment\" style=\"font-size:16px\">Lugupeetud Gregor Eesmaa<p dir=\"ltr\">Täname Teid pöödumast ja turvanõrkusest teavitamisest. Parandame selle 2 nädala jooksul ära.</p><p dir=\"ltr\">Lugupidamisega</p><p dir=\"ltr\">Aero Motors OÜ<br>aeromotors.ee<br>info@aeromotors.ee<br><br></p></div><br><br><div style=\"margin-top: 10px; border-top: 1px solid #bbb; font-size: 15px\">Gregor Eesmaa, 31. mai 2025, kell 21:41:<br><br><div class=\"zd-comment zd-comment-pre-styled\" dir=\"auto\"><div dir=\"ltr\">Saadan igaks juhuks ka eraldi taotluse ja aruande PDFid, mis asusid eelmise meili manuses digiallkirjastatud konteineris.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>Just in case, providing also the request and the report PDF files, that were in the digitally signed container attached to the previous email.<br><br>Kind regards,<br>Gregor Eesmaa</div><br><div></div></div><p dir=\"ltr\"><br><br>Attachment(s):<br><br>1. <a href=\"https://aeromotorshelp.zendesk.com/attachments/token/JdhD7OcEnk21c5wBID6tsqPYw/?name=taotlus-request.pdf\">taotlus-request.pdf</a><br><br><br>2. <a href=\"https://aeromotorshelp.zendesk.com/attachments/token/OtoDg4Syqln9R8rJryiBJao84/?name=vulnerability-reassessment-report.pdf\">vulnerability-reassessment-report.pdf</a></p><div style=\"margin-top: 10px; border-top: 1px solid #bbb; font-size: 15px\">Gregor Eesmaa, 31. mai 2025, kell 15:41:<br><br><div class=\"zd-comment\" dir=\"auto\" style=\"color: #2b2e2f; line-height: 22px; margin: 15px 0;\"><p dir=\"ltr\" style=\"color: #2b2e2f; line-height: 22px; margin: 15px 0;\">Lugupeetud aeromotors.ee vastutav andmetöötleja</p><p dir=\"ltr\" style=\"color: #2b2e2f; line-height: 22px; margin: 15px 0;\">Pöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse<br>(IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses<br>aeromotors.ee, mida pean ebaseaduslikuks ning mis võib viia nende<br>avaldamiseni selleks volitamata isikutele ilma selge õigusliku<br>aluseta.</p><p dir=\"ltr\" style=\"color: #2b2e2f; line-height: 22px; margin: 15px 0;\">Manuses on ametlik taotlus, milles teostan oma õigusi IKÜM artiklite<br>15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete<br>võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu<br>taotluse saamisest).</p><p dir=\"ltr\" style=\"color: #2b2e2f; line-height: 22px; margin: 15px 0;\">Palun teavitage taotluse kättesaamisest.</p><p dir=\"ltr\" style=\"color: #2b2e2f; line-height: 22px; margin: 15px 0;\">Lugupidamisega<br>Gregor Eesmaa</p><p dir=\"ltr\" style=\"color: #2b2e2f; line-height: 22px; margin: 15px 0;\">--</p><p dir=\"ltr\" style=\"color: #2b2e2f; line-height: 22px; margin: 15px 0;\">Dear Data Controller of aeromotors.ee,</p><p dir=\"ltr\" style=\"color: #2b2e2f; line-height: 22px; margin: 15px 0;\">I am contacting you to formally raise concerns under the General Data<br>Protection Regulation (GDPR) regarding what I believe to be the<br>unlawful processing of my personal data by aeromotors.ee, potentially<br>leading to its disclosure to unauthorised parties without a clear<br>legal basis.</p><p dir=\"ltr\" style=\"color: #2b2e2f; line-height: 22px; margin: 15px 0;\">Please find attached a formal application exercising my rights under<br>Articles 15, 18, and 21 of the GDPR. I request that you review and act<br>upon it accordingly, within the timeframe established by Article 12(3)<br>of the GDPR (one month from receipt).</p><p dir=\"ltr\" style=\"color: #2b2e2f; line-height: 22px; margin: 15px 0;\">Please confirm receipt of this request.</p><p dir=\"ltr\" style=\"color: #2b2e2f; line-height: 22px; margin: 15px 0;\">Kind regards,<br>Gregor Eesmaa<br>taotlus-request.asice</p></div><br><br><br>Attachment(s):<br><br>1. <a href=\"https://aeromotorshelp.zendesk.com/attachments/token/ThjhnhiUEyqDlUXYP3C9Iu5rv/?name=taotlus-request.asice\">taotlus-request.asice</a></div></div>\n  </div>\n<span style=\"color:#FFFFFF\" aria-hidden=\"true\" class=\"zd_encoded_id\">[WZVR07-3X51R]</span>\n<div itemscope=\"\" itemtype=\"http://schema.org/EmailMessage\" style=\"display:none\">  <div itemprop=\"action\" itemscope=\"\" itemtype=\"http://schema.org/ViewAction\">    <link itemprop=\"url\" href=\"https://aeromotorshelp.zendesk.com/hc/requests/386044\">    <meta itemprop=\"name\" content=\"View ticket\">  </div></div>",
+      "hiddenReasons": [],
+      "attachments": []
+    },
+    {
+      "id": "2025-06-16T13-00-from-info-aeromotors-ee",
+      "type": "email",
+      "subject": "Re: Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses aeromotors.ee / GDPR Request Regarding Processing of Personal Data on aeromotors.ee (nr. 392620)",
+      "from": {
+        "address": "info@aeromotors.ee",
+        "name": "Kerstin (Aero Motors)"
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-16T13:00:11.000Z",
+      "bodyHtml": "<div class=\"content-div\" style=\"padding-left: 10px; padding-right:14px; line-height: 18px; font-family: 'Calibri, sans-serif'; font-size: 11px; color:#333;\">\n   <!--<div style=\"color: #ffffff;\"></div>-->\n    <div class=\"latest-comment\" style=\"font-size:16px\">Lugupeetud Gregor Eesmaa<p dir=\"ltr\">Täname, et juhtisite tähelepanu sellele teemale. Seoses esile tõstatatud tähelepanekuga anname alljärgnevalt täiendavat teavet meie süsteemi toimimise kohta kliendikonto loomise ja haldamise kontekstis.</p><p dir=\"ltr\">Meie kliendikonto loomise ja haldamise süsteemid on kujundatud kasutajasõbralikkuse ja turvalisuse tasakaalustamiseks. Käitumine, mille puhul süsteem võib anda märku, kas konkreetse e-posti aadressiga konto eksisteerib, on vajalik selleks, et pakkuda kasutajatele selget ja arusaadavat tagasisidet näiteks parooli taastamise, konto registreerimise või e-posti muutmise protsessides.</p><p dir=\"ltr\">Selle konkreetse andmetöötluse õiguslik alus on GDPR artikkel 6 lõige 1 punkt f:<br>_\"Isikuandmete töötlemine on vajalik vastutava töötleja või kolmanda isiku õigustatud huvi korral, välja arvatud juhul, kui sellise huvi kaaluvad üles andmesubjekti huvid või põhiõigused ja -vabadused, mille nimel tuleb kaitsta isikuandmeid, eriti juhul kui andmesubjekt on laps.\"_</p><p dir=\"ltr\">Meie õigustatud huvi on tagada sujuv ja tõhus kasutajakogemus, võimaldades kasutajatel intuitiivselt oma kontoga seotud toiminguid teha. Täiesti üldsõnaline või ebaselge tagasiside võib põhjustada segadust, suurendada klienditoe koormust ning vähendada teenuse kvaliteeti.</p><p dir=\"ltr\">Andmetöötlustoimingute kavandamisel ja rakendamisel lähtutakse kehtivatest õigusnormidest ning praktikast, mis toetab kasutajakogemuse selgust ja teenuse kvaliteeti, tagades samal ajal isikuandmete kaitse vastavalt kehtivatele nõuetele.</p><p dir=\"ltr\">Lugupidamisega</p><p dir=\"ltr\">Aero Motors OÜ<br>aeromotors.ee<br>info@aeromotors.ee<br><br></p></div><br><br>\n  </div>\n<span style=\"color:#FFFFFF\" aria-hidden=\"true\" class=\"zd_encoded_id\">[4E04JY-RKGZY]</span>\n<div itemscope=\"\" itemtype=\"http://schema.org/EmailMessage\" style=\"display:none\">  <div itemprop=\"action\" itemscope=\"\" itemtype=\"http://schema.org/ViewAction\">    <link itemprop=\"url\" href=\"https://aeromotorshelp.zendesk.com/hc/requests/392620\">    <meta itemprop=\"name\" content=\"View ticket\">  </div></div>",
+      "hiddenReasons": [],
+      "attachments": []
+    },
+    {
+      "id": "2025-06-21T19-39-from-gregoreesmaa1-gmail-com",
+      "type": "email",
+      "subject": "Re: Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses aeromotors.ee / GDPR Request Regarding Processing of Personal Data on aeromotors.ee (nr. 392620)",
+      "from": {
+        "address": "gregoreesmaa1@gmail.com",
+        "name": "Gregor Eesmaa"
+      },
+      "to": [
+        {
+          "address": "info@aeromotors.ee",
+          "name": "Aero Motors"
+        }
+      ],
+      "cc": [],
+      "date": "2025-06-21T19:39:38.000Z",
+      "bodyHtml": "<div dir=\"ltr\">Tere!<div><br></div><div>Tänan esimesele taotlusele vastamast.</div><div><br></div><div>Ei nõustu teie hinnanguga, et meiliaadressiga konto olemasolu kinnitamine selleks volitamata isikule on \"vajalik\".&nbsp;</div><div>Minu hinnangul saab sama vajadust, st selget ja arusaadavat tagasisidet edastada ka meili teel, mis tagaks nendele andmetele ligipääsu vaid meilikasti nägevale isikule (välistades selleks volitamata isikud).&nbsp;</div>&nbsp; &nbsp; - Näiteks registreerimisvorm võiks pärast meiliaadressi sisestamist saata ühe kahest meilist, kas \"klõpsa siin et kasutaja loomisega jätkata\" või \"kasutaja on juba olemas – klõpsa siin, et parool lähtestada\".&nbsp;<div>&nbsp; &nbsp; - Sarnased lahendused on võimalikud ka teistele mõjutatud vormidele. Need on täpsustatud eelnevalt lisatud aruandes.<br><div>Tuletan ka meelde, et IKÜM&nbsp;artikli 5 järgi peate töötlemisel tagama, et isikuandmed oleks \"õiged\", mistõttu ei saa lisasammu meiliaadressi kinnitamiseks lugeda liigseks/ebavajalikuks.</div><div><br></div><div>Lisaks, möödarääkimise vältimiseks palun kinnitage, et keeldute kolmandat taotlust täitmast – st ei arvesta minu IKÜM artikli 21 kohase vastuväitega minu isikuandmete sellisele töötlemisele, ega minu hinnanguga, et selles kontekstis kaaluvad teie huvi üles minu huvid, põhiõigused- ja vabadused isikuandmete kaitsele ja privaatsusele.&nbsp;</div><div>Vastasel juhul palun kinnitage sammud, mida selle taotluse täitmiseks võtate.</div><div><br></div><div>Kõike paremat</div><div>Gregor Eesmaa</div><div><br></div><div>--</div><div><br></div><div>Hello!</div><div><br></div><div>Thank you for responding to the first request.</div><div><br></div><div>I do not agree with your assessment, that confirming an account exists with a given email address to an unauthorised party is \"necessary\".</div><div>In my view, the same necessity, giving clear and plain feedback, can also be done over email, which would ensure this data is accessible only to a party with access to the email inbox (excluding unauthorised parties).</div><div>&nbsp; &nbsp; - For example, the registration form could send one of two emails after the email has been input, either \"click here to continue registration\" or \"account already exists – click here to reset password\".</div><div>&nbsp; &nbsp; - Similar resolutions are possible for other affected forms. These are detailed in the previously&nbsp;attached report.</div><div>I also remind you, that according to GDPR Article 5, you shall ensure personal data is \"accurate\", so the additional step of verifying the email can not be assumed to be excessive/unnecessary.</div><div><br></div><div>Also, to avoid miscommunication, please confirm that you refuse to fulfill the third request – that is, you will not consider my objection to such processing, as per GDPR article 21; nor the assessment that my interests, fundamental rights and freedoms to data protection and privacy override your interests in this context.</div><div>Otherwise, please confirm the steps you'll take to fulfill this request.</div><div><br></div><div>Best regards</div><div>Gregor Eesmaa</div><div><br></div></div></div><br>",
+      "hiddenReasons": [],
+      "attachments": []
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "2025-06-03T06-54-from-dpo-ikea-ee",
+  "type": "email",
+  "subject": "RE: IKÜM taotlus seoses isikuandmete töötlemisega teenuses ikea.ee / GDPR Request Regarding Processing of Personal Data on ikea.ee",
+  "from": {
+    "address": "dpo@ikea.ee",
+    "name": "DPO IKEA EE"
+  },
+  "to": [
+    {
+      "address": "gregoreesmaa1@gmail.com",
+      "name": "Gregor Eesmaa"
+    }
+  ],
+  "cc": [],
+  "date": "2025-06-03T06:54:42.000Z",
+  "bodyHtml": "<div class=\"WordSection1\">\n<p class=\"MsoNormal\">Hello,<o:p></o:p></p>\n\n<p class=\"MsoNormal\">Thank you for reaching out to us. I can confirm that we’ve received your request and will get back to you.<o:p></o:p></p>\n\n<p class=\"MsoNormal\">Best regards,<o:p></o:p></p>\n\n<p class=\"MsoNormal\">Data Protection Officer Baltics<o:p></o:p></p>\n\n\n<div style=\"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in 0in 0in\">\n\n</div>\n\n\n\n\n</div>",
+  "hiddenReasons": [],
+  "attachments": []
+}
