@@ -6,16 +6,18 @@
     "stats": {
       "dates": {
         "first": "2025-03-16T19:18:43.000Z",
+        "firstResponse": "2025-06-25T08:18:39.000Z",
         "firstGdprRequest": "2025-05-31T12:42:02.000Z",
-        "last": "2025-05-31T18:49:37.000Z"
+        "firstGdprResponse": "2025-06-25T08:18:39.000Z",
+        "last": "2025-06-25T08:18:39.000Z"
       },
       "counts": {
-        "total": 3,
+        "total": 5,
         "sent": 3,
         "received": {
-          "automated": 0,
-          "manual": 0,
-          "total": 0
+          "automated": 1,
+          "manual": 1,
+          "total": 2
         }
       }
     }
@@ -46,6 +48,28 @@
           "size": 834595
         }
       ]
+    },
+    {
+      "id": "2025-03-16T19-19-from-klientuserviss-keskosenukai-lv",
+      "type": "email",
+      "subject": "Täname Teid kirja eest",
+      "from": {
+        "address": "klientuserviss@keskosenukai.lv",
+        "name": "KeskoSenukai LV"
+      },
+      "to": [
+        {
+          "address": "gregor.eesmaa@ut.ee",
+          "name": ""
+        }
+      ],
+      "cc": [],
+      "date": "2025-03-16T19:19:00.000Z",
+      "bodyHtml": "<p>Tere!</p>\n\n<p>Oleme Teie kirja kätte saanud, loeme selle lähiajal läbi ja vastame ühe kuu jooksul. Teie kirja number on 04748803*</p>\n<p><i>*Pange tähele, et tegemist on automaatteatega, mis kinnitab Teie pöördumise kättesaamist.</i></p>\nLugupidamisega<br>\n<b>Andmekaitseametnik</b><br>\n<b>UAB Kesko Senukai Digital</b><br>\nKareivių t 11B, LT-09109 Vilnius, Lietuva<br>\nRegistrikood 304144008<br>\n<p>Esitatud päringu töötlemise eesmärgil töötleb Teie isikuandmeid vastutav töötleja UAB Kesko Senukai Digital, kes rakendab õigusaktides kehtestatud kohustusi ning järgib Isikuandmete kaitse üldmääruse (EL) 2016/679 ja teiste õigusaktide nõudeid. Isikuandmeid säilitatakse kaks aastat.<br>\nIsikuandmeid võib edastada nii teistele isikutele, kellele neid tuleb edastada õigusaktides sätestatud korras, kui ka kaasatud teenuseosutajatele (andmete volitatud töötlejatele). Teil on õigus pöörduda ülalnimetatud kontaktidel ja paluda, et lubaksime Teil tutvuda enda isikuandmetega, parandaksime neid või piiraksime andmete töötlemist. Kui arvate, et töötleme Teie isikuandmeid ebaseaduslikult, on Teil õigus esitada kaebus Riiklikule andmekaitseinspektsioonile.<br>\n</p><p>Teavet Teie isikuandmete töötlemise kohta leiate <br>\n<a href=\"https://www.k-rauta.ee/kp/privaatsuspoliitika/a\">Privaatsuspoliitikast.</a><br>\n</p><p>Andmetöötlusametnikuga saate ühendust võtta e-posti aadressil dpo@ksdigital.ee.</p>\n<p><i>Selles sõnumis ja selle lisades esitatud teave on ette nähtud vaid adressaadile. Kui olete saanud sõnumi, mis pole mõeldud Teile, palun teavitage meid sellest e-posti dpo@ksdigital.ee teel ja kustutage kiri.</i></p>\n\n<p style=\"color:white;\">ref:!00D3X03IdO3.!500Tb0PdsNF:ref</p>",
+      "hiddenReasons": [
+        "automated-reply"
+      ],
+      "attachments": []
     },
     {
       "id": "2025-05-31T12-42-from-gregoreesmaa1-gmail-com",
@@ -116,6 +140,37 @@
           "filename": "vulnerability-reassessment-report.pdf",
           "contentType": "application/pdf",
           "size": 371773
+        }
+      ]
+    },
+    {
+      "id": "2025-06-25T08-18-from-info-ksdigital-lt",
+      "type": "email",
+      "subject": "Answer to the Data Subject Notice",
+      "from": {
+        "address": "info@ksdigital.lt",
+        "name": "info ksdigital"
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": ""
+        }
+      ],
+      "cc": [
+        {
+          "address": "dpo@ksdigital.ee",
+          "name": "DPO EE"
+        }
+      ],
+      "date": "2025-06-25T08:18:39.000Z",
+      "bodyHtml": "<div class=\"WordSection1\">\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt;mso-ligatures:standardcontextual\">Dear Sir or Madam,<o:p></o:p></span></p>\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt;mso-ligatures:standardcontextual\">Thank you for your inquiry submitted on May 31st. Please find our response attached.</span><span lang=\"LT\" style=\"font-size:11.0pt;mso-ligatures:standardcontextual\"><o:p></o:p></span></p>\n<table class=\"MsoNormalTable\" border=\"0\" cellspacing=\"3\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td style=\"padding:0cm 3.75pt 0cm 0cm\">\n\n</td>\n<td style=\"border:none;border-left:solid #0A2672 1.5pt;padding:5.25pt 0cm 0cm 7.5pt\">\n<p class=\"MsoNormal\"><span style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#002060;mso-fareast-language:LT\">,,Kesko Senukai Digital“<o:p></o:p></span></p>\n<p class=\"MsoNormal\"><span style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#002060;mso-fareast-language:LT\">Kareivių str. 11B, LT-09109 Vilnius, Lithuania<o:p></o:p></span></p>\n<p class=\"MsoNormal\"><span style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#002060;mso-fareast-language:LT\"><a href=\"mailto:info@ksdigital.lt\"><span style=\"color:#467886\">info@ksdigital.lt</span></a><o:p></o:p></span></p>\n<p class=\"MsoNormal\"><span style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#002060;mso-fareast-language:LT\">+370 615 14763<o:p></o:p></span></p>\n\n</td>\n</tr>\n</tbody>\n</table>\n<p class=\"MsoNormal\"><span lang=\"LT\" style=\"font-size:6.0pt;font-family:&quot;Arial&quot;,sans-serif;color:gray;mso-ligatures:standardcontextual;mso-fareast-language:LT\">This email and any files transmitted with it are confidential and intended solely for the use of\n the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. If you are not the named addressee you should not disseminate, distribute or copy this e-mail</span><span lang=\"LT\" style=\"font-size:11.0pt;mso-ligatures:standardcontextual;mso-fareast-language:LT\"><o:p></o:p></span></p>\n\n\n<div id=\"Signature\">\n\n</div>\n</div>",
+      "hiddenReasons": [],
+      "attachments": [
+        {
+          "filename": "Answer to the Data Subject Notice_20250625_signed.pdf",
+          "contentType": "application/pdf",
+          "size": 261223
         }
       ]
     }
