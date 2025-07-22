@@ -1182,8 +1182,8 @@
     "stats": {
       "dates": {
         "first": "2025-03-16T19:18:44.000Z",
-        "firstGdprRequest": "2025-05-31T12:42:03.000Z",
-        "last": "2025-05-31T12:42:03.000Z"
+        "firstGdprRequest": "2025-05-31T18:08:12.000Z",
+        "last": "2025-05-31T18:08:12.000Z"
       },
       "counts": {
         "total": 2,
@@ -1224,18 +1224,16 @@
     "stats": {
       "dates": {
         "first": "2025-03-16T19:18:48.000Z",
-        "firstResponse": "2025-05-31T18:11:34.000Z",
         "firstGdprRequest": "2025-05-31T12:42:11.000Z",
-        "firstGdprResponse": "2025-05-31T18:11:34.000Z",
         "last": "2025-05-31T18:11:34.000Z"
       },
       "counts": {
         "total": 3,
-        "sent": 2,
+        "sent": 3,
         "received": {
           "automated": 0,
-          "manual": 1,
-          "total": 1
+          "manual": 0,
+          "total": 0
         }
       }
     }
