@@ -9,15 +9,16 @@
         "firstResponse": "2025-04-04T09:09:46.000Z",
         "reassessmentReport": "2025-06-08T07:40:32.000Z",
         "gdprRequest": "2025-06-24T13:51:54.000Z",
-        "lastCommunication": "2025-06-24T13:51:54.000Z"
+        "firstResponseAfterGdpr": "2025-07-23T08:19:20.000Z",
+        "lastCommunication": "2025-07-23T08:19:20.000Z"
       },
       "counts": {
-        "total": 8,
+        "total": 9,
         "sent": 4,
         "received": {
           "automated": 3,
-          "manual": 1,
-          "total": 4
+          "manual": 2,
+          "total": 5
         }
       }
     }
@@ -234,6 +235,26 @@
       "hiddenReasons": [
         "automated-reply"
       ],
+      "attachments": []
+    },
+    {
+      "id": "2025-07-23T08-19-from-RimiDPO-rimibaltic-com",
+      "type": "email",
+      "subject": "RE: [EXT] IKÜM taotlus seoses isikuandmete töötlemisega teenuses rimi.ee / GDPR Request Regarding Processing of Personal Data on rimi.ee",
+      "from": {
+        "address": "RimiDPO@rimibaltic.com",
+        "name": "MBX-BOXRimiDPO"
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-07-23T08:19:20.000Z",
+      "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Dear Gregor,\n\nThank you for contacting us with your concerns.\n\nAt Rimi, personal data protection is a topic we take very seriously. We recognize its importance in today’s digital environment and treat it as a key consideration in our operations and decision-making. We follow information security practices aligned with industry standards.\n\nWe process your personal data based on our legitimate interest to ensure IIT environment security. In more detail you can read in our Customer privacy policy: https://www.rimi.ee/privaatsuspoliitika/klient/sinu-rimi-kliendiprogrammi-ja-rimi-e-poe-isikuandmete-tootlemine. For mentioned processing, we have conducted a legitimate interest balancing test and concluded that the legitimate interests pursued are not overridden by the rights and freedoms of the data subjects. Following a reassessment of the legitimate interest balancing test, we have reaffirmed our original conclusion. The rights outlined in Article 18 and Article 21of the GDPR become applicable only when one of the specific conditions listed therein is met. In the present case, none of those conditions are fulfilled, and therefore the rights do not apply.\n\nWe would like to indicate that enumeration vulnerability is a potential weakness in a system. It does not, in itself, involve the transmission, access, or disclosure of personal data unless exploited. In the case of enumeration, the system may respond differently to valid vs. invalid inputs. However, no actual personal data is disclosed unless the system returns identifiable information beyond mere existence. The mere confirmation of existence of a data point (e.g. a registered email) may not meet the threshold of disclosure unless it is accompanied by additional identifiable information or is used in a context that leads to identification of a data subject.\n\nThe method used to exploit this vulnerability is beyond standard practice and required specialized knowledge and skills that most individuals outside the relevant field would not typically possess.\n\nIf you are dissatisfied with our answer you can contact  Data Protection Inspectorate in Estonia. https://www.aki.ee/\n\nBest Regards\nRIMI Data protection function\nRimiDPO@rimibaltic.com\n\nRimi Eesti Food AS\nSaue 10, Saue Vald, Harjumaa, Estonia\nwww.rimi.ee\n\nInfot, kuidas me Sinu isikuandmeid töötleme leiad siit https://www.rimi.ee/Privaatsuspoliitika/kliendi-tagasiside-isikuandmete-tootlemine\n\nMida teha, kui Rimi keeldub kaebust lahendama või kui Sa ei ole kaebuse lahendamisega nõus https://www.rimi.ee/Privaatsuspoliitika/pretensiooni-esitamine-kauplejale</div></body>",
+      "hiddenReasons": [],
       "attachments": []
     }
   ]
