@@ -23,7 +23,7 @@
   },
   "emails": [
     {
-      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee",
+      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee-479cba19",
       "type": "email",
       "subject": "User email address enumeration vulnerability on delfi.ee",
       "from": {
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "id": "2025-03-16T19-19-from-isikuandmed-delfi-ee",
+      "id": "2025-03-16T19-19-from-isikuandmed-delfi-ee-d0236786",
       "type": "email",
       "subject": "Automatic reply: User email address enumeration vulnerability on delfi.ee",
       "from": {
@@ -71,7 +71,7 @@
       "attachments": []
     },
     {
-      "id": "2025-03-19T13-48-from-isikuandmed-delfi-ee",
+      "id": "2025-03-19T13-48-from-isikuandmed-delfi-ee-65a392fb",
       "type": "email",
       "subject": "RE: User email address enumeration vulnerability on delfi.ee",
       "from": {
@@ -91,7 +91,7 @@
       "attachments": []
     },
     {
-      "id": "2025-05-31T12-41-from-gregoreesmaa1-gmail-com",
+      "id": "2025-05-31T12-41-from-gregoreesmaa1-gmail-com-ce5a8b55",
       "type": "email",
       "subject": "IKÜM taotlus seoses isikuandmete töötlemisega teenuses delfi.ee / GDPR Request Regarding Processing of Personal Data on delfi.ee",
       "from": {
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "id": "2025-05-31T12-44-from-isikuandmed-delfi-ee",
+      "id": "2025-05-31T12-44-from-isikuandmed-delfi-ee-40f13641",
       "type": "email",
       "subject": "Automatic reply: IKÜM taotlus seoses isikuandmete töötlemisega teenuses delfi.ee / GDPR Request Regarding Processing of Personal Data on delfi.ee",
       "from": {
@@ -152,7 +152,7 @@
       "attachments": []
     },
     {
-      "id": "2025-05-31T18-43-from-gregoreesmaa1-gmail-com",
+      "id": "2025-05-31T18-43-from-gregoreesmaa1-gmail-com-ff87e4d3",
       "type": "email",
       "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses delfi.ee / GDPR Request Regarding Processing of Personal Data on delfi.ee",
       "from": {

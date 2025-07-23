@@ -23,7 +23,7 @@
   },
   "emails": [
     {
-      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee",
+      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee-8fe193f7",
       "type": "email",
       "subject": "User email address enumeration vulnerability on city24.ee",
       "from": {
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "id": "2025-03-23T10-39-from-gregor-eesmaa-ut-ee",
+      "id": "2025-03-23T10-39-from-gregor-eesmaa-ut-ee-09e13fab",
       "type": "email",
       "subject": "User email address enumeration vulnerability on city24.ee",
       "from": {
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "id": "2025-03-28T11-02-from-Karin-Noppel-Kokerov-city24-ee",
+      "id": "2025-03-28T11-02-from-Karin-Noppel-Kokerov-city24-ee-eb44bf26",
       "type": "email",
       "subject": "Re: User email address enumeration vulnerability on city24.ee",
       "from": {
@@ -95,7 +95,7 @@
       "attachments": []
     },
     {
-      "id": "2025-05-18T14-28-from-gregor-eesmaa-ut-ee",
+      "id": "2025-05-18T14-28-from-gregor-eesmaa-ut-ee-e537b8e6",
       "type": "email",
       "subject": "Re: User email address enumeration vulnerability on city24.ee",
       "from": {

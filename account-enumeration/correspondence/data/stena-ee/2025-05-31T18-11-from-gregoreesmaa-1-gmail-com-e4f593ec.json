@@ -1,0 +1,49 @@
+{
+  "id": "2025-05-31T18-11-from-gregoreesmaa-1-gmail-com-e4f593ec",
+  "type": "email",
+  "subject": "IKÜM taotlus seoses isikuandmete töötlemisega teenuses stena.ee / GDPR Request Regarding Processing of Personal Data on stena.ee",
+  "from": {
+    "address": "gregoreesmaa.1@gmail.com",
+    "name": "Gregor Eesmaa"
+  },
+  "to": [
+    {
+      "address": "stenaee@gmail.com",
+      "name": ""
+    }
+  ],
+  "cc": [],
+  "date": "2025-05-31T18:11:34.000Z",
+  "bodyHtml": "<head></head><body><div dir=\"ltr\"><div dir=\"ltr\">Lugupeetud <a href=\"http://stena.ee\">stena.ee</a> vastutav andmetöötleja<br><div><br></div><div>(Saadan eelnevalt saadetud kirja uuesti õigelt meiliaadressilt)<br><br>Pöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses <a href=\"http://stena.ee\">stena.ee</a>, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.<br><br>Manuses on ametlik taotlus, milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).<br><br>Palun teavitage taotluse kättesaamisest.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>Dear Data Controller of <a href=\"http://stena.ee\">stena.ee</a>,</div><div><br></div><div>(Sending the previously sent email again from the correct email address)<br><br>I am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by <a href=\"http://stena.ee\">stena.ee</a>, potentially leading to its disclosure to unauthorised parties without a clear legal basis.<br><br>Please find attached a formal application exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).<br><br>Please confirm receipt of this request.<br><br>Kind regards,<br>Gregor Eesmaa</div></div>\n</div>\n</body>",
+  "hiddenReasons": [],
+  "attachments": [
+    {
+      "filename": "taotlus-request.pdf",
+      "contentType": "application/pdf",
+      "size": 65464
+    },
+    {
+      "filename": "vulnerability-reassessment-report.pdf",
+      "contentType": "application/pdf",
+      "size": 422962
+    },
+    {
+      "filename": "taotlus-request.asice",
+      "contentType": "application/vnd.etsi.asic-e+zip",
+      "size": 465706,
+      "contentPath": "content-taotlus-request-asice",
+      "contents": [
+        {
+          "filename": "taotlus-request.pdf",
+          "contentType": "application/pdf",
+          "size": 65464
+        },
+        {
+          "filename": "vulnerability-reassessment-report.pdf",
+          "contentType": "application/pdf",
+          "size": 422962
+        }
+      ]
+    }
+  ]
+}

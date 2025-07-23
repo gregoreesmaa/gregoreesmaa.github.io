@@ -1,0 +1,31 @@
+{
+  "id": "2025-05-31T17-59-from-gregoreesmaa1-gmail-com-9cc32654",
+  "type": "email",
+  "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses bet365.ee / GDPR Request Regarding Processing of Personal Data on bet365.ee",
+  "from": {
+    "address": "gregoreesmaa1@gmail.com",
+    "name": "Gregor Eesmaa"
+  },
+  "to": [
+    {
+      "address": "support-est@customerservices365.com",
+      "name": ""
+    }
+  ],
+  "cc": [],
+  "date": "2025-05-31T17:59:41.000Z",
+  "bodyHtml": "<head></head><body><div dir=\"ltr\"><pre style=\"font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal;font-size-adjust:none;font-kerning:auto;font-feature-settings:normal;font-stretch:normal;font-size:10pt;line-height:normal;font-family:Arial;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;color:rgb(0,0,0)\">Lugupeetud <a href=\"http://bet365.ee/\" target=\"_blank\">bet365.ee</a> vastutav andmetöötleja\n\nManuses konteineri sisu (taotlus ja taotluses viidatud aruanne)\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of <a href=\"http://bet365.ee/\" target=\"_blank\">bet365.ee</a>,\n\nFind attached the container contents (the request and the report referenced in the request).\n\nKind regards,\nGregor Eesmaa</pre></div><br>\n</body>",
+  "hiddenReasons": [],
+  "attachments": [
+    {
+      "filename": "taotlus-request.pdf",
+      "contentType": "application/pdf",
+      "size": 65698
+    },
+    {
+      "filename": "vulnerability-reassessment-report.pdf",
+      "contentType": "application/pdf",
+      "size": 482887
+    }
+  ]
+}

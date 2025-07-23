@@ -1,0 +1,20 @@
+{
+  "id": "2025-06-04T10-18-from-info-hind-ee-12c1824f",
+  "type": "email",
+  "subject": "Re: User email address enumeration vulnerability on hind.ee",
+  "from": {
+    "address": "info@hind.ee",
+    "name": "Hind.ee"
+  },
+  "to": [
+    {
+      "address": "gregor.eesmaa@ut.ee",
+      "name": "Gregor Eesmaa"
+    }
+  ],
+  "cc": [],
+  "date": "2025-06-04T10:18:19.000Z",
+  "bodyHtml": "<head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body><div dir=\"ltr\">Hello,<div><br></div><div>We have considered your feedback and made the changes that our system allows.&nbsp;</div><div>Since we use the same system in multiple countries implementing changes is not straightforward.</div><div><p>Best regards,<br>Andrius | Hind.ee</p></div></div><br>\n</body>",
+  "hiddenReasons": [],
+  "attachments": []
+}

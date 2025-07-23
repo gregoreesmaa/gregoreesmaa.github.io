@@ -1,0 +1,20 @@
+{
+  "id": "2025-04-06T19-47-from-MAILER-DAEMON-se1-egwo365-p01d-sys-schwarz-6fe1050b",
+  "type": "email",
+  "subject": "DELIVERY FAILURE: 5.1.0 - Unknown address error 550-'Carsten_Payenberg/HQSBG001/SBG@asp.lidl.net... No such user' (delivery attempts: 0)",
+  "from": {
+    "address": "MAILER-DAEMON@se1-egwo365-p01d.sys.schwarz",
+    "name": "Mail Delivery System"
+  },
+  "to": [
+    {
+      "name": "Undisclosed recipients",
+      "group": []
+    }
+  ],
+  "cc": [],
+  "date": "2025-04-06T19:47:09.000Z",
+  "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">The following message to &lt;Carsten_Payenberg/HQSBG001/SBG@asp.lidl.net&gt; was undeliverable.\nThe reason for the problem:\n5.1.0 - Unknown address error 550-'Carsten_Payenberg/HQSBG001/SBG@asp.lidl.net... No such user'\n\n\n\nReporting-MTA: dns; se1-egwo365-p01d.sys.schwarz\n\nFinal-Recipient: rfc822;Carsten_Payenberg/HQSBG001/SBG@asp.lidl.net\nAction: failed\nStatus: 5.0.0 (permanent failure)\nRemote-MTA: dns; [10.201.34.119]\nDiagnostic-Code: smtp; 5.1.0 - Unknown address error 550-'Carsten_Payenberg/HQSBG001/SBG@asp.lidl.net... No such user' (delivery attempts: 0)</div></body>",
+  "hiddenReasons": [],
+  "attachments": []
+}

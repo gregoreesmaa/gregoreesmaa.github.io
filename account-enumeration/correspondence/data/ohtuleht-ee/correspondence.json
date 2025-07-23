@@ -23,7 +23,7 @@
   },
   "emails": [
     {
-      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee",
+      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee-c1e3c450",
       "type": "email",
       "subject": "User email address enumeration vulnerability on ohtuleht.ee",
       "from": {
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "id": "2025-03-23T10-39-from-gregor-eesmaa-ut-ee",
+      "id": "2025-03-23T10-39-from-gregor-eesmaa-ut-ee-45c60e0c",
       "type": "email",
       "subject": "User email address enumeration vulnerability on ohtuleht.ee",
       "from": {
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "id": "2025-03-24T10-41-from-urmas-talivee-ohtulehtkirjastus-ee",
+      "id": "2025-03-24T10-41-from-urmas-talivee-ohtulehtkirjastus-ee-5e61835f",
       "type": "email",
       "subject": "RE: User email address enumeration vulnerability on ohtuleht.ee",
       "from": {
@@ -95,7 +95,7 @@
       "attachments": []
     },
     {
-      "id": "2025-03-24T12-06-from-gregor-eesmaa-ut-ee",
+      "id": "2025-03-24T12-06-from-gregor-eesmaa-ut-ee-b38644d1",
       "type": "email",
       "subject": "Re: User email address enumeration vulnerability on ohtuleht.ee",
       "from": {
@@ -115,7 +115,7 @@
       "attachments": []
     },
     {
-      "id": "2025-05-31T12-42-from-gregoreesmaa1-gmail-com",
+      "id": "2025-05-31T12-42-from-gregoreesmaa1-gmail-com-583c6033",
       "type": "email",
       "subject": "IKÜM taotlus seoses isikuandmete töötlemisega teenuses ohtuleht.ee / GDPR Request Regarding Processing of Personal Data on ohtuleht.ee",
       "from": {
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "id": "2025-05-31T18-53-from-gregoreesmaa1-gmail-com",
+      "id": "2025-05-31T18-53-from-gregoreesmaa1-gmail-com-a2ce759e",
       "type": "email",
       "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses ohtuleht.ee / GDPR Request Regarding Processing of Personal Data on ohtuleht.ee",
       "from": {

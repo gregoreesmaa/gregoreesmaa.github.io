@@ -1,0 +1,20 @@
+{
+  "id": "2025-03-17T09-20-from-info-starcloud-ee-d7899a20",
+  "type": "email",
+  "subject": "RE: User email address enumeration vulnerability on opiq.ee",
+  "from": {
+    "address": "info@starcloud.ee",
+    "name": "StarCloud info"
+  },
+  "to": [
+    {
+      "address": "gregor.eesmaa@ut.ee",
+      "name": "Gregor Eesmaa"
+    }
+  ],
+  "cc": [],
+  "date": "2025-03-17T09:20:04.000Z",
+  "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Tere!\n\nAitäh kirja eest. Saime selle kätte ja uurime raporti sisu.\n\nParimatega\nAntti Rammo\nStar Cloud</div></body>",
+  "hiddenReasons": [],
+  "attachments": []
+}

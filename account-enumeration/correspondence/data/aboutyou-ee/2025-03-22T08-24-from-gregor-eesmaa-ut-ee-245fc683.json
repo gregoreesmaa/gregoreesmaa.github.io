@@ -1,0 +1,25 @@
+{
+  "id": "2025-03-22T08-24-from-gregor-eesmaa-ut-ee-245fc683",
+  "type": "email",
+  "subject": "Re: User email address enumeration vulnerability on aboutyou.ee",
+  "from": {
+    "address": "gregor.eesmaa@ut.ee",
+    "name": "Gregor Eesmaa"
+  },
+  "to": [
+    {
+      "address": "security@aboutyou.com",
+      "name": "Security"
+    }
+  ],
+  "cc": [
+    {
+      "address": "fabienne.skrzypczak@aboutyou.com",
+      "name": "Fabienne Skrzypczak"
+    }
+  ],
+  "date": "2025-03-22T08:24:33.000Z",
+  "bodyHtml": "<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\n<style type=\"text/css\" style=\"display:none;\"> P {margin-top:0;margin-bottom:0;} </style>\n</head>\n<body dir=\"ltr\">\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nHello,</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nPlease provide me the details for the bug bounty program, I am interested in participating.</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nHowever, I will first need to confirm that the Terms and Conditions do not interfere with my master's thesis.</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nBest regards,</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nGregor Eesmaa</div>\n<div id=\"appendonsend\"></div>\n\n</body>",
+  "hiddenReasons": [],
+  "attachments": []
+}

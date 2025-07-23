@@ -1,0 +1,33 @@
+{
+  "id": "2025-05-31T18-42-from-gregoreesmaa1-gmail-com-72fb8772",
+  "type": "email",
+  "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses barbora.ee / GDPR Request Regarding Processing of Personal Data on barbora.ee",
+  "from": {
+    "address": "gregoreesmaa1@gmail.com",
+    "name": "Gregor Eesmaa"
+  },
+  "to": [
+    {
+      "address": "dpo@barbora.ee",
+      "name": ""
+    }
+  ],
+  "cc": [],
+  "date": "2025-05-31T18:42:29.000Z",
+  "bodyHtml": "<head></head><body><div dir=\"ltr\">Saadan igaks juhuks ka eraldi taotluse ja aruande PDFid, mis asusid eelmise meili manuses digiallkirjastatud konteineris.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>Just in case, providing also the request and the report PDF files, that were in the digitally signed container attached to the previous email.<br><br>Kind regards,<br>Gregor Eesmaa</div><br>\n</body>",
+  "hiddenReasons": [
+    "providing-container-contents"
+  ],
+  "attachments": [
+    {
+      "filename": "vulnerability-reassessment-report.pdf",
+      "contentType": "application/pdf",
+      "size": 177672
+    },
+    {
+      "filename": "taotlus-request.pdf",
+      "contentType": "application/pdf",
+      "size": 65244
+    }
+  ]
+}

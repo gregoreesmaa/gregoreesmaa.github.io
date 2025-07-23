@@ -25,7 +25,7 @@
   },
   "emails": [
     {
-      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee",
+      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee-0b1fddb5",
       "type": "email",
       "subject": "User email address enumeration vulnerability on euronics.ee",
       "from": {
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "id": "2025-03-23T10-39-from-gregor-eesmaa-ut-ee",
+      "id": "2025-03-23T10-39-from-gregor-eesmaa-ut-ee-296f0cf1",
       "type": "email",
       "subject": "User email address enumeration vulnerability on euronics.ee",
       "from": {
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "id": "2025-04-21T09-07-from-privaatsus-euronics-ee",
+      "id": "2025-04-21T09-07-from-privaatsus-euronics-ee-73d9ac24",
       "type": "email",
       "subject": "RE: User email address enumeration vulnerability on euronics.ee",
       "from": {
@@ -97,7 +97,7 @@
       "attachments": []
     },
     {
-      "id": "2025-05-18T14-32-from-gregor-eesmaa-ut-ee",
+      "id": "2025-05-18T14-32-from-gregor-eesmaa-ut-ee-1fce511d",
       "type": "email",
       "subject": "Re: User email address enumeration vulnerability on euronics.ee",
       "from": {
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "id": "2025-06-24T08-10-from-gregoreesmaa1-gmail-com",
+      "id": "2025-06-24T08-10-from-gregoreesmaa1-gmail-com-bcbd56bb",
       "type": "email",
       "subject": "IKÜM taotlus seoses isikuandmete töötlemisega teenuses euronics.ee / GDPR Request Regarding Processing of Personal Data on euronics.ee",
       "from": {
@@ -172,7 +172,7 @@
       ]
     },
     {
-      "id": "2025-07-11T09-54-from-privaatsus-euronics-ee",
+      "id": "2025-07-11T09-54-from-privaatsus-euronics-ee-5ba3497c",
       "type": "email",
       "subject": "RE: IKÜM taotlus seoses isikuandmete töötlemisega teenuses euronics.ee / GDPR Request Regarding Processing of Personal Data on euronics.ee",
       "from": {

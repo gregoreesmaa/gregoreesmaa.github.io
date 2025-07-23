@@ -1,0 +1,20 @@
+{
+  "id": "2025-04-01T06-30-from-dpo-jysk-ee-5e5c4ee1",
+  "type": "email",
+  "subject": "FW: [JYSK Baltic ] Re: FW: User email address enumeration vulnerability on jysk.ee",
+  "from": {
+    "address": "dpo@jysk.ee",
+    "name": "DPO JYSK Estonia"
+  },
+  "to": [
+    {
+      "address": "gregor.eesmaa@ut.ee",
+      "name": ""
+    }
+  ],
+  "cc": [],
+  "date": "2025-04-01T06:30:56.000Z",
+  "bodyHtml": "<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\n<style><!--\n/* Font Definitions */\n@font-face\n\t{font-family:\"Cambria Math\";\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\n@font-face\n\t{font-family:Verdana;\n\tpanose-1:2 11 6 4 3 5 4 4 2 4;}\n@font-face\n\t{font-family:Aptos;}\n@font-face\n\t{font-family:\"Lucida Sans Unicode\";\n\tpanose-1:2 11 6 2 3 5 4 2 2 4;}\n/* Style Definitions */\np.MsoNormal, li.MsoNormal, div.MsoNormal\n\t{margin:0cm;\n\tfont-size:12.0pt;\n\tfont-family:\"Aptos\",sans-serif;}\na:link, span.MsoHyperlink\n\t{mso-style-priority:99;\n\tcolor:blue;\n\ttext-decoration:underline;}\nspan.zdencodedid\n\t{mso-style-name:zd_encoded_id;}\nspan.EmailStyle21\n\t{mso-style-type:personal-reply;\n\tfont-family:\"Aptos\",sans-serif;\n\tcolor:windowtext;}\n.MsoChpDefault\n\t{mso-style-type:export-only;\n\tfont-size:10.0pt;\n\tmso-ligatures:none;}\n@page WordSection1\n\t{size:612.0pt 792.0pt;\n\tmargin:72.0pt 72.0pt 72.0pt 72.0pt;}\ndiv.WordSection1\n\t{page:WordSection1;}\n--></style><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext=\"edit\" spidmax=\"1026\" />\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext=\"edit\">\n<o:idmap v:ext=\"edit\" data=\"1\" />\n</o:shapelayout></xml><![endif]-->\n</head>\n<body lang=\"LV\" link=\"blue\" vlink=\"purple\" style=\"word-wrap:break-word\">\n<div class=\"WordSection1\">\n<div>\n<div>\n<div style=\"margin-top:18.75pt\">\n<p class=\"MsoNormal\" style=\"line-height:13.5pt\"><span lang=\"EN-GB\" style=\"font-size:11.0pt;font-family:&quot;Times New Roman&quot;,serif\">Dear Gregor, I confirm the receipt of your email. Thank you for providing the vulnerability report. I forwarded it to our IT department;\n they will look deeper into this. <o:p></o:p></span></p>\n<p class=\"MsoNormal\" style=\"line-height:13.5pt\"><span lang=\"EN-GB\" style=\"font-size:11.0pt;font-family:&quot;Times New Roman&quot;,serif\"><o:p>&nbsp;</o:p></span></p>\n<p class=\"MsoNormal\" style=\"line-height:13.5pt\"><span lang=\"EN-GB\" style=\"font-size:11.0pt;font-family:&quot;Times New Roman&quot;,serif\">Kind regards,\n<o:p></o:p></span></p>\n<p class=\"MsoNormal\" style=\"line-height:13.5pt\"><span lang=\"EN-GB\" style=\"font-size:11.0pt;font-family:&quot;Times New Roman&quot;,serif\">DPO JYSK Estonia<o:p></o:p></span></p>\n\n\n<table class=\"MsoNormalTable\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width:100.0%;border-collapse:collapse\">\n<tbody>\n<tr>\n<td width=\"100%\" style=\"width:100.0%;border:none;border-top:dotted #C5C5C5 1.0pt;padding:11.25pt 0cm 11.25pt 0cm\">\n<table class=\"MsoNormalTable\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"width:100.0%;border-collapse:collapse\">\n<tbody>\n<tr>\n<td width=\"100%\" valign=\"top\" style=\"width:100.0%;padding:0cm 0cm 0cm 0cm\">\n\n<div style=\"margin-top:11.25pt;margin-bottom:11.25pt\">\n</div></td></tr></tbody></table></td></tr></tbody></table></div></div></div></div></body>",
+  "hiddenReasons": [],
+  "attachments": []
+}

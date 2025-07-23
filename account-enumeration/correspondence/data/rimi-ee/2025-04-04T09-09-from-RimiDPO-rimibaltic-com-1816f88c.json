@@ -1,0 +1,20 @@
+{
+  "id": "2025-04-04T09-09-from-RimiDPO-rimibaltic-com-1816f88c",
+  "type": "email",
+  "subject": "RE: [EXT] User email address enumeration vulnerability on rimi.ee",
+  "from": {
+    "address": "RimiDPO@rimibaltic.com",
+    "name": "MBX-BOXRimiDPO"
+  },
+  "to": [
+    {
+      "address": "gregor.eesmaa@ut.ee",
+      "name": "Gregor Eesmaa"
+    }
+  ],
+  "cc": [],
+  "date": "2025-04-04T09:09:46.000Z",
+  "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Hello.\n\nThank you for your email and for bringing this matter to our attention. We appreciate your efforts in researching potential issues and sharing your findings with us.\n\nWe continuously assess and monitor the security of our services to ensure the protection of our users and their data. Your report will be reviewed as part of our ongoing security evaluations.\n\nPlease rest assured that we are dedicated to maintaining the privacy and security of our users, and we will continue to monitor and improve our processes as necessary.\n\nThank you once again for your cooperation.\n\nBest Regards\nRIMI Data protection function\nRimiDPO@rimibaltic.com\n\nRimi Eesti Food AS\nSaue 10, Saue Vald, Harjumaa, Estonia\nwww.rimi.ee\n\nInfot, kuidas me Sinu isikuandmeid töötleme leiad siit https://www.rimi.ee/Privaatsuspoliitika/kliendi-tagasiside-isikuandmete-tootlemine\n\nMida teha, kui Rimi keeldub kaebust lahendama või kui Sa ei ole kaebuse lahendamisega nõus https://www.rimi.ee/Privaatsuspoliitika/pretensiooni-esitamine-kauplejale</div></body>",
+  "hiddenReasons": [],
+  "attachments": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2025-03-16T19-18-from-info-aeromotors-ee-f70f26bd",
+  "type": "email",
+  "subject": "[n.350589] Aero Motors OÜ",
+  "from": {
+    "address": "info@aeromotors.ee",
+    "name": "Aero Motors"
+  },
+  "to": [
+    {
+      "address": "gregor.eesmaa@ut.ee",
+      "name": "Gregor Eesmaa"
+    }
+  ],
+  "cc": [],
+  "date": "2025-03-16T19:18:52.000Z",
+  "bodyHtml": "<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n  <style type=\"text/css\">\n  table td {border-collapse: collapse;}\n    body[dir=rtl] .directional_text_wrapper { direction: rtl; unicode-bidi: embed; }\n\n    .latest-comment div /*remove top margin*/{\n    margin-top: 0px !important;\n    }\n    .content-div .latest-comment div table tbody tr td {\n    border-top: none !important;\n    padding: 0px !important;\n    }\n    .content-div .latest-comment div table tbody tr td table tbody tr td p {\n    max-height:0 !important; /* Gmail*/\n    display:none !important; /* Generic*/\n    mso-hide:all !important; /* Outlook clients*/\n    overflow:hidden !important; /* Generic */\n    padding-top: 0px !important;\n    }\n    .content-div .latest-comment div table tbody tr td table tbody tr td div {\n    font-family: 'Calibri, sans-serif' !important;\n    font-size: 15px !important;\n    mso-table-lspace: 0pt !important; \n    mso-table-rspace: 0pt !important; \n    -ms-text-size-adjust: 100% !important; \n    -webkit-text-size-adjust: 100% !important;\n    width: 100% !important;\n    }\n    .zd-comment {\n    -webkit-text-size-adjust: none !important;\n    }\n  </style>\n</head>\n<body lang=\"en-us\" style=\"width: 100%!important; margin: 0; padding: 0;\">\n  <div class=\"content-div\" style=\"padding-left: 10px; padding-right:14px; line-height: 18px; font-family: 'Calibri, sans-serif'; font-size: 11px; color:#333;\">\n   <!--<div style=\"color: #ffffff;\"></div>-->\n    <p dir=\"ltr\">Tere!</p><p dir=\"ltr\">Suur tänu pöördumise eest!<br>Vastame Teile esimesel võimalusel, kuid hiljemalt 3 tööpäeva jooksul.</p><p dir=\"ltr\">Heade soovidega,<br>Aero Motors OÜ<br>aeromotors.ee<br>+372 663 10 60<br>info@aeromotors.ee<br><img src=\"https://theme.zdassets.com/theme_assets/13792490/6b1b70f432a03bba24ac8bcf281457a2c983284f.png\"></p>\n  </div>\n<span style=\"color:#FFFFFF\" aria-hidden=\"true\" class=\"zd_encoded_id\">[G3P2NG-DV2X9]</span>\n<div itemscope=\"\" itemtype=\"http://schema.org/EmailMessage\" style=\"display:none\">  <div itemprop=\"action\" itemscope=\"\" itemtype=\"http://schema.org/ViewAction\">    <link itemprop=\"url\" href=\"https://aeromotorshelp.zendesk.com/hc/requests/350589\">    <meta itemprop=\"name\" content=\"View ticket\">  </div></div></body>",
+  "hiddenReasons": [
+    "automated-reply"
+  ],
+  "attachments": []
+}

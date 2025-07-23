@@ -1,0 +1,20 @@
+{
+  "id": "2025-06-01T06-16-from-info-upload-ee-79b1f196",
+  "type": "email",
+  "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses upload.ee / GDPR Request Regarding Processing of Personal Data on upload.ee",
+  "from": {
+    "address": "info@upload.ee",
+    "name": "Upload Team"
+  },
+  "to": [
+    {
+      "address": "gregoreesmaa1@gmail.com",
+      "name": "Gregor Eesmaa"
+    }
+  ],
+  "cc": [],
+  "date": "2025-06-01T06:16:37.000Z",
+  "bodyHtml": "<head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"></head><body style=\"overflow-wrap: break-word; -webkit-nbsp-mode: space; line-break: after-white-space;\">Registreerumise teavitus peaks nüüd veebis näitama sama teksti mõlemal juhul nii emaili olemasolul kui puudumisel, saadetava emaili sisu on teistsugune.<div>Kasutajanime unikaalsuse kontroll on jätkuvalt olemas ja kuvab selle kohta infot: sisselogimine on kasutajanimega alati olnud ning kasutajanimeks saab igaüks omal vastutusel valida suvalise teksti. Sai ka üle kontrollitud, et&nbsp;<a href=\"http://aki.ee\">aki.ee</a>&nbsp;leht ei defineeri kasutajanime isikuandmeteks.<div>Parooli unustamise leht on jätkuvalt ähmane ehk halb, seal ei muutnud eilsega võrreldes rohkem midagi: kasutajal puudub konkreetne kohene tagasiside, kas tal päriselt siis on konto olemas või ei.</div><div><br></div><div>Tranco listist .ee lõpuga domeenide otsimine ja kasutajaskonna suhtes eelduste tegemine ning .ee domeenidega võrdlemine on natukene pinnapealne lähenemine, reaalselt on Eesti liiklust lehel 2%, suurem osa liiklusest on EU väline (domeeninime lõpp ei defineeri kasutajaskonda ega realistlikku võrdlusgruppi).</div><div><br></div><div>Sellest tingitud olid ka eelnevad küsimused/võrdlused muude globaalsemate saitide osas, millele pole Teilt veel selget vastust saanud:</div><div>&nbsp; kas olete kirjutanud samalaadsed kirjad ka github, facebook, google, airbnb jne lehtedele, kus on sama definitsiooni järgi ohus sadade miljonite kasutajate andmed?</div><div>&nbsp; vaadates neid eelnimetatud lehti, kus hetkel jätkuvalt ei rakendata sellist ähmast lähenemist, kas nendele siis GDPR rakendub kuidagi teistmoodi, kui väiksematele ettevõtetele?</div><div><br></div><div>Tervitades,</div><div>Upload.ee Meeskond<br id=\"lineBreakAtBeginningOfMessage\"><div><br></div><br></div></div></body>",
+  "hiddenReasons": [],
+  "attachments": []
+}

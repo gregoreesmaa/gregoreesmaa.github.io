@@ -24,7 +24,7 @@
   },
   "emails": [
     {
-      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee",
+      "id": "2025-03-16T19-18-from-gregor-eesmaa-ut-ee-ab9d15cc",
       "type": "email",
       "subject": "User email address enumeration vulnerability on moodle.edu.ee",
       "from": {
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "id": "2025-03-16T19-22-from-moodle-tugi-edu-ee",
+      "id": "2025-03-16T19-22-from-moodle-tugi-edu-ee-2a96c5df",
       "type": "email",
       "subject": "[MOODLE-5802] Automaatvastus: User email address enumeration vulnerability on moodle.edu.ee",
       "from": {
@@ -72,7 +72,7 @@
       "attachments": []
     },
     {
-      "id": "2025-03-18T09-08-from-moodle-tugi-edu-ee",
+      "id": "2025-03-18T09-08-from-moodle-tugi-edu-ee-9559f496",
       "type": "email",
       "subject": "(MOODLE-5802) User email address enumeration vulnerability on moodle.edu.ee",
       "from": {
@@ -92,7 +92,7 @@
       "attachments": []
     },
     {
-      "id": "2025-05-31T12-41-from-gregoreesmaa1-gmail-com",
+      "id": "2025-05-31T12-41-from-gregoreesmaa1-gmail-com-82cbc8d4",
       "type": "email",
       "subject": "IKÜM taotlus seoses isikuandmete töötlemisega teenuses moodle.edu.ee / GDPR Request Regarding Processing of Personal Data on moodle.edu.ee",
       "from": {
@@ -131,7 +131,7 @@
       ]
     },
     {
-      "id": "2025-05-31T12-45-from-moodle-tugi-edu-ee",
+      "id": "2025-05-31T12-45-from-moodle-tugi-edu-ee-5dbafe7d",
       "type": "email",
       "subject": "[MOODLE-6314] Automaatvastus: IKÜM taotlus seoses isikuandmete töötlemisega teenuses moodle.edu.ee / GDPR Request Regarding Processing of Personal Data on moodle.edu.ee",
       "from": {
@@ -153,7 +153,7 @@
       "attachments": []
     },
     {
-      "id": "2025-05-31T18-34-from-gregoreesmaa1-gmail-com",
+      "id": "2025-05-31T18-34-from-gregoreesmaa1-gmail-com-b289eff0",
       "type": "email",
       "subject": "Re: [MOODLE-6314] Automaatvastus: IKÜM taotlus seoses isikuandmete töötlemisega teenuses moodle.edu.ee / GDPR Request Regarding Processing of Personal Data on moodle.edu.ee",
       "from": {
@@ -186,7 +186,7 @@
       ]
     },
     {
-      "id": "2025-06-02T05-38-from-moodle-tugi-edu-ee",
+      "id": "2025-06-02T05-38-from-moodle-tugi-edu-ee-6714d097",
       "type": "email",
       "subject": "(MOODLE-6314) IKÜM taotlus seoses isikuandmete töötlemisega teenuses moodle.edu.ee / GDPR Request Regarding Processing of Personal Data on moodle.edu.ee",
       "from": {

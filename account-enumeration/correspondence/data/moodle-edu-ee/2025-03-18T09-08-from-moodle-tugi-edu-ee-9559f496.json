@@ -1,0 +1,20 @@
+{
+  "id": "2025-03-18T09-08-from-moodle-tugi-edu-ee-9559f496",
+  "type": "email",
+  "subject": "(MOODLE-5802) User email address enumeration vulnerability on moodle.edu.ee",
+  "from": {
+    "address": "moodle@tugi.edu.ee",
+    "name": "KT-Moodle"
+  },
+  "to": [
+    {
+      "address": "gregor.eesmaa@ut.ee",
+      "name": ""
+    }
+  ],
+  "cc": [],
+  "date": "2025-03-18T09:08:00.000Z",
+  "bodyHtml": "<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body><p></p>\n<p></p><p>Hello,&nbsp;</p><p>&nbsp;</p><p>Thank you for the report. The Product Manager has been notified and will certainly look into it.</p><p>&nbsp;</p><p>Best Regards</p><p>Doris Allese<br>Technical Consultant&nbsp;<br>Ministry of Education and Research<br>Department of Technology Management<br>www.hm.ee<span style=\"font-size: 12pt;\"><br><br></span></p>\n</body>",
+  "hiddenReasons": [],
+  "attachments": []
+}

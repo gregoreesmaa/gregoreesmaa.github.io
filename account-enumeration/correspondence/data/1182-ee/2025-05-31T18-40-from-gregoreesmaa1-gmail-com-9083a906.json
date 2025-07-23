@@ -1,0 +1,33 @@
+{
+  "id": "2025-05-31T18-40-from-gregoreesmaa1-gmail-com-9083a906",
+  "type": "email",
+  "subject": "Re: IKÜM taotlus seoses isikuandmete töötlemisega teenuses 1182.ee / GDPR Request Regarding Processing of Personal Data on 1182.ee",
+  "from": {
+    "address": "gregoreesmaa1@gmail.com",
+    "name": "Gregor Eesmaa"
+  },
+  "to": [
+    {
+      "address": "info@nobeltech.ee",
+      "name": ""
+    }
+  ],
+  "cc": [],
+  "date": "2025-05-31T18:40:37.000Z",
+  "bodyHtml": "<head></head><body><div dir=\"ltr\">Saadan igaks juhuks ka eraldi taotluse ja aruande PDFid, mis asusid eelmise meili manuses digiallkirjastatud konteineris.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>Just in case, providing also the request and the report PDF files, that were in the digitally signed container attached to the previous email.<br><br>Kind regards,<br>Gregor Eesmaa</div><br>\n</body>",
+  "hiddenReasons": [
+    "providing-container-contents"
+  ],
+  "attachments": [
+    {
+      "filename": "vulnerability-reassessment-report.pdf",
+      "contentType": "application/pdf",
+      "size": 233012
+    },
+    {
+      "filename": "taotlus-request.pdf",
+      "contentType": "application/pdf",
+      "size": 65113
+    }
+  ]
+}
