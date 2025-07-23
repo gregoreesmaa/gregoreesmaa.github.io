@@ -5,9 +5,9 @@
     "type": "app",
     "stats": {
       "dates": {
-        "first": "2025-04-06T19:24:34.000Z",
-        "firstGdprRequest": "2025-06-21T12:38:38.000Z",
-        "last": "2025-06-21T18:14:05.000Z"
+        "initialReport": "2025-04-06T19:24:34.000Z",
+        "gdprRequest": "2025-06-21T12:38:38.000Z",
+        "lastCommunication": "2025-06-21T18:14:05.000Z"
       },
       "counts": {
         "total": 5,

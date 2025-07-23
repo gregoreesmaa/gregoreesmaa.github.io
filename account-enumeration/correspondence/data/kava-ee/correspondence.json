@@ -5,9 +5,9 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:33.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:36.000Z",
-        "last": "2025-05-31T18:51:08.000Z"
+        "initialReport": "2025-03-16T19:18:33.000Z",
+        "gdprRequest": "2025-05-31T12:41:36.000Z",
+        "lastCommunication": "2025-05-31T18:51:08.000Z"
       },
       "counts": {
         "total": 4,

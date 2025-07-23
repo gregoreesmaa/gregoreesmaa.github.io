@@ -5,10 +5,10 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:46.000Z",
+        "initialReport": "2025-03-16T19:18:46.000Z",
         "firstResponse": "2025-03-24T10:41:15.000Z",
-        "firstGdprRequest": "2025-05-31T12:42:08.000Z",
-        "last": "2025-05-31T18:53:12.000Z"
+        "gdprRequest": "2025-05-31T12:42:08.000Z",
+        "lastCommunication": "2025-05-31T18:53:12.000Z"
       },
       "counts": {
         "total": 6,

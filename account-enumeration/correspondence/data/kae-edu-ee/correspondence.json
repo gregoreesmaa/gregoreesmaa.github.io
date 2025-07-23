@@ -5,11 +5,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:44.000Z",
+        "initialReport": "2025-03-16T19:18:44.000Z",
         "firstResponse": "2025-06-01T06:25:44.000Z",
-        "firstGdprRequest": "2025-05-31T12:42:05.000Z",
-        "firstGdprResponse": "2025-06-01T06:25:44.000Z",
-        "last": "2025-06-04T15:29:02.000Z"
+        "gdprRequest": "2025-05-31T12:42:05.000Z",
+        "firstResponseAfterGdpr": "2025-06-01T06:25:44.000Z",
+        "lastCommunication": "2025-06-04T15:29:02.000Z"
       },
       "counts": {
         "total": 7,

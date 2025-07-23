@@ -5,9 +5,9 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:50.000Z",
+        "initialReport": "2025-03-16T19:18:50.000Z",
         "firstResponse": "2025-03-17T09:20:04.000Z",
-        "last": "2025-05-18T13:18:35.000Z"
+        "lastCommunication": "2025-05-18T13:18:35.000Z"
       },
       "counts": {
         "total": 3,

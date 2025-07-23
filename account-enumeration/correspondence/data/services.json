@@ -5,9 +5,9 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-23T10:39:24.000Z",
-        "firstGdprRequest": "2025-05-31T12:42:12.000Z",
-        "last": "2025-05-31T18:40:37.000Z"
+        "initialReport": "2025-03-23T10:39:24.000Z",
+        "gdprRequest": "2025-05-31T12:42:12.000Z",
+        "lastCommunication": "2025-05-31T18:40:37.000Z"
       },
       "counts": {
         "total": 3,
@@ -26,11 +26,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:34.000Z",
+        "initialReport": "2025-03-16T19:18:34.000Z",
         "firstResponse": "2025-03-18T10:49:50.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:39.000Z",
-        "firstGdprResponse": "2025-05-31T12:47:23.000Z",
-        "last": "2025-07-16T12:51:51.000Z"
+        "gdprRequest": "2025-05-31T12:41:39.000Z",
+        "firstResponseAfterGdpr": "2025-05-31T12:47:23.000Z",
+        "lastCommunication": "2025-07-16T12:51:51.000Z"
       },
       "counts": {
         "total": 17,
@@ -49,11 +49,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:37.000Z",
+        "initialReport": "2025-03-16T19:18:37.000Z",
         "firstResponse": "2025-06-02T07:08:17.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:46.000Z",
-        "firstGdprResponse": "2025-06-02T07:08:17.000Z",
-        "last": "2025-06-21T19:39:38.000Z"
+        "gdprRequest": "2025-05-31T12:41:46.000Z",
+        "firstResponseAfterGdpr": "2025-06-02T07:08:17.000Z",
+        "lastCommunication": "2025-06-21T19:39:38.000Z"
       },
       "counts": {
         "total": 9,
@@ -72,9 +72,10 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:43.000Z",
+        "initialReport": "2025-03-16T19:18:43.000Z",
         "firstResponse": "2025-03-17T07:50:08.000Z",
-        "last": "2025-05-18T14:16:56.000Z"
+        "reassessmentReport": "2025-05-18T14:16:56.000Z",
+        "lastCommunication": "2025-05-18T14:16:56.000Z"
       },
       "counts": {
         "total": 4,
@@ -93,9 +94,10 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:49.000Z",
+        "initialReport": "2025-03-16T19:18:49.000Z",
         "firstResponse": "2025-03-18T16:42:54.000Z",
-        "last": "2025-05-18T14:22:29.000Z"
+        "reassessmentReport": "2025-05-18T14:22:29.000Z",
+        "lastCommunication": "2025-05-18T14:22:29.000Z"
       },
       "counts": {
         "total": 4,
@@ -114,11 +116,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:36.000Z",
+        "initialReport": "2025-03-16T19:18:36.000Z",
         "firstResponse": "2025-06-30T11:41:04.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:42.000Z",
-        "firstGdprResponse": "2025-06-30T11:41:04.000Z",
-        "last": "2025-07-17T07:52:08.000Z"
+        "gdprRequest": "2025-05-31T12:41:42.000Z",
+        "firstResponseAfterGdpr": "2025-06-30T11:41:04.000Z",
+        "lastCommunication": "2025-07-17T07:52:08.000Z"
       },
       "counts": {
         "total": 9,
@@ -137,10 +139,10 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:45.000Z",
+        "initialReport": "2025-03-16T19:18:45.000Z",
         "firstResponse": "2025-03-23T11:01:02.000Z",
-        "firstGdprRequest": "2025-05-31T12:42:06.000Z",
-        "last": "2025-05-31T18:42:29.000Z"
+        "gdprRequest": "2025-05-31T12:42:06.000Z",
+        "lastCommunication": "2025-05-31T18:42:29.000Z"
       },
       "counts": {
         "total": 6,
@@ -159,11 +161,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:41.000Z",
+        "initialReport": "2025-03-16T19:18:41.000Z",
         "firstResponse": "2025-05-31T14:16:54.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:57.000Z",
-        "firstGdprResponse": "2025-05-31T14:16:54.000Z",
-        "last": "2025-05-31T17:59:41.000Z"
+        "gdprRequest": "2025-05-31T12:41:57.000Z",
+        "firstResponseAfterGdpr": "2025-05-31T14:16:54.000Z",
+        "lastCommunication": "2025-05-31T17:59:41.000Z"
       },
       "counts": {
         "total": 5,
@@ -182,11 +184,11 @@
     "type": "app",
     "stats": {
       "dates": {
-        "first": "2025-04-06T19:24:35.000Z",
+        "initialReport": "2025-04-06T19:24:35.000Z",
         "firstResponse": "2025-04-07T10:48:54.000Z",
-        "firstGdprRequest": "2025-06-21T12:31:46.000Z",
-        "firstGdprResponse": "2025-06-25T10:09:37.000Z",
-        "last": "2025-07-20T15:49:17.000Z"
+        "gdprRequest": "2025-06-21T12:31:46.000Z",
+        "firstResponseAfterGdpr": "2025-06-25T10:09:37.000Z",
+        "lastCommunication": "2025-07-20T15:49:17.000Z"
       },
       "counts": {
         "total": 10,
@@ -205,9 +207,10 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:48.000Z",
+        "initialReport": "2025-03-16T19:18:48.000Z",
         "firstResponse": "2025-03-28T11:02:42.000Z",
-        "last": "2025-05-18T14:28:31.000Z"
+        "reassessmentReport": "2025-05-18T14:28:31.000Z",
+        "lastCommunication": "2025-05-18T14:28:31.000Z"
       },
       "counts": {
         "total": 4,
@@ -226,11 +229,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:37.000Z",
+        "initialReport": "2025-03-16T19:18:37.000Z",
         "firstResponse": "2025-06-30T18:36:36.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:43.000Z",
-        "firstGdprResponse": "2025-06-30T18:36:36.000Z",
-        "last": "2025-06-30T18:36:36.000Z"
+        "gdprRequest": "2025-05-31T12:41:43.000Z",
+        "firstResponseAfterGdpr": "2025-06-30T18:36:36.000Z",
+        "lastCommunication": "2025-06-30T18:36:36.000Z"
       },
       "counts": {
         "total": 5,
@@ -249,10 +252,10 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:37.000Z",
+        "initialReport": "2025-03-16T19:18:37.000Z",
         "firstResponse": "2025-03-19T13:48:09.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:44.000Z",
-        "last": "2025-05-31T18:43:32.000Z"
+        "gdprRequest": "2025-05-31T12:41:44.000Z",
+        "lastCommunication": "2025-05-31T18:43:32.000Z"
       },
       "counts": {
         "total": 6,
@@ -271,11 +274,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-04-27T19:59:31.000Z",
+        "initialReport": "2025-04-27T19:59:31.000Z",
         "firstResponse": "2025-05-05T08:53:36.000Z",
-        "firstGdprRequest": "2025-06-22T08:08:16.000Z",
-        "firstGdprResponse": "2025-06-25T07:22:33.000Z",
-        "last": "2025-07-11T11:28:32.000Z"
+        "gdprRequest": "2025-06-22T08:08:16.000Z",
+        "firstResponseAfterGdpr": "2025-06-25T07:22:33.000Z",
+        "lastCommunication": "2025-07-11T11:28:32.000Z"
       },
       "counts": {
         "total": 9,
@@ -294,9 +297,9 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-04-27T19:59:46.000Z",
+        "initialReport": "2025-04-27T19:59:46.000Z",
         "firstResponse": "2025-04-28T07:26:03.000Z",
-        "last": "2025-06-01T08:39:10.000Z"
+        "lastCommunication": "2025-06-01T08:39:10.000Z"
       },
       "counts": {
         "total": 3,
@@ -315,9 +318,9 @@
     "type": "app",
     "stats": {
       "dates": {
-        "first": "2025-04-06T19:24:33.000Z",
-        "firstGdprRequest": "2025-06-21T12:35:06.000Z",
-        "last": "2025-06-21T18:16:22.000Z"
+        "initialReport": "2025-04-06T19:24:33.000Z",
+        "gdprRequest": "2025-06-21T12:35:06.000Z",
+        "lastCommunication": "2025-06-21T18:16:22.000Z"
       },
       "counts": {
         "total": 4,
@@ -336,11 +339,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:32.000Z",
+        "initialReport": "2025-03-16T19:18:32.000Z",
         "firstResponse": "2025-06-02T06:17:18.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:35.000Z",
-        "firstGdprResponse": "2025-06-02T06:17:18.000Z",
-        "last": "2025-06-02T06:17:18.000Z"
+        "gdprRequest": "2025-05-31T12:41:35.000Z",
+        "firstResponseAfterGdpr": "2025-06-02T06:17:18.000Z",
+        "lastCommunication": "2025-06-02T06:17:18.000Z"
       },
       "counts": {
         "total": 5,
@@ -359,11 +362,12 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:51.000Z",
+        "initialReport": "2025-03-16T19:18:51.000Z",
         "firstResponse": "2025-04-21T09:07:20.000Z",
-        "firstGdprRequest": "2025-06-24T08:10:26.000Z",
-        "firstGdprResponse": "2025-07-11T09:54:01.000Z",
-        "last": "2025-07-11T09:54:01.000Z"
+        "reassessmentReport": "2025-05-18T14:32:19.000Z",
+        "gdprRequest": "2025-06-24T08:10:26.000Z",
+        "firstResponseAfterGdpr": "2025-07-11T09:54:01.000Z",
+        "lastCommunication": "2025-07-11T09:54:01.000Z"
       },
       "counts": {
         "total": 6,
@@ -382,11 +386,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:42.000Z",
+        "initialReport": "2025-03-16T19:18:42.000Z",
         "firstResponse": "2025-06-03T12:26:02.000Z",
-        "firstGdprRequest": "2025-05-31T12:42:00.000Z",
-        "firstGdprResponse": "2025-06-03T12:26:02.000Z",
-        "last": "2025-06-27T11:30:07.000Z"
+        "gdprRequest": "2025-05-31T12:42:00.000Z",
+        "firstResponseAfterGdpr": "2025-06-03T12:26:02.000Z",
+        "lastCommunication": "2025-06-27T11:30:07.000Z"
       },
       "counts": {
         "total": 7,
@@ -405,11 +409,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:50.000Z",
+        "initialReport": "2025-03-16T19:18:50.000Z",
         "firstResponse": "2025-03-22T08:21:33.000Z",
-        "firstGdprRequest": "2025-05-31T12:42:14.000Z",
-        "firstGdprResponse": "2025-06-29T20:55:00.000Z",
-        "last": "2025-06-29T20:55:00.000Z"
+        "gdprRequest": "2025-05-31T12:42:14.000Z",
+        "firstResponseAfterGdpr": "2025-06-29T20:55:00.000Z",
+        "lastCommunication": "2025-06-29T20:55:00.000Z"
       },
       "counts": {
         "total": 6,
@@ -428,9 +432,9 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:36.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:40.000Z",
-        "last": "2025-05-31T18:46:06.000Z"
+        "initialReport": "2025-03-16T19:18:36.000Z",
+        "gdprRequest": "2025-05-31T12:41:40.000Z",
+        "lastCommunication": "2025-05-31T18:46:06.000Z"
       },
       "counts": {
         "total": 3,
@@ -449,18 +453,19 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:47.000Z",
+        "initialReport": "2025-03-16T19:18:47.000Z",
         "firstResponse": "2025-03-16T19:26:29.000Z",
-        "firstGdprRequest": "2025-06-24T08:10:35.000Z",
-        "last": "2025-06-24T08:10:35.000Z"
+        "gdprRequest": "2025-06-24T08:10:35.000Z",
+        "firstResponseAfterGdpr": "2025-07-22T09:13:45.000Z",
+        "lastCommunication": "2025-07-23T09:35:45+03:00"
       },
       "counts": {
-        "total": 5,
-        "sent": 2,
+        "total": 7,
+        "sent": 3,
         "received": {
           "automated": 2,
-          "manual": 1,
-          "total": 3
+          "manual": 3,
+          "total": 5
         }
       }
     }
@@ -471,11 +476,12 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:47.000Z",
+        "initialReport": "2025-03-16T19:18:47.000Z",
         "firstResponse": "2025-03-18T08:28:20.000Z",
-        "firstGdprRequest": "2025-06-24T08:10:40.000Z",
-        "firstGdprResponse": "2025-06-26T08:04:58.000Z",
-        "last": "2025-06-26T08:04:58.000Z"
+        "reassessmentReport": "2025-05-18T14:35:39.000Z",
+        "gdprRequest": "2025-06-24T08:10:40.000Z",
+        "firstResponseAfterGdpr": "2025-06-26T08:04:58.000Z",
+        "lastCommunication": "2025-06-26T08:04:58.000Z"
       },
       "counts": {
         "total": 5,
@@ -494,11 +500,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:49.000Z",
+        "initialReport": "2025-03-16T19:18:49.000Z",
         "firstResponse": "2025-06-05T10:50:48.000Z",
-        "firstGdprRequest": "2025-05-31T12:42:10.000Z",
-        "firstGdprResponse": "2025-06-05T10:50:48.000Z",
-        "last": "2025-06-05T10:50:48.000Z"
+        "gdprRequest": "2025-05-31T12:42:10.000Z",
+        "firstResponseAfterGdpr": "2025-06-05T10:50:48.000Z",
+        "lastCommunication": "2025-06-05T10:50:48.000Z"
       },
       "counts": {
         "total": 5,
@@ -517,11 +523,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-23T10:39:17.000Z",
+        "initialReport": "2025-03-23T10:39:17.000Z",
         "firstResponse": "2025-06-16T12:12:33.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:47.000Z",
-        "firstGdprResponse": "2025-06-16T12:12:33.000Z",
-        "last": "2025-06-27T06:34:54.000Z"
+        "gdprRequest": "2025-05-31T12:41:47.000Z",
+        "firstResponseAfterGdpr": "2025-06-16T12:12:33.000Z",
+        "lastCommunication": "2025-06-27T06:34:54.000Z"
       },
       "counts": {
         "total": 5,
@@ -540,11 +546,12 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:33.000Z",
+        "initialReport": "2025-03-16T19:18:33.000Z",
         "firstResponse": "2025-03-20T12:13:43.000Z",
-        "firstGdprRequest": "2025-06-24T08:10:45.000Z",
-        "firstGdprResponse": "2025-07-17T11:52:46.000Z",
-        "last": "2025-07-17T11:52:46.000Z"
+        "reassessmentReport": "2025-05-18T14:37:05.000Z",
+        "gdprRequest": "2025-06-24T08:10:45.000Z",
+        "firstResponseAfterGdpr": "2025-07-17T11:52:46.000Z",
+        "lastCommunication": "2025-07-17T11:52:46.000Z"
       },
       "counts": {
         "total": 6,
@@ -563,9 +570,9 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:35.000Z",
-        "firstGdprRequest": "2025-06-24T08:23:57.000Z",
-        "last": "2025-06-24T08:23:57.000Z"
+        "initialReport": "2025-03-16T19:18:35.000Z",
+        "gdprRequest": "2025-06-24T08:23:57.000Z",
+        "lastCommunication": "2025-06-24T08:23:57.000Z"
       },
       "counts": {
         "total": 2,
@@ -584,11 +591,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:41.000Z",
+        "initialReport": "2025-03-16T19:18:41.000Z",
         "firstResponse": "2025-06-03T06:54:42.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:55.000Z",
-        "firstGdprResponse": "2025-06-03T06:54:42.000Z",
-        "last": "2025-06-30T13:10:11.000Z"
+        "gdprRequest": "2025-05-31T12:41:55.000Z",
+        "firstResponseAfterGdpr": "2025-06-03T06:54:42.000Z",
+        "lastCommunication": "2025-06-30T13:10:11.000Z"
       },
       "counts": {
         "total": 7,
@@ -607,8 +614,8 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:49.000Z",
-        "last": "2025-05-31T07:30:58.000Z"
+        "initialReport": "2025-03-16T19:18:49.000Z",
+        "lastCommunication": "2025-05-31T07:30:58.000Z"
       },
       "counts": {
         "total": 4,
@@ -627,11 +634,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-04-27T19:59:43.000Z",
+        "initialReport": "2025-04-27T19:59:43.000Z",
         "firstResponse": "2025-04-29T05:43:06.000Z",
-        "firstGdprRequest": "2025-06-01T15:20:00Z",
-        "firstGdprResponse": "2025-06-02T05:37:24.000Z",
-        "last": "2025-06-21T19:00:06.000Z"
+        "gdprRequest": "2025-06-01T15:20:00+03:00",
+        "firstResponseAfterGdpr": "2025-06-02T05:37:24.000Z",
+        "lastCommunication": "2025-06-21T19:00:06.000Z"
       },
       "counts": {
         "total": 7,
@@ -650,9 +657,9 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:32.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:34.000Z",
-        "last": "2025-05-31T18:39:48.000Z"
+        "initialReport": "2025-03-16T19:18:32.000Z",
+        "gdprRequest": "2025-05-31T12:41:34.000Z",
+        "lastCommunication": "2025-05-31T18:39:48.000Z"
       },
       "counts": {
         "total": 5,
@@ -671,11 +678,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:34.000Z",
+        "initialReport": "2025-03-16T19:18:34.000Z",
         "firstResponse": "2025-04-01T06:30:56.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:38.000Z",
-        "firstGdprResponse": "2025-06-12T11:18:18.000Z",
-        "last": "2025-07-01T14:00:36.000Z"
+        "gdprRequest": "2025-05-31T12:41:38.000Z",
+        "firstResponseAfterGdpr": "2025-06-12T11:18:18.000Z",
+        "lastCommunication": "2025-07-01T14:00:36.000Z"
       },
       "counts": {
         "total": 9,
@@ -694,11 +701,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:43.000Z",
+        "initialReport": "2025-03-16T19:18:43.000Z",
         "firstResponse": "2025-06-25T08:18:39.000Z",
-        "firstGdprRequest": "2025-05-31T12:42:02.000Z",
-        "firstGdprResponse": "2025-06-25T08:18:39.000Z",
-        "last": "2025-06-25T08:18:39.000Z"
+        "gdprRequest": "2025-05-31T12:42:02.000Z",
+        "firstResponseAfterGdpr": "2025-06-25T08:18:39.000Z",
+        "lastCommunication": "2025-06-25T08:18:39.000Z"
       },
       "counts": {
         "total": 5,
@@ -717,11 +724,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:44.000Z",
+        "initialReport": "2025-03-16T19:18:44.000Z",
         "firstResponse": "2025-06-01T06:25:44.000Z",
-        "firstGdprRequest": "2025-05-31T12:42:05.000Z",
-        "firstGdprResponse": "2025-06-01T06:25:44.000Z",
-        "last": "2025-06-04T15:29:02.000Z"
+        "gdprRequest": "2025-05-31T12:42:05.000Z",
+        "firstResponseAfterGdpr": "2025-06-01T06:25:44.000Z",
+        "lastCommunication": "2025-06-04T15:29:02.000Z"
       },
       "counts": {
         "total": 7,
@@ -740,11 +747,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:41.000Z",
+        "initialReport": "2025-03-16T19:18:41.000Z",
         "firstResponse": "2025-06-04T04:35:36.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:56.000Z",
-        "firstGdprResponse": "2025-06-04T04:35:36.000Z",
-        "last": "2025-06-30T09:00:33.000Z"
+        "gdprRequest": "2025-05-31T12:41:56.000Z",
+        "firstResponseAfterGdpr": "2025-06-04T04:35:36.000Z",
+        "lastCommunication": "2025-06-30T09:00:33.000Z"
       },
       "counts": {
         "total": 8,
@@ -763,9 +770,9 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:33.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:36.000Z",
-        "last": "2025-05-31T18:51:08.000Z"
+        "initialReport": "2025-03-16T19:18:33.000Z",
+        "gdprRequest": "2025-05-31T12:41:36.000Z",
+        "lastCommunication": "2025-05-31T18:51:08.000Z"
       },
       "counts": {
         "total": 4,
@@ -784,8 +791,8 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:38.000Z",
-        "last": "2025-05-18T13:23:10.000Z"
+        "initialReport": "2025-03-16T19:18:38.000Z",
+        "lastCommunication": "2025-05-18T13:23:10.000Z"
       },
       "counts": {
         "total": 3,
@@ -804,11 +811,12 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:35.000Z",
+        "initialReport": "2025-03-16T19:18:35.000Z",
         "firstResponse": "2025-04-21T09:07:20.000Z",
-        "firstGdprRequest": "2025-06-24T08:46:09.000Z",
-        "firstGdprResponse": "2025-07-16T09:06:07.000Z",
-        "last": "2025-07-16T09:06:07.000Z"
+        "reassessmentReport": "2025-05-18T14:32:19.000Z",
+        "gdprRequest": "2025-06-24T08:46:09.000Z",
+        "firstResponseAfterGdpr": "2025-07-16T09:06:07.000Z",
+        "lastCommunication": "2025-07-16T09:06:07.000Z"
       },
       "counts": {
         "total": 8,
@@ -827,9 +835,9 @@
     "type": "app",
     "stats": {
       "dates": {
-        "first": "2025-04-06T19:24:34.000Z",
-        "firstGdprRequest": "2025-06-21T12:38:38.000Z",
-        "last": "2025-06-21T18:14:05.000Z"
+        "initialReport": "2025-04-06T19:24:34.000Z",
+        "gdprRequest": "2025-06-21T12:38:38.000Z",
+        "lastCommunication": "2025-06-21T18:14:05.000Z"
       },
       "counts": {
         "total": 5,
@@ -848,11 +856,11 @@
     "type": "app",
     "stats": {
       "dates": {
-        "first": "2025-04-06T19:24:34.000Z",
+        "initialReport": "2025-04-06T19:24:34.000Z",
         "firstResponse": "2025-07-02T09:25:31.000Z",
-        "firstGdprRequest": "2025-06-21T12:43:23.000Z",
-        "firstGdprResponse": "2025-07-02T09:25:31.000Z",
-        "last": "2025-07-21T10:38:19.000Z"
+        "gdprRequest": "2025-06-21T12:43:23.000Z",
+        "firstResponseAfterGdpr": "2025-07-02T09:25:31.000Z",
+        "lastCommunication": "2025-07-21T10:38:19.000Z"
       },
       "counts": {
         "total": 7,
@@ -871,11 +879,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:40.000Z",
+        "initialReport": "2025-03-16T19:18:40.000Z",
         "firstResponse": "2025-03-18T09:08:00.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:53.000Z",
-        "firstGdprResponse": "2025-06-02T05:38:00.000Z",
-        "last": "2025-06-02T05:38:00.000Z"
+        "gdprRequest": "2025-05-31T12:41:53.000Z",
+        "firstResponseAfterGdpr": "2025-06-02T05:38:00.000Z",
+        "lastCommunication": "2025-06-02T05:38:00.000Z"
       },
       "counts": {
         "total": 7,
@@ -894,11 +902,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:42.000Z",
+        "initialReport": "2025-03-16T19:18:42.000Z",
         "firstResponse": "2025-06-02T04:25:31.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:58.000Z",
-        "firstGdprResponse": "2025-06-02T04:25:31.000Z",
-        "last": "2025-06-21T18:54:51.000Z"
+        "gdprRequest": "2025-05-31T12:41:58.000Z",
+        "firstResponseAfterGdpr": "2025-06-02T04:25:31.000Z",
+        "lastCommunication": "2025-06-21T18:54:51.000Z"
       },
       "counts": {
         "total": 7,
@@ -917,9 +925,9 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:46.000Z",
-        "firstGdprRequest": "2025-05-31T12:42:07.000Z",
-        "last": "2025-05-31T18:52:32.000Z"
+        "initialReport": "2025-03-16T19:18:46.000Z",
+        "gdprRequest": "2025-05-31T12:42:07.000Z",
+        "lastCommunication": "2025-05-31T18:52:32.000Z"
       },
       "counts": {
         "total": 4,
@@ -938,10 +946,10 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:46.000Z",
+        "initialReport": "2025-03-16T19:18:46.000Z",
         "firstResponse": "2025-03-24T10:41:15.000Z",
-        "firstGdprRequest": "2025-05-31T12:42:08.000Z",
-        "last": "2025-05-31T18:53:12.000Z"
+        "gdprRequest": "2025-05-31T12:42:08.000Z",
+        "lastCommunication": "2025-05-31T18:53:12.000Z"
       },
       "counts": {
         "total": 6,
@@ -960,11 +968,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:40.000Z",
+        "initialReport": "2025-03-16T19:18:40.000Z",
         "firstResponse": "2025-03-18T07:46:52.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:51.000Z",
-        "firstGdprResponse": "2025-06-02T09:15:17.000Z",
-        "last": "2025-06-26T07:32:20.000Z"
+        "gdprRequest": "2025-05-31T12:41:51.000Z",
+        "firstResponseAfterGdpr": "2025-06-02T09:15:17.000Z",
+        "lastCommunication": "2025-06-26T07:32:20.000Z"
       },
       "counts": {
         "total": 7,
@@ -983,11 +991,12 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:47.000Z",
+        "initialReport": "2025-03-16T19:18:47.000Z",
         "firstResponse": "2025-03-17T07:33:55.000Z",
-        "firstGdprRequest": "2025-06-24T08:44:28.000Z",
-        "firstGdprResponse": "2025-07-01T07:12:05.000Z",
-        "last": "2025-07-01T07:12:05.000Z"
+        "reassessmentReport": "2025-06-08T16:25:28.000Z",
+        "gdprRequest": "2025-06-24T08:44:28.000Z",
+        "firstResponseAfterGdpr": "2025-07-01T07:12:05.000Z",
+        "lastCommunication": "2025-07-01T07:12:05.000Z"
       },
       "counts": {
         "total": 6,
@@ -1006,9 +1015,9 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:50.000Z",
+        "initialReport": "2025-03-16T19:18:50.000Z",
         "firstResponse": "2025-03-17T09:20:04.000Z",
-        "last": "2025-05-18T13:18:35.000Z"
+        "lastCommunication": "2025-05-18T13:18:35.000Z"
       },
       "counts": {
         "total": 3,
@@ -1027,8 +1036,8 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:45.000Z",
-        "last": "2025-03-23T10:39:22.000Z"
+        "initialReport": "2025-03-16T19:18:45.000Z",
+        "lastCommunication": "2025-03-23T10:39:22.000Z"
       },
       "counts": {
         "total": 2,
@@ -1047,9 +1056,9 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:40.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:52.000Z",
-        "last": "2025-05-31T18:54:09.000Z"
+        "initialReport": "2025-03-16T19:18:40.000Z",
+        "gdprRequest": "2025-05-31T12:41:52.000Z",
+        "lastCommunication": "2025-05-31T18:54:09.000Z"
       },
       "counts": {
         "total": 4,
@@ -1068,11 +1077,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-04-27T19:59:41.000Z",
+        "initialReport": "2025-04-27T19:59:41.000Z",
         "firstResponse": "2025-06-10T19:42:38.000Z",
-        "firstGdprRequest": "2025-06-08T15:58:11.000Z",
-        "firstGdprResponse": "2025-06-10T19:42:38.000Z",
-        "last": "2025-06-10T19:42:38.000Z"
+        "gdprRequest": "2025-06-08T15:58:11.000Z",
+        "firstResponseAfterGdpr": "2025-06-10T19:42:38.000Z",
+        "lastCommunication": "2025-06-10T19:42:38.000Z"
       },
       "counts": {
         "total": 5,
@@ -1091,11 +1100,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:39.000Z",
+        "initialReport": "2025-03-16T19:18:39.000Z",
         "firstResponse": "2025-06-30T10:34:18.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:50.000Z",
-        "firstGdprResponse": "2025-06-30T10:34:18.000Z",
-        "last": "2025-06-30T10:34:18.000Z"
+        "gdprRequest": "2025-05-31T12:41:50.000Z",
+        "firstResponseAfterGdpr": "2025-06-30T10:34:18.000Z",
+        "lastCommunication": "2025-06-30T10:34:18.000Z"
       },
       "counts": {
         "total": 5,
@@ -1114,10 +1123,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:38.000Z",
+        "initialReport": "2025-03-16T19:18:38.000Z",
         "firstResponse": "2025-03-17T06:36:31.000Z",
-        "firstGdprRequest": "2025-06-24T08:10:51.000Z",
-        "last": "2025-06-24T08:21:52.000Z"
+        "reassessmentReport": "2025-05-18T20:42:24.000Z",
+        "gdprRequest": "2025-06-24T08:10:51.000Z",
+        "lastCommunication": "2025-06-24T08:21:52.000Z"
       },
       "counts": {
         "total": 6,
@@ -1136,11 +1146,11 @@
     "type": "app",
     "stats": {
       "dates": {
-        "first": "2025-04-06T19:24:35.000Z",
+        "initialReport": "2025-04-06T19:24:35.000Z",
         "firstResponse": "2025-06-24T15:25:45.000Z",
-        "firstGdprRequest": "2025-06-21T12:47:44.000Z",
-        "firstGdprResponse": "2025-06-24T15:25:45.000Z",
-        "last": "2025-06-24T15:25:45.000Z"
+        "gdprRequest": "2025-06-21T12:47:44.000Z",
+        "firstResponseAfterGdpr": "2025-06-24T15:25:45.000Z",
+        "lastCommunication": "2025-06-24T15:25:45.000Z"
       },
       "counts": {
         "total": 5,
@@ -1159,10 +1169,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:51.000Z",
+        "initialReport": "2025-03-16T19:18:51.000Z",
         "firstResponse": "2025-04-04T09:09:46.000Z",
-        "firstGdprRequest": "2025-06-24T13:51:54.000Z",
-        "last": "2025-06-24T13:51:54.000Z"
+        "reassessmentReport": "2025-06-08T07:40:32.000Z",
+        "gdprRequest": "2025-06-24T13:51:54.000Z",
+        "lastCommunication": "2025-06-24T13:51:54.000Z"
       },
       "counts": {
         "total": 8,
@@ -1181,9 +1192,9 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:44.000Z",
-        "firstGdprRequest": "2025-05-31T18:08:12.000Z",
-        "last": "2025-05-31T18:08:12.000Z"
+        "initialReport": "2025-03-16T19:18:44.000Z",
+        "gdprRequest": "2025-05-31T18:08:12.000Z",
+        "lastCommunication": "2025-05-31T18:08:12.000Z"
       },
       "counts": {
         "total": 2,
@@ -1202,9 +1213,9 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:35.000Z",
+        "initialReport": "2025-03-16T19:18:35.000Z",
         "firstResponse": "2025-03-17T06:36:05.000Z",
-        "last": "2025-05-18T13:21:37.000Z"
+        "lastCommunication": "2025-05-18T13:21:37.000Z"
       },
       "counts": {
         "total": 5,
@@ -1223,9 +1234,9 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:48.000Z",
-        "firstGdprRequest": "2025-05-31T12:42:11.000Z",
-        "last": "2025-05-31T18:11:34.000Z"
+        "initialReport": "2025-03-16T19:18:48.000Z",
+        "gdprRequest": "2025-05-31T12:42:11.000Z",
+        "lastCommunication": "2025-05-31T18:11:34.000Z"
       },
       "counts": {
         "total": 3,
@@ -1244,11 +1255,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:39.000Z",
+        "initialReport": "2025-03-16T19:18:39.000Z",
         "firstResponse": "2025-03-16T20:04:05.000Z",
-        "firstGdprRequest": "2025-05-31T12:41:48.000Z",
-        "firstGdprResponse": "2025-05-31T13:17:03.000Z",
-        "last": "2025-06-09T09:57:48.000Z"
+        "gdprRequest": "2025-05-31T12:41:48.000Z",
+        "firstResponseAfterGdpr": "2025-05-31T13:17:03.000Z",
+        "lastCommunication": "2025-06-09T09:57:48.000Z"
       },
       "counts": {
         "total": 12,
@@ -1267,9 +1278,9 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:46.000Z",
-        "firstGdprRequest": "2025-06-01T13:04:09.000Z",
-        "last": "2025-06-01T13:09:09.000Z"
+        "initialReport": "2025-03-16T19:18:46.000Z",
+        "gdprRequest": "2025-06-01T13:04:09.000Z",
+        "lastCommunication": "2025-06-01T13:09:09.000Z"
       },
       "counts": {
         "total": 6,
@@ -1288,11 +1299,11 @@
     "type": "website",
     "stats": {
       "dates": {
-        "first": "2025-03-16T19:18:43.000Z",
+        "initialReport": "2025-03-16T19:18:43.000Z",
         "firstResponse": "2025-06-02T13:22:53.000Z",
-        "firstGdprRequest": "2025-05-31T12:42:01.000Z",
-        "firstGdprResponse": "2025-06-02T13:22:53.000Z",
-        "last": "2025-07-17T08:55:10.000Z"
+        "gdprRequest": "2025-05-31T12:42:01.000Z",
+        "firstResponseAfterGdpr": "2025-06-02T13:22:53.000Z",
+        "lastCommunication": "2025-07-17T08:55:10.000Z"
       },
       "counts": {
         "total": 7,
