@@ -188,15 +188,15 @@
         "firstResponse": "2025-04-07T10:48:54.000Z",
         "gdprRequest": "2025-06-21T12:31:46.000Z",
         "firstResponseAfterGdpr": "2025-06-25T10:09:37.000Z",
-        "lastCommunication": "2025-07-23T11:56:56.000Z"
+        "lastCommunication": "2025-07-24T10:07:37.000Z"
       },
       "counts": {
-        "total": 11,
+        "total": 12,
         "sent": 5,
         "received": {
           "automated": 2,
-          "manual": 4,
-          "total": 6
+          "manual": 5,
+          "total": 7
         }
       }
     }
@@ -458,15 +458,15 @@
         "firstResponse": "2025-03-16T19:26:29.000Z",
         "gdprRequest": "2025-06-24T08:10:35.000Z",
         "firstResponseAfterGdpr": "2025-07-22T09:13:45.000Z",
-        "lastCommunication": "2025-07-23T09:35:45+03:00"
+        "lastCommunication": "2025-07-24T07:06:54.000Z"
       },
       "counts": {
-        "total": 7,
+        "total": 8,
         "sent": 3,
         "received": {
           "automated": 2,
-          "manual": 3,
-          "total": 5
+          "manual": 4,
+          "total": 6
         }
       }
     }
@@ -1005,12 +1005,12 @@
         "lastCommunication": "2025-07-23T14:00:58.000Z"
       },
       "counts": {
-        "total": 7,
+        "total": 8,
         "sent": 4,
         "received": {
           "automated": 0,
-          "manual": 3,
-          "total": 3
+          "manual": 4,
+          "total": 4
         }
       }
     }
@@ -1134,15 +1134,16 @@
         "firstResponse": "2025-03-17T06:36:31.000Z",
         "reassessmentReport": "2025-05-18T20:42:24.000Z",
         "gdprRequest": "2025-06-24T08:10:51.000Z",
-        "lastCommunication": "2025-06-24T08:21:52.000Z"
+        "firstResponseAfterGdpr": "2025-07-24T12:56:52.000Z",
+        "lastCommunication": "2025-07-24T12:56:52.000Z"
       },
       "counts": {
-        "total": 6,
+        "total": 7,
         "sent": 4,
         "received": {
           "automated": 0,
-          "manual": 2,
-          "total": 2
+          "manual": 3,
+          "total": 3
         }
       }
     }
@@ -1154,18 +1155,18 @@
     "stats": {
       "dates": {
         "initialReport": "2025-04-06T19:24:35.000Z",
-        "firstResponse": "2025-06-24T15:25:45.000Z",
+        "firstResponse": "2025-06-09T08:19:08.000Z",
         "gdprRequest": "2025-06-21T12:47:44.000Z",
         "firstResponseAfterGdpr": "2025-06-24T15:25:45.000Z",
         "lastCommunication": "2025-06-24T15:25:45.000Z"
       },
       "counts": {
-        "total": 5,
+        "total": 6,
         "sent": 4,
         "received": {
           "automated": 0,
-          "manual": 1,
-          "total": 1
+          "manual": 2,
+          "total": 2
         }
       }
     }
