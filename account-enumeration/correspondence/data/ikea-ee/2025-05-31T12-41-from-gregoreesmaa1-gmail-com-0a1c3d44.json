@@ -19,17 +19,20 @@
   "attachments": [
     {
       "filename": "taotlus-request.asice",
+      "originalFilename": "taotlus-request.asice",
       "contentType": "application/vnd.etsi.asic-e+zip",
       "size": 301371,
       "contentPath": "content-taotlus-request-asice",
       "contents": [
         {
           "filename": "taotlus-request.pdf",
+          "originalFilename": "taotlus-request.pdf",
           "contentType": "application/pdf",
           "size": 65251
         },
         {
           "filename": "vulnerability-reassessment-report.pdf",
+          "originalFilename": "vulnerability-reassessment-report.pdf",
           "contentType": "application/pdf",
           "size": 243235
         }

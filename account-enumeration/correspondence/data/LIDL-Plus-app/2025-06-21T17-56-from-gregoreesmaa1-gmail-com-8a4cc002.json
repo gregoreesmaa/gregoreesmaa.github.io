@@ -19,22 +19,26 @@
   "attachments": [
     {
       "filename": "taotlus-request.pdf",
+      "originalFilename": "taotlus-request.pdf",
       "contentType": "application/pdf",
       "size": 67026
     },
     {
       "filename": "taotlus-request.asice",
+      "originalFilename": "taotlus-request.asice",
       "contentType": "application/vnd.etsi.asic-e+zip",
       "size": 591626,
       "contentPath": "content-taotlus-request-asice",
       "contents": [
         {
           "filename": "taotlus-request.pdf",
+          "originalFilename": "taotlus-request.pdf",
           "contentType": "application/pdf",
           "size": 67026
         },
         {
           "filename": "vulnerability-reassessment-report.pdf",
+          "originalFilename": "vulnerability-reassessment-report.pdf",
           "contentType": "application/pdf",
           "size": 562049
         }
@@ -42,6 +46,7 @@
     },
     {
       "filename": "vulnerability-reassessment-report.pdf",
+      "originalFilename": "vulnerability-reassessment-report.pdf",
       "contentType": "application/pdf",
       "size": 562049
     }

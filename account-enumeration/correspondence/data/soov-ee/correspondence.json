@@ -43,6 +43,7 @@
       "attachments": [
         {
           "filename": "report.pdf",
+          "originalFilename": "report.pdf",
           "contentType": "application/pdf",
           "size": 257233
         }
@@ -89,6 +90,7 @@
       "attachments": [
         {
           "filename": "report.pdf",
+          "originalFilename": "report.pdf",
           "contentType": "application/pdf",
           "size": 257171
         }

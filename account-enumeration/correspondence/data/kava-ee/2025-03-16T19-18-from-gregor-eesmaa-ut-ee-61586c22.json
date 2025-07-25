@@ -19,6 +19,7 @@
   "attachments": [
     {
       "filename": "report.pdf",
+      "originalFilename": "report.pdf",
       "contentType": "application/pdf",
       "size": 171445
     }

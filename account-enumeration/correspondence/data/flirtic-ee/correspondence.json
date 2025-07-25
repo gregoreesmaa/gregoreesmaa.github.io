@@ -44,6 +44,7 @@
       "attachments": [
         {
           "filename": "report.pdf",
+          "originalFilename": "report.pdf",
           "contentType": "application/pdf",
           "size": 481664
         }
@@ -70,6 +71,7 @@
       "attachments": [
         {
           "filename": "report.pdf",
+          "originalFilename": "report.pdf",
           "contentType": "application/pdf",
           "size": 481778
         }
@@ -96,17 +98,20 @@
       "attachments": [
         {
           "filename": "taotlus-request.asice",
+          "originalFilename": "taotlus-request.asice",
           "contentType": "application/vnd.etsi.asic-e+zip",
           "size": 324113,
           "contentPath": "content-taotlus-request-asice",
           "contents": [
             {
               "filename": "taotlus-request.pdf",
+              "originalFilename": "taotlus-request.pdf",
               "contentType": "application/pdf",
               "size": 65537
             },
             {
               "filename": "vulnerability-reassessment-report.pdf",
+              "originalFilename": "vulnerability-reassessment-report.pdf",
               "contentType": "application/pdf",
               "size": 269273
             }
@@ -137,11 +142,13 @@
       "attachments": [
         {
           "filename": "taotlus-request.pdf",
+          "originalFilename": "taotlus-request.pdf",
           "contentType": "application/pdf",
           "size": 65537
         },
         {
           "filename": "vulnerability-reassessment-report.pdf",
+          "originalFilename": "vulnerability-reassessment-report.pdf",
           "contentType": "application/pdf",
           "size": 269273
         }
@@ -168,11 +175,13 @@
       "attachments": [
         {
           "filename": "f3.jpg",
+          "originalFilename": "f3.jpg",
           "contentType": "image/jpeg",
           "size": 56174
         },
         {
           "filename": "f1.jpg",
+          "originalFilename": "f1.jpg",
           "contentType": "image/jpeg",
           "size": 68050
         }

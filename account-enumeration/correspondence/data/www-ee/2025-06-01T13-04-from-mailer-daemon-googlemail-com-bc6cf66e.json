@@ -21,6 +21,7 @@
   "attachments": [
     {
       "filename": "icon.png",
+      "originalFilename": "icon.png",
       "contentType": "image/png",
       "size": 1450
     }

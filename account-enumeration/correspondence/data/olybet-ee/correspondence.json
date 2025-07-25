@@ -45,6 +45,7 @@
       "attachments": [
         {
           "filename": "report.pdf",
+          "originalFilename": "report.pdf",
           "contentType": "application/pdf",
           "size": 313988
         }
@@ -71,6 +72,7 @@
       "attachments": [
         {
           "filename": "report.pdf",
+          "originalFilename": "report.pdf",
           "contentType": "application/pdf",
           "size": 313988
         }
@@ -97,6 +99,7 @@
       "attachments": [
         {
           "filename": "report.pdf",
+          "originalFilename": "report.pdf",
           "contentType": "application/pdf",
           "size": 628504
         }
@@ -123,6 +126,7 @@
       "attachments": [
         {
           "filename": "reassessment-report.pdf",
+          "originalFilename": "reassessment-report.pdf",
           "contentType": "application/pdf",
           "size": 247579
         }
@@ -149,17 +153,20 @@
       "attachments": [
         {
           "filename": "taotlus-request.asice",
+          "originalFilename": "taotlus-request.asice",
           "contentType": "application/vnd.etsi.asic-e+zip",
           "size": 309608,
           "contentPath": "content-taotlus-request-asice",
           "contents": [
             {
               "filename": "taotlus-request.pdf",
+              "originalFilename": "taotlus-request.pdf",
               "contentType": "application/pdf",
               "size": 65519
             },
             {
               "filename": "vulnerability-reassessment-report.pdf",
+              "originalFilename": "vulnerability-reassessment-report.pdf",
               "contentType": "application/pdf",
               "size": 246353
             }
@@ -167,11 +174,13 @@
         },
         {
           "filename": "taotlus-request.pdf",
+          "originalFilename": "taotlus-request.pdf",
           "contentType": "application/pdf",
           "size": 65519
         },
         {
           "filename": "vulnerability-reassessment-report.pdf",
+          "originalFilename": "vulnerability-reassessment-report.pdf",
           "contentType": "application/pdf",
           "size": 246353
         }

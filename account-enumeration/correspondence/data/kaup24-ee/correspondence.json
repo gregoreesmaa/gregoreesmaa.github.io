@@ -44,6 +44,7 @@
       "attachments": [
         {
           "filename": "report.pdf",
+          "originalFilename": "report.pdf",
           "contentType": "application/pdf",
           "size": 222030
         }
@@ -91,6 +92,7 @@
       "attachments": [
         {
           "filename": "report.pdf",
+          "originalFilename": "report.pdf",
           "contentType": "application/pdf",
           "size": 223639
         }
@@ -139,17 +141,20 @@
       "attachments": [
         {
           "filename": "taotlus-request.asice",
+          "originalFilename": "taotlus-request.asice",
           "contentType": "application/vnd.etsi.asic-e+zip",
           "size": 329915,
           "contentPath": "content-taotlus-request-asice",
           "contents": [
             {
               "filename": "taotlus-request.pdf",
+              "originalFilename": "taotlus-request.pdf",
               "contentType": "application/pdf",
               "size": 65689
             },
             {
               "filename": "vulnerability-reassessment-report.pdf",
+              "originalFilename": "vulnerability-reassessment-report.pdf",
               "contentType": "application/pdf",
               "size": 270473
             }
@@ -180,11 +185,13 @@
       "attachments": [
         {
           "filename": "taotlus-request.pdf",
+          "originalFilename": "taotlus-request.pdf",
           "contentType": "application/pdf",
           "size": 65689
         },
         {
           "filename": "vulnerability-reassessment-report.pdf",
+          "originalFilename": "vulnerability-reassessment-report.pdf",
           "contentType": "application/pdf",
           "size": 270473
         }
@@ -231,12 +238,14 @@
       "attachments": [
         {
           "filename": "30.06.25_Vastus_G.Eesmaa.asice",
+          "originalFilename": "30.06.25_Vastus_G.Eesmaa.asice",
           "contentType": "application/vnd.etsi.asic-e+zip",
           "size": 23130,
           "contentPath": "content-30-06.25_Vastus_G.Eesmaa.asice",
           "contents": [
             {
               "filename": "30.06.25_Vastus_G.Eesmaa.odt",
+              "originalFilename": "30.06.25_Vastus_G.Eesmaa.odt",
               "contentType": "application/vnd.oasis.opendocument.text",
               "size": 17197
             }

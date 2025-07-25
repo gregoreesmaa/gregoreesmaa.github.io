@@ -21,11 +21,13 @@
   "attachments": [
     {
       "filename": "taotlus-request.pdf",
+      "originalFilename": "taotlus-request.pdf",
       "contentType": "application/pdf",
       "size": 65661
     },
     {
       "filename": "vulnerability-reassessment-report.pdf",
+      "originalFilename": "vulnerability-reassessment-report.pdf",
       "contentType": "application/pdf",
       "size": 215633
     }

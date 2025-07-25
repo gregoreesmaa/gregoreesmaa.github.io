@@ -19,6 +19,7 @@
   "attachments": [
     {
       "filename": "image001.jpg",
+      "originalFilename": "image001.jpg",
       "contentType": "image/jpeg",
       "size": 8225
     }

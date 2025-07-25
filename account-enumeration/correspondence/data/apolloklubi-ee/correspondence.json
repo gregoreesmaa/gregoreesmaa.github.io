@@ -43,6 +43,7 @@
       "attachments": [
         {
           "filename": "report.pdf",
+          "originalFilename": "report.pdf",
           "contentType": "application/pdf",
           "size": 219341
         }
@@ -109,6 +110,7 @@
       "attachments": [
         {
           "filename": "reassessment-report.pdf",
+          "originalFilename": "reassessment-report.pdf",
           "contentType": "application/pdf",
           "size": 397488
         }

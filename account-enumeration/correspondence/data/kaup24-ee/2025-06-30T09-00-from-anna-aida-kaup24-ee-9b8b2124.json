@@ -19,12 +19,14 @@
   "attachments": [
     {
       "filename": "30.06.25_Vastus_G.Eesmaa.asice",
+      "originalFilename": "30.06.25_Vastus_G.Eesmaa.asice",
       "contentType": "application/vnd.etsi.asic-e+zip",
       "size": 23130,
       "contentPath": "content-30-06.25_Vastus_G.Eesmaa.asice",
       "contents": [
         {
           "filename": "30.06.25_Vastus_G.Eesmaa.odt",
+          "originalFilename": "30.06.25_Vastus_G.Eesmaa.odt",
           "contentType": "application/vnd.oasis.opendocument.text",
           "size": 17197
         }

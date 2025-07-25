@@ -19,12 +19,14 @@
   "attachments": [
     {
       "filename": "vastus_Eesmaa_EG_TR.asice",
+      "originalFilename": "vastus_Eesmaa_EG_TR.asice",
       "contentType": "application/octet-stream",
       "size": 87319,
       "contentPath": "content-vastus_Eesmaa_EG_TR-asice",
       "contents": [
         {
           "filename": "vastus_Eesmaa_EG_TR.pdf",
+          "originalFilename": "vastus_Eesmaa_EG_TR.pdf",
           "contentType": "application/pdf",
           "size": 94677
         }

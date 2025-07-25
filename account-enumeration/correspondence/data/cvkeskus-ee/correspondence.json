@@ -44,6 +44,7 @@
       "attachments": [
         {
           "filename": "report.pdf",
+          "originalFilename": "report.pdf",
           "contentType": "application/pdf",
           "size": 367981
         }
@@ -70,6 +71,7 @@
       "attachments": [
         {
           "filename": "report.pdf",
+          "originalFilename": "report.pdf",
           "contentType": "application/pdf",
           "size": 395384
         }
@@ -96,17 +98,20 @@
       "attachments": [
         {
           "filename": "taotlus-request.asice",
+          "originalFilename": "taotlus-request.asice",
           "contentType": "application/vnd.etsi.asic-e+zip",
           "size": 434930,
           "contentPath": "content-taotlus-request-asice",
           "contents": [
             {
               "filename": "taotlus-request.pdf",
+              "originalFilename": "taotlus-request.pdf",
               "contentType": "application/pdf",
               "size": 65539
             },
             {
               "filename": "vulnerability-reassessment-report.pdf",
+              "originalFilename": "vulnerability-reassessment-report.pdf",
               "contentType": "application/pdf",
               "size": 400762
             }
@@ -137,11 +142,13 @@
       "attachments": [
         {
           "filename": "taotlus-request.pdf",
+          "originalFilename": "taotlus-request.pdf",
           "contentType": "application/pdf",
           "size": 65539
         },
         {
           "filename": "vulnerability-reassessment-report.pdf",
+          "originalFilename": "vulnerability-reassessment-report.pdf",
           "contentType": "application/pdf",
           "size": 400762
         }
@@ -187,13 +194,15 @@
       "hiddenReasons": [],
       "attachments": [
         {
-          "filename": "CV Keskus OÜ vastus 07-2025.asice",
+          "filename": "CV-Keskus-OU-vastus-07-2025.asice",
+          "originalFilename": "CV Keskus OÜ vastus 07-2025.asice",
           "contentType": "application/vnd.etsi.asic-e+zip",
           "size": 31887,
-          "contentPath": "content-CV Keskus OÜ vastus 07-2025-asice",
+          "contentPath": "content-CV-Keskus-OU-vastus-07-2025-asice",
           "contents": [
             {
-              "filename": "CV Keskus OÜ vastus 07-2025.pdf",
+              "filename": "CV-Keskus-OU-vastus-07-2025.pdf",
+              "originalFilename": "CV Keskus OÜ vastus 07-2025.pdf",
               "contentType": "application/pdf",
               "size": 29554
             }

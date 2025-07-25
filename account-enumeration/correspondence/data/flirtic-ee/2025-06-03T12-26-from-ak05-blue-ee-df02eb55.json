@@ -19,11 +19,13 @@
   "attachments": [
     {
       "filename": "f3.jpg",
+      "originalFilename": "f3.jpg",
       "contentType": "image/jpeg",
       "size": 56174
     },
     {
       "filename": "f1.jpg",
+      "originalFilename": "f1.jpg",
       "contentType": "image/jpeg",
       "size": 68050
     }

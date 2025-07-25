@@ -44,6 +44,7 @@
       "attachments": [
         {
           "filename": "report.pdf",
+          "originalFilename": "report.pdf",
           "contentType": "application/pdf",
           "size": 153963
         }
@@ -92,6 +93,7 @@
       "attachments": [
         {
           "filename": "report.pdf",
+          "originalFilename": "report.pdf",
           "contentType": "application/pdf",
           "size": 153995
         }
@@ -118,17 +120,20 @@
       "attachments": [
         {
           "filename": "taotlus-request.asice",
+          "originalFilename": "taotlus-request.asice",
           "contentType": "application/vnd.etsi.asic-e+zip",
           "size": 309764,
           "contentPath": "content-taotlus-request-asice",
           "contents": [
             {
               "filename": "taotlus-request.pdf",
+              "originalFilename": "taotlus-request.pdf",
               "contentType": "application/pdf",
               "size": 65430
             },
             {
               "filename": "vulnerability-reassessment-report.pdf",
+              "originalFilename": "vulnerability-reassessment-report.pdf",
               "contentType": "application/pdf",
               "size": 250796
             }
@@ -181,11 +186,13 @@
       "attachments": [
         {
           "filename": "taotlus-request.pdf",
+          "originalFilename": "taotlus-request.pdf",
           "contentType": "application/pdf",
           "size": 65430
         },
         {
           "filename": "vulnerability-reassessment-report.pdf",
+          "originalFilename": "vulnerability-reassessment-report.pdf",
           "contentType": "application/pdf",
           "size": 250796
         }
@@ -233,13 +240,15 @@
       "hiddenReasons": [],
       "attachments": [
         {
-          "filename": "Äripäev AS vastus andmesubjekti päringule_2025 06 30.asice",
+          "filename": "Aripaev-AS-vastus-andmesubjekti-paringule_2025-06-30.asice",
+          "originalFilename": "Äripäev AS vastus andmesubjekti päringule_2025 06 30.asice",
           "contentType": "application/octet-stream",
           "size": 133432,
-          "contentPath": "content-Äripäev AS vastus andmesubjekti päringule_2025 06 30-asice",
+          "contentPath": "content-Aripaev-AS-vastus-andmesubjekti-paringule_2025-06-30-asice",
           "contents": [
             {
-              "filename": "Äripäev AS vastus andmesubjekti päringule_2025 06 30.pdf",
+              "filename": "Aripaev-AS-vastus-andmesubjekti-paringule_2025-06-30.pdf",
+              "originalFilename": "Äripäev AS vastus andmesubjekti päringule_2025 06 30.pdf",
               "contentType": "application/pdf",
               "size": 136124
             }
@@ -268,6 +277,7 @@
       "attachments": [
         {
           "filename": "image001.jpg",
+          "originalFilename": "image001.jpg",
           "contentType": "image/jpeg",
           "size": 8225
         }

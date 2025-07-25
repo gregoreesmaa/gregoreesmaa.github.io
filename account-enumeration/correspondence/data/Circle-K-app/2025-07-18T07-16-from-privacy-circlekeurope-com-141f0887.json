@@ -24,17 +24,20 @@
   "attachments": [
     {
       "filename": "2025-07-18-response-DSAR.pdf",
+      "originalFilename": "2025-07-18-response-DSAR.pdf",
       "contentType": "application/pdf",
       "size": 83894
     },
     {
       "filename": "2025-07-18-response-DSAR.asice",
+      "originalFilename": "2025-07-18-response-DSAR.asice",
       "contentType": "application/vnd.etsi.asic-e+zip",
       "size": 78744,
       "contentPath": "content-2025-07-18-response-DSAR-asice",
       "contents": [
         {
           "filename": "2025-07-18-response-DSAR.pdf",
+          "originalFilename": "2025-07-18-response-DSAR.pdf",
           "contentType": "application/pdf",
           "size": 83894
         }

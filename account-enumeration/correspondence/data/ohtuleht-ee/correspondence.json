@@ -44,6 +44,7 @@
       "attachments": [
         {
           "filename": "report.pdf",
+          "originalFilename": "report.pdf",
           "contentType": "application/pdf",
           "size": 301974
         }
@@ -70,6 +71,7 @@
       "attachments": [
         {
           "filename": "report.pdf",
+          "originalFilename": "report.pdf",
           "contentType": "application/pdf",
           "size": 302121
         }
@@ -136,17 +138,20 @@
       "attachments": [
         {
           "filename": "taotlus-request.asice",
+          "originalFilename": "taotlus-request.asice",
           "contentType": "application/vnd.etsi.asic-e+zip",
           "size": 384533,
           "contentPath": "content-taotlus-request-asice",
           "contents": [
             {
               "filename": "taotlus-request.pdf",
+              "originalFilename": "taotlus-request.pdf",
               "contentType": "application/pdf",
               "size": 65378
             },
             {
               "filename": "vulnerability-reassessment-report.pdf",
+              "originalFilename": "vulnerability-reassessment-report.pdf",
               "contentType": "application/pdf",
               "size": 337257
             }
@@ -177,11 +182,13 @@
       "attachments": [
         {
           "filename": "taotlus-request.pdf",
+          "originalFilename": "taotlus-request.pdf",
           "contentType": "application/pdf",
           "size": 65378
         },
         {
           "filename": "vulnerability-reassessment-report.pdf",
+          "originalFilename": "vulnerability-reassessment-report.pdf",
           "contentType": "application/pdf",
           "size": 337257
         }
@@ -208,12 +215,14 @@
       "attachments": [
         {
           "filename": "vastus_Eesmaa_EG_TR.asice",
+          "originalFilename": "vastus_Eesmaa_EG_TR.asice",
           "contentType": "application/octet-stream",
           "size": 87319,
           "contentPath": "content-vastus_Eesmaa_EG_TR-asice",
           "contents": [
             {
               "filename": "vastus_Eesmaa_EG_TR.pdf",
+              "originalFilename": "vastus_Eesmaa_EG_TR.pdf",
               "contentType": "application/pdf",
               "size": 94677
             }
