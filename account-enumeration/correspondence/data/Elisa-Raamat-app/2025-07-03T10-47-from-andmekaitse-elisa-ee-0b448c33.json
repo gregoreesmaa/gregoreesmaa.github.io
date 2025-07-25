@@ -1,0 +1,34 @@
+{
+  "id": "2025-07-03T10-47-from-andmekaitse-elisa-ee-0b448c33",
+  "type": "email",
+  "subject": "Vastus päringule",
+  "from": {
+    "address": "andmekaitse@elisa.ee",
+    "name": "Elisa Eesti"
+  },
+  "to": [
+    {
+      "address": "gregoreesmaa1@gmail.com",
+      "name": ""
+    }
+  ],
+  "cc": [],
+  "date": "2025-07-03T10:47:30.000Z",
+  "bodyHtml": "<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n</head>\n<body>\n<p><span style=\"font-family: 'times new roman', times, serif; font-size: 12pt;\">Lugupeetud Gregor Eesmaa<br>\n<br>\n</span><span style=\"font-family: 'times new roman', times, serif; font-size: 12pt;\">Edastame vastuse Teie päringule, mis on lisatud manusena.<br>\n<br>\n</span><span style=\"font-family: 'times new roman', times, serif; font-size: 12pt;\">Lugupidamisega</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-family: 'times new roman', times, serif; font-size: 12pt;\">Eva-Liisa Vallisto\n</span></p>\n<p><span style=\"font-family: 'times new roman', times, serif; font-size: 12pt;\">andmekaitsekonsultant-juristi abi</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: 12pt; font-family: 'times new roman', times, serif;\">Elisa Eesti AS</span></p>\n<p><span style=\"font-size: 12pt; font-family: 'times new roman', times, serif;\">Sõpruse pst. 145, Tallinn</span></p>\n<p><span style=\"font-size: 12pt; font-family: 'times new roman', times, serif;\">telefon +372 6 600 600</span></p>\n<p><a href=\"http://www.elisa.ee\" target=\"_blank\" rel=\"noopener\"><span style=\"font-size: 12pt; font-family: verdana, geneva, sans-serif;\"><span style=\"font-family: 'times new roman', times, serif;\">www.elisa.ee</span>\n</span></a></p>\n<br>\n<br>\n<p style=\"font-size: 1%; color: white\">@OPERATION@='MAIL'<br>\n@REQUEST_ID@='7812423'</p>\n<br>\n<br>\nKäesolev e-kiri on saadetud Elisa äritegevuse raames ning selle sisu ja manused on konfidentsiaalsed. E-kirjas sisalduvat informatsiooni võib kasutada vaid isik, kellele see on adresseeritud. Kui te pole sihipärane saaja, palun teavitage saatjat ja kustutage\n e-kiri koos manustega viivitamatult oma süsteemist. Me ei võta vastutust e-kirja või selle manuste avamisega kaasneda võivate võimalike kahjude eest.\n<br>\n<br>\nThis e-mail and any attachments may contain confidential and privileged information. If you are not the intended recipient, please notify the sender immediately by return e-mail, delete this e-mail and destroy any copies. Any dissemination or use of this information\n by a person other than the intended recipient is unauthorized and may be illegal.\n\n\n</body>",
+  "hiddenReasons": [],
+  "attachments": [
+    {
+      "filename": "Elisa vastus Gregor Eesmaa päringule 03.07.2025.asice",
+      "contentType": "application/octet-stream",
+      "size": 78835,
+      "contentPath": "content-Elisa vastus Gregor Eesmaa päringule 03-07.2025.asice",
+      "contents": [
+        {
+          "filename": "Elisa vastus Gregor Eesmaa päringule 03.07.2025.pdf",
+          "contentType": "application/pdf",
+          "size": 74424
+        }
+      ]
+    }
+  ]
+}
