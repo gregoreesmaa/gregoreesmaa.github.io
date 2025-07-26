@@ -39,7 +39,11 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:basis:article6-paragraph1-point:b",
+        "llm:remediation-status:completed",
+        "llm:privacy-risk:agree",
+        "llm:addresses-gdpr-request"
       ]
     ],
     "stats": {
@@ -262,7 +266,33 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "privacy_risk_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": null,
+          "quotes": null
+        },
+        "remediation": {
+          "status": "not_mentioned",
+          "deadline": null,
+          "quotes": null
+        }
+      }
     },
     {
       "id": "2025-06-30T13-10-from-dpo-ikea-ee-f2074f68",
@@ -285,9 +315,52 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:basis:article6-paragraph1-point:b",
+        "llm:remediation-status:completed",
+        "llm:privacy-risk:agree",
+        "llm:addresses-gdpr-request"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "agree",
+          "quotes": [
+            "Our technical team has reviewed the report you kindly shared with us in relation to this data processing activity.",
+            "We can confirm that we have now resolved the matters you have flagged on the account registration form, password reset form, and email change form."
+          ]
+        },
+        "privacy_risk_acknowledged": {
+          "status": "agree",
+          "quotes": [
+            "As described in Section 1.1. of our Privacy Policy for Loyalty Program and Digital Solutions, your personal data (such as email) is needed so that you can create, update and log into your online account with us and use our services.",
+            "We base this data processing on the necessity to conclude and perform the contract we have with you (Article 6(1)(b) GDPR)."
+          ]
+        },
+        "legal_basis": {
+          "formal_legal_basis": [
+            "b"
+          ],
+          "justification_keywords": null,
+          "quotes": [
+            "As described in Section 1.1. of our Privacy Policy for Loyalty Program and Digital Solutions, your personal data (such as email) is needed so that you can create, update and log into your online account with us and use our services.",
+            "We base this data processing on the necessity to conclude and perform the contract we have with you (Article 6(1)(b) GDPR)."
+          ]
+        },
+        "remediation": {
+          "status": "completed",
+          "deadline": null,
+          "quotes": [
+            "We can confirm that we have now resolved the matters you have flagged on the account registration form, password reset form, and email change form."
+          ]
+        }
+      }
     }
   ]
 }

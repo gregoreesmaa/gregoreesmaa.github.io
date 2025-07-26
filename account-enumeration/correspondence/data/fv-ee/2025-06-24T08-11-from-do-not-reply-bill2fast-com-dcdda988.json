@@ -21,7 +21,37 @@
   "labels": [
     "from:service-provider",
     "purpose:gdpr",
-    "subpurpose:gdpr-response"
+    "subpurpose:gdpr-response",
+    "llm:remediation-status:planned",
+    "llm:addresses-gdpr-request"
   ],
-  "attachments": []
+  "attachments": [],
+  "llmAnalysis": {
+    "extension": {
+      "asked": false,
+      "justification_keywords": null,
+      "until": null,
+      "quotes": null
+    },
+    "vulnerability_acknowledged": {
+      "status": "not_mentioned",
+      "quotes": null
+    },
+    "privacy_risk_acknowledged": {
+      "status": "not_mentioned",
+      "quotes": null
+    },
+    "legal_basis": {
+      "formal_legal_basis": [],
+      "justification_keywords": null,
+      "quotes": null
+    },
+    "remediation": {
+      "status": "planned",
+      "deadline": "1 month",
+      "quotes": [
+        "I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt)."
+      ]
+    }
+  }
 }

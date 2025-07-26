@@ -21,7 +21,48 @@
   "labels": [
     "from:service-provider",
     "purpose:gdpr",
-    "subpurpose:gdpr-response"
+    "subpurpose:gdpr-response",
+    "llm:basis:article6-paragraph1-point:f",
+    "llm:remediation-status:planned",
+    "llm:privacy-risk:agree",
+    "llm:addresses-gdpr-request"
   ],
-  "attachments": []
+  "attachments": [],
+  "llmAnalysis": {
+    "extension": {
+      "asked": false,
+      "justification_keywords": null,
+      "until": null,
+      "quotes": null
+    },
+    "vulnerability_acknowledged": {
+      "status": "not_mentioned",
+      "quotes": null
+    },
+    "privacy_risk_acknowledged": {
+      "status": "agree",
+      "quotes": [
+        "regarding what I believe to be the unlawful processing of my personal data",
+        "potentially leading to its disclosure to unauthorised parties without a clear legal basis"
+      ]
+    },
+    "legal_basis": {
+      "formal_legal_basis": [
+        "f"
+      ],
+      "justification_keywords": null,
+      "quotes": [
+        "under the General Data Protection Regulation (GDPR)",
+        "what I believe to be the unlawful processing of my personal data"
+      ]
+    },
+    "remediation": {
+      "status": "planned",
+      "deadline": "1 month",
+      "quotes": [
+        "Palun teavitage taotluse kättesaamisest.",
+        "Palun teavitage taotluse kättesaamisest."
+      ]
+    }
+  }
 }

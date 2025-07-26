@@ -28,12 +28,22 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:justification:technical_limitations",
+        "llm:remediation-status:refused",
+        "llm:privacy-risk:agree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:basis:article6-paragraph1-point:f",
+        "llm:justification:security",
+        "llm:justification:automated_attacks",
+        "llm:remediation-status:partially_completed",
+        "llm:privacy-risk:agree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:author",
@@ -232,9 +242,50 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:justification:technical_limitations",
+        "llm:remediation-status:refused",
+        "llm:privacy-risk:agree",
+        "llm:addresses-gdpr-request"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "agree",
+          "quotes": [
+            "Tunnistan, et on tõesti võimalik registreerimisvormi selliselt kuritarvitada"
+          ]
+        },
+        "privacy_risk_acknowledged": {
+          "status": "agree",
+          "quotes": [
+            "Tunnistan, et on tõesti võimalik registreerimisvormi selliselt kuritarvitada"
+          ]
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": [
+            "technical_limitations"
+          ],
+          "quotes": [
+            "Kahjuks aga ei ole tegu aktiivselt arendatava tarkvaraga ja pakutud lahendust me teostada ei saa."
+          ]
+        },
+        "remediation": {
+          "status": "refused",
+          "deadline": null,
+          "quotes": [
+            "Kahjuks aga ei ole tegu aktiivselt arendatava tarkvaraga ja pakutud lahendust me teostada ei saa.",
+            "Selle asemel eemaldame KAE Kooli konto registreerimisvormi, et sellist kuritarvitamist vältida."
+          ]
+        }
+      }
     },
     {
       "id": "2025-06-01T11-48-from-margus-koiduste-gmail-com-62706912",
@@ -262,7 +313,13 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:basis:article6-paragraph1-point:f",
+        "llm:justification:security",
+        "llm:justification:automated_attacks",
+        "llm:remediation-status:partially_completed",
+        "llm:privacy-risk:agree",
+        "llm:addresses-gdpr-request"
       ],
       "attachments": [
         {
@@ -286,7 +343,55 @@
             }
           ]
         }
-      ]
+      ],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "agree",
+          "quotes": [
+            "As of today, this vulnerability appears to remain unresolved on the account registration form",
+            "The account registration form is susceptible to account enumeration attacks",
+            "The account registration form is susceptible to account enumeration attacks"
+          ]
+        },
+        "privacy_risk_acknowledged": {
+          "status": "agree",
+          "quotes": [
+            "My personal data – specifically, the fact that I hold an account with your online service – is being processed in the previously mentioned forms in a manner that allows its disclosure to any unauthorised party.",
+            "I am not aware of any legal basis under GDPR Article 6 that would allow such processing, nor have I provided explicit consent for this specific form of processing and potential disclosure.",
+            "Any disclosure of personal data to third parties without a legal basis constitutes a data breach",
+            "The vulnerabilities found are described in more detail in subsections below.",
+            "My interests, fundamental rights and freedoms to data protection and privacy override such interests in this context."
+          ]
+        },
+        "legal_basis": {
+          "formal_legal_basis": [
+            "f"
+          ],
+          "justification_keywords": [
+            "security",
+            "automated_attacks"
+          ],
+          "quotes": [
+            "\"legitimate interests\"",
+            "\"security\"",
+            "\"automated attacks\""
+          ]
+        },
+        "remediation": {
+          "status": "partially_completed",
+          "deadline": null,
+          "quotes": [
+            "The account registration form is susceptible to account enumeration attacks.",
+            "The account registration form is susceptible to account enumeration attacks."
+          ]
+        }
+      }
     },
     {
       "id": "2025-06-04T15-29-from-gregoreesmaa1-gmail-com-c449a9be",

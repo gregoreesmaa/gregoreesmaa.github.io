@@ -39,7 +39,10 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:extension-asked",
+        "llm:remediation-status:planned",
+        "llm:addresses-gdpr-request"
       ]
     ],
     "stats": {
@@ -295,7 +298,33 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "privacy_risk_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": null,
+          "quotes": null
+        },
+        "remediation": {
+          "status": "not_mentioned",
+          "deadline": null,
+          "quotes": null
+        }
+      }
     },
     {
       "id": "2025-07-21T10-38-from-dpo-maxima-ee-eed440be",
@@ -318,9 +347,49 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:extension-asked",
+        "llm:remediation-status:planned",
+        "llm:addresses-gdpr-request"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": true,
+          "justification_keywords": [
+            "internal_review",
+            "holiday_period"
+          ],
+          "until": "2025-08-01",
+          "quotes": [
+            "pikendame kooskõlas IKÜM artikli 12 lõikega 3 Teie taotlusele vastamise tähtaega kuni 01.08.2025",
+            "Paraku on juuni ja juuli peamised puhkuste kuud ja protsessid ning koostöö osakondade vahel ei toimu siis tavapärase kiirusega."
+          ]
+        },
+        "vulnerability_acknowledged": {
+          "status": "agree",
+          "quotes": [
+            "Teema, millele viitate – võimalik account enumeration turvarisk – vajab põhjalikku sisemist hinnangut."
+          ]
+        },
+        "privacy_risk_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": null,
+          "quotes": null
+        },
+        "remediation": {
+          "status": "planned",
+          "deadline": "2025-08-01",
+          "quotes": [
+            "Paraku on juuni ja juuli peamised puhkuste kuud ja protsessid ning koostöö osakondade vahel ei toimu siis tavapärase kiirusega.",
+            "Kinnitan, et võtame Teie pöördumist tõsiselt ning hindame Teie aktiivset rolli oma isikuandmete kaitsel."
+          ]
+        }
+      }
     }
   ]
 }

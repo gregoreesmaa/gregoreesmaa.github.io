@@ -49,7 +49,8 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:agree"
       ],
       [
         "from:author",
@@ -90,7 +91,18 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:basis:article6-paragraph1-point:b",
+        "llm:basis:article6-paragraph1-point:f",
+        "llm:justification:user_experience",
+        "llm:justification:account_security",
+        "llm:justification:preventing_duplicates",
+        "llm:justification:balancing_test",
+        "llm:justification:business_needs",
+        "llm:justification:customer_support_efficiency",
+        "llm:remediation-status:partially_completed",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:author",
@@ -316,7 +328,33 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "privacy_risk_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": null,
+          "quotes": null
+        },
+        "remediation": {
+          "status": "not_mentioned",
+          "deadline": null,
+          "quotes": null
+        }
+      }
     },
     {
       "id": "2025-05-31T12-47-from-klienditeenindus-aboutyou-ee-8f8521cb",
@@ -341,7 +379,33 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "privacy_risk_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": null,
+          "quotes": null
+        },
+        "remediation": {
+          "status": "not_mentioned",
+          "deadline": null,
+          "quotes": null
+        }
+      }
     },
     {
       "id": "2025-05-31T18-29-from-gregoreesmaa1-gmail-com-dfb188e3",
@@ -404,9 +468,38 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:agree"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "privacy_risk_acknowledged": {
+          "status": "agree",
+          "quotes": [
+            "Nii andmekaitse kui ka andmete turvalisus on meie jaoks absoluutne prioriteet"
+          ]
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": null,
+          "quotes": null
+        },
+        "remediation": {
+          "status": "not_mentioned",
+          "deadline": null,
+          "quotes": null
+        }
+      }
     },
     {
       "id": "2025-05-31T21-53-from-gregoreesmaa1-gmail-com-3c3a74f4",
@@ -456,7 +549,33 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "privacy_risk_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": null,
+          "quotes": null
+        },
+        "remediation": {
+          "status": "not_mentioned",
+          "deadline": null,
+          "quotes": null
+        }
+      }
     },
     {
       "id": "2025-06-13T08-14-from-klienditeenindus-aboutyou-ee-dfbd16a3",
@@ -481,7 +600,33 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "privacy_risk_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": null,
+          "quotes": null
+        },
+        "remediation": {
+          "status": "not_mentioned",
+          "deadline": null,
+          "quotes": null
+        }
+      }
     },
     {
       "id": "2025-06-21T19-45-from-gregoreesmaa1-gmail-com-862bf6fd",
@@ -558,7 +703,33 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "privacy_risk_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": null,
+          "quotes": null
+        },
+        "remediation": {
+          "status": "not_mentioned",
+          "deadline": null,
+          "quotes": null
+        }
+      }
     },
     {
       "id": "2025-07-15T10-17-from-gregoreesmaa1-gmail-com-fa178220",
@@ -606,7 +777,18 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:basis:article6-paragraph1-point:b",
+        "llm:basis:article6-paragraph1-point:f",
+        "llm:justification:user_experience",
+        "llm:justification:account_security",
+        "llm:justification:preventing_duplicates",
+        "llm:justification:balancing_test",
+        "llm:justification:business_needs",
+        "llm:justification:customer_support_efficiency",
+        "llm:remediation-status:partially_completed",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       "attachments": [
         {
@@ -615,7 +797,62 @@
           "contentType": "application/pdf",
           "size": 40444
         }
-      ]
+      ],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "agree",
+          "quotes": [
+            "This current set-up shall facilitate that customers can detect if they made any typing errors or used a wrong email address.",
+            "The approach suggested by you would result in severely less user-friendliness, leaving many customers frustrated and partly result in users not being able to access their account again at all.",
+            "The currents set up results in much more user-friendliness and prevents customers indirectly blocking from using our services."
+          ]
+        },
+        "privacy_risk_acknowledged": {
+          "status": "disagree",
+          "quotes": [
+            "Besides, there is not much risk related to this approach. The information that someone is a customer of a shopping website is not sensitive at all.",
+            "The other way around, also the information that an email has been sent does not necessarily mean that the email address actually is connected to an account or whether this is just a standard information, even if the email address does not exist or is mistyped.",
+            "The legal sources provided by you to support your argument are not suitable at all.",
+            "Besides, also your logical argument is not convincing."
+          ]
+        },
+        "legal_basis": {
+          "formal_legal_basis": [
+            "b",
+            "f"
+          ],
+          "justification_keywords": [
+            "user_experience",
+            "account_security",
+            "preventing_duplicates",
+            "balancing_test",
+            "business_needs",
+            "customer_support_efficiency"
+          ],
+          "quotes": [
+            "This current set-up shall facilitate that customers can detect if they made any typing errors or used a wrong email address.",
+            "The approach suggested by you would result in severely less user-friendliness, leaving many customers frustrated and partly result in users not being able to access their account again at all.",
+            "It is necessary to provide customers as part of the contractual relationship with the above-mentioned functions.",
+            "Besides, the specific form of providing the above-mentioned functions is also based on legitimate interests.",
+            "The currents set up results in much more user-friendliness and prevents customers indirectly blocking from using our services.",
+            "Also in real life one knows many services other people use, e.g. who else is a member of your gym (including their name, by which one can easily find out their address)."
+          ]
+        },
+        "remediation": {
+          "status": "partially_completed",
+          "deadline": null,
+          "quotes": [
+            "Nevertheless, please note as a general remark (which suƯices from our perspective to answer your limited request re. Art. 15 GDPR), that the purpose for the processing of personal data via the \"Password Reset Form\", the Account Registration Form\" and \"Email Change Form\", is to enable customers to use these functions in a user-friendly manner.",
+            "The currents set up results in much more user-friendliness and prevents customers indirectly blocking from using our services."
+          ]
+        }
+      }
     },
     {
       "id": "2025-07-23T10-52-from-gregoreesmaa1-gmail-com-318aec4d",

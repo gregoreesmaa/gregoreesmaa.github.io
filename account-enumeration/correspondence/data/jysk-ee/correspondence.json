@@ -39,7 +39,10 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:extension-asked",
+        "llm:remediation-status:planned",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:author",
@@ -49,7 +52,20 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:extension-asked",
+        "llm:basis:article6-paragraph1-point:f",
+        "llm:justification:user_account_security",
+        "llm:justification:preventing_abuse",
+        "llm:justification:efficient_user_support",
+        "llm:justification:transparency",
+        "llm:justification:usability",
+        "llm:justification:balancing_test",
+        "llm:justification:data_protection_by_design",
+        "llm:justification:data_protection_by_default",
+        "llm:remediation-status:planned",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ]
     ],
     "stats": {
@@ -300,9 +316,47 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:extension-asked",
+        "llm:remediation-status:planned",
+        "llm:addresses-gdpr-request"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": true,
+          "justification_keywords": [
+            "complexity"
+          ],
+          "until": null,
+          "quotes": [
+            "Should we require further clarification or if an extension becomes necessary due to the complexity of the request, we will notify you accordingly with a justification."
+          ]
+        },
+        "vulnerability_acknowledged": {
+          "status": "agree",
+          "quotes": [
+            "We are currently evaluating and addressing the technical concerns raised, including the reported account enumeration issue."
+          ]
+        },
+        "privacy_risk_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": null,
+          "quotes": null
+        },
+        "remediation": {
+          "status": "planned",
+          "deadline": null,
+          "quotes": [
+            "We are currently evaluating and addressing the technical concerns raised, including the reported account enumeration issue.",
+            "We are processing your request in accordance with Articles 15, 18, and 21 of the GDPR and will respond within the one-month time frame established by Article 12(3)."
+          ]
+        }
+      }
     },
     {
       "id": "2025-06-21T20-10-from-gregoreesmaa1-gmail-com-880af140",
@@ -354,7 +408,20 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:extension-asked",
+        "llm:basis:article6-paragraph1-point:f",
+        "llm:justification:user_account_security",
+        "llm:justification:preventing_abuse",
+        "llm:justification:efficient_user_support",
+        "llm:justification:transparency",
+        "llm:justification:usability",
+        "llm:justification:balancing_test",
+        "llm:justification:data_protection_by_design",
+        "llm:justification:data_protection_by_default",
+        "llm:remediation-status:planned",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       "attachments": [
         {
@@ -363,7 +430,69 @@
           "contentType": "application/pdf",
           "size": 153948
         }
-      ]
+      ],
+      "llmAnalysis": {
+        "extension": {
+          "asked": true,
+          "justification_keywords": [
+            "technical_assessment",
+            "implementation"
+          ],
+          "until": "2025-09-30",
+          "quotes": [
+            "It is planned that changes will be completed and implemented by 30.09.2025.",
+            "When changes will fully be implemented, we will inform you."
+          ]
+        },
+        "vulnerability_acknowledged": {
+          "status": "agree",
+          "quotes": [
+            "we have reviewed the relevant functionality and now working on introducing necessary changes to ensure that the user experience does not allow third parties to infer whether a particular email address is associated with a Jysk account",
+            "This eliminates even the theoretical possibility of account enumeration through this method.",
+            "we have now revised the mechanism to return the same user-facing message regardless of account existence"
+          ]
+        },
+        "privacy_risk_acknowledged": {
+          "status": "disagree",
+          "quotes": [
+            "From a data protection perspective, this mechanism supports transparency and usability, which are themselves recognized components of responsible data processing.",
+            "The possibility of harm to data subjects was minimal, as no other personal data was exposed or accessible.",
+            "The ability to infer account existence relied on specific queries and could not be performed on a large scale without triggering protective measures.",
+            "Considering these changes, we consider your request for restriction of processing and your objection to processing to have been fully addressed."
+          ]
+        },
+        "legal_basis": {
+          "formal_legal_basis": [
+            "f"
+          ],
+          "justification_keywords": [
+            "user_account_security",
+            "preventing_abuse",
+            "efficient_user_support",
+            "transparency",
+            "usability",
+            "balancing_test",
+            "data_protection_by_design",
+            "data_protection_by_default"
+          ],
+          "quotes": [
+            "The previous processing in question - namely, the system response indicating whether an email address is already associated with an account - was based on Jysk’s legitimate interest in ensuring user account security, preventing abuse, and facilitating efficient user support.",
+            "This type of message enabled users to identify potential registration mistakes (e.g., attempting to create a new account using an email already associated with an existing account), thereby preventing unnecessary duplication or confusion.",
+            "In performing the balancing test required under GDPR Article 6(1)(f), we considered the limited nature of the data involved—the message merely indicated the presence of an account associated with an email, which not always reveals a user’s identity, without revealing any further information.",
+            "The possibility of harm to data subjects was minimal, as no other personal data was exposed or accessible.",
+            "The ability to infer account existence relied on specific queries and could not be performed on a large scale without triggering protective measures."
+          ]
+        },
+        "remediation": {
+          "status": "planned",
+          "deadline": "2025-09-30",
+          "quotes": [
+            "we are now working on introducing necessary changes to ensure that the user experience does not allow third parties to infer whether a particular email address is associated with a Jysk account.",
+            "It is planned that changes will be completed and implemented by 30.09.2025.",
+            "we have now revised the mechanism to return the same user-facing message regardless of account existence."
+          ]
+        }
+      }
     }
   ]
 }

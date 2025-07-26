@@ -29,12 +29,16 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
+        "llm:remediation-status:planned",
+        "llm:addresses-gdpr-request",
         "automated-reply"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:remediation-status:planned",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:author",
@@ -44,7 +48,10 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:justification:privacy_policy",
+        "llm:justification:security_system",
+        "llm:addresses-gdpr-request"
       ]
     ],
     "stats": {
@@ -233,9 +240,39 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:remediation-status:planned",
+        "llm:addresses-gdpr-request"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "privacy_risk_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": null,
+          "quotes": null
+        },
+        "remediation": {
+          "status": "planned",
+          "deadline": "1 month",
+          "quotes": [
+            "I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt)."
+          ]
+        }
+      }
     },
     {
       "id": "2025-07-22T09-13-from-do-not-reply-bill2fast-com-cd729c41",
@@ -258,9 +295,42 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:remediation-status:planned",
+        "llm:addresses-gdpr-request"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "agree",
+          "quotes": [
+            "Regarding the points described in your message, we are actively working on them",
+            "the comments you indicated will be corrected shortly"
+          ]
+        },
+        "privacy_risk_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": null,
+          "quotes": null
+        },
+        "remediation": {
+          "status": "planned",
+          "deadline": null,
+          "quotes": [
+            "Regarding the points described in your message, we are actively working on them, and the comments you indicated will be corrected shortly."
+          ]
+        }
+      }
     },
     {
       "id": "2025-07-23T09-35-via-form",
@@ -297,9 +367,43 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:justification:privacy_policy",
+        "llm:justification:security_system",
+        "llm:addresses-gdpr-request"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "privacy_risk_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": [
+            "privacy_policy",
+            "security_system"
+          ],
+          "quotes": [
+            "This is due to the features of our security system and privacy policy."
+          ]
+        },
+        "remediation": {
+          "status": "not_mentioned",
+          "deadline": null,
+          "quotes": null
+        }
+      }
     }
   ]
 }

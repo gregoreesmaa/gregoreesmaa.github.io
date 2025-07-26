@@ -39,17 +39,29 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
+        "llm:basis:article6-paragraph1-point:f",
+        "llm:remediation-status:planned",
+        "llm:privacy-risk:agree",
+        "llm:addresses-gdpr-request",
         "automated-reply"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:extension-asked"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:basis:article6-paragraph1-point:f",
+        "llm:justification:account_support_functionality",
+        "llm:justification:preventing_duplicate_account_creation",
+        "llm:justification:balancing_test",
+        "llm:remediation-status:planned",
+        "llm:privacy-risk:agree",
+        "llm:addresses-gdpr-request"
       ]
     ],
     "stats": {
@@ -288,9 +300,50 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:basis:article6-paragraph1-point:f",
+        "llm:remediation-status:planned",
+        "llm:privacy-risk:agree",
+        "llm:addresses-gdpr-request"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "privacy_risk_acknowledged": {
+          "status": "agree",
+          "quotes": [
+            "regarding what I believe to be the unlawful processing of my personal data",
+            "potentially leading to its disclosure to unauthorised parties without a clear legal basis"
+          ]
+        },
+        "legal_basis": {
+          "formal_legal_basis": [
+            "f"
+          ],
+          "justification_keywords": null,
+          "quotes": [
+            "under the General Data Protection Regulation (GDPR)",
+            "what I believe to be the unlawful processing of my personal data"
+          ]
+        },
+        "remediation": {
+          "status": "planned",
+          "deadline": "1 month",
+          "quotes": [
+            "Palun teavitage taotluse kättesaamisest.",
+            "Palun teavitage taotluse kättesaamisest."
+          ]
+        }
+      }
     },
     {
       "id": "2025-06-25T07-22-from-help-ekool-eu-9dd6e224",
@@ -313,9 +366,40 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:extension-asked"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": true,
+          "justification_keywords": [
+            "holiday_period"
+          ],
+          "until": null,
+          "quotes": [
+            "Tegeleme teie kirjaga koheselt, kui vastutav töötaja tuleb puhkuselt."
+          ]
+        },
+        "vulnerability_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "privacy_risk_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": null,
+          "quotes": null
+        },
+        "remediation": {
+          "status": "not_mentioned",
+          "deadline": null,
+          "quotes": null
+        }
+      }
     },
     {
       "id": "2025-07-11T11-28-from-help-ekool-eu-9e54a1b8",
@@ -338,9 +422,62 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:basis:article6-paragraph1-point:f",
+        "llm:justification:account_support_functionality",
+        "llm:justification:preventing_duplicate_account_creation",
+        "llm:justification:balancing_test",
+        "llm:remediation-status:planned",
+        "llm:privacy-risk:agree",
+        "llm:addresses-gdpr-request"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "agree",
+          "quotes": [
+            "While this does not expose full user profiles or sensitive information, the fact of account existence can be considered personal data under GDPR.",
+            "Your objection under Article 21 has been accepted; we are not continuing the processing in a manner that could reveal your account status."
+          ]
+        },
+        "privacy_risk_acknowledged": {
+          "status": "agree",
+          "quotes": [
+            "While this does not expose full user profiles or sensitive information, the fact of account existence can be considered personal data under GDPR.",
+            "based on your objection and our internal reassessment, we agree that this interest does not outweigh your right to data protection and privacy in this context.",
+            "Your objection under Article 21 has been accepted; we are not continuing the processing in a manner that could reveal your account status."
+          ]
+        },
+        "legal_basis": {
+          "formal_legal_basis": [
+            "f"
+          ],
+          "justification_keywords": [
+            "account_support_functionality",
+            "preventing_duplicate_account_creation",
+            "balancing_test"
+          ],
+          "quotes": [
+            "“legitimate interest (GDPR Art. 6(1)(f)) in providing account support functionality and preventing duplicate account creation\"",
+            "“balancing_test”"
+          ]
+        },
+        "remediation": {
+          "status": "planned",
+          "deadline": null,
+          "quotes": [
+            "Unifying frontend messages across all relevant forms so that no distinction is visible to the end user based on account existence.",
+            "Generalizing backend responses, including HTTP status codes, headers, and response timing, to avoid indirect signals.",
+            "These updates are scheduled for implementation and testing over the coming weeks. Once completed, our system will no longer reveal whether a specific email address is registered."
+          ]
+        }
+      }
     }
   ]
 }

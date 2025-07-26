@@ -29,12 +29,18 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:extension-asked",
+        "llm:remediation-status:planned",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:remediation-status:refused",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:author",
@@ -228,9 +234,44 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:extension-asked",
+        "llm:remediation-status:planned",
+        "llm:addresses-gdpr-request"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": true,
+          "justification_keywords": [
+            "internal_investigation"
+          ],
+          "until": "7 working days",
+          "quotes": [
+            "Will come back to you within 7 working days."
+          ]
+        },
+        "vulnerability_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "privacy_risk_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": null,
+          "quotes": null
+        },
+        "remediation": {
+          "status": "planned",
+          "deadline": null,
+          "quotes": [
+            "I will pass your request and concern to our internal department for investigation."
+          ]
+        }
+      }
     },
     {
       "id": "2025-06-30T08-19-from-service-zalando-ee-f0ddec99",
@@ -253,9 +294,44 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:remediation-status:refused",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "disagree",
+          "quotes": [
+            "after thorough checks Im afraid we do not see the relevant vulnerability in this situation"
+          ]
+        },
+        "privacy_risk_acknowledged": {
+          "status": "disagree",
+          "quotes": [
+            "We do not see the relevant vulnerability in this situation."
+          ]
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": null,
+          "quotes": null
+        },
+        "remediation": {
+          "status": "refused",
+          "deadline": null,
+          "quotes": [
+            "Our internal teams have evaluated your request and after thorough checks Im afraid we do not see the relevant vulnerability in this situation."
+          ]
+        }
+      }
     },
     {
       "id": "2025-07-17T08-55-from-gregoreesmaa1-gmail-com-d50c337f",

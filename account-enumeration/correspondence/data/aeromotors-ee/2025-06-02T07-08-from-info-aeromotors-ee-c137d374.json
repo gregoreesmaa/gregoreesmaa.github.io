@@ -19,7 +19,44 @@
   "labels": [
     "from:service-provider",
     "purpose:gdpr",
-    "subpurpose:gdpr-response"
+    "subpurpose:gdpr-response",
+    "llm:extension-asked",
+    "llm:remediation-status:planned",
+    "llm:addresses-gdpr-request"
   ],
-  "attachments": []
+  "attachments": [],
+  "llmAnalysis": {
+    "extension": {
+      "asked": true,
+      "justification_keywords": [
+        "technical_assessment"
+      ],
+      "until": "2 weeks",
+      "quotes": [
+        "Parandame selle 2 nädala jooksul ära."
+      ]
+    },
+    "vulnerability_acknowledged": {
+      "status": "agree",
+      "quotes": [
+        "Parandame selle 2 nädala jooksul ära."
+      ]
+    },
+    "privacy_risk_acknowledged": {
+      "status": "not_mentioned",
+      "quotes": null
+    },
+    "legal_basis": {
+      "formal_legal_basis": [],
+      "justification_keywords": null,
+      "quotes": null
+    },
+    "remediation": {
+      "status": "planned",
+      "deadline": "2 weeks",
+      "quotes": [
+        "Parandame selle 2 nädala jooksul ära."
+      ]
+    }
+  }
 }

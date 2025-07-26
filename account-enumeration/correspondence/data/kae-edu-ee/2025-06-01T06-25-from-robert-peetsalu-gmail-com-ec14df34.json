@@ -19,7 +19,48 @@
   "labels": [
     "from:service-provider",
     "purpose:gdpr",
-    "subpurpose:gdpr-response"
+    "subpurpose:gdpr-response",
+    "llm:justification:technical_limitations",
+    "llm:remediation-status:refused",
+    "llm:privacy-risk:agree",
+    "llm:addresses-gdpr-request"
   ],
-  "attachments": []
+  "attachments": [],
+  "llmAnalysis": {
+    "extension": {
+      "asked": false,
+      "justification_keywords": null,
+      "until": null,
+      "quotes": null
+    },
+    "vulnerability_acknowledged": {
+      "status": "agree",
+      "quotes": [
+        "Tunnistan, et on tõesti võimalik registreerimisvormi selliselt kuritarvitada"
+      ]
+    },
+    "privacy_risk_acknowledged": {
+      "status": "agree",
+      "quotes": [
+        "Tunnistan, et on tõesti võimalik registreerimisvormi selliselt kuritarvitada"
+      ]
+    },
+    "legal_basis": {
+      "formal_legal_basis": [],
+      "justification_keywords": [
+        "technical_limitations"
+      ],
+      "quotes": [
+        "Kahjuks aga ei ole tegu aktiivselt arendatava tarkvaraga ja pakutud lahendust me teostada ei saa."
+      ]
+    },
+    "remediation": {
+      "status": "refused",
+      "deadline": null,
+      "quotes": [
+        "Kahjuks aga ei ole tegu aktiivselt arendatava tarkvaraga ja pakutud lahendust me teostada ei saa.",
+        "Selle asemel eemaldame KAE Kooli konto registreerimisvormi, et sellist kuritarvitamist vältida."
+      ]
+    }
+  }
 }

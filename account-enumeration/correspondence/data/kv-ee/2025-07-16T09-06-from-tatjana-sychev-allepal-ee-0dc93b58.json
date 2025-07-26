@@ -19,7 +19,43 @@
   "labels": [
     "from:service-provider",
     "purpose:gdpr",
-    "subpurpose:gdpr-response"
+    "subpurpose:gdpr-response",
+    "llm:remediation-status:refused",
+    "llm:privacy-risk:disagree",
+    "llm:addresses-gdpr-request"
   ],
-  "attachments": []
+  "attachments": [],
+  "llmAnalysis": {
+    "extension": {
+      "asked": false,
+      "justification_keywords": null,
+      "until": null,
+      "quotes": null
+    },
+    "vulnerability_acknowledged": {
+      "status": "disagree",
+      "quotes": [
+        "olen seisukohal, et kv.ee hetke süsteemi toimimine ei ole turvarisk"
+      ]
+    },
+    "privacy_risk_acknowledged": {
+      "status": "disagree",
+      "quotes": [
+        "olen seisukohal, et kv.ee hetke süsteemi toimimine ei ole turvarisk"
+      ]
+    },
+    "legal_basis": {
+      "formal_legal_basis": [],
+      "justification_keywords": null,
+      "quotes": null
+    },
+    "remediation": {
+      "status": "refused",
+      "deadline": null,
+      "quotes": [
+        "Olen seisukohal, et kv.ee hetke süsteemi toimimine ei ole turvarisk ja ei riku isikuandmete töötlemise põhimõteid.",
+        "Hetkeseisuga ei ole plaanis täiendavaid muudatusi süsteemis teha kui Andmekaitseinspektsioon just ei teata, et see on hädavajalik."
+      ]
+    }
+  }
 }

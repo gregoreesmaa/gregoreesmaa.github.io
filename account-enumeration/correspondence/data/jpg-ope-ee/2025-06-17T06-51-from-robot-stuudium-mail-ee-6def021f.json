@@ -19,7 +19,47 @@
   "labels": [
     "from:service-provider",
     "purpose:gdpr",
-    "subpurpose:gdpr-response"
+    "subpurpose:gdpr-response",
+    "llm:justification:technical_limitations",
+    "llm:remediation-status:partially_completed",
+    "llm:privacy-risk:disagree",
+    "llm:addresses-gdpr-request"
   ],
-  "attachments": []
+  "attachments": [],
+  "llmAnalysis": {
+    "extension": {
+      "asked": false,
+      "justification_keywords": null,
+      "until": null,
+      "quotes": null
+    },
+    "vulnerability_acknowledged": {
+      "status": "disagree",
+      "quotes": [
+        "Suuremas plaanis on päringu sisu/etteheited oma sisulise poole pealt üsna arusaamatud."
+      ]
+    },
+    "privacy_risk_acknowledged": {
+      "status": "disagree",
+      "quotes": [
+        "Suuremas plaanis on päringu sisu/etteheited oma sisulise poole pealt üsna arusaamatud."
+      ]
+    },
+    "legal_basis": {
+      "formal_legal_basis": [],
+      "justification_keywords": [
+        "technical_limitations"
+      ],
+      "quotes": [
+        "Re: IKÜM taotlus seoses isikuandmete töötlemisega / GDPR Request Regarding Processing of Personal Data"
+      ]
+    },
+    "remediation": {
+      "status": "partially_completed",
+      "deadline": null,
+      "quotes": [
+        "veebiteenuse jpg.ope.ee\" sisselogimislehel pole enam võimalik Gregor Eesmaa kasutajakonto olemasolu tuvastamine"
+      ]
+    }
+  }
 }

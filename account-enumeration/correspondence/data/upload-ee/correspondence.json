@@ -32,7 +32,9 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:remediation-status:partially_completed",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:author",
@@ -42,7 +44,12 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:justification:technical_limitations",
+        "llm:justification:business_needs",
+        "llm:justification:industry_standard",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:author",
@@ -52,7 +59,9 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:remediation-status:partially_completed",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:author",
@@ -62,7 +71,9 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:remediation-status:partially_completed",
+        "llm:addresses-gdpr-request"
       ]
     ],
     "stats": {
@@ -260,9 +271,39 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:remediation-status:partially_completed",
+        "llm:addresses-gdpr-request"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "privacy_risk_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": null,
+          "quotes": null
+        },
+        "remediation": {
+          "status": "partially_completed",
+          "deadline": null,
+          "quotes": [
+            "muutsime errori tekstid üldisemaks"
+          ]
+        }
+      }
     },
     {
       "id": "2025-05-31T19-31-from-gregoreesmaa1-gmail-com-0ab3f491",
@@ -310,9 +351,49 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:justification:technical_limitations",
+        "llm:justification:business_needs",
+        "llm:justification:industry_standard",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "privacy_risk_acknowledged": {
+          "status": "disagree",
+          "quotes": [
+            "kasutajanime ei defineeri kasutajaskonda ega realistlikku võrdlusgruppi"
+          ]
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": [
+            "technical_limitations",
+            "business_needs",
+            "industry_standard"
+          ],
+          "quotes": [
+            "kasutajanime unikaalsuse kontroll on jätkuvalt olemas",
+            "kasutajanimeks saab igaüks omal vastutusel valida suvalise teksti"
+          ]
+        },
+        "remediation": {
+          "status": "not_mentioned",
+          "deadline": null,
+          "quotes": null
+        }
+      }
     },
     {
       "id": "2025-06-04T16-57-from-gregoreesmaa1-gmail-com-25dada4f",
@@ -360,9 +441,41 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:remediation-status:partially_completed",
+        "llm:addresses-gdpr-request"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "agree",
+          "quotes": [
+            "affected ja selected rows näitas debug andmetes ridade arvuga kaudselt ära kasutaja olemasolu"
+          ]
+        },
+        "privacy_risk_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": null,
+          "quotes": null
+        },
+        "remediation": {
+          "status": "partially_completed",
+          "deadline": null,
+          "quotes": [
+            "Need kaks muutujat regamise ja parooli taastamise lehel ning login lehel on nüüd peidus (ainult siis kui päriselt submit teha, tavalisel GET päringul mis ainult vormi kuvab on jätkuvalt näha)."
+          ]
+        }
+      }
     },
     {
       "id": "2025-06-08T15-35-from-gregoreesmaa1-gmail-com-4f8e549c",
@@ -410,9 +523,44 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:remediation-status:partially_completed",
+        "llm:addresses-gdpr-request"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "agree",
+          "quotes": [
+            "Njah, kui kirja välja ei saada siis tõlkesüsteemi kasutuskordade logi näitas erinevust jah.",
+            "Nüüd on mysql ja tõlkesüsteemi info login+register+forgotpassword lehtedel kinni keeratud, juhul kui formi submit on toimunud.",
+            "Parooli lähtestamise leht peaks nüüd alati formi reseti triggerdama, see erisus on ka kadunud."
+          ]
+        },
+        "privacy_risk_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": null,
+          "quotes": null
+        },
+        "remediation": {
+          "status": "partially_completed",
+          "deadline": null,
+          "quotes": [
+            "Nüüd on mysql ja tõlkesüsteemi info login+register+forgotpassword lehtedel kinni keeratud, juhul kui formi submit on toimunud",
+            "Parooli lähtestamise leht peaks nüüd alati formi reseti triggerdama, see erisus on ka kadunud"
+          ]
+        }
+      }
     }
   ]
 }

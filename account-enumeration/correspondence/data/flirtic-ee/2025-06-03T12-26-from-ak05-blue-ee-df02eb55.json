@@ -19,7 +19,10 @@
   "labels": [
     "from:service-provider",
     "purpose:gdpr",
-    "subpurpose:gdpr-response"
+    "subpurpose:gdpr-response",
+    "llm:justification:industry_standard",
+    "llm:justification:business_needs",
+    "llm:addresses-gdpr-request"
   ],
   "attachments": [
     {
@@ -34,5 +37,37 @@
       "contentType": "image/jpeg",
       "size": 68050
     }
-  ]
+  ],
+  "llmAnalysis": {
+    "extension": {
+      "asked": false,
+      "justification_keywords": null,
+      "until": null,
+      "quotes": null
+    },
+    "vulnerability_acknowledged": {
+      "status": "not_mentioned",
+      "quotes": null
+    },
+    "privacy_risk_acknowledged": {
+      "status": "not_mentioned",
+      "quotes": null
+    },
+    "legal_basis": {
+      "formal_legal_basis": [],
+      "justification_keywords": [
+        "industry_standard",
+        "business_needs"
+      ],
+      "quotes": [
+        "\"laialt levinud praktika\"",
+        "\"mitte GDPR-i nõuete täitmine mõnikord tõlgendamise küsimus\""
+      ]
+    },
+    "remediation": {
+      "status": "not_mentioned",
+      "deadline": null,
+      "quotes": null
+    }
+  }
 }

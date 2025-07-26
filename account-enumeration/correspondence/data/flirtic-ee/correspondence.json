@@ -28,7 +28,10 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:justification:industry_standard",
+        "llm:justification:business_needs",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:author",
@@ -38,7 +41,14 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:justification:user_experience",
+        "llm:justification:industry_standard",
+        "llm:justification:account_security",
+        "llm:justification:business_needs",
+        "llm:remediation-status:refused",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ]
     ],
     "stats": {
@@ -232,7 +242,10 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:justification:industry_standard",
+        "llm:justification:business_needs",
+        "llm:addresses-gdpr-request"
       ],
       "attachments": [
         {
@@ -247,7 +260,39 @@
           "contentType": "image/jpeg",
           "size": 68050
         }
-      ]
+      ],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "privacy_risk_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": [
+            "industry_standard",
+            "business_needs"
+          ],
+          "quotes": [
+            "\"laialt levinud praktika\"",
+            "\"mitte GDPR-i nõuete täitmine mõnikord tõlgendamise küsimus\""
+          ]
+        },
+        "remediation": {
+          "status": "not_mentioned",
+          "deadline": null,
+          "quotes": null
+        }
+      }
     },
     {
       "id": "2025-06-21T18-31-from-gregoreesmaa1-gmail-com-173dfa38",
@@ -295,9 +340,60 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:justification:user_experience",
+        "llm:justification:industry_standard",
+        "llm:justification:account_security",
+        "llm:justification:business_needs",
+        "llm:remediation-status:refused",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "disagree",
+          "quotes": [
+            "ei pea me kirjeldatud olukorda GDPR-i rikkumiseks",
+            "Antud turvamehhanismide käitumine ei kujuta endast meie hinnangul isikuandmete töötlemist sellisel kujul ja eesmärgil, mis kvalifitseeruks ebaseaduslikuks",
+            "jääme eriarvamusele töötlemise liigituse osas"
+          ]
+        },
+        "privacy_risk_acknowledged": {
+          "status": "disagree",
+          "quotes": [
+            "ei pea me kirjeldatud olukorda GDPR-i rikkumiseks",
+            "Antud turvamehhanismide käitumine ei kujuta endast meie hinnangul isikuandmete töötlemist sellisel kujul ja eesmärgil, mis kvalifitseeruks ebaseaduslikuks"
+          ]
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": [
+            "user_experience",
+            "industry_standard",
+            "account_security",
+            "business_needs"
+          ],
+          "quotes": [
+            "Praktikas on sarnaseid lahendusi kasutusel paljudes teenustes (nt e-kaubanduses, hotellinduses jne)",
+            "süsteemid peavad suutma tuvastada olemasoleva konto olemasolu, et pakkuda asjakohaseid teenuseid (nt parooli lähtestamine)"
+          ]
+        },
+        "remediation": {
+          "status": "refused",
+          "deadline": null,
+          "quotes": [
+            "Antud turvamehhanismide käitumine ei kujuta endast meie hinnangul isikuandmete töötlemist sellisel kujul ja eesmärgil, mis kvalifitseeruks ebaseaduslikuks.",
+            "Kui tegemist on teie hinnangul ebaseadusliku töötlemisega ja soovite andmete eemaldamist, on teil alati võimalik oma konto sulgeda ning isikuandmed kustutada vastavalt meie privaatsuspoliitikas sätestatud korrale."
+          ]
+        }
+      }
     }
   ]
 }

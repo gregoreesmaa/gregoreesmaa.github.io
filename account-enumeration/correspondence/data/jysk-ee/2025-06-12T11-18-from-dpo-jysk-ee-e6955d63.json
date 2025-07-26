@@ -23,7 +23,45 @@
   "labels": [
     "from:service-provider",
     "purpose:gdpr",
-    "subpurpose:gdpr-response"
+    "subpurpose:gdpr-response",
+    "llm:extension-asked",
+    "llm:remediation-status:planned",
+    "llm:addresses-gdpr-request"
   ],
-  "attachments": []
+  "attachments": [],
+  "llmAnalysis": {
+    "extension": {
+      "asked": true,
+      "justification_keywords": [
+        "complexity"
+      ],
+      "until": null,
+      "quotes": [
+        "Should we require further clarification or if an extension becomes necessary due to the complexity of the request, we will notify you accordingly with a justification."
+      ]
+    },
+    "vulnerability_acknowledged": {
+      "status": "agree",
+      "quotes": [
+        "We are currently evaluating and addressing the technical concerns raised, including the reported account enumeration issue."
+      ]
+    },
+    "privacy_risk_acknowledged": {
+      "status": "not_mentioned",
+      "quotes": null
+    },
+    "legal_basis": {
+      "formal_legal_basis": [],
+      "justification_keywords": null,
+      "quotes": null
+    },
+    "remediation": {
+      "status": "planned",
+      "deadline": null,
+      "quotes": [
+        "We are currently evaluating and addressing the technical concerns raised, including the reported account enumeration issue.",
+        "We are processing your request in accordance with Articles 15, 18, and 21 of the GDPR and will respond within the one-month time frame established by Article 12(3)."
+      ]
+    }
+  }
 }

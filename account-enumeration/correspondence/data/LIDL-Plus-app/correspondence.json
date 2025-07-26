@@ -60,7 +60,12 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:justification:privacy",
+        "llm:justification:data_protection",
+        "llm:justification:legal_requirements",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ]
     ],
     "stats": {
@@ -471,7 +476,33 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "privacy_risk_acknowledged": {
+          "status": "not_mentioned",
+          "quotes": null
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": null,
+          "quotes": null
+        },
+        "remediation": {
+          "status": "not_mentioned",
+          "deadline": null,
+          "quotes": null
+        }
+      }
     },
     {
       "id": "2025-07-08T08-26-from-klienditugi-lidl-ee-0eb53d8b",
@@ -494,9 +525,54 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:justification:privacy",
+        "llm:justification:data_protection",
+        "llm:justification:legal_requirements",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
-      "attachments": []
+      "attachments": [],
+      "llmAnalysis": {
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
+        },
+        "vulnerability_acknowledged": {
+          "status": "disagree",
+          "quotes": [
+            "The design of our processes, such as the registration process, does not constitute unlawful disclosure or data processing."
+          ]
+        },
+        "privacy_risk_acknowledged": {
+          "status": "disagree",
+          "quotes": [
+            "The precautions taken are regularly adapted to the state of the art.",
+            "the design of our processes, such as the registration process, does not constitute unlawful disclosure or data processing."
+          ]
+        },
+        "legal_basis": {
+          "formal_legal_basis": [],
+          "justification_keywords": [
+            "privacy",
+            "data_protection",
+            "legal_requirements"
+          ],
+          "quotes": [
+            "The security of customer data is an important concern and is guaranteed by compliance with European data protection standards.",
+            "The precautions taken are regularly adapted to the state of the art.",
+            "Lidl Eesti OÜ võtab teie privaatsust ja isikuandmete kaitset väga tõsiselt.",
+            "Vastuse koostamiseks teie taotlusele töötleme teie isikuandmeid."
+          ]
+        },
+        "remediation": {
+          "status": "not_mentioned",
+          "deadline": null,
+          "quotes": null
+        }
+      }
     }
   ]
 }
