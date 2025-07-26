@@ -3,10 +3,27 @@
     "id": "opiq-ee",
     "name": "opiq.ee",
     "type": "website",
+    "messageLabels": [
+      [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
+      [
+        "from:service-provider",
+        "purpose:disclosure",
+        "subpurpose:disclosure-response"
+      ],
+      [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:fix-confirmation"
+      ]
+    ],
     "stats": {
       "dates": {
         "initialReport": "2025-03-16T19:18:50.000Z",
-        "firstResponse": "2025-03-17T09:20:04.000Z",
+        "firstResponseAfterDisclosure": "2025-03-17T09:20:04.000Z",
         "fixConfirmation": "2025-05-18T13:18:35.000Z",
         "lastCommunication": "2025-05-18T13:18:35.000Z"
       },
@@ -40,6 +57,11 @@
       "date": "2025-03-16T19:18:50.000Z",
       "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
       "attachments": [
         {
           "filename": "report.pdf",
@@ -67,6 +89,11 @@
       "date": "2025-03-17T09:20:04.000Z",
       "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Tere!\n\nAitäh kirja eest. Saime selle kätte ja uurime raporti sisu.\n\nParimatega\nAntti Rammo\nStar Cloud</div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:service-provider",
+        "purpose:disclosure",
+        "subpurpose:disclosure-response"
+      ],
       "attachments": []
     },
     {
@@ -87,6 +114,11 @@
       "date": "2025-05-18T13:18:35.000Z",
       "bodyHtml": "<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\n<style type=\"text/css\" style=\"display:none;\"> P {margin-top:0;margin-bottom:0;} </style>\n</head>\n<body dir=\"ltr\">\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nHello,</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nWe are pleased to inform you, that we reassessed the service&nbsp;</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\non 2025-05-04 and have found that the previously identified</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\naccount enumeration vulnerability is now sufficiently mitigated.</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nWe appreciate your attention and action in addressing this</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nsecurity concern.</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nThank you,</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nGregor Eesmaa</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nComputer Science MSc student</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nUniversity of Tartu, Institute of Computer Science</div>\n<div id=\"appendonsend\"></div>\n\n</body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:fix-confirmation"
+      ],
       "attachments": []
     }
   ]

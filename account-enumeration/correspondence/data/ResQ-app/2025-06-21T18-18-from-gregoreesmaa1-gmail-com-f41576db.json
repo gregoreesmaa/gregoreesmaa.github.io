@@ -16,6 +16,11 @@
   "date": "2025-06-21T18:18:33.000Z",
   "bodyHtml": "<head></head><body><div dir=\"ltr\">Viitasin valesti vea ilmnemise kohad – viga esineb parooli lähtestamise vormil, kasutaja registreerimise vormil ja meiliaadressi vahetamise vormil. Parandatud taotlus manuses.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>I mis-referenced vulnerable forms – the flaw is apparent in the password reset form, account registration form and email change form. Corrected request is attached.<br><br>Kind regards,<br>Gregor Eesmaa</div><br>\n</body>",
   "hiddenReasons": [],
+  "labels": [
+    "from:author",
+    "purpose:gdpr",
+    "subpurpose:gdpr-request"
+  ],
   "attachments": [
     {
       "filename": "taotlus-request.pdf",

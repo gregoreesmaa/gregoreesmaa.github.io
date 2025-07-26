@@ -18,6 +18,11 @@
   "hiddenReasons": [
     "sent-from-wrong-email"
   ],
+  "labels": [
+    "from:author",
+    "purpose:gdpr",
+    "subpurpose:gdpr-request"
+  ],
   "attachments": [
     {
       "filename": "taotlus-request.asice",

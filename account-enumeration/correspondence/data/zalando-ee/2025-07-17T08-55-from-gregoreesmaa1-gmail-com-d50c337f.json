@@ -16,5 +16,10 @@
   "date": "2025-07-17T08:55:10.000Z",
   "bodyHtml": "<head></head><body><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\">Hello Anna!</div><div dir=\"ltr\"><br></div><div dir=\"ltr\">Thank you for your reply! I am writing to clarify the security vulnerability that allows unauthorized parties to learn whether I have an account with Zalando.<br><br>Under GDPR, the fact that I am a Zalando customer is my personal data. Your website discloses this information in two ways:</div><div dir=\"ltr\">1.&nbsp;<b>Login and Registration Form</b>: If someone enters my email address (<a href=\"mailto:gregoreesmaal@gmail.com\">gregoreesmaal@gmail.com</a>), the website's response is different depending on whether my account exists. It either proceeds to a login page (if the account exists) or a registration page (if it does not). This indicates to any person whether I have a Zalando account.</div><div dir=\"ltr\">2.&nbsp;<b>Email Change Form</b>: When trying to change an account's email to one that is already registered, the form displays a specific error message: \"See meiliaadress on juba olemas\" (\"This email address already exists\"). This also confirms the existence of my account to anyone who enters my email address.</div><div dir=\"ltr\"><br></div><div dir=\"ltr\">These issues are detailed in the vulnerability report I sent previously. The report explains how this \"account enumeration\" vulnerability works and offers clear, standard methods for fixing it.</div><div dir=\"ltr\"><br></div><div dir=\"ltr\">My formal GDPR request from May 31, 2025, which asked for the legal basis for this data processing (Article 15), requested a restriction on this processing (Article 18), and objected to it (Article 21), remains unanswered.</div><div dir=\"ltr\">Could you please re-evaluate this situation based on the clarification and report provided and respond to my formal GDPR requests?<br><br>Best regards<br>Gregor Eesmaa</div><div dir=\"ltr\"><div><br></div></div><br></div>\n</div>\n</body>",
   "hiddenReasons": [],
+  "labels": [
+    "from:author",
+    "purpose:gdpr",
+    "subpurpose:follow-up"
+  ],
   "attachments": []
 }

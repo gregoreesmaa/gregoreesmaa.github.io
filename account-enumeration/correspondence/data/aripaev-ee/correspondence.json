@@ -3,10 +3,60 @@
     "id": "aripaev-ee",
     "name": "aripaev.ee",
     "type": "website",
+    "messageLabels": [
+      [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
+      [
+        "from:service-provider",
+        "purpose:disclosure",
+        "subpurpose:disclosure-response",
+        "automated-reply"
+      ],
+      [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
+      [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request"
+      ],
+      [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response",
+        "automated-reply"
+      ],
+      [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request",
+        "providing-container-contents"
+      ],
+      [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response",
+        "automated-reply"
+      ],
+      [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response"
+      ],
+      [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up"
+      ]
+    ],
     "stats": {
       "dates": {
         "initialReport": "2025-03-16T19:18:36.000Z",
-        "firstResponse": "2025-06-30T11:41:04.000Z",
         "gdprRequest": "2025-05-31T12:41:42.000Z",
         "firstResponseAfterGdpr": "2025-06-30T11:41:04.000Z",
         "lastCommunication": "2025-07-17T07:52:08.000Z"
@@ -41,6 +91,11 @@
       "date": "2025-03-16T19:18:36.000Z",
       "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
       "attachments": [
         {
           "filename": "report.pdf",
@@ -70,6 +125,11 @@
       "hiddenReasons": [
         "automated-reply"
       ],
+      "labels": [
+        "from:service-provider",
+        "purpose:disclosure",
+        "subpurpose:disclosure-response"
+      ],
       "attachments": []
     },
     {
@@ -90,6 +150,11 @@
       "date": "2025-03-23T10:39:13.000Z",
       "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
       "attachments": [
         {
           "filename": "report.pdf",
@@ -117,6 +182,11 @@
       "date": "2025-05-31T12:41:42.000Z",
       "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Lugupeetud aripaev.ee vastutav andmetöötleja\n\nPöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses aripaev.ee, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.\n\nManuses on ametlik taotlus, milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).\n\nPalun teavitage taotluse kättesaamisest.\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of aripaev.ee,\n\nI am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by aripaev.ee, potentially leading to its disclosure to unauthorised parties without a clear legal basis.\n\nPlease find attached a formal application exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).\n\nPlease confirm receipt of this request.\n\nKind regards,\nGregor Eesmaa</div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request"
+      ],
       "attachments": [
         {
           "filename": "taotlus-request.asice",
@@ -161,6 +231,11 @@
       "hiddenReasons": [
         "automated-reply"
       ],
+      "labels": [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response"
+      ],
       "attachments": []
     },
     {
@@ -182,6 +257,11 @@
       "bodyHtml": "<head></head><body><div dir=\"ltr\">Saadan igaks juhuks ka eraldi taotluse ja aruande PDFid, mis asusid eelmise meili manuses digiallkirjastatud konteineris.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>Just in case, providing also the request and the report PDF files, that were in the digitally signed container attached to the previous email.<br><br>Kind regards,<br>Gregor Eesmaa</div><br>\n</body>",
       "hiddenReasons": [
         "providing-container-contents"
+      ],
+      "labels": [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request"
       ],
       "attachments": [
         {
@@ -218,6 +298,11 @@
       "hiddenReasons": [
         "automated-reply"
       ],
+      "labels": [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response"
+      ],
       "attachments": []
     },
     {
@@ -238,6 +323,11 @@
       "date": "2025-06-30T11:41:04.000Z",
       "bodyHtml": "<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\n<!--[if !mso]><style>v\\:* {behavior:url(#default#VML);}\no\\:* {behavior:url(#default#VML);}\nw\\:* {behavior:url(#default#VML);}\n.shape {behavior:url(#default#VML);}\n</style><![endif]--><style><!--\n/* Font Definitions */\n@font-face\n\t{font-family:\"Cambria Math\";\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\n@font-face\n\t{font-family:Calibri;\n\tpanose-1:2 15 5 2 2 2 4 3 2 4;}\n@font-face\n\t{font-family:Aptos;}\n@font-face\n\t{font-family:\"Trebuchet MS\";\n\tpanose-1:2 11 6 3 2 2 2 2 2 4;}\n/* Style Definitions */\np.MsoNormal, li.MsoNormal, div.MsoNormal\n\t{margin:0cm;\n\tfont-size:12.0pt;\n\tfont-family:\"Aptos\",sans-serif;}\na:link, span.MsoHyperlink\n\t{mso-style-priority:99;\n\tcolor:blue;\n\ttext-decoration:underline;}\nspan.EmailStyle22\n\t{mso-style-type:personal-reply;\n\tfont-family:\"Trebuchet MS\",sans-serif;\n\tcolor:windowtext;}\n.MsoChpDefault\n\t{mso-style-type:export-only;\n\tfont-size:10.0pt;\n\tmso-ligatures:none;}\n@page WordSection1\n\t{size:612.0pt 792.0pt;\n\tmargin:70.85pt 70.85pt 70.85pt 70.85pt;}\ndiv.WordSection1\n\t{page:WordSection1;}\n--></style><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext=\"edit\" spidmax=\"1026\" />\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext=\"edit\">\n<o:idmap v:ext=\"edit\" data=\"1\" />\n</o:shapelayout></xml><![endif]-->\n</head>\n<body lang=\"EN-US\" link=\"blue\" vlink=\"purple\" style=\"word-wrap:break-word\">\n<div class=\"WordSection1\">\n<p class=\"MsoNormal\"><span lang=\"ET\" style=\"font-size:10.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif\">Austatud Gregor Eesmaa<o:p></o:p></span></p>\n<p class=\"MsoNormal\"><span lang=\"ET\" style=\"font-size:10.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif\"><o:p>&nbsp;</o:p></span></p>\n<p class=\"MsoNormal\"><span lang=\"ET\" style=\"font-size:10.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif\">AB TRINITI esindab Äripäev ASi. Kliendi nimel ja palvel edastame vastuse Teie kui andmesubjekti päringule ja küsimustele.\n<o:p></o:p></span></p>\n<p class=\"MsoNormal\"><span lang=\"ET\" style=\"font-size:10.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif\"><o:p>&nbsp;</o:p></span></p>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p class=\"MsoNormal\" style=\"margin-bottom:12.0pt\"><span lang=\"ET\" style=\"font-size:10.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;mso-ligatures:standardcontextual\">Lugupidamisega</span><span lang=\"ET\" style=\"font-size:10.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif\"><o:p></o:p></span></p>\n<p class=\"MsoNormal\" style=\"line-height:10.5pt;mso-line-height-rule:exactly\"><b><span lang=\"ET\" style=\"font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\">Maarja Pild-Freiberg</span></b><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\"><br>\n</span><span lang=\"ET\" style=\"font-size:9.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#008CC8;mso-ligatures:standardcontextual\">Vande<a href=\"http://triniti.ee/meeskond/maarja-pild/\"><span style=\"color:#008CC8;text-decoration:none\">advokaat</span></a> /\n Assotsieerunud partner </span><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\"><br>\n<br>\n</span><b><span lang=\"ET\" style=\"font-size:9.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\">Advokaadibüroo TRINITI</span></b><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\"><br>\nMaakri Kvartal | </span><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\">Maakri 19/1</span><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\">,\n Tallinn<br>\n</span><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#008CC8;mso-ligatures:standardcontextual\">T:</span><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\">\n<a href=\"tel:%206%20850%20950\"><span style=\"color:#333333;text-decoration:none\">6 850 950</span></a> |\n</span><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#008CC8;mso-ligatures:standardcontextual\">M:</span><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\">\n<a href=\"mbl:%2055%2032%20624\"><span style=\"color:#333333;text-decoration:none\">55 32 624</span></a><o:p></o:p></span></p>\n<p class=\"MsoNormal\"><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333\"><img border=\"0\" width=\"196\" height=\"58\" style=\"width:2.0416in;height:.6083in\" id=\"Picture_x0020_1\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wgARCAB0AYgDAREAAhEBAxEB/8QAHQABAAIDAQEBAQAAAAAAAAAAAAcIBQYJBAMCAf/EABwBAQACAwEBAQAAAAAAAAAAAAAGBwMEBQgCAf/aAAwDAQACEAMQAAAA6pgAAAAAAAAAAAAAAAAAAAxWXWrhNK48eTB6fnJ5/v4/D8sxB7MzWHbAAAAAAAAAAAAAAAAAAAA17Z0Oe9wee7JwqybIQuyPs+hhM2pUCxafudWtz+z8yAAAAAAAAAAAAAAAAAAACl9k0zT+x6dFva5uG6da3OBGfYjetb3MnGMzcAAAAAAAAAAAAAAAAAAAUCtmgq2TetBNEYmvSilvSYGv7OhCEphFj4bY1Gj4nrLwAFYCMDcy259ACHiYQCHCRTPEQEvgGjnvNpBDRXsE3k9AxZoZKABFXci/PK4vPHjyYb+VHf05RmbgQXJ4NuvN7e/8rvfE56HQs+wBzsOhpDJEpcYA54HQ8A57H5OhZz/OgABWg2gm8H4ISNHLSH0BpxVIu8AD+H8P0AfF887Lj875HDsWtgFry3wZXzwOh4AOdpbMpqXHJiAOeB0PAOfJZMj4jovyAVoNoJvAISNHLSgGnFUi7wAAABAcqgfOu5vOY2rndfrNQHrHngdDwAc7S/BzpOmAAOeB0PAOfJ0DKGmlHSoArQbQTeAQkaOWlANOKpF3gAAACAJXAed1y+dRtnO7PWSgPV9SS2wAKkFtyBz2E2AFSi2oBVAtafA59HQ4AhgzhJYBGxrJN4BrhBpZUAAAA+X7+UDtmgfHlxW2r225X4UpAAAAAAAAAAAAAAAAAAH8Ii78R+vz9yzwpWABpe/xojkUSshDrGAAAAHyK5mrksG/mIMAV9JNNqJjIRPmY88BhSyJmiEDyHvJGKwk5mBPGZ0l0FPbDqCmNm0sLz1Te1qYLaQA8f1iqpPqqtvX9tAAAAAYM+ZhjInhMwYUzp5TZTBHzP6agbkfkz5qhljEn6POZY1E2U85tgOY13+ZIokMSFg4dYnQ2oPQgAh6Qw/G5dec4zOAAAAAAAAAAAAAAAAAAAKRWbSVULBqfLa250Mpz0NNUdmYGGzatPbHp26lZXV930AAAAAAAAAAAAAAAAAABi8mvVCwKn3bmduaIzNMzrbmubvOiCRRDW93nWbg9m5fDsgAAAAAAAAAAAAAAAAAAADWdnnRZIonidjV2HT6Ep8CU5vX3gB//8QAMBAAAQQCAQMCBAYBBQAAAAAABgMEBQcCCAEACRAgOBEUOVASExkwN0EVFiEiMTP/2gAIAQEAAQgA+0EBFGC0UtJS5NudnNSmcNWiA1suf8fmveNbrhU/3zVq7YsP4/Ph4bbkpAZZGItYWK4k0hkJaE+0mxjGV8LyM/Lldxt7tOfnz6oNjKXhGqMFBILpuUcFUvBQJRBtDrxU5KR0zphZzR+wj37eTZIPGv2jfo4W+cHhJHxo5cT7OXWApPzsQGonVOkrBTTomVJaKicF/tG+MY4bW5HPc/Gn0W4kb+Hs0PJ07SYA5C6W0TaZtqXdq5dLd4OkUFc0+f1jaN+POHUZ3eKUlZJqyR87I9wSudXD9sHFaXeNpX+647pdB2HPIRGaSmC6fGeHmuNoQ+0bnN6xh/Oy+0gfqmKRZCZhJnEWGJRBNAdTOzojB7HQlKL+bntqFoqs5w6IqxsGMtevh8xhvGym04hqsPREyX894qjv7w7xdHf1rJuWC7XLkKQb4JJ9sLDspMvNeNhRjZmvODIS83/STS7A/wCR5NqnLa7fZtZ0Ur4lOH+DOC1n18wpiDcu5HzuEcYCdNP2SdFhPNeVQOQa3XyiPQ2jh+s0VdcNkeP+vNzfWOpnr5RHrajXgMvioCaLIe1JY8tYeosVhMedNPqTbP8Ao7zKOC9L1ykrr5Pv9Dtjl6DK+rM+sXVXo7knsktHrSL2iVF5zTwU4/5brIJcakW7zx2yEE+dIa355wSwT+P4PFy/w+dddnz2fJennjjnj4c8Y8Y8fDjyopginlnnft/8mtwtJaMit5rFZveFXlHbDwV2MFE2vQ39Z8q9Ny/WRpnraTYNDWKoX566KtsdgdzABYZqDVDXtlrFR8CCNvOmn1Jtn/R3lf4crbrbzWeN2kpt6MraCbOSduicoAH1pIfDvAVGr6O5J7JLR60i9olRejdj2jW912xPY/W3ouX+Hzrrs+ez5L9rc03cCNOOGrPxVxo7r4+hJ5p0N/WfKvTcv1kaZ6LhGIOhaWHp7Xoyl+3lsi6og59Gmn1Jtn/R3lf4crbpP/zx634qEhqY3htpKsibbgb37kevp4Nee5J7JLR60i9olRejdj2jW912xPY/W3ouX+Hzrrs+ez5L9rc8IdF1PKOmPiqwp1YVgQkC06h9ZDJj3EZ261fRYesJkT9wivLnZdbj6txO11PvRh1qPAWsHVAwGrd8686xmVY7hXTZcz57hetBhs7XofDBqfHOOHHHTxmhIs12rqle3DP0HvEzPxzzuFVE5eOtxsDjetoBKVVQgEHznnY0AlLToY+D4TS+oJ+htaw8GJ/NiQbknACaHZaAUAU61UBgGmH7OaeKuGWGe22vaFayaRMPimlRsUINHvFH6+wFJx6vLP7Nzz8OjDaWtgx4o0dBWzldHTzBmx9NvCCJ1WZJCKaNl6xBUzmJcftKpcqo54cVGMk+F+HkU/222XfVhYcPGwuxh6+gKGdk4pYMg5iAIlfM6OnH5NSwDMStKF0wTAZY+lKa2IO3Y9TQuZ7EWQeAdtgiwnrNZK1qjJbOeNty6YDKxjHULqWaTx+DTcvI1rbs+z1EmbCk6xn342dAzQm3LvuWruYgIAXDyqOORWHIojq1rTd0xbkLLz/E+bwGnxKVT1pG07B66wxCwsaScwteFEgzqa+zR6R00CFzsolU9l4gbxhjqaVte84xxDzVjGemopMDWuhQ3nICbjufG7F3voldIDhPGld1vjFg8Dpv0SK+DSOdLK9v5LPmFNXP7kYHxMMRzc8zjAaDiJQikGr2lw9/ViFcrQFdwo6KOhxvWtRjdRMFGAyOhsOKxb5hFpUuFpMghri7E4p8VRxGsC14O1pGPI4Y6KA6HNGrJtNDYHBCEnPP4cUB4MIGcB+GD9bwACn4+XhY4Ph4cnmiJqFBcNXY20Hx7qxKzGLZgMIMsJB6PLh6UgpYprQdMgXIPloWuoWCEHgwjlUgipLB0pmoIxSpegT5H+vgNZ8ypKkBMAwZaK/6bfgFaD9ZMXrWA8bUcrc3+Yfn+NHWThe7uFkvRtJYSQBTszlxp2EKB1LsFXP2feqrnDWeZHLL8hXFHFXkWDZs2k02EFrTQ2FLCyyj7yTlEYHQbqXmIxlLbl2/hKvEEU2qOCSX2ebg2JFEu42TnqJO6EmHUvXdebfgjrDiNnIawxchS4Ui8pJphh+LKbtcNG0+cpQr3OHcHH+NCWNFWHfswhM2qNDUYIwraKiPtRZXAucpfgn5XSyr5PPLJHjROu/7g9Oauh8+M8xsPghBty2g/R//xABLEAACAgECAgYECgUJBgcAAAABAgMEBQARBhITICExQWEQIlG0B0JQUlZxgYKRsxQwMlWSFRYkM0RUorHDIzV1odPUU2Jyk5Wywv/aAAgBAQAJPwD5IvwY2hCN5LFhwirrhW3xTf7lszROE+sRr6xHmSus7Q4OrP3QIyIw/wDbV2/FtfDNfV/Yk9nb/wC41x5BxEF7egtTc7t9kybf4hrhCbFk9gv04yn3uQkhx5o2r8OSx8w9SeE9m/sI7wR4g7EfJU3Q0acfO/zmO+yoo8Sx2AHtOspfxvCtRy1bD4qMSOF8FUsQoY/Gkb7BqKThKFiAGv1gglb2vKGbc+bnTpLFIoZXQ7hgfEenHwZKhKPWhnXcA+BB7wfMbEannyPwd5qXklhc7lPap8OkQdqn4w1Ks9awiyxSodw6MN1I8iPklyK4Q5Kynz2JZI/w2f0zvPTeFp8YZDuYmXteIH5pG7dRA88NV7tY+KyxAuu317Efe0/PLjJpaH3VIZB9iuo+SQegtYqNYn80kk3HpB5KiT2Jj7E6F1/zZR1CBFDj7Ej7+wRsTruny8zp9QSJfRhuN90PhiYf+vrEcbb/APCoN/eNYbjUTWZUhTfExbbsdv8Ax+pjOIruVs0I8khxFSKWPoneRB2tKh33iOsBxyg/4XB/3Gs5keFLc5CRHiOj0EJPnKrOiffI0wdGAKsp3BHgR1IMqnEfCH+8XtV1SudnCHo3DkntPio6kGUnoZG8KEIxUCTOJOR33YM6bDZDq9FksLlayWqlqI9jxsNx9R8CD2g7g+iDKHjDL0Dkq8qQKagiCyts0nPuDtA/xepFblwuHjSSylCISTENIsY5VLKD2uPEaSxHic5SjvVUtoElEbjccygkA/afTUy9uplLRqQjEVVncOELEsGdNhrD8b//ABMP/X1h+N/sxMH/AHGqWcqHBpA9k5mmkG4lLhOQrI+/9Wd/SHarjqstyYRLu5SNC7co8Tsp1DkIMQbctPbKQLFNzx7b9isw29YePUlSnmabGWhbYbhHPej+PI2w31g7dPkJAnEZeF/NZB6pB1hL2TmY7f7GIlF82Y9ijzJA1IlrifIqosyRdqQIO0RIfH2seo/9Pzbrj4VHeVJ3kP8AACPvaTktQ1hLYX2SuS7j7CxHoiT+HX0VT3StqJP4R1Pow/5OT1En8OsPSe7HRnnoZXoVE9KdUJSRJNtwAQNx4jU7258BkbGFgnl3JMEYR4x91ZQg6nn7ynUG8T8Wx+7zauyv8F3F07XuBczb7q0zntqO3m2y/wDr5G7pfR9Dpfy8j1P7pW98g19G6f5fpUMPYw1EgI4au/lHSA+pd9+n0gXf5o29P7ive7ya/f8Ae/0+qNDYdRgiKN2Zj2AaSC/heHZQmOisgtBO6tu0rKCNwzAfWqrpMTfg8YXqlPwZWGkONztdA9jGyvuQvz0b4y+j6Kp7nW6v0Yf8nJ6wNniOtUsQQSU6swiIEj8gcuQQADr4Fr/CmD4kgerNxfl7Z6AVm3SQxSFET2jdS7atC/brB7F+8BsLFqQ7yMB4KOxV8lHU8/eU6n0vi93m0Up5+r/TcHlfGpcUHk8wj/stoSUPhc4Gc0M1UtdktpEPItnzPg/ns3c+vj8HT/l5Dqf3St75Br6N0/y+p9Gbv5R18y779P1P3Fe93k1+/wC9/p/qpDDZzFlKBdO8REM8n4heU+TemQo9SyhlVTsHiJ2kQ+RUkej6Kp7nW6v0Yf8AJyeqMWTw2UrPUt1JxussbggjV6Wf4K+KbJt8JZ62dkrO7bBSe4bnZJPY+z9gfq+fvKdT6Xxe7za9g1BtxPw1sOJqCdiZKh3F3A79k9R//Js3xNTibE5jgmyQnfJWmVL4khk9jo3U/ulb3yDX0bp/l9T6M3fyjr5l336fqfuK97vJr9/3v9P9VG08+GtLfdE7zEFZJPwDc31L6ULtasr0reEcQO8jnyCgn0HG/wAzbmDWhEBOTa6UQQx9sfLttuh8eqcb/M7A4U0LYlskWukMd1fUj5diN7Efj6DFTz9Xe3g8m/8AZbQ8G8ejceq+jjrmfw+1StlaFxrBuVgNozKWVSJFHqk+IAPUONPDfF+/8nCtOXn/AK0N66FRt1DjhcxWfTJT/wApTmFOiEUidhCtud314Aaijs1pkaOWKVQyOpBBVge8EHbbVug/wW1zblrVpbLC5VE9aRBCE5diFd9gebqGqM1mIIY6xuymOHdbEch3YA+CaMBy+Ew9eja/RXLxdIibHlbYbjqGAZfN4azQqm05SPpHQheZtjsNGoc3ilsic0ZTLD69mWVdmIHg/U5BdyOLs1IelOy88kTKu58BuRo0DlxlLNzfHTmaLkfk27Sq/qgHRhsQR2Eai6Lh3IydHLWXupznc7D2Rt4ew6yWEhxNqNJkuJZeUPGw3BVQn+ZGi2RzVlAtnJzKAxHzEHxE+SOIFuW0Ozw4+Jp+U+bL6v2b6z61bsh2SvfiaBnPkW9UnyB6yBzZpSGLylUc0Z+xwp0/O+FutDH5ROA6/wCIv+rdoyy7c6d6+Y18KHF+bxPCpxr1aN96RjsfpFd2kExSsrEAgEcpXWdNBOGqScS5uglYzHKwmcRrR3CnkLQrcl8DzJDrKdBPJZxL1L9cK4eGe/WRiu4IIaORtSmC3VxlmaGUAbo6xMVP4gHVlruTyPD9C3asuADLLJWR3cgdg3Yk6uvctU+Jc/SglcKCkMGQsRwp2DuVEUazAfi7N3cZkkyiRIi5/D2ac8p7NthLDKEjlC+yN+6TROSw1PEZbMZ7hxIQ8uUqwSU0cQHvE8aTvIgBAcryazK57FnijIQ4q5HsUNJXUwhCANwFPoyOVxk9riTD46eXBwpLeNee7HHMkCMrAyMjED1dZO/msCczPBgL+cghgyctSMIji1HEFVHSwthACqvyqOdQdOc/ncXUzt4CUBTP+i2rYiQhAPixIuuOuMuJcxxbjOnEr0K44eszmBrBWB44g0JRI3KrzndduYtriEYPNUqk/FVtP0ZpzkIKxCw44hUbl/SnLjm7CBAdTizisrThvVZR8aKRA6H8CPRlDH8HWYwl2tKjooSlkaqPbVw225M1dbK7E98CAayM0HHD8NZPPc5RQcdM8MtiGBV222gBSPtB3Mesk9fNTSYAPbCqWbp71SObsI29ZJHGpTBbqYq1YhlXvR0idlI38wNZXbi6acz5GdIkROIMXLibM9e4i7dm0qBJAvdLF7HXe64wc3CN2/JT2HKbCXasaPv37hJHGsm5xvD+NxljHQkKBVMtWd5GHZ4sgPbq4bPwi5ThjFXDalMUcs0kkUL2ShdeiWZkMvIXXkDld9Zbiy7mMTf6DIY/jaKFMljXaJHWJjCipIhUiRXBcEP2N6bTVeeET5SaI7OVb9mEHwBHa3psG3exkInpWZTu719wpRj4lCV28j1SFjjiZ2J8AAd9dkUlqui/WFc//ofrKYhyuZEAv2A7EziFSkW4J2HKpI7ANUIxc4hlSbJyyMzmyyxLCoIYkBRGgAUbDvO25JOKY8HwV4KkOPFuZTHHCytCFlD9IOUxoQQ2420L1rFWRIsyZLI2LsjrINnHSzO77EeHNqPI16JjihWtcy1q6kMcYIRI1nkcRgA7bJtqmKtO7bs3p4w7EPNYleWZ9ydxzO7HYdg31gYOi4JKHh8l3L0OWEwgI2/MQY+whiQdVQ+aoVbFKra52BjhmaJpV232PMYYjuRuOXWKhw9C3enyMtavvyGeZuaRgCfVBbt2GwHopi7DRv1snXUuy8lmvKssMm6kdquqnY9h1QWhYztz+UMj0TtyT2eRUMvITyqzKi8xUDmI3O51j0q4ZGmcVCzSLvLI8km/MSSGaRzsdYizBPi+lGMrzZO1PUxokUrIKteSVooQVJGyKNgdhqmEzOYSvFetF2ZpUgDiFACdlC9I52AA3djqkMdh6hk6Cqjs6xB5GkYLzEkDmY7DuA7BsB6MRDmsWluC8tecsAJoZA8bdmx7CPtG4O4OoBbxWUqy0rlfcqJYZEKOm4II3Ukbgg6oNPw+Y4IxVjsSwsohdXi5ZEYOCrRoQQwO40t23h7SSxzR5LI2LkjpICHBlmdn2IJG3NrCQHJcHwyQYK0S3SUo3h6F0U79oaMAENvqoDnYKMmNS3ztutd5EkZOXfbteNDvtv2axU8t6aoMfakp37NMXaoYsILCwyIJ492Y8sgI9ZtU3TDgRBIKNiWmYRGQY+jeFkZOUqNuUjVOWA3rBt3bVu1Lbs25uULzyzSszyHlVQN2OwAA9JJfp4tt/m9CnL/y9IPRV8dO859inlUf4iOrKEv5SM46oPEtICHP2JzHUXR28xK2RcEbEI2yx/4FU/JERenaRKd4j4kq9kbnyZdh9zUbCJiVWQqdmI7wD4kb6xdrK23IHR1oywXzY9wHmSBp47HEeS5WuSJ2pEo/ZiQ+IG5JPiepdioY+svNJNKezyAHiSewAdp1BNR+DzCPyIj/AB13BKeckmwLfNXSLHEihVRRsFA7gB8kVYrtC1GYpoJl3V1PgdbcU8LTnns4C4gmblHgYztz+TJs+qEnA2TjPJLWnrnoA/kyjcfeUa4ixV9SP7Pcjf8A5A6twBfaZABrirEU9viPcQv9ig7nWLv8Z5h9xEleB0hJ/DnP2LrJNhcHC/PXwFI7MPs3IT6yWfVKLH4+svLFBCNlA8T5kntJPyXgKGVO2wksQAyAeT/tD7DrHXsZv4VLr/5PzavZ9x4Ibke35WsJPknHjduSMP4QQNYejiYPFKcCxc317Dt6v//EADYRAAEDAQQGCQIHAQEAAAAAAAECAwQFAAYRIRIxQVBRoRAgImFxgZHB0ROxFBUyQlLh8BYz/9oACAECAQE/AN0MsuSHA20kknYLMXZDaPq1B0IHDL7nKxfu9DyQ2XD5+5A5W/OqSNUMeifiwnUGT2XWCjvA+D7Wcu7HloLtMeCu4/OzzFnmHY6y08nBQ3VFjuy3gw0MSbR6aaXG0ISAXDrUrL+8OAFqjRau6S8+fqeB1eAy5WwIOB6WH3Yyw6yogiza2bzQ1IWAHkD/AHkdvA2WClRQciN03RijRclK1/pH3Pt03ppqA2JrYwOOCu/gfbqUWSYk5twaicD4HK15GAzUVEfuAV88xum6bgMFaNoUeYHTeNxKKa5pbcAPUdSIkqkNpG1Q+9r1qBnAcEj7ndNIqiqW/wDU1pOse/iLRKhGmI0mHAe7b6WkTI0RGm8sAWrdYNUWEIyQnV3niepdyL9ecFnUjtH252qsoTZrj41E5eAyG7wMbUikfhoJadxCl/qw1ju8hzxs5dWCtOinSB8bVSjvUxWKs0HUr2PA7uuzETJnBS9SBpeeodM+MiZGcZXtHPZz3ddmWmNO0V6ljR89Y6Z8pMOK4+vYOeznu4HC13qwZyfw757aRr/kPkWfvPDYJRoK0hlhhhn62qlYfqiu3kkah88TuiNQahJGmlvAd+VpNCnxE6a28RxGf99anSDEltvDYR6beVr0xgzNDo/eMfMZfG6LsUttwfjXhjngn3Px03mpaIyhLYGAUcFDv4+fVQCpYA42vce2yNuB9t0UDD8taw4H7npvStCafgrWVDDq0GGZk5HBPaPlq52vHKEqeoDUkaPzz3RdScktKhLOYzT4bfS2Ixws/JZiI03lhI77VqrGqPDQyQnV39/UYYdkLDTQxUbLU1dmF9NBBeX/ALHwGzibZk4ndDTi2lh1o4EajZqqwqu2Gp3YcGpQy57PA5WmXcnJxWyr6ieOOfP2Js5DkMnRcbUPEG2grgbNU+W//wCTSj5G0e7L+GnLWG095z+OdjVYNIbLVMRpLOtR/wBnyFnnnZCy66cVHbuuPOkxc2VlNm7zVFAzUFeI+MLf9VO/in0PzZ28dRcGAWB4AWdkvSTpPLKj3nHq/wD/xAA5EQABAgMEBwcCBAcBAAAAAAABAgMEBREABiExEkFQYXGBkRMgIlGhscEQ8BVC0dIUFiMyUmKCsv/aAAgBAwEBPwDZEREMwrRefUEpGs2ir5l5zsJSwXFeZBp0GNhDXtmHiW6loeWA9go9Tb+W58cTMVdVfrYyu9MHjDxQc3E/uHzZi90ZAOBicw5TvA+MjyNoWKYjWg9DrCknWNlR0YzL4dcTEGiUj7A3m0VOUzuM7WZrUloZJTieWQr5k2k947vsJENDjsh/sKV4qqepNgQRUZfWJhGI1osxCApJ1Gzrb9y48OtkqhnDiPvWMwdYs0tLqAtBqCKjgdk3+jlaTUCk4U0j7D5+tx5y4XTLXjUUqndTMdMe5eKCTHSt5o5gaQ4pxtc6KMTKG0nNBKemI9CNk37aUmZJcORQKcia/W5zSnJy0U/l0ieGiR3I5YbhHlqyCVextcRBTK1E61n2A2TP5IidQ3Z1otOKT8HcbR0pjZesoiWiN+o8DlaEl0VHK0IZsqO4e5yHO12bvCSslbuLqs/IDyHye5e+OEHK1tj+5zwj59LSKB/Dpa1DnMCp4nE+p2eSEiptP7wfxs0S8zRSGj4QciRr5n0AszfmaIVVYSoeVKextI7ww06QQjwuDNJ9x5jZ1841UJKyhBoXCE8sSfb6yuNXL4xqJR+UjmNY5jZ19IFcZLNNsVLZ0uWIPStfrKoJcwjWoZGsiu4azyGziARQ2vbd5MsWIuFFG1HEf4n9DaEuVMYpKV6aAgioNScDytI7vw0kbOh4lnNR9h5DZEZemVQStBbtSNSRX1GHraCvPKo9XZtu0UdSsPfDvTiDEfAPQ51pNOIxHra40YX5aphebaqDgcR612RfaeONKEthzSoqojfkPk/W5U6djGzAxBqpAqk69HKnLDuuKCEFRyAtcAHsoleoqT7HZF6q/jMRXzH/AJH1uOhRm1RkEqr6Du3pmAl8scx8S/COefQVtc6BMHKklYxWdLkcB6CuyL9ytSHkzFA8KhRW4jI8xbRNK6rQsFERq+yhmyo7vvC12pCJLDku4uLz3eQHciYpmEaLz6glIzJs0h++Uz7ZYIhm/unFWvyFkgAUGQ2Q+w1EtFl4ApIoQbPyKZSB0vyr+q0c0HH017iMbS6+EtUOziEFlWsEYdQPcCzMxhIkVZdSrgoWLqBrHWz02gIYVefQP+h7Z2i75woPZS9tTyzlQED9T0s3I5pP3A/OV6CBkgfeHE1NoaGZg2gywkJSMgNlxctg48UiWgriMeudnblyd0+FBTwUfmthcSVk00l9R+20Pc6TtYlrS4k2hoSHhBoQ7YSNwp3f/9k=\" alt=\"TRINITI\"><span style=\"mso-ligatures:standardcontextual\"><o:p></o:p></span></span></p>\n<p class=\"MsoNormal\" style=\"line-height:9.0pt;mso-line-height-rule:exactly\"><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\"><a href=\"http://triniti.ee/\" target=\"_blank\"><span style=\"color:#008CC8\">triniti.ee</span></a>\n | <a href=\"https://www.facebook.com/trinitiestonia?fref=ts\" target=\"_blank\"><span style=\"color:#008CC8\">Facebook</span></a> |\n<a href=\"https://www.linkedin.com/company/triniti-estonia\" target=\"_blank\"><span style=\"color:#008CC8\">LinkedIn</span></a>\n<br>\n<br>\n</span><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:darkgray;mso-ligatures:standardcontextual\">Käesolev e-kiri ja selle lisad on konfidentsiaalsed ning võivad sisaldada kliendisaladust, mis on seadusega kaitstud.<br>\nJuhul, kui Te ei ole e-kirja määratud adressaat, palume sellest meile teada anda ja e-kiri koos lisadega kustutada.<br>\nKäesoleva e-kirja loata avalikustamine, kopeerimine, levitamine või selle sisu muul viisil kasutamine on keelatud\n</span><span lang=\"ET\" style=\"font-size:7.0pt;font-family:&quot;Trebuchet MS&quot;,sans-serif;color:#333333;mso-ligatures:standardcontextual\"><o:p></o:p></span></p>\n</div>\n\n</div></div></div></div></div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response"
+      ],
       "attachments": [
         {
           "filename": "Aripaev-AS-vastus-andmesubjekti-paringule_2025-06-30.asice",
@@ -274,6 +364,11 @@
       "date": "2025-07-17T07:52:08.000Z",
       "bodyHtml": "<head></head><body><div dir=\"ltr\">Tere!<div><br></div><div>Suur tänu vastamast! Et kinnitasite&nbsp;mainitud töötlemise aluseks olevat&nbsp;IKÜM&nbsp;artikli 6.1.a, soovin antud nõusoleku tagasi võtta IKÜM artikli 7.3 alusel.</div><div><br></div><div>Lisaks palun täpsustage, et, millal ja millises sõnastuses vastava nõusoleku andnud olen (vastavalt IKÜM artiklile 7.1).</div><div><br></div><div>Kõike paremat</div><div>Gregor Eesmaa</div></div><br>\n</body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up"
+      ],
       "attachments": [
         {
           "filename": "image001.jpg",

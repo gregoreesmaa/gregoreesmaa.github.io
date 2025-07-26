@@ -16,5 +16,10 @@
   "date": "2025-03-19T13:48:09.000Z",
   "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Tere!\n\nKinnitame, et saadetud pöördumine on käes ja läbivaatamisel. \n\nLugupidamisega\nDelfi Meedia</div></body>",
   "hiddenReasons": [],
+  "labels": [
+    "from:service-provider",
+    "purpose:disclosure",
+    "subpurpose:disclosure-response"
+  ],
   "attachments": []
 }

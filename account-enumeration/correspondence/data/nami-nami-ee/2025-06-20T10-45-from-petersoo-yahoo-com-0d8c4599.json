@@ -16,5 +16,10 @@
   "date": "2025-06-20T10:45:19.000Z",
   "bodyHtml": "<head></head><body><div class=\"ydp9ed99489yahoo-style-wrap\" style=\"font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:16px;\"><div dir=\"ltr\" data-setdir=\"false\">Hea Gregor Eesmaa,</div><div dir=\"ltr\" data-setdir=\"false\"><br></div><div dir=\"ltr\" data-setdir=\"false\">nüüd peaks see murekoht lahendatud olema. Aitäh tähelepanu juhtimast!</div><div><br></div><div class=\"ydp9ed99489signature\"><div style=\"font-family:Helvetica, Arial, sans-serif;font-size:16px;\"><a></a><div dir=\"ltr\">Pille Petersoo&nbsp;<br>-------------------------------</div><div>Nami-Nami.ee<br><br></div></div></div></div></body>",
   "hiddenReasons": [],
+  "labels": [
+    "from:service-provider",
+    "purpose:gdpr",
+    "subpurpose:gdpr-response"
+  ],
   "attachments": []
 }

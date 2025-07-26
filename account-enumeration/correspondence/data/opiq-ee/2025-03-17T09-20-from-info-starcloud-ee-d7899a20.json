@@ -16,5 +16,10 @@
   "date": "2025-03-17T09:20:04.000Z",
   "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Tere!\n\nAitäh kirja eest. Saime selle kätte ja uurime raporti sisu.\n\nParimatega\nAntti Rammo\nStar Cloud</div></body>",
   "hiddenReasons": [],
+  "labels": [
+    "from:service-provider",
+    "purpose:disclosure",
+    "subpurpose:disclosure-response"
+  ],
   "attachments": []
 }

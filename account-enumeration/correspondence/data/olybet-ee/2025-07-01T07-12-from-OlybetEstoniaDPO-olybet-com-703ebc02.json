@@ -16,5 +16,10 @@
   "date": "2025-07-01T07:12:05.000Z",
   "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Tere, Gregor \n\nKinnitame kättesaamist.\n\nLugupidamisega\nOlyBet andmekaitsespetsialist</div></body>",
   "hiddenReasons": [],
+  "labels": [
+    "from:service-provider",
+    "purpose:gdpr",
+    "subpurpose:gdpr-response"
+  ],
   "attachments": []
 }

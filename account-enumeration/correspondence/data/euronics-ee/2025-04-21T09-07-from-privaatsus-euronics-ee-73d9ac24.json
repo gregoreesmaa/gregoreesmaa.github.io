@@ -16,5 +16,10 @@
   "date": "2025-04-21T09:07:20.000Z",
   "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Hello Gregor,\n\nThank you for the information you provided about the vulnerabilities.\n\nSome fixes have already been implemented as of today, and a few more changes are planned in the near future by our development team.\n\nOnce again, thank you for bringing this to our attention.\n\nBest regards,\n\n\n\nAndrei Fjodorov\nAntista AS\nKliendilahenduste ja kvaliteedijuht\nLaki põik 6\n\n12918 Tallinn\nT +372&nbsp;640 6400\nwww.euronics.ee</div></body>",
   "hiddenReasons": [],
+  "labels": [
+    "from:service-provider",
+    "purpose:disclosure",
+    "subpurpose:disclosure-response"
+  ],
   "attachments": []
 }

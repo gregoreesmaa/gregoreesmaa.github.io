@@ -21,6 +21,11 @@
   "date": "2025-06-01T11:48:22.000Z",
   "bodyHtml": "<head></head><body><div dir=\"ltr\"><div class=\"gmail_quote gmail_quote_container\">Tere Gregor!</div><div class=\"gmail_quote gmail_quote_container\"><br></div><div class=\"gmail_quote gmail_quote_container\">Tegin muudatuse&nbsp;\n\n<a href=\"http://kae.edu.ee/\" rel=\"noreferrer noreferrer\" target=\"_blank\">kae.edu.ee</a>&nbsp;lehel. Palun kinnita, et kasutusele võetud meetmeted&nbsp;rahuldavad sind.</div><div class=\"gmail_quote gmail_quote_container\"><br></div><div class=\"gmail_quote gmail_quote_container\">Margus Koiduste<br><br><div class=\"gmail_quote\"></div></div></div></body>",
   "hiddenReasons": [],
+  "labels": [
+    "from:service-provider",
+    "purpose:gdpr",
+    "subpurpose:gdpr-response"
+  ],
   "attachments": [
     {
       "filename": "taotlus-request.asice",

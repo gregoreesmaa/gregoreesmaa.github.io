@@ -18,5 +18,10 @@
   "hiddenReasons": [
     "automated-reply"
   ],
+  "labels": [
+    "from:service-provider",
+    "purpose:gdpr",
+    "subpurpose:gdpr-response"
+  ],
   "attachments": []
 }

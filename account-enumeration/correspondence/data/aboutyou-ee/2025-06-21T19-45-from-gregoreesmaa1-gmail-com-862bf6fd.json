@@ -16,5 +16,10 @@
   "date": "2025-06-21T19:45:55.000Z",
   "bodyHtml": "<head></head><body><div dir=\"ltr\">Hello!<div><br></div><div>Please send me the password again. It says \"This is not the secret you are looking for… - If you expected the secret to be here it might be compromised as someone else might have opened the link already.\"</div><div><br></div><div>Best regards</div><div>Gregor Eesmaa</div></div><br>\n</body>",
   "hiddenReasons": [],
+  "labels": [
+    "from:author",
+    "purpose:gdpr",
+    "subpurpose:follow-up"
+  ],
   "attachments": []
 }

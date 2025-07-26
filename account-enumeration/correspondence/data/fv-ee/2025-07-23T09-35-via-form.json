@@ -5,5 +5,10 @@
   "date": "2025-07-23T09:35:45+03:00",
   "bodyHtml": "<div>Please reverse my account deletion, as I had not asked for this.<br>Best wishes, Gregor Eesmaa</div>",
   "attachments": [],
-  "hiddenReasons": []
+  "hiddenReasons": [],
+  "labels": [
+    "from:author",
+    "purpose:gdpr",
+    "subpurpose:follow-up"
+  ]
 }

@@ -3,13 +3,50 @@
     "id": "nami-nami-ee",
     "name": "nami-nami.ee",
     "type": "website",
+    "messageLabels": [
+      [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
+      [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
+      [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request"
+      ],
+      [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request",
+        "providing-container-contents"
+      ],
+      [
+        "from:service-provider",
+        "purpose:disclosure",
+        "subpurpose:disclosure-response"
+      ],
+      [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response"
+      ],
+      [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up"
+      ]
+    ],
     "stats": {
       "dates": {
         "initialReport": "2025-03-16T19:18:42.000Z",
-        "firstResponse": "2025-06-02T04:25:31.000Z",
+        "firstResponseAfterDisclosure": "2025-06-02T04:25:31.000Z",
         "gdprRequest": "2025-05-31T12:41:58.000Z",
         "firstResponseAfterGdpr": "2025-06-20T10:45:19.000Z",
-        "fixConfirmation": "2025-06-21T18:54:51.000Z",
         "lastCommunication": "2025-06-21T18:54:51.000Z"
       },
       "counts": {
@@ -42,6 +79,11 @@
       "date": "2025-03-16T19:18:42.000Z",
       "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
       "attachments": [
         {
           "filename": "report.pdf",
@@ -69,6 +111,11 @@
       "date": "2025-03-23T10:39:20.000Z",
       "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
       "attachments": [
         {
           "filename": "report.pdf",
@@ -96,6 +143,11 @@
       "date": "2025-05-31T12:41:58.000Z",
       "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Lugupeetud nami-nami.ee vastutav andmetöötleja\n\nPöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses nami-nami.ee, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.\n\nManuses on ametlik taotlus, milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).\n\nPalun teavitage taotluse kättesaamisest.\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of nami-nami.ee,\n\nI am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by nami-nami.ee, potentially leading to its disclosure to unauthorised parties without a clear legal basis.\n\nPlease find attached a formal application exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).\n\nPlease confirm receipt of this request.\n\nKind regards,\nGregor Eesmaa</div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request"
+      ],
       "attachments": [
         {
           "filename": "taotlus-request.asice",
@@ -140,6 +192,11 @@
       "hiddenReasons": [
         "providing-container-contents"
       ],
+      "labels": [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request"
+      ],
       "attachments": [
         {
           "filename": "taotlus-request.pdf",
@@ -173,6 +230,11 @@
       "date": "2025-06-02T04:25:31.000Z",
       "bodyHtml": "<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body><div class=\"ydp155a277fyahoo-style-wrap\" style=\"font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:16px;\"><div><div dir=\"ltr\" data-setdir=\"false\">Hea Gregor,</div><div dir=\"ltr\" data-setdir=\"false\"><br></div><div dir=\"ltr\" data-setdir=\"false\">saime kirja kätte ja laseme korda teha. Annan märku, kui lahendatud.&nbsp;</div><div dir=\"ltr\" data-setdir=\"false\"><br></div><div dir=\"ltr\" data-setdir=\"false\">Pille&nbsp;</div><div><br></div><div class=\"ydp155a277fsignature\"><div style=\"font-family:Helvetica, Arial, sans-serif;font-size:16px;\"><a></a><div dir=\"ltr\">Pille Petersoo&nbsp;<br>-------------------------------</div><div>Nami-Nami.ee<div></div></div></div></div></div>\n        <div><br></div><div><br></div>\n        \n        </div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:service-provider",
+        "purpose:disclosure",
+        "subpurpose:disclosure-response"
+      ],
       "attachments": []
     },
     {
@@ -193,6 +255,11 @@
       "date": "2025-06-20T10:45:19.000Z",
       "bodyHtml": "<head></head><body><div class=\"ydp9ed99489yahoo-style-wrap\" style=\"font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:16px;\"><div dir=\"ltr\" data-setdir=\"false\">Hea Gregor Eesmaa,</div><div dir=\"ltr\" data-setdir=\"false\"><br></div><div dir=\"ltr\" data-setdir=\"false\">nüüd peaks see murekoht lahendatud olema. Aitäh tähelepanu juhtimast!</div><div><br></div><div class=\"ydp9ed99489signature\"><div style=\"font-family:Helvetica, Arial, sans-serif;font-size:16px;\"><a></a><div dir=\"ltr\">Pille Petersoo&nbsp;<br>-------------------------------</div><div>Nami-Nami.ee<br><br></div></div></div></div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response"
+      ],
       "attachments": []
     },
     {
@@ -213,6 +280,11 @@
       "date": "2025-06-21T18:54:51.000Z",
       "bodyHtml": "<head></head><body><div dir=\"ltr\">Tere!<div><br></div><div>Kinnitan, et tänase seisuga (2025-06-21) enam kasutajakontode loendamise turvanõrkust (<i>account enumeration vulnerability</i>) veebilehelt ei tuvastanud.</div><div><br></div><div>Tänan tähelepanu ja tegude eest turvanõrkuse parandamisel!</div><div><br></div><div>Kõike paremat</div></div><br>\n</body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up"
+      ],
       "attachments": []
     }
   ]

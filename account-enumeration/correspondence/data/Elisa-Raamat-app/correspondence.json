@@ -3,11 +3,49 @@
     "id": "Elisa-Raamat-app",
     "name": "Elisa Raamat app",
     "type": "app",
+    "messageLabels": [
+      [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
+      [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:follow-up",
+        "sent-from-wrong-email"
+      ],
+      [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request"
+      ],
+      [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response",
+        "automated-reply"
+      ],
+      [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request"
+      ],
+      [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response"
+      ],
+      [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response"
+      ]
+    ],
     "stats": {
       "dates": {
         "initialReport": "2025-04-06T19:24:33.000Z",
-        "firstResponse": "2025-06-25T11:00:25.000Z",
-        "gdprRequest": "2025-06-21T12:35:06.000Z",
+        "gdprRequest": "2025-06-21T17:55:50.000Z",
         "firstResponseAfterGdpr": "2025-06-25T11:00:25.000Z",
         "lastCommunication": "2025-07-03T10:47:30.000Z"
       },
@@ -41,6 +79,11 @@
       "date": "2025-04-06T19:24:33.000Z",
       "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your mobile app is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
       "attachments": [
         {
           "filename": "report.pdf",
@@ -69,6 +112,11 @@
       "bodyHtml": "<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\n<style type=\"text/css\" style=\"display:none;\"> P {margin-top:0;margin-bottom:0;} </style>\n</head>\n<body dir=\"ltr\">\n<pre class=\"elementToProof\"><div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">Lugupeetud Elisa Raamat äpi vastutav andmetöötleja<br><br>Pöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega äpis Elisa Raamat, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.<br><br>Manuses on ametlik taotlus (samuti digiallkirjastatud kujul), milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).<br><br>Palun teavitage taotluse kättesaamisest.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>Dear Data Controller of Elisa Raamat app,<br><br>I am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by Elisa Raamat app, potentially leading to its disclosure to unauthorised parties without a clear legal basis.<br><br>Please find attached a formal application (also in digitally signed form) exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).<br><br>Please confirm receipt of this request.<br><br>Kind regards,<br>Gregor Eesmaa</div></pre>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n\n\n</body>",
       "hiddenReasons": [
         "sent-from-wrong-email"
+      ],
+      "labels": [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:follow-up"
       ],
       "attachments": [
         {
@@ -124,6 +172,11 @@
       "date": "2025-06-21T17:55:50.000Z",
       "bodyHtml": "<head></head><body><div dir=\"ltr\">Lugupeetud Elisa Raamat äpi vastutav andmetöötleja<br><br>Pöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega äpis Elisa Raamat, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.<br><br>Manuses on ametlik taotlus (samuti digiallkirjastatud kujul), milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).<br><br>Palun teavitage taotluse kättesaamisest.<br><br>Lugupidamisega<br>Gregor Eesmaa<div><br></div><div><br></div><div>PS. Saatsin varem samasisulise emaili valelt&nbsp;meiliaadressilt.<br><br>--<br><br>Dear Data Controller of Elisa Raamat app,<br><br>I am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by Elisa Raamat app, potentially leading to its disclosure to unauthorised parties without a clear legal basis.<br><br>Please find attached a formal application (also in digitally signed form) exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).<br><br>Please confirm receipt of this request.<br><br>Kind regards,<br>Gregor Eesmaa</div><div><br></div><div><br></div><div>PS. I sent the same email previously from the wrong email address.</div></div>\n</body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request"
+      ],
       "attachments": [
         {
           "filename": "taotlus-request.pdf",
@@ -180,6 +233,11 @@
       "hiddenReasons": [
         "automated-reply"
       ],
+      "labels": [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response"
+      ],
       "attachments": []
     },
     {
@@ -200,6 +258,11 @@
       "date": "2025-06-21T18:16:22.000Z",
       "bodyHtml": "<head></head><body><div dir=\"ltr\">Viitasin valesti vea ilmnemise kohad – viga esineb ainult kasutaja registreerimise vormil. Parandatud taotlus manuses.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>I mis-referenced vulnerable forms – the flaw is apparent only in the account registration form. Corrected request is attached.<br><br>Kind regards,<br>Gregor Eesmaa</div><br>\n</body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request"
+      ],
       "attachments": [
         {
           "filename": "vulnerability-reassessment-report.pdf",
@@ -254,6 +317,11 @@
       "date": "2025-06-25T11:00:25.000Z",
       "bodyHtml": "<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n</head>\n<body>\n<p><span style=\"font-family: 'times new roman', times;\"><span style=\"font-size: 12pt;\">Lugupeetud Gregor Eesmaa<br>\n<br>\nTäname pöördumise eest. Vastame Teie isikuandmetega seotud päringule esimesel võimalusel, kuid mitte hiljem kui 30 päeva jooksul päringu esitamise kuupäevast.</span></span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-family: 'times new roman', times; font-size: 12pt;\">Lugupidamisega</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-family: 'times new roman', times;\">Eva-Liisa Vallisto&nbsp;</span></p>\n<p><span style=\"font-family: 'times new roman', times;\">andmekaitsekonsultant-juristi abi</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-family: 'times new roman', times;\">Elisa Eesti AS</span></p>\n<p><span style=\"font-family: 'times new roman', times;\">Sõpruse pst. 145, Tallinn</span></p>\n<p><span style=\"font-family: 'times new roman', times;\">telefon +372 6 600 600</span></p>\n<p><span style=\"font-family: 'times new roman', times;\">www.elisa.ee</span></p>\n<p>&nbsp;</p>\n<br>\n<br>\n<p style=\"font-size: 1%; color: white\">@OPERATION@='MAIL'<br>\n@REQUEST_ID@='7812423'</p>\n<br>\n<br>\nKäesolev e-kiri on saadetud Elisa äritegevuse raames ning selle sisu ja manused on konfidentsiaalsed. E-kirjas sisalduvat informatsiooni võib kasutada vaid isik, kellele see on adresseeritud. Kui te pole sihipärane saaja, palun teavitage saatjat ja kustutage\n e-kiri koos manustega viivitamatult oma süsteemist. Me ei võta vastutust e-kirja või selle manuste avamisega kaasneda võivate võimalike kahjude eest.\n<br>\n<br>\nThis e-mail and any attachments may contain confidential and privileged information. If you are not the intended recipient, please notify the sender immediately by return e-mail, delete this e-mail and destroy any copies. Any dissemination or use of this information\n by a person other than the intended recipient is unauthorized and may be illegal.\n\n\n</body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response"
+      ],
       "attachments": []
     },
     {
@@ -274,6 +342,11 @@
       "date": "2025-07-03T10:47:30.000Z",
       "bodyHtml": "<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n</head>\n<body>\n<p><span style=\"font-family: 'times new roman', times, serif; font-size: 12pt;\">Lugupeetud Gregor Eesmaa<br>\n<br>\n</span><span style=\"font-family: 'times new roman', times, serif; font-size: 12pt;\">Edastame vastuse Teie päringule, mis on lisatud manusena.<br>\n<br>\n</span><span style=\"font-family: 'times new roman', times, serif; font-size: 12pt;\">Lugupidamisega</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-family: 'times new roman', times, serif; font-size: 12pt;\">Eva-Liisa Vallisto\n</span></p>\n<p><span style=\"font-family: 'times new roman', times, serif; font-size: 12pt;\">andmekaitsekonsultant-juristi abi</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: 12pt; font-family: 'times new roman', times, serif;\">Elisa Eesti AS</span></p>\n<p><span style=\"font-size: 12pt; font-family: 'times new roman', times, serif;\">Sõpruse pst. 145, Tallinn</span></p>\n<p><span style=\"font-size: 12pt; font-family: 'times new roman', times, serif;\">telefon +372 6 600 600</span></p>\n<p><a href=\"http://www.elisa.ee\" target=\"_blank\" rel=\"noopener\"><span style=\"font-size: 12pt; font-family: verdana, geneva, sans-serif;\"><span style=\"font-family: 'times new roman', times, serif;\">www.elisa.ee</span>\n</span></a></p>\n<br>\n<br>\n<p style=\"font-size: 1%; color: white\">@OPERATION@='MAIL'<br>\n@REQUEST_ID@='7812423'</p>\n<br>\n<br>\nKäesolev e-kiri on saadetud Elisa äritegevuse raames ning selle sisu ja manused on konfidentsiaalsed. E-kirjas sisalduvat informatsiooni võib kasutada vaid isik, kellele see on adresseeritud. Kui te pole sihipärane saaja, palun teavitage saatjat ja kustutage\n e-kiri koos manustega viivitamatult oma süsteemist. Me ei võta vastutust e-kirja või selle manuste avamisega kaasneda võivate võimalike kahjude eest.\n<br>\n<br>\nThis e-mail and any attachments may contain confidential and privileged information. If you are not the intended recipient, please notify the sender immediately by return e-mail, delete this e-mail and destroy any copies. Any dissemination or use of this information\n by a person other than the intended recipient is unauthorized and may be illegal.\n\n\n</body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response"
+      ],
       "attachments": [
         {
           "filename": "Elisa-vastus-Gregor-Eesmaa-pa-ringule-03.07.2025.asice",

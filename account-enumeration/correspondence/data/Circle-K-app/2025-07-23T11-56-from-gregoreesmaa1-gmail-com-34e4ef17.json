@@ -16,6 +16,11 @@
   "date": "2025-07-23T11:56:56.000Z",
   "bodyHtml": "<head></head><body><div dir=\"ltr\">Tere!<div><br></div><div>Tutvusin põhjalikult vastusega. Suur tänu selgituste eest.</div><div><br></div><div>Olen nõus teavitustest loobuma, et saaksite minu IKÜM artikli 18 alusel esitatud taotluse täita.</div><div><br></div><div>Kõike paremat</div></div><br>\n</body>",
   "hiddenReasons": [],
+  "labels": [
+    "from:author",
+    "purpose:gdpr",
+    "subpurpose:follow-up"
+  ],
   "attachments": [
     {
       "filename": "Outlook-orbr1b1c.png",

@@ -16,5 +16,10 @@
   "date": "2025-03-18T09:08:00.000Z",
   "bodyHtml": "<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body><p></p>\n<p></p><p>Hello,&nbsp;</p><p>&nbsp;</p><p>Thank you for the report. The Product Manager has been notified and will certainly look into it.</p><p>&nbsp;</p><p>Best Regards</p><p>Doris Allese<br>Technical Consultant&nbsp;<br>Ministry of Education and Research<br>Department of Technology Management<br>www.hm.ee<span style=\"font-size: 12pt;\"><br><br></span></p>\n</body>",
   "hiddenReasons": [],
+  "labels": [
+    "from:service-provider",
+    "purpose:disclosure",
+    "subpurpose:disclosure-response"
+  ],
   "attachments": []
 }

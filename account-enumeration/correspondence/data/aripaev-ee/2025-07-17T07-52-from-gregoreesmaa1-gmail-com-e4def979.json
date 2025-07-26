@@ -16,6 +16,11 @@
   "date": "2025-07-17T07:52:08.000Z",
   "bodyHtml": "<head></head><body><div dir=\"ltr\">Tere!<div><br></div><div>Suur tänu vastamast! Et kinnitasite&nbsp;mainitud töötlemise aluseks olevat&nbsp;IKÜM&nbsp;artikli 6.1.a, soovin antud nõusoleku tagasi võtta IKÜM artikli 7.3 alusel.</div><div><br></div><div>Lisaks palun täpsustage, et, millal ja millises sõnastuses vastava nõusoleku andnud olen (vastavalt IKÜM artiklile 7.1).</div><div><br></div><div>Kõike paremat</div><div>Gregor Eesmaa</div></div><br>\n</body>",
   "hiddenReasons": [],
+  "labels": [
+    "from:author",
+    "purpose:gdpr",
+    "subpurpose:follow-up"
+  ],
   "attachments": [
     {
       "filename": "image001.jpg",

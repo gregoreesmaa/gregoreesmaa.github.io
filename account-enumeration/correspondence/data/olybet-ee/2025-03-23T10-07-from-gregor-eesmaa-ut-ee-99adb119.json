@@ -16,6 +16,11 @@
   "date": "2025-03-23T10:07:09.000Z",
   "bodyHtml": "<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\n<style type=\"text/css\" style=\"display:none;\"> P {margin-top:0;margin-bottom:0;} </style>\n</head>\n<body dir=\"ltr\">\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nHello,</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nDue to a mistake while compiling the earlier report, the section \"2.1 Password Reset Form\" was wrong in stating that \"the form shows an error message\". It should have read \"the resulting view appears visually different, compared to when the email is registered\".</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nThe corrected report is attached with Figure 1, which illustrates the vulnerability, also updated.</div>\n<div id=\"appendonsend\"></div>\n\n</body>",
   "hiddenReasons": [],
+  "labels": [
+    "from:author",
+    "purpose:disclosure",
+    "subpurpose:report"
+  ],
   "attachments": [
     {
       "filename": "report.pdf",

@@ -16,5 +16,10 @@
   "date": "2025-07-15T10:09:45.000Z",
   "bodyHtml": "<head></head><body><div dir=\"ltr\">Tere!&nbsp;<div><br></div><div>Saatsin teile 31. mail GDPR päringu (viitenumber #19660706) ja sain 13. juunil sellele krüpteeritud vastuse koos OTS lingiga (viitenumber #19778553), mida pole õnnestunud avada – palun saatke parool uuesti.</div><div><br></div><div>Küsisin parooli ka 21. juunil vastusena teie saadetud OTS kirjale (#19778553), kuid sinna pole vastust saanud.</div><div><br></div><div><br></div><div>Lisaks, eraldi soovin samuti GDPR artikli 15 alusel teada, et miks vastus üldse sellise mehhanismiga krüpteeriti:</div><div>1. Kuna nii vastus kui selle parool jõuavad minuni üle sama kommunikatsioonikanali (sama meiliaadressi), siis ei mõista miks oli tarvis info üle kahe meili edastada?</div><div>2. Miks on GDPR taotluse vastusel tarvis kasutada ühekordse parooli mehhanismi? Milliseid endapoolseid riske seejuures kardate?</div><div><br></div><div>Kõike paremat</div><div>Gregor Eesmaa</div></div>\n</body>",
   "hiddenReasons": [],
+  "labels": [
+    "from:author",
+    "purpose:gdpr",
+    "subpurpose:follow-up"
+  ],
   "attachments": []
 }

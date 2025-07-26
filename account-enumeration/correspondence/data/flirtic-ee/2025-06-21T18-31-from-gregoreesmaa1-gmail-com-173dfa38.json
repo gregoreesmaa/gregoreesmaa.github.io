@@ -16,5 +16,10 @@
   "date": "2025-06-21T18:31:40.000Z",
   "bodyHtml": "<head></head><body><div dir=\"ltr\">Tere!<div><br></div><div>Praktika lai levik ei ole seaduslik alus&nbsp;IKÜM artikli 6 järgi. Möödarääkimise vältimiseks palun kinnitage, et keeldute esitatud taotlusi täitmast – st 1) keeldute viitamast kirjeldatud töötlemise seaduslikule alusele ning 2) keeldute ka minu isikuandmete kirjeldatud töötlemist lõpetama.</div><div><br></div><div>Kõike paremat</div><div>Gregor Eesmaa</div><div><br></div><div>--</div><div><br></div><div>Hello!</div><div><br></div><div>Such processing being a widely-spread practice is not a lawful basis under GDPR Article 6. To avoid miscommunication, please confirm that you refuse to fulfill the requests made – that is 1) you refuse to reference the lawful basis of the described processing and 2) you also refuse to stop processing my personal data in the described way.</div><div><br></div><div>Best wishes</div><div>Gregor Eesmaa</div></div><br>\n</body>",
   "hiddenReasons": [],
+  "labels": [
+    "from:author",
+    "purpose:gdpr",
+    "subpurpose:follow-up"
+  ],
   "attachments": []
 }

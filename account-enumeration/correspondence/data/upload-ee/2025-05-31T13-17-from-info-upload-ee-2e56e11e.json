@@ -16,5 +16,10 @@
   "date": "2025-05-31T13:17:03.000Z",
   "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Tere\n\nNo kui peab veateavituste ähmasemaks tegemisega lehe kasutamise Teie meelest ära rikkuma siis ok, muutsime errori tekstid üldisemaks.\nKüsiks üle, et kas tegelete ka muude saitidega, kus on reaalselt sadade miljonite kasutajate andmed samas stiilis suures ohus (github, facebook, google), või ainult väiksemate Eesti lehtedega? :)\nJa kui suuremate lehtedega ei tegele ega ei ole plaanis tegeleda, siis miks?\n\nUpload.ee Meeskond</div></body>",
   "hiddenReasons": [],
+  "labels": [
+    "from:service-provider",
+    "purpose:gdpr",
+    "subpurpose:gdpr-response"
+  ],
   "attachments": []
 }

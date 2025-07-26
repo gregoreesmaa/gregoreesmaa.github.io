@@ -18,6 +18,11 @@
   "hiddenReasons": [
     "providing-container-contents"
   ],
+  "labels": [
+    "from:author",
+    "purpose:gdpr",
+    "subpurpose:gdpr-request"
+  ],
   "attachments": [
     {
       "filename": "vulnerability-reassessment-report.pdf",

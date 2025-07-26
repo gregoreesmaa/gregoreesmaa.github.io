@@ -3,10 +3,32 @@
     "id": "amoremi-ee",
     "name": "amoremi.ee",
     "type": "website",
+    "messageLabels": [
+      [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
+      [
+        "from:service-provider",
+        "purpose:disclosure",
+        "subpurpose:disclosure-response"
+      ],
+      [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
+      [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:reassessment-report"
+      ]
+    ],
     "stats": {
       "dates": {
         "initialReport": "2025-03-16T19:18:43.000Z",
-        "firstResponse": "2025-03-17T07:50:08.000Z",
+        "firstResponseAfterDisclosure": "2025-03-17T07:50:08.000Z",
         "reassessmentReport": "2025-05-18T14:16:56.000Z",
         "lastCommunication": "2025-05-18T14:16:56.000Z"
       },
@@ -40,6 +62,11 @@
       "date": "2025-03-16T19:18:43.000Z",
       "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
       "attachments": [
         {
           "filename": "report.pdf",
@@ -67,6 +94,11 @@
       "date": "2025-03-17T07:50:08.000Z",
       "bodyHtml": "<head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body><div dir=\"ltr\"><div>Tere<br><br><b>Täname teid </b>põhjaliku tagasiside eest, mis aitab meie tutvumiskeskkonda turvalisemaks muuta. Vaatame esimesel võimalusel viidatud puudused üle ja viime sisse vajalikud täiendused.<br>Oleme alati avatud ettepanekutele ning hindame igasugust panust meie platvormi turvalisuse parandamisse.<br><br>Parimate soovidega<br>Marek Kivi<br>Juhatuse liige<br>Amoremi meeskond<br>E-post: <a href=\"mailto:info@amoremi.ee\">info@amoremi.ee</a></div></div>\n</body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:service-provider",
+        "purpose:disclosure",
+        "subpurpose:disclosure-response"
+      ],
       "attachments": []
     },
     {
@@ -87,6 +119,11 @@
       "date": "2025-03-23T10:09:46.000Z",
       "bodyHtml": "<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\n<style type=\"text/css\" style=\"display:none;\"> P {margin-top:0;margin-bottom:0;} </style>\n</head>\n<body dir=\"ltr\">\n<div class=\"elementToProof\" style=\"text-align: left; text-indent: 0px; background-color: rgb(255, 255, 255); margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: black;\">\nHello,</div>\n<div class=\"elementToProof\" style=\"text-align: left; text-indent: 0px; background-color: rgb(255, 255, 255); margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: black;\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"text-align: left; text-indent: 0px; background-color: rgb(255, 255, 255); margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: black;\">\nDue to a mistake while compiling the earlier report, the section \"2.1 Password Reset Form\" was wrong in stating that \"the form shows an error message\".&nbsp;</div>\n<div class=\"elementToProof\" style=\"text-align: left; text-indent: 0px; background-color: rgb(255, 255, 255); margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: black;\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"text-align: left; text-indent: 0px; background-color: rgb(255, 255, 255); margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: black;\">\nIt should have read \"the resulting view appears visually different, compared to when the email is registered\".</div>\n<div class=\"elementToProof\" style=\"text-align: left; text-indent: 0px; background-color: rgb(255, 255, 255); margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: black;\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"text-align: left; text-indent: 0px; background-color: rgb(255, 255, 255); margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: black;\">\nThe corrected report is attached.</div>\n<div id=\"appendonsend\"></div>\n\n</body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
       "attachments": [
         {
           "filename": "report.pdf",
@@ -114,6 +151,11 @@
       "date": "2025-05-18T14:16:56.000Z",
       "bodyHtml": "<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\n<style type=\"text/css\" style=\"display:none;\"> P {margin-top:0;margin-bottom:0;} </style>\n</head>\n<body dir=\"ltr\">\n<pre><div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">Hello,<br><br>We have conducted a follow-up reassessment of the service, and we appreciate your commitment to <br>improving the security of your service. However, we also found that the account enumeration <br>vulnerability is still not fully mitigated.<br><br>The attached updated report provides an overview of the remaining concerns and is intended to guide <br>further corrective actions.<br><br>Best regards,<br>Gregor Eesmaa<br>Computer Science MSc student<br>University of Tartu, Institute of Computer Science</div></pre>\n<div id=\"appendonsend\"></div>\n\n</body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:reassessment-report"
+      ],
       "attachments": [
         {
           "filename": "reassessment-report.pdf",

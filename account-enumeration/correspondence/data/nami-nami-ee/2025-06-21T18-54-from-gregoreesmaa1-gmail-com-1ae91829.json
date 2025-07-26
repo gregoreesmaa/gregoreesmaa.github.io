@@ -16,5 +16,10 @@
   "date": "2025-06-21T18:54:51.000Z",
   "bodyHtml": "<head></head><body><div dir=\"ltr\">Tere!<div><br></div><div>Kinnitan, et tänase seisuga (2025-06-21) enam kasutajakontode loendamise turvanõrkust (<i>account enumeration vulnerability</i>) veebilehelt ei tuvastanud.</div><div><br></div><div>Tänan tähelepanu ja tegude eest turvanõrkuse parandamisel!</div><div><br></div><div>Kõike paremat</div></div><br>\n</body>",
   "hiddenReasons": [],
+  "labels": [
+    "from:author",
+    "purpose:gdpr",
+    "subpurpose:follow-up"
+  ],
   "attachments": []
 }

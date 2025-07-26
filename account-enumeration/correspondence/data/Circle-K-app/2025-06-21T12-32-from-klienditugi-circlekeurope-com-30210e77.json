@@ -18,5 +18,10 @@
   "hiddenReasons": [
     "automated-reply"
   ],
+  "labels": [
+    "from:service-provider",
+    "purpose:disclosure",
+    "subpurpose:disclosure-response"
+  ],
   "attachments": []
 }

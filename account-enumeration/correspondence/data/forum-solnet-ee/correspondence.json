@@ -3,6 +3,24 @@
     "id": "forum-solnet-ee",
     "name": "forum.solnet.ee",
     "type": "website",
+    "messageLabels": [
+      [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
+      [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request"
+      ],
+      [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request",
+        "providing-container-contents"
+      ]
+    ],
     "stats": {
       "dates": {
         "initialReport": "2025-03-16T19:18:36.000Z",
@@ -39,6 +57,11 @@
       "date": "2025-03-16T19:18:36.000Z",
       "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
       "attachments": [
         {
           "filename": "report.pdf",
@@ -66,6 +89,11 @@
       "date": "2025-05-31T12:41:40.000Z",
       "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Lugupeetud forum.solnet.ee vastutav andmetöötleja\n\nPöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses forum.solnet.ee, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.\n\nManuses on ametlik taotlus, milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).\n\nPalun teavitage taotluse kättesaamisest.\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of forum.solnet.ee,\n\nI am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by forum.solnet.ee, potentially leading to its disclosure to unauthorised parties without a clear legal basis.\n\nPlease find attached a formal application exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).\n\nPlease confirm receipt of this request.\n\nKind regards,\nGregor Eesmaa</div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request"
+      ],
       "attachments": [
         {
           "filename": "taotlus-request.asice",
@@ -109,6 +137,11 @@
       "bodyHtml": "<head></head><body><div dir=\"ltr\">Saadan igaks juhuks ka eraldi taotluse ja aruande PDFid, mis asusid eelmise meili manuses digiallkirjastatud konteineris.<br><br>Lugupidamisega<br>Gregor Eesmaa<br><br>--<br><br>Just in case, providing also the request and the report PDF files, that were in the digitally signed container attached to the previous email.<br><br>Kind regards,<br>Gregor Eesmaa</div><br>\n</body>",
       "hiddenReasons": [
         "providing-container-contents"
+      ],
+      "labels": [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request"
       ],
       "attachments": [
         {

@@ -16,5 +16,10 @@
   "date": "2025-03-17T06:36:05.000Z",
   "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Tere,\n\nKinnitan, et saime teie kirja kätte.\n\nLugupidamisega,\n\nPostimees Grupp AS\nisikuandmed@postimeesgrupp.ee</div></body>",
   "hiddenReasons": [],
+  "labels": [
+    "from:service-provider",
+    "purpose:disclosure",
+    "subpurpose:disclosure-response"
+  ],
   "attachments": []
 }

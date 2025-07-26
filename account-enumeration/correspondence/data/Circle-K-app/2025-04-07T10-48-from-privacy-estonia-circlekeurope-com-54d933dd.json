@@ -16,5 +16,10 @@
   "date": "2025-04-07T10:48:54.000Z",
   "bodyHtml": "<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head>\n<body>Hello<br>\n<br>\nThank you, we've received your report. We'll review and revert.<br>\n<br>\nWith regards,<br>\n<br>\n<br>\nNele Laidvee<br>\nDirector Legal Affairs, Privacy Europe<br>\nAttorney at Law (Estonia) <br>\nCircle K AS<br>\nVisitor address: Schweigaards gate 16, 0191 Oslo<br>\nm: +372 5023549<br>\ne: <a href=\"mailto:Nele.Laidvee@circlekeurope.com\">Nele.Laidvee@circlekeurope.com</a><br>\n<a href=\"http://www.circlek.com\" target=\"_blank\">www.circlek.com</a><br>\n<br>\n<br>\n<br>\n<br>\n<br></body>",
   "hiddenReasons": [],
+  "labels": [
+    "from:service-provider",
+    "purpose:disclosure",
+    "subpurpose:disclosure-response"
+  ],
   "attachments": []
 }

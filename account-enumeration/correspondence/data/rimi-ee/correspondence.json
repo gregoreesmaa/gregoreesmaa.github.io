@@ -3,10 +3,60 @@
     "id": "rimi-ee",
     "name": "rimi.ee",
     "type": "website",
+    "messageLabels": [
+      [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
+      [
+        "from:service-provider",
+        "purpose:disclosure",
+        "subpurpose:disclosure-response",
+        "automated-reply"
+      ],
+      [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
+      [
+        "from:service-provider",
+        "purpose:disclosure",
+        "subpurpose:disclosure-response",
+        "automated-reply"
+      ],
+      [
+        "from:service-provider",
+        "purpose:disclosure",
+        "subpurpose:disclosure-response"
+      ],
+      [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:reassessment-report"
+      ],
+      [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request"
+      ],
+      [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response",
+        "automated-reply"
+      ],
+      [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response"
+      ]
+    ],
     "stats": {
       "dates": {
         "initialReport": "2025-03-16T19:18:51.000Z",
-        "firstResponse": "2025-04-04T09:09:46.000Z",
+        "firstResponseAfterDisclosure": "2025-04-04T09:09:46.000Z",
         "reassessmentReport": "2025-06-08T07:40:32.000Z",
         "gdprRequest": "2025-06-24T13:51:54.000Z",
         "firstResponseAfterGdpr": "2025-07-23T08:19:20.000Z",
@@ -42,6 +92,11 @@
       "date": "2025-03-16T19:18:51.000Z",
       "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
       "attachments": [
         {
           "filename": "report.pdf",
@@ -71,6 +126,11 @@
       "hiddenReasons": [
         "automated-reply"
       ],
+      "labels": [
+        "from:service-provider",
+        "purpose:disclosure",
+        "subpurpose:disclosure-response"
+      ],
       "attachments": []
     },
     {
@@ -91,6 +151,11 @@
       "date": "2025-03-23T10:39:26.000Z",
       "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered user email addresses.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
       "attachments": [
         {
           "filename": "report.pdf",
@@ -120,6 +185,11 @@
       "hiddenReasons": [
         "automated-reply"
       ],
+      "labels": [
+        "from:service-provider",
+        "purpose:disclosure",
+        "subpurpose:disclosure-response"
+      ],
       "attachments": []
     },
     {
@@ -140,6 +210,11 @@
       "date": "2025-04-04T09:09:46.000Z",
       "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Hello.\n\nThank you for your email and for bringing this matter to our attention. We appreciate your efforts in researching potential issues and sharing your findings with us.\n\nWe continuously assess and monitor the security of our services to ensure the protection of our users and their data. Your report will be reviewed as part of our ongoing security evaluations.\n\nPlease rest assured that we are dedicated to maintaining the privacy and security of our users, and we will continue to monitor and improve our processes as necessary.\n\nThank you once again for your cooperation.\n\nBest Regards\nRIMI Data protection function\nRimiDPO@rimibaltic.com\n\nRimi Eesti Food AS\nSaue 10, Saue Vald, Harjumaa, Estonia\nwww.rimi.ee\n\nInfot, kuidas me Sinu isikuandmeid töötleme leiad siit https://www.rimi.ee/Privaatsuspoliitika/kliendi-tagasiside-isikuandmete-tootlemine\n\nMida teha, kui Rimi keeldub kaebust lahendama või kui Sa ei ole kaebuse lahendamisega nõus https://www.rimi.ee/Privaatsuspoliitika/pretensiooni-esitamine-kauplejale</div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:service-provider",
+        "purpose:disclosure",
+        "subpurpose:disclosure-response"
+      ],
       "attachments": []
     },
     {
@@ -160,6 +235,11 @@
       "date": "2025-06-08T07:40:32.000Z",
       "bodyHtml": "<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=Windows-1252\">\n<style type=\"text/css\" style=\"display:none;\"> P {margin-top:0;margin-bottom:0;} </style>\n</head>\n<body dir=\"ltr\">\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nHello,</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nWe have conducted a follow-up reassessment of the service, and we appreciate your commitment to improving the security of your service. However, we also found that the account enumeration vulnerability is still not fully mitigated.</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nThe attached updated report provides an overview of the remaining concerns and is intended to guide further corrective actions.</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\n<br>\n</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nBest regards,</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nGregor Eesmaa</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nComputer Science MSc student</div>\n<div class=\"elementToProof\" style=\"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\">\nUniversity of Tartu, Institute of Computer Science</div>\n<div id=\"appendonsend\"></div>\n\n</body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:reassessment-report"
+      ],
       "attachments": [
         {
           "filename": "reassessment-report.pdf",
@@ -187,6 +267,11 @@
       "date": "2025-06-24T13:51:54.000Z",
       "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Lugupeetud rimi.ee vastutav andmetöötleja\n\nPöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses rimi.ee, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.\n\nManuses on ametlik taotlus (samuti digiallkirjastatud kujul), milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).\n\nPalun teavitage taotluse kättesaamisest.\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of rimi.ee,\n\nI am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by rimi.ee, potentially leading to its disclosure to unauthorised parties without a clear legal basis.\n\nPlease find attached a formal application (also in digitally signed form) exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).\n\nPlease confirm receipt of this request.\n\nKind regards,\nGregor Eesmaa</div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request"
+      ],
       "attachments": [
         {
           "filename": "taotlus-request.asice",
@@ -243,6 +328,11 @@
       "hiddenReasons": [
         "automated-reply"
       ],
+      "labels": [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response"
+      ],
       "attachments": []
     },
     {
@@ -263,6 +353,11 @@
       "date": "2025-07-23T08:19:20.000Z",
       "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Dear Gregor,\n\nThank you for contacting us with your concerns.\n\nAt Rimi, personal data protection is a topic we take very seriously. We recognize its importance in today’s digital environment and treat it as a key consideration in our operations and decision-making. We follow information security practices aligned with industry standards.\n\nWe process your personal data based on our legitimate interest to ensure IIT environment security. In more detail you can read in our Customer privacy policy: https://www.rimi.ee/privaatsuspoliitika/klient/sinu-rimi-kliendiprogrammi-ja-rimi-e-poe-isikuandmete-tootlemine. For mentioned processing, we have conducted a legitimate interest balancing test and concluded that the legitimate interests pursued are not overridden by the rights and freedoms of the data subjects. Following a reassessment of the legitimate interest balancing test, we have reaffirmed our original conclusion. The rights outlined in Article 18 and Article 21of the GDPR become applicable only when one of the specific conditions listed therein is met. In the present case, none of those conditions are fulfilled, and therefore the rights do not apply.\n\nWe would like to indicate that enumeration vulnerability is a potential weakness in a system. It does not, in itself, involve the transmission, access, or disclosure of personal data unless exploited. In the case of enumeration, the system may respond differently to valid vs. invalid inputs. However, no actual personal data is disclosed unless the system returns identifiable information beyond mere existence. The mere confirmation of existence of a data point (e.g. a registered email) may not meet the threshold of disclosure unless it is accompanied by additional identifiable information or is used in a context that leads to identification of a data subject.\n\nThe method used to exploit this vulnerability is beyond standard practice and required specialized knowledge and skills that most individuals outside the relevant field would not typically possess.\n\nIf you are dissatisfied with our answer you can contact  Data Protection Inspectorate in Estonia. https://www.aki.ee/\n\nBest Regards\nRIMI Data protection function\nRimiDPO@rimibaltic.com\n\nRimi Eesti Food AS\nSaue 10, Saue Vald, Harjumaa, Estonia\nwww.rimi.ee\n\nInfot, kuidas me Sinu isikuandmeid töötleme leiad siit https://www.rimi.ee/Privaatsuspoliitika/kliendi-tagasiside-isikuandmete-tootlemine\n\nMida teha, kui Rimi keeldub kaebust lahendama või kui Sa ei ole kaebuse lahendamisega nõus https://www.rimi.ee/Privaatsuspoliitika/pretensiooni-esitamine-kauplejale</div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response"
+      ],
       "attachments": []
     }
   ]

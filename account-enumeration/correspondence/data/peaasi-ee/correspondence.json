@@ -3,10 +3,38 @@
     "id": "peaasi-ee",
     "name": "peaasi.ee",
     "type": "website",
+    "messageLabels": [
+      [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
+      [
+        "from:service-provider",
+        "purpose:disclosure",
+        "subpurpose:disclosure-response",
+        "automated-reply"
+      ],
+      [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request"
+      ],
+      [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response",
+        "automated-reply"
+      ],
+      [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response"
+      ]
+    ],
     "stats": {
       "dates": {
         "initialReport": "2025-04-27T19:59:41.000Z",
-        "firstResponse": "2025-06-10T19:42:38.000Z",
         "gdprRequest": "2025-06-08T15:58:11.000Z",
         "firstResponseAfterGdpr": "2025-06-10T19:42:38.000Z",
         "lastCommunication": "2025-06-10T19:42:38.000Z"
@@ -41,6 +69,11 @@
       "date": "2025-04-27T19:59:41.000Z",
       "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Hello,\n\nDuring our research on user account enumeration flaws on Estonian \nonline services, we found that your website is vulnerable to the \nexposure of registered users.\n\nThe vulnerability report is attached.\n\nWe would appreciate it if you could confirm receipt of this email\nto prevent us from reaching out to you through other channels.\n\nBest regards,\nGregor Eesmaa\nComputer Science MSc student\nUniversity of Tartu, Institute of Computer Science</div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:disclosure",
+        "subpurpose:report"
+      ],
       "attachments": [
         {
           "filename": "report.pdf",
@@ -70,6 +103,11 @@
       "hiddenReasons": [
         "automated-reply"
       ],
+      "labels": [
+        "from:service-provider",
+        "purpose:disclosure",
+        "subpurpose:disclosure-response"
+      ],
       "attachments": []
     },
     {
@@ -90,6 +128,11 @@
       "date": "2025-06-08T15:58:11.000Z",
       "bodyHtml": "<head></head><body><div style=\"white-space: pre-wrap\">Lugupeetud peaasi.ee vastutav andmetöötleja\n\nPöördun, et edastada ametlikult mure isikuandmete kaitse üldmääruse (IKÜM) alusel seoses minu isikuandmete töötlemisega teenuses peaasi.ee, mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta.\n\nManuses on ametlik taotlus (samuti digiallkirjastatud kujul), milles teostan oma õigusi IKÜM artiklite 15, 18 ja 21 alusel. Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest).\n\nPalun teavitage taotluse kättesaamisest.\n\nLugupidamisega\nGregor Eesmaa\n\n--\n\nDear Data Controller of peaasi.ee,\n\nI am contacting you to formally raise concerns under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by peaasi.ee, potentially leading to its disclosure to unauthorised parties without a clear legal basis.\n\nPlease find attached a formal application (also in digitally signed form) exercising my rights under Articles 15, 18, and 21 of the GDPR. I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt).\n\nPlease confirm receipt of this request.\n\nKind regards,\nGregor Eesmaa</div></body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request"
+      ],
       "attachments": [
         {
           "filename": "taotlus-request.asice",
@@ -146,6 +189,11 @@
       "hiddenReasons": [
         "automated-reply"
       ],
+      "labels": [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response"
+      ],
       "attachments": []
     },
     {
@@ -166,6 +214,11 @@
       "date": "2025-06-10T19:42:38.000Z",
       "bodyHtml": "<head></head><body><div dir=\"ltr\"><div>Tere Gregor!</div><div><br></div><div>Aitäh kirja ja tähelepanu juhtimise eest.&nbsp;Saime taotluse kätte.</div><div>Võtame selle teema peatselt ette ja vastame omalt poolt.</div><div><br></div><div>Head!</div><div><br></div><div><div><div dir=\"ltr\" class=\"gmail_signature\"><div dir=\"ltr\"><div>Daniel Soomer</div><div>Tehnoloogiajuht</div><div><a href=\"https://peaasi.ee\" target=\"_blank\"><b>Peaasi.ee</b></a></div><div><br><br></div></div></div></div><br></div><div><br></div><br><div><br clear=\"all\"></div><div><div dir=\"ltr\" class=\"gmail_signature\" data-smartmail=\"gmail_signature\"><div dir=\"ltr\"><br></div></div></div></div>\n</body>",
       "hiddenReasons": [],
+      "labels": [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response"
+      ],
       "attachments": []
     }
   ]
