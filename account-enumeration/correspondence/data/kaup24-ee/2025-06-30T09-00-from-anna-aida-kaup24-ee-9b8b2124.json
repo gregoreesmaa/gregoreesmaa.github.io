@@ -20,15 +20,12 @@
     "from:service-provider",
     "purpose:gdpr",
     "subpurpose:gdpr-response",
-    "llm:basis:article6-paragraph1-point:b",
     "llm:basis:article6-paragraph1-point:f",
     "llm:justification:fraud_prevention",
-    "llm:justification:security",
+    "llm:justification:account_security",
     "llm:justification:industry_standard",
-    "llm:justification:technical_limitations",
-    "llm:justification:business_needs",
-    "llm:remediation-status:partially_completed",
-    "llm:privacy-risk:agree",
+    "llm:remediation-status:partial",
+    "llm:remediation-scope:full",
     "llm:addresses-gdpr-request"
   ],
   "attachments": [
@@ -58,50 +55,38 @@
     "vulnerability_acknowledged": {
       "status": "agree",
       "quotes": [
-        "We have read with great interest the research report \"Account Enumeration Vulnerability: kaup24.ee\"",
-        "Regarding issue A, we have considered your finding and can indeed assure you that anti-bot measures were implemented",
-        "Regarding issue B, we do not acknowledge the enumeration, however the possibility is limited to targeted (spear) enumeration",
-        "Regarding issue C, I would like to point out that stated enumeration possibility is limited to targeted (spear) enumeration",
-        "we have implemented additional security mechanisms on registration and email exchange forms, including rate limiting",
-        "we are improving the responses and error messages of related systems to prevent the disclosure of user data to prevent unauthorized users from being granted access",
-        "we are developing a more comprehensive permanent solution, which is planned to be implemented in the near future."
+        "We have read with great interest the research report \"Account Enumeration Vulnerability: kaup24.ee\" conducted as part of your master´s thesis ...",
+        "Regarding issue A, we have considered your finding and can indeed assure you that anti-bot measures were implemented ...",
+        "Regarding issue B, we do not acknowledge the enumeration, however the possibility is limited to targeted (spear) enumeration ...",
+        "Regarding issue C, I would like to point out that stated enumeration possibility is limited to targeted (spear) enumeration ..."
       ]
     },
     "privacy_risk_acknowledged": {
-      "status": "agree",
-      "quotes": [
-        "We are aware of the security vulnerability and are taking measures to resolve it.",
-        "Regarding issue B, we do not acknowledge the enumeration, however the possibility is limited to targeted (spear) enumeration due to previously mentioned rate limiting.",
-        "Regarding issue C, I would like to point out that stated enumeration possibility is limited to targeted (spear) enumeration due to previously mentioned rate limiting.",
-        "Considering the Company’s legitimate interest in ensuring the security of the service and preventing fraud, we are obliged to implement the necessary technical and organizational measures to minimize the impact of such security risks.",
-        "We are aware of the security vulnerability and are taking measures to resolve it."
-      ]
+      "status": "not_mentioned",
+      "quotes": null
     },
     "legal_basis": {
       "formal_legal_basis": [
-        "b",
         "f"
       ],
       "justification_keywords": [
         "fraud_prevention",
-        "security",
-        "industry_standard",
-        "technical_limitations",
-        "business_needs"
+        "account_security",
+        "industry_standard"
       ],
       "quotes": [
-        "\"performance of the contract (management of the user account and provision of the service)\"",
-        "\"legitimate interest (ensuring the usability of the service and prevention of fraud)\"",
-        "\"mentioned design is observed among all the biggest market participants and service providers in these specific forms (account registration from and email change of already registered account) and is a widely known as unsolvable issue with these specific forms in the cybersecurity world.\"",
-        "\"Company´s legitimate interest in ensuring the security of the service and preventing fraud\"",
-        "\"best practices\""
+        "We consider it appropriate to divide our response to your request into two parts, one of which addresses the IT aspect and the other the personal data protection aspect.",
+        "Regarding the vulnerability issues outlined in your attached report “Account Enumeration Vulnerability: kaup24.ee” we noticed that you have identified three separate issues.",
+        "Considering the Company’s legitimate interest in ensuring the security of the service and preventing fraud, we are obliged to implement the necessary technical and organizational measures to minimize the impact of such security risks."
       ]
     },
     "remediation": {
-      "status": "partially_completed",
+      "status": "partial",
+      "scope": "full",
       "deadline": null,
       "quotes": [
-        "we have implemented additional security mechanisms on registration and email exchange forms, including rate limiting",
+        "we have considered your finding and can indeed assure you that anti-bot measures were implemented as per your note in a form of rare limiting",
+        "we are improving the responses and error messages of related systems to prevent the disclosure of user data to prevent unauthorized users from being granted access",
         "we are developing a more comprehensive permanent solution, which is planned to be implemented in the near future"
       ]
     }

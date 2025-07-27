@@ -35,7 +35,7 @@
     "vulnerability_acknowledged": {
       "status": "disagree",
       "quotes": [
-        "after thorough checks Im afraid we do not see the relevant vulnerability in this situation"
+        "after thorough checks Im afraid we do not see the relevant vulnerability in this situation."
       ]
     },
     "privacy_risk_acknowledged": {
@@ -51,9 +51,10 @@
     },
     "remediation": {
       "status": "refused",
+      "scope": null,
       "deadline": null,
       "quotes": [
-        "Our internal teams have evaluated your request and after thorough checks Im afraid we do not see the relevant vulnerability in this situation."
+        "We do not see the relevant vulnerability in this situation."
       ]
     }
   }

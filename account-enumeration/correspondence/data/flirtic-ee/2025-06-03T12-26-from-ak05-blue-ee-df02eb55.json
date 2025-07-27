@@ -21,7 +21,6 @@
     "purpose:gdpr",
     "subpurpose:gdpr-response",
     "llm:justification:industry_standard",
-    "llm:justification:business_needs",
     "llm:addresses-gdpr-request"
   ],
   "attachments": [
@@ -56,16 +55,15 @@
     "legal_basis": {
       "formal_legal_basis": [],
       "justification_keywords": [
-        "industry_standard",
-        "business_needs"
+        "industry_standard"
       ],
       "quotes": [
-        "\"laialt levinud praktika\"",
-        "\"mitte GDPR-i nõuete täitmine mõnikord tõlgendamise küsimus\""
+        "Lühidalt – meie hinnangul on selline lähenemine laialt levinud praktika ning seda kasutavad ka paljud tuntud teenusepakkujad (nt Evernote, Microsoft jt, vt. lisa)"
       ]
     },
     "remediation": {
       "status": "not_mentioned",
+      "scope": null,
       "deadline": null,
       "quotes": null
     }

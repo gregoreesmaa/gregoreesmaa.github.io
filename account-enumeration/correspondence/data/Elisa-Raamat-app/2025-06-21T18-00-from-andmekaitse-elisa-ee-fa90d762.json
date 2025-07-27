@@ -21,7 +21,9 @@
   "labels": [
     "from:service-provider",
     "purpose:gdpr",
-    "subpurpose:gdpr-response"
+    "subpurpose:gdpr-response",
+    "llm:justification:account_security",
+    "llm:addresses-gdpr-request"
   ],
   "attachments": [],
   "llmAnalysis": {
@@ -41,11 +43,17 @@
     },
     "legal_basis": {
       "formal_legal_basis": [],
-      "justification_keywords": null,
-      "quotes": null
+      "justification_keywords": [
+        "account_security"
+      ],
+      "quotes": [
+        "juhul, kui Te ei edastanud päringut enda kontakt e-posti aadressilt, siis selleks, et saaksime veenduda pöörduja isikusamasuses",
+        "Isikusamasuse tuvastamiseks palume iseteenindusse sisse logida."
+      ]
     },
     "remediation": {
       "status": "not_mentioned",
+      "scope": null,
       "deadline": null,
       "quotes": null
     }

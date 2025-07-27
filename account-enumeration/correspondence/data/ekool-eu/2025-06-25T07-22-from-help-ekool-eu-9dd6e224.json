@@ -19,20 +19,15 @@
   "labels": [
     "from:service-provider",
     "purpose:gdpr",
-    "subpurpose:gdpr-response",
-    "llm:extension-asked"
+    "subpurpose:gdpr-response"
   ],
   "attachments": [],
   "llmAnalysis": {
     "extension": {
-      "asked": true,
-      "justification_keywords": [
-        "holiday_period"
-      ],
+      "asked": false,
+      "justification_keywords": null,
       "until": null,
-      "quotes": [
-        "Tegeleme teie kirjaga koheselt, kui vastutav töötaja tuleb puhkuselt."
-      ]
+      "quotes": null
     },
     "vulnerability_acknowledged": {
       "status": "not_mentioned",
@@ -49,6 +44,7 @@
     },
     "remediation": {
       "status": "not_mentioned",
+      "scope": null,
       "deadline": null,
       "quotes": null
     }

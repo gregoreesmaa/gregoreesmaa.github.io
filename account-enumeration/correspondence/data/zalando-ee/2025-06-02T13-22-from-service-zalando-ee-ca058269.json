@@ -20,21 +20,16 @@
     "from:service-provider",
     "purpose:gdpr",
     "subpurpose:gdpr-response",
-    "llm:extension-asked",
     "llm:remediation-status:planned",
     "llm:addresses-gdpr-request"
   ],
   "attachments": [],
   "llmAnalysis": {
     "extension": {
-      "asked": true,
-      "justification_keywords": [
-        "internal_investigation"
-      ],
-      "until": "7 working days",
-      "quotes": [
-        "Will come back to you within 7 working days."
-      ]
+      "asked": false,
+      "justification_keywords": null,
+      "until": null,
+      "quotes": null
     },
     "vulnerability_acknowledged": {
       "status": "not_mentioned",
@@ -51,9 +46,10 @@
     },
     "remediation": {
       "status": "planned",
-      "deadline": null,
+      "scope": null,
+      "deadline": "2025-08-10",
       "quotes": [
-        "I will pass your request and concern to our internal department for investigation."
+        "I will pass your request and concern to our internal department for investigation. Will come back to you within 7 working days."
       ]
     }
   }

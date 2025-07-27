@@ -24,12 +24,8 @@
     "llm:basis:article6-paragraph1-point:f",
     "llm:justification:user_experience",
     "llm:justification:account_security",
-    "llm:justification:preventing_duplicates",
-    "llm:justification:balancing_test",
-    "llm:justification:business_needs",
-    "llm:justification:customer_support_efficiency",
-    "llm:remediation-status:partially_completed",
-    "llm:privacy-risk:disagree",
+    "llm:remediation-status:partial",
+    "llm:privacy-risk:agree",
     "llm:addresses-gdpr-request"
   ],
   "attachments": [
@@ -48,20 +44,14 @@
       "quotes": null
     },
     "vulnerability_acknowledged": {
-      "status": "agree",
-      "quotes": [
-        "This current set-up shall facilitate that customers can detect if they made any typing errors or used a wrong email address.",
-        "The approach suggested by you would result in severely less user-friendliness, leaving many customers frustrated and partly result in users not being able to access their account again at all.",
-        "The currents set up results in much more user-friendliness and prevents customers indirectly blocking from using our services."
-      ]
+      "status": "not_mentioned",
+      "quotes": null
     },
     "privacy_risk_acknowledged": {
-      "status": "disagree",
+      "status": "agree",
       "quotes": [
-        "Besides, there is not much risk related to this approach. The information that someone is a customer of a shopping website is not sensitive at all.",
-        "The other way around, also the information that an email has been sent does not necessarily mean that the email address actually is connected to an account or whether this is just a standard information, even if the email address does not exist or is mistyped.",
-        "The legal sources provided by you to support your argument are not suitable at all.",
-        "Besides, also your logical argument is not convincing."
+        "However, we have severe concerns about the justification of any of your data subject requests, because you have written on behalf of the University of Tartu, which indicates that not you as a data subject is making the request, but you on behalf of the University (for maybe research purposes?). If this is the case, the request would be considered an abuse of rights.",
+        "Please note that we are considering contacting the University Tartu to verify whether they are aware you are acting in their name."
       ]
     },
     "legal_basis": {
@@ -71,27 +61,20 @@
       ],
       "justification_keywords": [
         "user_experience",
-        "account_security",
-        "preventing_duplicates",
-        "balancing_test",
-        "business_needs",
-        "customer_support_efficiency"
+        "account_security"
       ],
       "quotes": [
-        "This current set-up shall facilitate that customers can detect if they made any typing errors or used a wrong email address.",
-        "The approach suggested by you would result in severely less user-friendliness, leaving many customers frustrated and partly result in users not being able to access their account again at all.",
-        "It is necessary to provide customers as part of the contractual relationship with the above-mentioned functions.",
-        "Besides, the specific form of providing the above-mentioned functions is also based on legitimate interests.",
-        "The currents set up results in much more user-friendliness and prevents customers indirectly blocking from using our services.",
-        "Also in real life one knows many services other people use, e.g. who else is a member of your gym (including their name, by which one can easily find out their address)."
+        "However, please note as a general remark (which suƯices from our perspective to answer your limited request re. Art. 15 GDPR), that the purpose for the processing of personal data via the \"Password Reset Form\", the Account Registration Form\" and \"Email Change Form\", is to enable customers to use these functions in a user-friendly manner...Besides, the specific form of providing the above-mentioned functions is also based on legitimate interests.",
+        "Due to this, the legal bases are Art. 6 (1) (b) and Art. 6 (1) (f) GDPR."
       ]
     },
     "remediation": {
-      "status": "partially_completed",
+      "status": "partial",
+      "scope": null,
       "deadline": null,
       "quotes": [
-        "Nevertheless, please note as a general remark (which suƯices from our perspective to answer your limited request re. Art. 15 GDPR), that the purpose for the processing of personal data via the \"Password Reset Form\", the Account Registration Form\" and \"Email Change Form\", is to enable customers to use these functions in a user-friendly manner.",
-        "The currents set up results in much more user-friendliness and prevents customers indirectly blocking from using our services."
+        "\"the purpose for the processing of personal data via the \"Password Reset Form\", the Account Registration Form\" and \"Email Change Form\", is to enable customers to use these functions in a user-friendly manner\"",
+        "\"the legal bases are Art. 6 (1) (b) and Art. 6 (1) (f) GDPR\""
       ]
     }
   }

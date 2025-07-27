@@ -20,7 +20,8 @@
     "from:service-provider",
     "purpose:gdpr",
     "subpurpose:gdpr-response",
-    "llm:remediation-status:partially_completed",
+    "llm:remediation-status:completed",
+    "llm:remediation-scope:partial",
     "llm:addresses-gdpr-request"
   ],
   "attachments": [],
@@ -34,9 +35,7 @@
     "vulnerability_acknowledged": {
       "status": "agree",
       "quotes": [
-        "Njah, kui kirja välja ei saada siis tõlkesüsteemi kasutuskordade logi näitas erinevust jah.",
-        "Nüüd on mysql ja tõlkesüsteemi info login+register+forgotpassword lehtedel kinni keeratud, juhul kui formi submit on toimunud.",
-        "Parooli lähtestamise leht peaks nüüd alati formi reseti triggerdama, see erisus on ka kadunud."
+        "Njah, kui kirja välja ei saada siis tõlkesüsteemi kasutuskordade logi näitas erinevust jah."
       ]
     },
     "privacy_risk_acknowledged": {
@@ -49,11 +48,13 @@
       "quotes": null
     },
     "remediation": {
-      "status": "partially_completed",
+      "status": "completed",
+      "scope": "partial",
       "deadline": null,
       "quotes": [
-        "Nüüd on mysql ja tõlkesüsteemi info login+register+forgotpassword lehtedel kinni keeratud, juhul kui formi submit on toimunud",
-        "Parooli lähtestamise leht peaks nüüd alati formi reseti triggerdama, see erisus on ka kadunud"
+        "Njah, kui kirja välja ei saada siis tõlkesüsteemi kasutuskordade logi näitas erinevust jah.",
+        "Nüüd on mysql ja tõlkesüsteemi info login+register+forgotpassword lehtedel kinni keeratud, juhul kui formi submit on toimunud.",
+        "Parooli lähtestamise leht peaks nüüd alati formi reseti triggerdama, see erisus on ka kadunud."
       ]
     }
   }

@@ -21,21 +21,15 @@
   "labels": [
     "from:service-provider",
     "purpose:gdpr",
-    "subpurpose:gdpr-response",
-    "llm:extension-asked"
+    "subpurpose:gdpr-response"
   ],
   "attachments": [],
   "llmAnalysis": {
     "extension": {
-      "asked": true,
-      "justification_keywords": [
-        "volume_of_requests",
-        "complex_procedure"
-      ],
+      "asked": false,
+      "justification_keywords": null,
       "until": null,
-      "quotes": [
-        "Vastavalt isikuandmete kaitse üldmääruse artiklile 12 (3) on isikuandmetega seotud avaldustele vastamise tähtaeg 1 kuu, mida on võimalik pikendada veel 2 kuu võrra juhul, kui pöördumisi on palju või menetlus mahukas."
-      ]
+      "quotes": null
     },
     "vulnerability_acknowledged": {
       "status": "not_mentioned",
@@ -48,10 +42,13 @@
     "legal_basis": {
       "formal_legal_basis": [],
       "justification_keywords": null,
-      "quotes": null
+      "quotes": [
+        "Vastavalt isikuandmete kaitse üldmääruse artiklile 12 (3)"
+      ]
     },
     "remediation": {
       "status": "not_mentioned",
+      "scope": null,
       "deadline": null,
       "quotes": null
     }

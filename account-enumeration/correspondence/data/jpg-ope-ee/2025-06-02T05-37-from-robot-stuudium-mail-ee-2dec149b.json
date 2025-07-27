@@ -20,7 +20,9 @@
     "from:service-provider",
     "purpose:gdpr",
     "subpurpose:gdpr-response",
-    "llm:privacy-risk:agree"
+    "llm:remediation-status:planned",
+    "llm:privacy-risk:agree",
+    "llm:addresses-gdpr-request"
   ],
   "attachments": [],
   "llmAnalysis": {
@@ -34,7 +36,7 @@
       "status": "agree",
       "quotes": [
         "Teie mure turvanõrkuse osas on täiesti arusaadav ja meie hinnangul ka sisuliselt põhjendatud.",
-        "mille osas Te viitasite võimaliku turvanõrkuse (account enumeration) olemasolule"
+        "Kuna me ei ole selles kontekstis andmete vastutav töötleja, edastasime Teie taotluse ja mure teenusepakkujale siin samas keskkonnas, kes vastutab süsteemi toimimise, andmetöötluse ja isikuandmete kaitse eest vastavalt IKÜM nõuetele."
       ]
     },
     "privacy_risk_acknowledged": {
@@ -49,9 +51,13 @@
       "quotes": null
     },
     "remediation": {
-      "status": "not_mentioned",
+      "status": "planned",
+      "scope": null,
       "deadline": null,
-      "quotes": null
+      "quotes": [
+        "Meie asutusel puudub võimalus mõjutada või muuta sisselogimisvormi käitumist",
+        "edastasime Teie taotluse ja mure teenusepakkujale"
+      ]
     }
   }
 }

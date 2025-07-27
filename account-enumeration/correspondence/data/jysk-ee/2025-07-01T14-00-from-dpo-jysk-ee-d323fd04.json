@@ -24,18 +24,14 @@
     "from:service-provider",
     "purpose:gdpr",
     "subpurpose:gdpr-response",
-    "llm:extension-asked",
     "llm:basis:article6-paragraph1-point:f",
-    "llm:justification:user_account_security",
-    "llm:justification:preventing_abuse",
-    "llm:justification:efficient_user_support",
-    "llm:justification:transparency",
-    "llm:justification:usability",
-    "llm:justification:balancing_test",
-    "llm:justification:data_protection_by_design",
-    "llm:justification:data_protection_by_default",
+    "llm:justification:account_security",
+    "llm:justification:preventing_duplicates",
+    "llm:justification:user_experience",
+    "llm:justification:industry_standard",
     "llm:remediation-status:planned",
-    "llm:privacy-risk:disagree",
+    "llm:remediation-scope:full",
+    "llm:privacy-risk:agree",
     "llm:addresses-gdpr-request"
   ],
   "attachments": [
@@ -48,32 +44,21 @@
   ],
   "llmAnalysis": {
     "extension": {
-      "asked": true,
-      "justification_keywords": [
-        "technical_assessment",
-        "implementation"
-      ],
-      "until": "2025-09-30",
-      "quotes": [
-        "It is planned that changes will be completed and implemented by 30.09.2025.",
-        "When changes will fully be implemented, we will inform you."
-      ]
+      "asked": false,
+      "justification_keywords": null,
+      "until": null,
+      "quotes": null
     },
     "vulnerability_acknowledged": {
       "status": "agree",
       "quotes": [
-        "we have reviewed the relevant functionality and now working on introducing necessary changes to ensure that the user experience does not allow third parties to infer whether a particular email address is associated with a Jysk account",
-        "This eliminates even the theoretical possibility of account enumeration through this method.",
-        "we have now revised the mechanism to return the same user-facing message regardless of account existence"
+        "we have now revised the mechanism to return the same user-facing message regardless of account existence. This eliminates even the theoretical possibility of account enumeration through this method."
       ]
     },
     "privacy_risk_acknowledged": {
-      "status": "disagree",
+      "status": "agree",
       "quotes": [
-        "From a data protection perspective, this mechanism supports transparency and usability, which are themselves recognized components of responsible data processing.",
-        "The possibility of harm to data subjects was minimal, as no other personal data was exposed or accessible.",
-        "The ability to infer account existence relied on specific queries and could not be performed on a large scale without triggering protective measures.",
-        "Considering these changes, we consider your request for restriction of processing and your objection to processing to have been fully addressed."
+        "Nonetheless, to further minimize this risk and in accordance with the principle of data protection by design and by default, we have now revised the mechanism to return the same user-facing message regardless of account existence. This eliminates even the theoretical possibility of account enumeration through this method."
       ]
     },
     "legal_basis": {
@@ -81,30 +66,23 @@
         "f"
       ],
       "justification_keywords": [
-        "user_account_security",
-        "preventing_abuse",
-        "efficient_user_support",
-        "transparency",
-        "usability",
-        "balancing_test",
-        "data_protection_by_design",
-        "data_protection_by_default"
+        "account_security",
+        "preventing_duplicates",
+        "user_experience",
+        "industry_standard"
       ],
       "quotes": [
-        "The previous processing in question - namely, the system response indicating whether an email address is already associated with an account - was based on Jysk’s legitimate interest in ensuring user account security, preventing abuse, and facilitating efficient user support.",
-        "This type of message enabled users to identify potential registration mistakes (e.g., attempting to create a new account using an email already associated with an existing account), thereby preventing unnecessary duplication or confusion.",
-        "In performing the balancing test required under GDPR Article 6(1)(f), we considered the limited nature of the data involved—the message merely indicated the presence of an account associated with an email, which not always reveals a user’s identity, without revealing any further information.",
-        "The possibility of harm to data subjects was minimal, as no other personal data was exposed or accessible.",
-        "The ability to infer account existence relied on specific queries and could not be performed on a large scale without triggering protective measures."
+        "\"based on Jysk’s legitimate interest in ensuring user account security, preventing abuse, and facilitating efficient user support\"",
+        "\"It is a common and established market practice among online service providers to notify users when an account with the same identifier already exists\""
       ]
     },
     "remediation": {
       "status": "planned",
+      "scope": "full",
       "deadline": "2025-09-30",
       "quotes": [
-        "we are now working on introducing necessary changes to ensure that the user experience does not allow third parties to infer whether a particular email address is associated with a Jysk account.",
-        "It is planned that changes will be completed and implemented by 30.09.2025.",
-        "we have now revised the mechanism to return the same user-facing message regardless of account existence."
+        "we have now revised the mechanism to return the same user-facing message regardless of account existence",
+        "changes will be completed and implemented by 30.09.2025"
       ]
     }
   }

@@ -42,10 +42,9 @@
         "subpurpose:gdpr-response",
         "llm:basis:article6-paragraph1-point:b",
         "llm:justification:account_security",
-        "llm:justification:fraud_prevention",
-        "llm:justification:customer_support_efficiency",
-        "llm:justification:technical_limitations",
-        "llm:remediation-status:partially_completed",
+        "llm:justification:customer_support",
+        "llm:remediation-status:partial",
+        "llm:remediation-scope:full",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
@@ -287,6 +286,7 @@
         },
         "remediation": {
           "status": "not_mentioned",
+          "scope": null,
           "deadline": null,
           "quotes": null
         }
@@ -316,10 +316,9 @@
         "subpurpose:gdpr-response",
         "llm:basis:article6-paragraph1-point:b",
         "llm:justification:account_security",
-        "llm:justification:fraud_prevention",
-        "llm:justification:customer_support_efficiency",
-        "llm:justification:technical_limitations",
-        "llm:remediation-status:partially_completed",
+        "llm:justification:customer_support",
+        "llm:remediation-status:partial",
+        "llm:remediation-scope:full",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
@@ -335,19 +334,16 @@
           "status": "agree",
           "quotes": [
             "Meie platvormi kasutajate turvalisuse, privaatsuse ja usalduse tagamine on jätkuvalt meie kõrgeim prioriteet",
-            "Mõistame Teie muret, seoses isikuandmete (nt e-posti aadressi) kasutajakontode loendamise rünnakute võimalikkusega",
-            "Konto loomisel palume kasutajatel esitada andmed Okidoki kasutajakonto loomiseks ja haldamiseks",
-            "Sõnumite kuvamine kasutajatele, kes kasutavad parooli lähtestamise vormi, kasutaja registreerimise vormi või e-posti aadressi muutmise vormi, on osa laiemast konto taastamise teenusest, mida pakume kasutajatele põhilise teenuse osana"
+            "Punktid 1 ja 3 on suhteliselt lihtsad lahendada ning need on kavas lõpetada juulis 2025",
+            "Punkt 2 nõuab aga registreerimisvoo märkimisväärset ümberkujundamist ja mõjutab mitmeid süsteemidevahelisi sõltuvusi",
+            "rakendame 2025. aasta juulis registreerimisvormile ka ajutise kontrolli – kohandame oma pettustevastast süsteemi nii, et pärast mitut e-posti sisestamist lisatakse päringu teinud IP-aadress halli nimekirja ja kasutajale kuvatakse registreerimisel CAPTCHA"
           ]
         },
         "privacy_risk_acknowledged": {
           "status": "disagree",
           "quotes": [
-            "Kuigi sõnumi konkreetne sõnastus võib suurendada kasutajakontode loendamise ründe riski, ei tähenda see, et meil puuduks kehtiv õiguslik alus konto taastamise teenuse osutamiseks.",
-            "Kuna kirjeldatud andmetöötlus tugineb IKÜM-i artikli 6 lõike 1 punkt b, ei ole Teil õigus esitada selle andmetöötluse osas vastuväidet.",
-            "Kuna kirjeldatud andmetöötlus tugineb IKÜM-i artikli 6 lõike 1 punkt b, ei ole Teil õigus taotleda töötlemise piiramist IKÜM-i artikli 18 lõike 1 punkt d alusel.",
-            "Kuna kirjeldatud andmetöötlus tugineb IKÜM-i artikli 6 lõike 1 punkt b, ei ole Teil õigus taotleda töötlemise piiramist IKÜM-i artikli 18 lõike 1 punkt d alusel.",
-            "Kuna kirjeldatud andmetöötlus tugineb IKÜM-i artikli 6 lõike 1 punkt b, ei ole Teil õigus taotleda töötlemise piiramist IKÜM-i artikli 18 lõike 1 punkt b alusel."
+            "Konto loomisel palume kasutajatel esitada andmed Okidoki kasutajakonto loomiseks ja haldamiseks. Selle töötlemise õiguslik alus on lepingu täitmine (IKÜM art 6 lg 1 p b).",
+            "Konto taastamise teenus põhineb kehtival õiguslikul alusel, puudub Teil õigus taotleda selle andmetöötluse piiramist IKÜM-i artikli 18 lõike 1 punkt b alusel."
           ]
         },
         "legal_basis": {
@@ -356,23 +352,21 @@
           ],
           "justification_keywords": [
             "account_security",
-            "fraud_prevention",
-            "customer_support_efficiency",
-            "technical_limitations"
+            "customer_support"
           ],
           "quotes": [
             "Konto loomisel palume kasutajatel esitada andmed Okidoki kasutajakonto loomiseks ja haldamiseks. Selle töötlemise õiguslik alus on lepingu täitmine (IKÜM art 6 lg 1 p b).",
-            "Kuigi sõnumi konkreetne sõnastus võib suurendada kasutajakontode loendamise ründe riski, ei tähenda see, et meil puuduks kehtiv õiguslik alus konto taastamise teenuse osutamiseks.",
-            "Kuna kirjeldatud andmetöötlus tugineb IKÜM-i artikli 6 lõike 1 punktile b, ei ole Teil õigus taotleda töötlemise piiramist IKÜM-i artikli 18 lõike 1 punkt d alusel."
+            "Kuna konto taastamise teenus põhineb kehtival õiguslikul alusel, puudub Teil õigus taotleda selle andmetöötluse piiramist IKÜM-i artikli 18 lõike 1 punkt b alusel."
           ]
         },
         "remediation": {
-          "status": "partially_completed",
+          "status": "partial",
+          "scope": "full",
           "deadline": null,
           "quotes": [
-            "Punktid 1 ja 3 on suhteliselt lihtsad lahendada ning need on kavas lõpetada juulis 2025.",
-            "Punkt 2 nõuab aga registreerimisvoo märkimisväärset ümberkujundamist ja mõjutab mitmeid süsteemidevahelisi sõltuvusi. Meeskonna hinnangul võtab see töö aega kolm kuni kuus kuud ning oleme planeerinud selle 2025. aasta neljandasse kvartalisse.",
-            "Rakendame 2025. aasta juulis registreerimisvormile ka ajutise kontrolli – kohandame oma pettustevastast süsteemi nii, et pärast mitut e-posti sisestamist lisatakse päringu teinud IP-aadress halli nimekirja ja kasutajale kuvatakse registreerimisel CAPTCHA."
+            "Punktid 1 ja 3 on kavas lõpetada juulis 2025.",
+            "Meeskonna hinnangul võtab see töö aega kolm kuni kuus kuud ning oleme planeerinud selle 2025. aasta neljandasse kvartalisse.",
+            "rakendame 2025. aasta juulis registreerimisvormile ka ajutise kontrolli – kohandame oma pettustevastast süsteemi nii, et pärast mitut e-posti sisestamist lisatakse päringu teinud IP-aadress halli nimekirja ja kasutajale kuvatakse registreerimisel CAPTCHA."
           ]
         }
       }

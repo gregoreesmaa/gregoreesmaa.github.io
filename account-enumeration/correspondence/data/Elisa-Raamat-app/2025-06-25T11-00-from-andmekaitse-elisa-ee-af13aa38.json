@@ -19,20 +19,15 @@
   "labels": [
     "from:service-provider",
     "purpose:gdpr",
-    "subpurpose:gdpr-response",
-    "llm:extension-asked"
+    "subpurpose:gdpr-response"
   ],
   "attachments": [],
   "llmAnalysis": {
     "extension": {
-      "asked": true,
-      "justification_keywords": [
-        "time_limit"
-      ],
-      "until": "2024-07-25",
-      "quotes": [
-        "Vastame Teie isikuandmetega seotud päringule esimesel võimalusel, kuid mitte hiljem kui 30 päeva jooksul päringu esitamise kuupäevast."
-      ]
+      "asked": false,
+      "justification_keywords": null,
+      "until": null,
+      "quotes": null
     },
     "vulnerability_acknowledged": {
       "status": "not_mentioned",
@@ -49,6 +44,7 @@
     },
     "remediation": {
       "status": "not_mentioned",
+      "scope": null,
       "deadline": null,
       "quotes": null
     }

@@ -33,13 +33,9 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:extension-asked",
         "llm:justification:user_experience",
-        "llm:justification:industry_standard",
-        "llm:justification:technical_limitations",
-        "llm:justification:business_needs",
-        "llm:justification:balancing_test",
-        "llm:remediation-status:partially_completed",
+        "llm:remediation-status:planned",
+        "llm:remediation-scope:full",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ]
@@ -267,67 +263,49 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:extension-asked",
         "llm:justification:user_experience",
-        "llm:justification:industry_standard",
-        "llm:justification:technical_limitations",
-        "llm:justification:business_needs",
-        "llm:justification:balancing_test",
-        "llm:remediation-status:partially_completed",
+        "llm:remediation-status:planned",
+        "llm:remediation-scope:full",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ],
       "attachments": [],
       "llmAnalysis": {
         "extension": {
-          "asked": true,
-          "justification_keywords": [
-            "holiday_period",
-            "internal_review"
-          ],
-          "until": "end of summer",
-          "quotes": [
-            "praegu on aktiivne puhkuste periood",
-            "lõplike lahenduste leidmine ei ole võimalik teostada koheselt"
-          ]
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
         },
         "vulnerability_acknowledged": {
           "status": "agree",
           "quotes": [
-            "oleme antud teemal juba varem vastanud ning selgitanud, et olukord, kus kolmandal osapoolel võib olla võimalik tuvastada, kas konkreetne e-posti aadress on registreeritud meie süsteemis, on meile teada ning meie tegeleme sellega.",
-            "Mõistame, et kirjeldatud olukord võib tekitada õigustatud tähelepanu"
+            "olukord, kus kolmandal osapoolel võib olla võimalik tuvastada, kas konkreetne e-posti aadress on registreeritud meie süsteemis, on meile teada"
           ]
         },
         "privacy_risk_acknowledged": {
           "status": "agree",
           "quotes": [
-            "Olukord, kus kolmandal osapoolel võib olla võimalik tuvastada, kas konkreetne e-posti aadress on registreeritud meie süsteemis, on meile teada ning meie tegeleme sellega.",
-            "Mõistame, et kirjeldatud olukord võib tekitada õigustatud tähelepanu"
+            "olukord, kus kolmandal osapoolel võib olla võimalik tuvastada, kas konkreetne e-posti aadress on registreeritud meie süsteemis, on meile teada",
+            "meie hinnangul ei kaasne pelgalt teadmisest, et Teie e-posti aadressiga on konto olemas, kohest ja olulist riski teistele isikuandmetele ja nende kaitsele."
           ]
         },
         "legal_basis": {
           "formal_legal_basis": [],
           "justification_keywords": [
-            "user_experience",
-            "industry_standard",
-            "technical_limitations",
-            "business_needs",
-            "balancing_test"
+            "user_experience"
           ],
           "quotes": [
-            "Oleme selles küsimuses konsulteerinud ka Andmekaitse Inspektsiooniga ning meie seisukohad olukorra lahendamise kiiruse osas kattuvad.",
-            "Vastutavana töötlejana meil on kohustus likvideerida puudusi võimalikult kiiresti, kuid arvesse peab võtma mõistlikkuse printsiibi.",
             "Töötame aktiivselt kasutajakogemuse parandamise nimel"
           ]
         },
         "remediation": {
-          "status": "partially_completed",
-          "deadline": "2024-08-31",
+          "status": "planned",
+          "scope": "full",
+          "deadline": "2025-08-31",
           "quotes": [
-            "Oleme selles küsimuses konsulteerinud ka Andmekaitse Inspektsiooniga ning meie seisukohad olukorra lahendamise kiiruse osas kattuvad.",
-            "Oleme juba rakendatud mõned meetmed, mis takistavad masspäringute tegemist.",
-            "kiiremas korras rakendame täiendavaid bruteforce’i vastaseid mehhanisme sh peale mitmeid ebaõnnestunud registreerimise katseid vähendame päringute kiirust.",
-            "olukorrale leitakse püsiv lahendus hiljemalt suve lõpuks"
+            "Vaatamata sellele, kiiremas korras rakendame täiendavaid bruteforce’i vastaseid mehhanisme sh peale mitmeid ebaõnnestunud registreerimise katseid vähendame päringute kiirust.",
+            "Töötame aktiivselt kasutajakogemuse parandamise nimel, kaasates ka UX meeskonda, ning usume, et olukorrale leitakse püsiv lahendus hilisemalt suve lõpuks, kuna praegu on aktiivne puhkuste periood."
           ]
         }
       }

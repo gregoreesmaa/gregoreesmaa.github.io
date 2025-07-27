@@ -28,8 +28,7 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response",
-        "llm:extension-asked"
+        "subpurpose:gdpr-response"
       ],
       [
         "from:service-provider",
@@ -37,10 +36,8 @@
         "subpurpose:gdpr-response",
         "llm:basis:article6-paragraph1-point:f",
         "llm:justification:user_experience",
-        "llm:justification:simplifying_user_journey",
-        "llm:justification:privacy",
-        "llm:justification:rights",
         "llm:remediation-status:planned",
+        "llm:remediation-scope:partial",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ]
@@ -236,22 +233,15 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response",
-        "llm:extension-asked"
+        "subpurpose:gdpr-response"
       ],
       "attachments": [],
       "llmAnalysis": {
         "extension": {
-          "asked": true,
-          "justification_keywords": [
-            "internal_review",
-            "legal_review",
-            "technical_assessment"
-          ],
-          "until": "30 days",
-          "quotes": [
-            "Teie esitatud päringule ammendava vastuse koostamine eeldab mitmete õiguslike ja tehniliste asjaolude ettevõttesisest põhjalikku kaalumist ja seetõttu ei ole meil kahjuks võimalik vastata Teie päringule 30 päeva jooksul."
-          ]
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
         },
         "vulnerability_acknowledged": {
           "status": "not_mentioned",
@@ -268,6 +258,7 @@
         },
         "remediation": {
           "status": "not_mentioned",
+          "scope": null,
           "deadline": null,
           "quotes": null
         }
@@ -297,10 +288,8 @@
         "subpurpose:gdpr-response",
         "llm:basis:article6-paragraph1-point:f",
         "llm:justification:user_experience",
-        "llm:justification:simplifying_user_journey",
-        "llm:justification:privacy",
-        "llm:justification:rights",
         "llm:remediation-status:planned",
+        "llm:remediation-scope:partial",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ],
@@ -329,19 +318,14 @@
           "quotes": null
         },
         "vulnerability_acknowledged": {
-          "status": "agree",
-          "quotes": [
-            "Siiski mõistame ja tunnistame tõsiseid muresid, mida olete esile tõstnud seoses privaatsusega seotud riskidega ja kasutajakontode loendamise ohuga.",
-            "Seega, kuigi õigustatud huvile tuginemine on sellise töötlemise jaoks sobiv õiguslik alus, tunnistame tõsiasja, et füüsiliste isikute huvid ja õigused võivad antud vormis kaaluda üle meie kui vastutava töötlejana õigustatud huvid",
-            "Seetõttu oleme algatanud neljas e-posti kasutamise juhtumis kuvatava sõnumi muutmise protsessi."
-          ]
+          "status": "not_mentioned",
+          "quotes": null
         },
         "privacy_risk_acknowledged": {
           "status": "agree",
           "quotes": [
             "Siiski mõistame ja tunnistame tõsiseid muresid, mida olete esile tõstnud seoses privaatsusega seotud riskidega ja kasutajakontode loendamise ohuga.",
-            "Seega, kuigi õigustatud huvile tuginemine on sellise töötlemise jaoks sobiv õiguslik alus, tunnistame tõsiasja, et füüsiliste isikute huvid ja õigused võivad antud vormis kaaluda üle meie kui vastutava töötlejana õigustatud huvid",
-            "parimaid mõistlikke meetmeid, et tagada isikuandmete kaitse"
+            "Seetõttu oleme algatanud neljas e-posti kasutamise juhtumis kuvatava sõnumi muutmise protsessi. Teeme kõik endast oleneva, et teha muudatusi, mis ei mõjutaks ebaproportsionaalselt kasutaja teekonda, kuid prioritiseeriksid meie kasutajate privaatsust ja õiguste kaitset."
           ]
         },
         "legal_basis": {
@@ -349,20 +333,16 @@
             "f"
           ],
           "justification_keywords": [
-            "user_experience",
-            "simplifying_user_journey",
-            "privacy",
-            "rights"
+            "user_experience"
           ],
           "quotes": [
-            "CVKeskus.ee õigustatud huvi (isikuandmete kaitse üldmääruse artikli 6 lõike 1 punkt f).",
-            "Tööplatvormina püüame pakkuda parimat kasutajakogemust nii tööotsijatele kui ka klientidele, lihtsustades kasutajateekonda oma parimate võimaluste piires.",
-            "Seetõttu oleme algatanud neljas e-posti kasutamise juhtumis kuvatava sõnumi muutmise protsessi.",
-            "prioriteeriksid meie kasutajate privaatsust ja õiguste kaitset"
+            "Teie kirjas esile tõstetud andmetöötluse liikide õiguslik alus on olnud CVKeskus.ee õigustatud huvi (isikuandmete kaitse üldmääruse artikli 6 lõike 1 punkt f).",
+            "Tööplatvormina püüame pakkuda parimat kasutajakogemust nii tööotsijatele kui ka klientidele, lihtsustades kasutajateekonda oma parimate võimaluste piires."
           ]
         },
         "remediation": {
           "status": "planned",
+          "scope": "partial",
           "deadline": null,
           "quotes": [
             "Seetõttu oleme algatanud neljas e-posti kasutamise juhtumis kuvatava sõnumi muutmise protsessi.",

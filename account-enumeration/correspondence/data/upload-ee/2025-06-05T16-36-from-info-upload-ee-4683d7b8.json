@@ -20,7 +20,9 @@
     "from:service-provider",
     "purpose:gdpr",
     "subpurpose:gdpr-response",
-    "llm:remediation-status:partially_completed",
+    "llm:remediation-status:completed",
+    "llm:remediation-scope:partial",
+    "llm:privacy-risk:agree",
     "llm:addresses-gdpr-request"
   ],
   "attachments": [],
@@ -34,12 +36,14 @@
     "vulnerability_acknowledged": {
       "status": "agree",
       "quotes": [
-        "affected ja selected rows näitas debug andmetes ridade arvuga kaudselt ära kasutaja olemasolu"
+        "Hmm, njah, affected ja selected rows näitas debug andmetes ridade arvuga kaudselt ära kasutaja olemasolu."
       ]
     },
     "privacy_risk_acknowledged": {
-      "status": "not_mentioned",
-      "quotes": null
+      "status": "agree",
+      "quotes": [
+        "Hmm, njah, affected ja selected rows näitas debug andmetes ridade arvuga kaudselt ära kasutaja olemasolu."
+      ]
     },
     "legal_basis": {
       "formal_legal_basis": [],
@@ -47,10 +51,12 @@
       "quotes": null
     },
     "remediation": {
-      "status": "partially_completed",
+      "status": "completed",
+      "scope": "partial",
       "deadline": null,
       "quotes": [
-        "Need kaks muutujat regamise ja parooli taastamise lehel ning login lehel on nüüd peidus (ainult siis kui päriselt submit teha, tavalisel GET päringul mis ainult vormi kuvab on jätkuvalt näha)."
+        "\"ründatud ja selected rows näitas debug andmetes ridade arvuga kaudselt ära kasutaja olemasolu\"",
+        "\"kaks muutujat regamise ja parooli taastamise lehel ning login lehel on nüüd peidus\""
       ]
     }
   }

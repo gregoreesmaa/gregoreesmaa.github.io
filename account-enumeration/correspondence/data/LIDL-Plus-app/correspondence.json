@@ -55,16 +55,17 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:justification:customer_support",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
+        "llm:justification:account_security",
+        "llm:justification:technical_limitation",
         "llm:justification:privacy",
-        "llm:justification:data_protection",
-        "llm:justification:legal_requirements",
-        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -474,7 +475,9 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:justification:customer_support",
+        "llm:addresses-gdpr-request"
       ],
       "attachments": [],
       "llmAnalysis": {
@@ -494,11 +497,16 @@
         },
         "legal_basis": {
           "formal_legal_basis": [],
-          "justification_keywords": null,
-          "quotes": null
+          "justification_keywords": [
+            "customer_support"
+          ],
+          "quotes": [
+            "Vastuse koostamiseks teie taotlusele töötleme teie isikuandmeid."
+          ]
         },
         "remediation": {
           "status": "not_mentioned",
+          "scope": null,
           "deadline": null,
           "quotes": null
         }
@@ -526,10 +534,9 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
+        "llm:justification:account_security",
+        "llm:justification:technical_limitation",
         "llm:justification:privacy",
-        "llm:justification:data_protection",
-        "llm:justification:legal_requirements",
-        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       "attachments": [],
@@ -541,34 +548,28 @@
           "quotes": null
         },
         "vulnerability_acknowledged": {
-          "status": "disagree",
-          "quotes": [
-            "The design of our processes, such as the registration process, does not constitute unlawful disclosure or data processing."
-          ]
+          "status": "not_mentioned",
+          "quotes": null
         },
         "privacy_risk_acknowledged": {
-          "status": "disagree",
-          "quotes": [
-            "The precautions taken are regularly adapted to the state of the art.",
-            "the design of our processes, such as the registration process, does not constitute unlawful disclosure or data processing."
-          ]
+          "status": "not_mentioned",
+          "quotes": null
         },
         "legal_basis": {
           "formal_legal_basis": [],
           "justification_keywords": [
-            "privacy",
-            "data_protection",
-            "legal_requirements"
+            "account_security",
+            "technical_limitation",
+            "privacy"
           ],
           "quotes": [
             "The security of customer data is an important concern and is guaranteed by compliance with European data protection standards.",
-            "The precautions taken are regularly adapted to the state of the art.",
-            "Lidl Eesti OÜ võtab teie privaatsust ja isikuandmete kaitset väga tõsiselt.",
-            "Vastuse koostamiseks teie taotlusele töötleme teie isikuandmeid."
+            "Lidl Eesti OÜ võtab teie privaatsust ja isikuandmete kaitset väga tõsiselt."
           ]
         },
         "remediation": {
           "status": "not_mentioned",
+          "scope": null,
           "deadline": null,
           "quotes": null
         }

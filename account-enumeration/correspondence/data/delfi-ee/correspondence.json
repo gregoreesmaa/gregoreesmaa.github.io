@@ -29,7 +29,6 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:extension-asked",
         "automated-reply"
       ],
       [
@@ -45,9 +44,7 @@
         "llm:basis:article6-paragraph1-point:f",
         "llm:justification:preventing_duplicates",
         "llm:justification:account_security",
-        "llm:justification:industry_standard",
-        "llm:justification:technical_limitations",
-        "llm:remediation-status:planned",
+        "llm:remediation-status:refused",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
@@ -226,21 +223,15 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response",
-        "llm:extension-asked"
+        "subpurpose:gdpr-response"
       ],
       "attachments": [],
       "llmAnalysis": {
         "extension": {
-          "asked": true,
-          "justification_keywords": [
-            "volume_of_requests",
-            "complex_procedure"
-          ],
+          "asked": false,
+          "justification_keywords": null,
           "until": null,
-          "quotes": [
-            "Vastavalt isikuandmete kaitse üldmääruse artiklile 12 (3) on isikuandmetega seotud avaldustele vastamise tähtaeg 1 kuu, mida on võimalik pikendada veel 2 kuu võrra juhul, kui pöördumisi on palju või menetlus mahukas."
-          ]
+          "quotes": null
         },
         "vulnerability_acknowledged": {
           "status": "not_mentioned",
@@ -253,10 +244,13 @@
         "legal_basis": {
           "formal_legal_basis": [],
           "justification_keywords": null,
-          "quotes": null
+          "quotes": [
+            "Vastavalt isikuandmete kaitse üldmääruse artiklile 12 (3)"
+          ]
         },
         "remediation": {
           "status": "not_mentioned",
+          "scope": null,
           "deadline": null,
           "quotes": null
         }
@@ -327,9 +321,7 @@
         "llm:basis:article6-paragraph1-point:f",
         "llm:justification:preventing_duplicates",
         "llm:justification:account_security",
-        "llm:justification:industry_standard",
-        "llm:justification:technical_limitations",
-        "llm:remediation-status:planned",
+        "llm:remediation-status:refused",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
@@ -360,19 +352,15 @@
         "vulnerability_acknowledged": {
           "status": "disagree",
           "quotes": [
-            "Teie kirjeldatud andmetöötlus on hüpoteetiline.",
-            "Kirjeldatud tegevuse tulemusena saab isik teada, et sellise meiliaadressiga konto on juba olemas.",
-            "Kirjeldatud andmetöötlus jääb andmekaitseõiguse mõttes halli alasse, kus puudub lõplik selgus.",
-            "Kirjeldatud andmetöötlus on seaduslik"
+            "Kirjeldatud tegevus jääb andmekaitseõiguse mõttes halli alasse, kus puudub lõplik selgus.",
+            "Oleme seisukohal, et kirjeldatud andmetöötlus on seaduslik"
           ]
         },
         "privacy_risk_acknowledged": {
           "status": "disagree",
           "quotes": [
-            "Teie kirjeldatus andmetöötlus jääb andmekaitseõiguse mõttes halli alasse, kus puudub lõplik selgus.",
-            "Teenuse pakkuja ei saa lubada sama meiliaadressiga registreeritud topeltkontosid.",
-            "Me ei saa arvestada ka IKÜM art 21 alusel esitatud vastuväidet, sest leiame, et Teie õigused ei kaalu üle vastutava töötleja õigustatud huvi.",
-            "Oleme seisukohal, et kirjeldatud andmetöötlus on seaduslik ja Teie soovitud piirangut (IKÜM art 18) me ei rakenda."
+            "Kirjastus ei väljasta kellelegi Teie meiliaadressi.",
+            "kui Te meie seisukohtadega ei nõustu, on Teil loomulikult õigus pöörduda Andmekaitse Inspektsiooni poole."
           ]
         },
         "legal_basis": {
@@ -381,24 +369,19 @@
           ],
           "justification_keywords": [
             "preventing_duplicates",
-            "account_security",
-            "industry_standard",
-            "technical_limitations"
+            "account_security"
           ],
           "quotes": [
-            "Vastutava töötleja huvi seisneb topeltkontode loomise võimaluse välistamises.",
-            "Kliendi huvi on samuti, et keegi teine ei saaks tema meiliaadressiga luua uut kontot.",
-            "Vastutava töötleja huvi seisneb topeltkontode loomise võimaluse välistamises.",
-            "Teenuse pakkuja ei saa lubada sama meiliaadressiga registreeritud topeltkontosid.",
-            "selline andmetöötlus kaitseb ka Teid võimalike pahatahtlike libakontode loomise eest kirjastuse infosüsteemides"
+            "\"Teavitus konto olemasolust tugineb andmekaitseöiguslikult vastutava töötleja ja tema klientide öigustatud huvile (IKÜm art 18 lg 1 f). Vastutava töötleja huvi seisneb topeltkontode loomise vöimaluse välistamises. Kliendi huvi on samuti, et keegi teine ei saaks tema meiliaadressiga luua uut kontot.\""
           ]
         },
         "remediation": {
-          "status": "planned",
+          "status": "refused",
+          "scope": null,
           "deadline": null,
           "quotes": [
-            "Teenuse pakkuja ei saa lubada sama meiliaadressiga registreeritud topeltkontosid.",
-            "Kirjeldatud tegevus jääb andmekaitseõiguslikult halli alasse, kus puudub lõplik selgus."
+            "\"me ei rakenda\"",
+            "\"Me ei saa arvestada\""
           ]
         }
       }

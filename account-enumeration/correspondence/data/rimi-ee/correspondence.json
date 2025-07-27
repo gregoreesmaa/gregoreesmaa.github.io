@@ -45,6 +45,8 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
+        "llm:remediation-status:planned",
+        "llm:addresses-gdpr-request",
         "automated-reply"
       ],
       [
@@ -52,10 +54,7 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:security",
-        "llm:justification:balancing_test",
-        "llm:justification:industry_standard",
-        "llm:justification:technical_limitations",
+        "llm:justification:account_security",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
@@ -338,7 +337,9 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:remediation-status:planned",
+        "llm:addresses-gdpr-request"
       ],
       "attachments": [],
       "llmAnalysis": {
@@ -359,12 +360,19 @@
         "legal_basis": {
           "formal_legal_basis": [],
           "justification_keywords": null,
-          "quotes": null
+          "quotes": [
+            "Art.12 IKÜM",
+            "Art.12 GDPR",
+            "BDAR 12 str."
+          ]
         },
         "remediation": {
-          "status": "not_mentioned",
-          "deadline": null,
-          "quotes": null
+          "status": "planned",
+          "scope": null,
+          "deadline": "2025-08-27",
+          "quotes": [
+            "We will respond to a request related to processing of personal data as soon as possible and no later than within one month."
+          ]
         }
       }
     },
@@ -391,10 +399,7 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:security",
-        "llm:justification:balancing_test",
-        "llm:justification:industry_standard",
-        "llm:justification:technical_limitations",
+        "llm:justification:account_security",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
@@ -409,16 +414,14 @@
         "vulnerability_acknowledged": {
           "status": "agree",
           "quotes": [
-            "We would like to indicate that enumeration vulnerability is a potential weakness in a system.",
-            "It does not, in itself, involve the transmission, access, or disclosure of personal data unless exploited.",
-            "The mere confirmation of existence of a data point (e.g. a registered email) may not meet the threshold of disclosure unless it is accompanied by additional identifiable information or is used in a context that leads to identification of a data subject."
+            "We would like to indicate that enumeration vulnerability is a potential weakness in a system."
           ]
         },
         "privacy_risk_acknowledged": {
           "status": "disagree",
           "quotes": [
-            "It does not, in itself, involve the transmission, access, or disclosure of personal data unless exploited.",
-            "The mere confirmation of existence of a data point (e.g. a registered email) may not meet the threshold of disclosure unless it is accompanied by additional identifiable information or is used in a context that leads to identification of a data subject."
+            "\"It does not, in itself, involve the transmission, access, or disclosure of personal data unless exploited.\"",
+            "\"The mere confirmation of existence of a data point (e.g. a registered email) may not meet the threshold of disclosure unless it is accompanied by additional identifiable information or is used in a context that leads to identification of a data subject.\""
           ]
         },
         "legal_basis": {
@@ -426,20 +429,15 @@
             "f"
           ],
           "justification_keywords": [
-            "security",
-            "balancing_test",
-            "industry_standard",
-            "technical_limitations"
+            "account_security"
           ],
           "quotes": [
-            "\"We process your personal data based on our legitimate interest to ensure IIT environment security.\"",
-            "\"For mentioned processing, we have conducted a legitimate interest balancing test and concluded that the legitimate interests pursued are not overridden by the rights and freedoms of the data subjects.\"",
-            "\"The method used to exploit this vulnerability is beyond standard practice and required specialized knowledge and skills that most individuals outside the relevant field would not typically possess.\"",
-            "\"We follow information security practices aligned with industry standards.\""
+            "We process your personal data based on our legitimate interest to ensure IIT environment security."
           ]
         },
         "remediation": {
           "status": "not_mentioned",
+          "scope": null,
           "deadline": null,
           "quotes": null
         }

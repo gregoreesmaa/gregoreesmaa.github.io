@@ -22,12 +22,11 @@
     "subpurpose:gdpr-response",
     "llm:basis:article6-paragraph1-point:b",
     "llm:basis:article6-paragraph1-point:f",
-    "llm:justification:system_security",
-    "llm:justification:preventing_duplicates",
     "llm:justification:account_security",
-    "llm:justification:balancing_test",
-    "llm:justification:technical_limitations",
-    "llm:remediation-status:partially_completed",
+    "llm:justification:preventing_duplicates",
+    "llm:justification:technical_limitation",
+    "llm:remediation-status:planned",
+    "llm:remediation-scope:partial",
     "llm:privacy-risk:disagree",
     "llm:addresses-gdpr-request"
   ],
@@ -40,17 +39,15 @@
       "quotes": null
     },
     "vulnerability_acknowledged": {
-      "status": "disagree",
-      "quotes": [
-        "Kuvatud teated (nt „See e-posti aadress on juba registreeritud”) ilmuvad ainult vormi täitjale ning ei sisalda mingit isiklikku teavet ega seosta aadressi konkreetse isikuga.",
-        "Isikuandmete tegelikku avaldamist ei toimu."
-      ]
+      "status": "not_mentioned",
+      "quotes": null
     },
     "privacy_risk_acknowledged": {
       "status": "disagree",
       "quotes": [
-        "Kuvatud teated (nt „See e-posti aadress on juba registreeritud”) ilmuvad ainult vormi täitjale ning ei sisalda mingit isiklikku teavet ega seosta aadressi konkreetse isikuga. Isikuandmete tegelikku avaldamist ei toimu.",
-        "Ühtegi teie isikuandmetest ei ole kolmandatele isikutele avaldatud."
+        "Kinnitame, et teie isikuandmeid ei ole tegelikult kasutatud viisil, mis viitaks tegelikule töötlemise riskile või kahjule.",
+        "Ühtegi teie isikuandmetest ei ole kolmandatele isikutele avaldatud.",
+        "Kinnitan, et foorum järgib GDPR-i sätteid ka mittetulundusliku ja eraalgatusliku projektina."
       ]
     },
     "legal_basis": {
@@ -59,25 +56,22 @@
         "f"
       ],
       "justification_keywords": [
-        "system_security",
-        "preventing_duplicates",
         "account_security",
-        "balancing_test",
-        "technical_limitations"
+        "preventing_duplicates",
+        "technical_limitation"
       ],
       "quotes": [
-        "See on vajalik selleks, et:vältida duplikaat- või konflikti tekitavaid kontosid;säilitada kontosüsteemi korrektsus ja turvalisus;kaitsta kasutajaid volitamata juurdepääsu eest nende kontodele.",
-        "Töötlemise aluseks on:GDPR artikkel 6 lõige 1 punkt b – lepingu täitmise vajadus (nt registreerimine, parooli taastamine);Artikkel 6 lõige 1 punkt f – õigustatud huvi süsteemi toimimise ja turvalisuse tagamiseks.",
-        "Arvestades teie vastuväidet, kinnitame, et praegune valideerimismehhanism teenib õigustatud huvi ning ei kaalu üle teie õigusi GDPR-i mõistes."
+        "GDPR artikkel 6 lõige 1 punkt b – lepingu täitmise vajadus (nt registreerimine, parooli taastamine);",
+        "Artikkel 6 lõige 1 punkt f – õigustatud huvi süsteemi toimimise ja turvalisuse tagamiseks."
       ]
     },
     "remediation": {
-      "status": "partially_completed",
+      "status": "planned",
+      "scope": "partial",
       "deadline": null,
       "quotes": [
-        "Sellegipoolest:hindame võimalusi kuvada neutraalseid teateid (nt „Kui see e-posti aadress eksisteerib…”);rakendame lisapiiranguid, mis vähendavad väärkasutuse ja automaatsete päringute riski.",
         "Arvestades teie vastuväidet, kinnitame, et praegune valideerimismehhanism teenib õigustatud huvi ning ei kaalu üle teie õigusi GDPR-i mõistes. Samas uurime tehnilisi muudatusi, mis võivad pakkuda paremat tasakaalu turvalisuse ja privaatsuse vahel.",
-        "Viime läbi tehnilise ülevaatuse vormide toimimise osas"
+        "hindame võimalusi kuvada neutraalseid teateid (nt „Kui see e-posti aadress eksisteerib…”);rakendame lisapiiranguid, mis vähendavad väärkasutuse ja automaatsete päringute riski."
       ]
     }
   }

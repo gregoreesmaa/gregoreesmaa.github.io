@@ -39,7 +39,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:f",
+        "llm:extension-asked",
         "llm:remediation-status:planned",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request",
@@ -48,18 +48,18 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response",
-        "llm:extension-asked"
+        "subpurpose:gdpr-response"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:account_support_functionality",
-        "llm:justification:preventing_duplicate_account_creation",
-        "llm:justification:balancing_test",
+        "llm:justification:account_security",
+        "llm:justification:preventing_duplicates",
+        "llm:justification:customer_support",
         "llm:remediation-status:planned",
+        "llm:remediation-scope:full",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ]
@@ -301,7 +301,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:f",
+        "llm:extension-asked",
         "llm:remediation-status:planned",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
@@ -309,10 +309,14 @@
       "attachments": [],
       "llmAnalysis": {
         "extension": {
-          "asked": false,
-          "justification_keywords": null,
-          "until": null,
-          "quotes": null
+          "asked": true,
+          "justification_keywords": [
+            "complex_request"
+          ],
+          "until": "2025-08-27",
+          "quotes": [
+            "Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest)."
+          ]
         },
         "vulnerability_acknowledged": {
           "status": "not_mentioned",
@@ -321,26 +325,20 @@
         "privacy_risk_acknowledged": {
           "status": "agree",
           "quotes": [
-            "regarding what I believe to be the unlawful processing of my personal data",
-            "potentially leading to its disclosure to unauthorised parties without a clear legal basis"
+            "under the General Data Protection Regulation (GDPR) regarding what I believe to be the unlawful processing of my personal data by ekool.eu, potentially leading to its disclosure to unauthorised parties without a clear legal basis"
           ]
         },
         "legal_basis": {
-          "formal_legal_basis": [
-            "f"
-          ],
+          "formal_legal_basis": [],
           "justification_keywords": null,
-          "quotes": [
-            "under the General Data Protection Regulation (GDPR)",
-            "what I believe to be the unlawful processing of my personal data"
-          ]
+          "quotes": null
         },
         "remediation": {
           "status": "planned",
-          "deadline": "1 month",
+          "scope": null,
+          "deadline": "2025-08-27",
           "quotes": [
-            "Palun teavitage taotluse kättesaamisest.",
-            "Palun teavitage taotluse kättesaamisest."
+            "Palun selle läbivaatust ja vastavate meetmete võtmist ajaraamis, mis on sätestatud IKÜM artiklis 12(3) (üks kuu taotluse saamisest)."
           ]
         }
       }
@@ -366,20 +364,15 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response",
-        "llm:extension-asked"
+        "subpurpose:gdpr-response"
       ],
       "attachments": [],
       "llmAnalysis": {
         "extension": {
-          "asked": true,
-          "justification_keywords": [
-            "holiday_period"
-          ],
+          "asked": false,
+          "justification_keywords": null,
           "until": null,
-          "quotes": [
-            "Tegeleme teie kirjaga koheselt, kui vastutav töötaja tuleb puhkuselt."
-          ]
+          "quotes": null
         },
         "vulnerability_acknowledged": {
           "status": "not_mentioned",
@@ -396,6 +389,7 @@
         },
         "remediation": {
           "status": "not_mentioned",
+          "scope": null,
           "deadline": null,
           "quotes": null
         }
@@ -424,10 +418,11 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:account_support_functionality",
-        "llm:justification:preventing_duplicate_account_creation",
-        "llm:justification:balancing_test",
+        "llm:justification:account_security",
+        "llm:justification:preventing_duplicates",
+        "llm:justification:customer_support",
         "llm:remediation-status:planned",
+        "llm:remediation-scope:full",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ],
@@ -442,16 +437,17 @@
         "vulnerability_acknowledged": {
           "status": "agree",
           "quotes": [
-            "While this does not expose full user profiles or sensitive information, the fact of account existence can be considered personal data under GDPR.",
-            "Your objection under Article 21 has been accepted; we are not continuing the processing in a manner that could reveal your account status."
+            "However, we do acknowledge that response messages and UI behavior may differ depending on whether an email is already registered.",
+            "Once completed, our system will no longer reveal whether a specific email address is registered."
           ]
         },
         "privacy_risk_acknowledged": {
           "status": "agree",
           "quotes": [
             "While this does not expose full user profiles or sensitive information, the fact of account existence can be considered personal data under GDPR.",
-            "based on your objection and our internal reassessment, we agree that this interest does not outweigh your right to data protection and privacy in this context.",
-            "Your objection under Article 21 has been accepted; we are not continuing the processing in a manner that could reveal your account status."
+            "Therefore, we are adjusting our implementation accordingly.",
+            "we agree that this interest does not outweigh your right to data protection and privacy in this context.",
+            "we are not continuing the processing in a manner that could reveal your account status."
           ]
         },
         "legal_basis": {
@@ -459,18 +455,18 @@
             "f"
           ],
           "justification_keywords": [
-            "account_support_functionality",
-            "preventing_duplicate_account_creation",
-            "balancing_test"
+            "account_security",
+            "preventing_duplicates",
+            "customer_support"
           ],
           "quotes": [
-            "“legitimate interest (GDPR Art. 6(1)(f)) in providing account support functionality and preventing duplicate account creation\"",
-            "“balancing_test”"
+            "Currently, the processing in question was conducted under our legitimate interest (GDPR Art. 6(1)(f)) in providing account support functionality and preventing duplicate account creation."
           ]
         },
         "remediation": {
           "status": "planned",
-          "deadline": null,
+          "scope": "full",
+          "deadline": "2025-09-27",
           "quotes": [
             "Unifying frontend messages across all relevant forms so that no distinction is visible to the end user based on account existence.",
             "Generalizing backend responses, including HTTP status codes, headers, and response timing, to avoid indirect signals.",

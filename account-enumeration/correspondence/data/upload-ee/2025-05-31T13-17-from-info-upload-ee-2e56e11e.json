@@ -19,9 +19,7 @@
   "labels": [
     "from:service-provider",
     "purpose:gdpr",
-    "subpurpose:gdpr-response",
-    "llm:remediation-status:partially_completed",
-    "llm:addresses-gdpr-request"
+    "subpurpose:gdpr-response"
   ],
   "attachments": [],
   "llmAnalysis": {
@@ -45,11 +43,10 @@
       "quotes": null
     },
     "remediation": {
-      "status": "partially_completed",
+      "status": "not_mentioned",
+      "scope": null,
       "deadline": null,
-      "quotes": [
-        "muutsime errori tekstid üldisemaks"
-      ]
+      "quotes": null
     }
   }
 }

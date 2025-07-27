@@ -36,10 +36,8 @@
       "quotes": null
     },
     "vulnerability_acknowledged": {
-      "status": "agree",
-      "quotes": [
-        "We have received your email and have already requested our internal team to implement the change"
-      ]
+      "status": "not_mentioned",
+      "quotes": null
     },
     "privacy_risk_acknowledged": {
       "status": "not_mentioned",
@@ -52,10 +50,11 @@
     },
     "remediation": {
       "status": "planned",
+      "scope": null,
       "deadline": null,
       "quotes": [
-        "We have received your email and have already requested our internal team to implement the change we suggested in our previous letter, which you approved.",
-        "As soon as the change is made, I will let you know."
+        "\"We have already requested our internal team to implement the change\"",
+        "\"As soon as the change is made, I will let you know\""
       ]
     }
   }

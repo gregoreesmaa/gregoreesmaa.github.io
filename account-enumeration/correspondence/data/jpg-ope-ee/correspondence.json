@@ -28,15 +28,17 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:privacy-risk:agree"
+        "llm:remediation-status:planned",
+        "llm:privacy-risk:agree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:justification:technical_limitations",
-        "llm:remediation-status:partially_completed",
-        "llm:privacy-risk:disagree",
+        "llm:justification:technical_limitation",
+        "llm:remediation-status:completed",
+        "llm:remediation-scope:partial",
         "llm:addresses-gdpr-request"
       ],
       [
@@ -227,7 +229,9 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:privacy-risk:agree"
+        "llm:remediation-status:planned",
+        "llm:privacy-risk:agree",
+        "llm:addresses-gdpr-request"
       ],
       "attachments": [],
       "llmAnalysis": {
@@ -241,7 +245,7 @@
           "status": "agree",
           "quotes": [
             "Teie mure turvanõrkuse osas on täiesti arusaadav ja meie hinnangul ka sisuliselt põhjendatud.",
-            "mille osas Te viitasite võimaliku turvanõrkuse (account enumeration) olemasolule"
+            "Kuna me ei ole selles kontekstis andmete vastutav töötleja, edastasime Teie taotluse ja mure teenusepakkujale siin samas keskkonnas, kes vastutab süsteemi toimimise, andmetöötluse ja isikuandmete kaitse eest vastavalt IKÜM nõuetele."
           ]
         },
         "privacy_risk_acknowledged": {
@@ -256,9 +260,13 @@
           "quotes": null
         },
         "remediation": {
-          "status": "not_mentioned",
+          "status": "planned",
+          "scope": null,
           "deadline": null,
-          "quotes": null
+          "quotes": [
+            "Meie asutusel puudub võimalus mõjutada või muuta sisselogimisvormi käitumist",
+            "edastasime Teie taotluse ja mure teenusepakkujale"
+          ]
         }
       }
     },
@@ -284,9 +292,9 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:justification:technical_limitations",
-        "llm:remediation-status:partially_completed",
-        "llm:privacy-risk:disagree",
+        "llm:justification:technical_limitation",
+        "llm:remediation-status:completed",
+        "llm:remediation-scope:partial",
         "llm:addresses-gdpr-request"
       ],
       "attachments": [],
@@ -298,31 +306,31 @@
           "quotes": null
         },
         "vulnerability_acknowledged": {
-          "status": "disagree",
+          "status": "agree",
           "quotes": [
-            "Suuremas plaanis on päringu sisu/etteheited oma sisulise poole pealt üsna arusaamatud."
+            "\"veebiteenuse jpg.ope.ee\" sisselogimislehel pole enam võimalik Gregor Eesmaa kasutajakonto olemasolu tuvastamine."
           ]
         },
         "privacy_risk_acknowledged": {
-          "status": "disagree",
-          "quotes": [
-            "Suuremas plaanis on päringu sisu/etteheited oma sisulise poole pealt üsna arusaamatud."
-          ]
+          "status": "not_mentioned",
+          "quotes": null
         },
         "legal_basis": {
           "formal_legal_basis": [],
           "justification_keywords": [
-            "technical_limitations"
+            "technical_limitation"
           ],
           "quotes": [
-            "Re: IKÜM taotlus seoses isikuandmete töötlemisega / GDPR Request Regarding Processing of Personal Data"
+            "\"veebiteenuse jpg.ope.ee\" sisselogimislehel pole enam võimalik Gregor Eesmaa kasutajakonto olemasolu tuvastamine"
           ]
         },
         "remediation": {
-          "status": "partially_completed",
+          "status": "completed",
+          "scope": "partial",
           "deadline": null,
           "quotes": [
-            "veebiteenuse jpg.ope.ee\" sisselogimislehel pole enam võimalik Gregor Eesmaa kasutajakonto olemasolu tuvastamine"
+            "\"veebiteenuse jpg.ope.ee\" sisselogimislehel pole enam võimalik Gregor Eesmaa kasutajakonto olemasolu tuvastamine",
+            "\"Staatuse muudatus: uus → korras\""
           ]
         }
       }

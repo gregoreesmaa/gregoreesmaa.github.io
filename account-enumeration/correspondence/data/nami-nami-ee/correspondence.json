@@ -273,8 +273,10 @@
           "quotes": null
         },
         "vulnerability_acknowledged": {
-          "status": "not_mentioned",
-          "quotes": null
+          "status": "agree",
+          "quotes": [
+            "\"see murekoht lahendatud olema\""
+          ]
         },
         "privacy_risk_acknowledged": {
           "status": "not_mentioned",
@@ -287,9 +289,10 @@
         },
         "remediation": {
           "status": "completed",
+          "scope": null,
           "deadline": null,
           "quotes": [
-            "Hea Gregor Eesmaa,nüüd peaks see murekoht lahendatud olema."
+            "\"see murekoht lahendatud olema\""
           ]
         }
       }

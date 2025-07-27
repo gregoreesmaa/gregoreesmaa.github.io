@@ -41,7 +41,6 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:extension-asked",
         "llm:remediation-status:planned",
         "llm:addresses-gdpr-request"
       ],
@@ -51,10 +50,7 @@
         "subpurpose:gdpr-response",
         "llm:basis:article6-paragraph1-point:f",
         "llm:justification:user_experience",
-        "llm:justification:customer_support_efficiency",
-        "llm:justification:technical_limitations",
-        "llm:justification:business_needs",
-        "llm:privacy-risk:agree",
+        "llm:justification:customer_support",
         "llm:addresses-gdpr-request"
       ],
       [
@@ -309,21 +305,16 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:extension-asked",
         "llm:remediation-status:planned",
         "llm:addresses-gdpr-request"
       ],
       "attachments": [],
       "llmAnalysis": {
         "extension": {
-          "asked": true,
-          "justification_keywords": [
-            "technical_assessment"
-          ],
-          "until": "2 weeks",
-          "quotes": [
-            "Parandame selle 2 nädala jooksul ära."
-          ]
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
         },
         "vulnerability_acknowledged": {
           "status": "agree",
@@ -342,7 +333,8 @@
         },
         "remediation": {
           "status": "planned",
-          "deadline": "2 weeks",
+          "scope": null,
+          "deadline": "2025-08-10",
           "quotes": [
             "Parandame selle 2 nädala jooksul ära."
           ]
@@ -373,10 +365,7 @@
         "subpurpose:gdpr-response",
         "llm:basis:article6-paragraph1-point:f",
         "llm:justification:user_experience",
-        "llm:justification:customer_support_efficiency",
-        "llm:justification:technical_limitations",
-        "llm:justification:business_needs",
-        "llm:privacy-risk:agree",
+        "llm:justification:customer_support",
         "llm:addresses-gdpr-request"
       ],
       "attachments": [],
@@ -388,18 +377,12 @@
           "quotes": null
         },
         "vulnerability_acknowledged": {
-          "status": "agree",
-          "quotes": [
-            "Käitumine, mille puhul süsteem võib anda märku, kas konkreetse e-posti aadressiga konto eksisteerib, on vajalik selleks, et pakkuda kasutajatele selget ja arusaadavat tagasisidet näiteks parooli taastamise, konto registreerimise või e-posti muutmise protsessides."
-          ]
+          "status": "not_mentioned",
+          "quotes": null
         },
         "privacy_risk_acknowledged": {
-          "status": "agree",
-          "quotes": [
-            "Meie õigustatud huvi on tagada sujuv ja tõhus kasutajakogemus",
-            "Täiesti üldsõnaline või ebaselge tagasiside võib põhjustada segadust, suurendada klienditoe koormust ning vähendada teenuse kvaliteeti",
-            "tagades samal ajal isikuandmete kaitse vastavalt kehtivatele nõuetele"
-          ]
+          "status": "not_mentioned",
+          "quotes": null
         },
         "legal_basis": {
           "formal_legal_basis": [
@@ -407,18 +390,15 @@
           ],
           "justification_keywords": [
             "user_experience",
-            "customer_support_efficiency",
-            "technical_limitations",
-            "business_needs"
+            "customer_support"
           ],
           "quotes": [
-            "\"Isikuandmete töötlemine on vajalik vastutava töötleja või kolmanda isiku õigustatud huvi korral...\"",
-            "\"Meie õigustatud huvi on tagada sujuv ja tõhus kasutajakogemus...\"",
-            "\"Täiesti üldsõnaline või ebaselge tagasiside võib põhjustada segadust, suurendada klienditoe koormust ning vähendada teenuse kvaliteeti.\""
+            "Meie õigustatud huvi on tagada sujuv ja tõhus kasutajakogemus, võimaldades kasutajatel intuitiivselt oma kontoga seotud toiminguid teha."
           ]
         },
         "remediation": {
           "status": "not_mentioned",
+          "scope": null,
           "deadline": null,
           "quotes": null
         }

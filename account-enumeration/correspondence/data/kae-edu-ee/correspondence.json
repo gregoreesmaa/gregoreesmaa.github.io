@@ -29,8 +29,8 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:justification:technical_limitations",
         "llm:remediation-status:refused",
+        "llm:remediation-scope:partial",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ],
@@ -38,10 +38,9 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:security",
-        "llm:justification:automated_attacks",
-        "llm:remediation-status:partially_completed",
+        "llm:justification:technical_limitation",
+        "llm:remediation-status:partial",
+        "llm:remediation-scope:full",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ],
@@ -243,8 +242,8 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:justification:technical_limitations",
         "llm:remediation-status:refused",
+        "llm:remediation-scope:partial",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ],
@@ -259,26 +258,23 @@
         "vulnerability_acknowledged": {
           "status": "agree",
           "quotes": [
-            "Tunnistan, et on tõesti võimalik registreerimisvormi selliselt kuritarvitada"
+            "Tunnistan, et on tõesti võimalik registreerimisvormi selliselt kuritarvitada."
           ]
         },
         "privacy_risk_acknowledged": {
           "status": "agree",
           "quotes": [
-            "Tunnistan, et on tõesti võimalik registreerimisvormi selliselt kuritarvitada"
+            "Tunnistan, et on tõesti võimalik registreerimisvormi selliselt kuritarvitada."
           ]
         },
         "legal_basis": {
           "formal_legal_basis": [],
-          "justification_keywords": [
-            "technical_limitations"
-          ],
-          "quotes": [
-            "Kahjuks aga ei ole tegu aktiivselt arendatava tarkvaraga ja pakutud lahendust me teostada ei saa."
-          ]
+          "justification_keywords": null,
+          "quotes": null
         },
         "remediation": {
           "status": "refused",
+          "scope": "partial",
           "deadline": null,
           "quotes": [
             "Kahjuks aga ei ole tegu aktiivselt arendatava tarkvaraga ja pakutud lahendust me teostada ei saa.",
@@ -314,10 +310,9 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:security",
-        "llm:justification:automated_attacks",
-        "llm:remediation-status:partially_completed",
+        "llm:justification:technical_limitation",
+        "llm:remediation-status:partial",
+        "llm:remediation-scope:full",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ],
@@ -354,41 +349,38 @@
         "vulnerability_acknowledged": {
           "status": "agree",
           "quotes": [
-            "As of today, this vulnerability appears to remain unresolved on the account registration form",
-            "The account registration form is susceptible to account enumeration attacks",
-            "The account registration form is susceptible to account enumeration attacks"
+            "The account registration form is susceptible to account enumeration attacks.",
+            "As of today, this vulnerability appears to remain unresolved on the account registration form"
           ]
         },
         "privacy_risk_acknowledged": {
           "status": "agree",
           "quotes": [
             "My personal data – specifically, the fact that I hold an account with your online service – is being processed in the previously mentioned forms in a manner that allows its disclosure to any unauthorised party.",
-            "I am not aware of any legal basis under GDPR Article 6 that would allow such processing, nor have I provided explicit consent for this specific form of processing and potential disclosure.",
-            "Any disclosure of personal data to third parties without a legal basis constitutes a data breach",
-            "The vulnerabilities found are described in more detail in subsections below.",
-            "My interests, fundamental rights and freedoms to data protection and privacy override such interests in this context."
+            "The account registration form is susceptible to account enumeration attacks.",
+            "The fact, whether it is associated to an account, is also considered personal data.",
+            "Any disclosure of personal data to third parties without a legal basis constitutes a data breach."
           ]
         },
         "legal_basis": {
-          "formal_legal_basis": [
-            "f"
-          ],
+          "formal_legal_basis": [],
           "justification_keywords": [
-            "security",
-            "automated_attacks"
+            "technical_limitation"
           ],
           "quotes": [
-            "\"legitimate interests\"",
-            "\"security\"",
-            "\"automated attacks\""
+            "\"Pursuant to Article 15 of GDPR, I request you provide the purpose, citing a valid legal basis under GDPR Article 6, for processing my personal data...\"",
+            "\"Pursuant to Article 21 of GDPR, I object to any processing of my personal data for the purpose of revealing account existence...\"",
+            "\"The account registration form is susceptible to account enumeration attacks.\"",
+            "\"To mitigate the flaw, the response must be uniform for both registered and unregistered email addresses.\""
           ]
         },
         "remediation": {
-          "status": "partially_completed",
+          "status": "partial",
+          "scope": "full",
           "deadline": null,
           "quotes": [
-            "The account registration form is susceptible to account enumeration attacks.",
-            "The account registration form is susceptible to account enumeration attacks."
+            "\"The account registration form is susceptible to account enumeration attacks.\"",
+            "\"To mitigate the flaw, the response must be uniform for both registered and unregistered email addresses.\""
           ]
         }
       }

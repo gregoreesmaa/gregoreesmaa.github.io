@@ -21,6 +21,7 @@
     "purpose:gdpr",
     "subpurpose:gdpr-response",
     "llm:remediation-status:planned",
+    "llm:remediation-scope:full",
     "llm:addresses-gdpr-request"
   ],
   "attachments": [],
@@ -34,8 +35,7 @@
     "vulnerability_acknowledged": {
       "status": "agree",
       "quotes": [
-        "Regarding the points described in your message, we are actively working on them",
-        "the comments you indicated will be corrected shortly"
+        "töötame aktiivselt nende kallal ning lähiajal parandame nimetatud puudused."
       ]
     },
     "privacy_risk_acknowledged": {
@@ -49,9 +49,10 @@
     },
     "remediation": {
       "status": "planned",
+      "scope": "full",
       "deadline": null,
       "quotes": [
-        "Regarding the points described in your message, we are actively working on them, and the comments you indicated will be corrected shortly."
+        "\"töötame aktiivselt nende kallal ning lähiajal parandame nimetatud puudused\""
       ]
     }
   }

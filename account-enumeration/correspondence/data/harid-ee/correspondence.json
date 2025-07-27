@@ -30,6 +30,7 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:remediation-status:planned",
+        "llm:remediation-scope:full",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ]
@@ -218,6 +219,7 @@
         },
         "remediation": {
           "status": "not_mentioned",
+          "scope": null,
           "deadline": null,
           "quotes": null
         }
@@ -246,6 +248,7 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:remediation-status:planned",
+        "llm:remediation-scope:full",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ],
@@ -260,16 +263,15 @@
         "vulnerability_acknowledged": {
           "status": "agree",
           "quotes": [
+            "Olete õigesti viidanud probleemile, mis puudutab kasutajakonto olemasolu loendamise (account enumeration) võimalust meiliaadressi vahetamise vormil.",
             "Tuvastatud turvanõrkus on kinnitust leidnud"
           ]
         },
         "privacy_risk_acknowledged": {
           "status": "agree",
           "quotes": [
-            "mõistame Teie muret seoses isikuandmete töötlemisega",
-            "Olete õigesti viidanud probleemile, mis puudutab kasutajakonto olemasolu loendamise (account enumeration) võimalust",
-            "Tuvastatud turvanõrkus on kinnitust leidnud",
-            "Teie esitatud taotlused ja vastuväited, mis tuginevad isikuandmete kaitse üldmääruse (IKÜM) artiklitele 15, 18 ja 21, on asjakohased."
+            "Olete õigesti viidanud probleemile, mis puudutab kasutajakonto olemasolu loendamise (account enumeration) võimalust meiliaadressi vahetamise vormil.",
+            "Tuvastatud turvanõrkus on kinnitust leidnud."
           ]
         },
         "legal_basis": {
@@ -279,10 +281,11 @@
         },
         "remediation": {
           "status": "planned",
+          "scope": "full",
           "deadline": "2025-06-30",
           "quotes": [
-            "arendaja töötab praegu lahenduse kallal",
-            "Esialgse ajakava kohaselt avaldame paranduse 30. juunil 2025"
+            "Tuvastatud turvanõrkus on kinnitust leidnud ning arendaja töötab praegu lahenduse kallal.",
+            "Esialgse ajakava kohaselt avaldame paranduse 30. juunil 2025."
           ]
         }
       }

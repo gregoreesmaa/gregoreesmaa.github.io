@@ -41,11 +41,10 @@
         "llm:basis:article6-paragraph1-point:b",
         "llm:justification:user_experience",
         "llm:justification:account_security",
-        "llm:justification:preventing_abuse",
-        "llm:justification:industry_standard",
-        "llm:justification:technical_limitations",
-        "llm:remediation-status:partially_completed",
-        "llm:privacy-risk:disagree",
+        "llm:justification:fraud_prevention",
+        "llm:remediation-status:partial",
+        "llm:remediation-scope:full",
+        "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -327,11 +326,10 @@
         "llm:basis:article6-paragraph1-point:b",
         "llm:justification:user_experience",
         "llm:justification:account_security",
-        "llm:justification:preventing_abuse",
-        "llm:justification:industry_standard",
-        "llm:justification:technical_limitations",
-        "llm:remediation-status:partially_completed",
-        "llm:privacy-risk:disagree",
+        "llm:justification:fraud_prevention",
+        "llm:remediation-status:partial",
+        "llm:remediation-scope:full",
+        "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ],
       "attachments": [],
@@ -343,16 +341,17 @@
           "quotes": null
         },
         "vulnerability_acknowledged": {
-          "status": "disagree",
+          "status": "agree",
           "quotes": [
-            "Kokkuvõtvalt leiame, et Postimehe veebilehe lahenduses ei esine meie hinnangul andmeturbe nõuete rikkumisi ega olukorda, mis eeldaks lisameetmetmete rakendamist või mida saaks käsitleda ebaseadusliku töötlusena."
+            "Teie väited, et teates mainitud e-kirja ei saadeta ning et e-postiaadressi omanik ei saa võimalikust ründekatsest teada, ei vasta tõele. Sisestatud e-postiaadressi omanik saab sisselogimise katsest talle automaatselt saadetud e-kirja teel teada.",
+            "E-postiaadressi valideerimine, kui konto registreerimisel sisestatakse juba kasutusel olev meiliaadress. Sellisel juhul saadetakse sisestatud meiliaadressi omanikule e-kiri koos juhistega. Seega saab meiliaadressi omanik võimalikust kuritarvitusest teada temale saabunud e-kirja kaudu."
           ]
         },
         "privacy_risk_acknowledged": {
-          "status": "disagree",
+          "status": "agree",
           "quotes": [
-            "Kokkuvõtvalt leiame, et Postimehe veebilehe lahenduses ei esine meie hinnangul andmeturbe nõuete rikkumisi ega olukorda, mis eeldaks lisameetmetmete rakendamist või mida saaks käsitleda ebaseadusliku töötlusena.",
-            "Lähtedes ülaltoodud selgitustest leiame, et käesoleval juhul ei esine ükski IKÜM artikkel 18 toodud alus isikuandmete töötlemise piiramiseks."
+            "Teie väited, et teates mainitud e-kirja ei saadeta ning et e-postiaadressi omanik ei saa võimalikust ründekatsest teada, ei vasta tõele. Sisestatud e-postiaadressi omanik saab sisselogimise katsest talle automaatselt saadetud e-kirja teel teada.",
+            "Sellisel juhul tähendab töötlemise piiramine paraku ka teenuse osutamise peatamist."
           ]
         },
         "legal_basis": {
@@ -362,23 +361,23 @@
           "justification_keywords": [
             "user_experience",
             "account_security",
-            "preventing_abuse",
-            "industry_standard",
-            "technical_limitations"
+            "fraud_prevention"
           ],
           "quotes": [
             "Antud juhul toimub andmetöötlus lepingu sõlmimiseks ja selle täitmise võimaldamiseks.",
-            "Seega, ka juhul, kui teil esineks IKÜM art 18-st tulenev õigus piirata lepingu täitmiseks vajalike isikuandmete töötlemist, ei ole meil kahjuks võimalik teenust edasi pakkuda ilma vastavat andmetöötlust läbi viimata.",
-            "Kuna Postimees töötleb teie e-posti aadressi selleks, et võimaldada teile juurdepääsu Postimehe teenusele ning pakkuda kontopõhist kasutajakogemust (nt sisselogimine, kasutaja autentimine, lugemisõiguste kontroll jne)"
+            "Antud juhul toimub andmetöötlus lepingu täitmise võimaldamiseks.",
+            "Postimees töötleb teie e-posti aadressi selleks, et võimaldada teile juurdepääsu Postimehe teenusele ning pakkuda kontopõhist kasutajakogemust (nt sisselogimine, kasutaja autentimine, lugemisõiguste kontroll jne).",
+            "Soovi korral on teil võimalik Postimehe teenuse kasutamine lõpetada ja selle kasutamiseks registreeritud konto kustutada."
           ]
         },
         "remediation": {
-          "status": "partially_completed",
+          "status": "partial",
+          "scope": "full",
           "deadline": null,
           "quotes": [
-            "Rakendatud on piisavaid asjakohased, tehnilised ja organisatsioonilised meetmeid isikuandmete kaitseks.",
-            "E-postiaadressi valideerimine, kui konto registreerimisel sisestatakse juba kasutusel olev meiliaadress. Sellisel juhul saadetakse sisestatud meiliaadressi omanikule e-kiri koos juhistega. Seega saab meiliaadressi omanik võimalikust kuritarvitusest teada temale saabunud e-kirja kaudu",
-            "Rakendatud on piisavaid asjakohased, tehnilised ja organisatsioonilised meetmeid isikuandmete kaitseks."
+            "\"Jätkamiseks kliki lingile, mille sulle e-kirjaga saatsime\"",
+            "\"Midagi läks valesti, võta ühendust meie klienditoega\"",
+            "\"Nn rate-limiting kasutamine, mis raskendab automatiseeritud rünnete läbiviimist\""
           ]
         }
       }

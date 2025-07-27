@@ -28,11 +28,9 @@
     "llm:basis:article6-paragraph1-point:b",
     "llm:basis:article6-paragraph1-point:f",
     "llm:justification:account_security",
-    "llm:justification:integrity",
-    "llm:justification:protection",
-    "llm:justification:user_experience",
-    "llm:justification:data_protection",
+    "llm:justification:fraud_prevention",
     "llm:remediation-status:completed",
+    "llm:remediation-scope:full",
     "llm:privacy-risk:agree",
     "llm:addresses-gdpr-request"
   ],
@@ -54,24 +52,17 @@
     "vulnerability_acknowledged": {
       "status": "agree",
       "quotes": [
-        "security issues on the login form and account registration form",
-        "vulnerability-reassessment-report",
-        "reported issue potentially affecting the login and registration forms has been fully resolved",
-        "no indication is provided as to whether a specific email address is registered",
-        "previously reported issue has been rectified and the vulnerability removed",
-        "objection has been noted and respected",
-        "current system no longer includes any processing that would result in disclosure of account existence to unauthorized parties",
-        "contribution made by the Data Subject in identifying and reporting the possibly existing vulnerability is highly appreciated"
+        "As a result, we have taken the corrective actions, and the reported issue potentially affecting the login and registration forms has been fully resolved.",
+        "This has now been addressed."
       ]
     },
     "privacy_risk_acknowledged": {
       "status": "agree",
       "quotes": [
-        "Observations and feedback from our users are highly valued, as they contribute significantly to the continued improvement and security of the services provided.",
-        "As a result, we have taken the corrective actions, and the reported issue potentially affecting the login and registration forms has been fully resolved.",
-        "It is acknowledged, however, that the previous implementation may have inadvertently allowed certain responses that could be interpreted as confirmation of account existence. This has now been addressed.",
-        "Regarding the request pursuant to Article 18 of the GDPR, the Company confirms that as the previously reported issue has been rectified and the vulnerability removed, the processing in question no longer occurs.",
-        "Moreover, regarding the objection pursuant to Article 21 of the GDPR, we want to note that the objection has been noted and respected. The current system no longer includes any processing that would result in disclosure of account existence to unauthorized parties."
+        "Accordingly, the Data Subject requested the Company to respond to the questions set out in the Notice.",
+        "This has now been addressed.",
+        "the previously reported issue has been rectified and the vulnerability removed",
+        "the objection has been noted and respected"
       ]
     },
     "legal_basis": {
@@ -81,26 +72,21 @@
       ],
       "justification_keywords": [
         "account_security",
-        "integrity",
-        "protection",
-        "user_experience",
-        "data_protection"
+        "fraud_prevention"
       ],
       "quotes": [
-        "necessary for the performance of a contract — specifically, to provide users with access to account-based services",
-        "supported by the Company’s legitimate interest under Article 6(1)(f), in ensuring the integrity and protection of user accounts",
-        "to provide users with access to account-based services",
-        "ensuring the integrity and protection of user accounts"
+        "\"necessary for the performance of a contract — specifically, to provide users with access to account-based services.\"",
+        "\"supported by the Company’s legitimate interest under Article 6(1)(f), in ensuring the integrity and protection of user accounts.\""
       ]
     },
     "remediation": {
       "status": "completed",
+      "scope": "full",
       "deadline": null,
       "quotes": [
         "As a result, we have taken the corrective actions, and the reported issue potentially affecting the login and registration forms has been fully resolved.",
-        "The system has been updated to ensure that no indication is provided as to whether a specific email address is registered, in accordance with data protection and privacy principles.",
-        "the previously reported issue has been rectified and the vulnerability removed, the processing in question no longer occurs.",
-        "the objection has been noted and respected. The current system no longer includes any processing that would result in disclosure of account existence to unauthorized parties."
+        "The system has been updated to ensure that no indication is provided as to whether a specific email address is registered",
+        "the previously reported issue has been rectified and the vulnerability removed"
       ]
     }
   }

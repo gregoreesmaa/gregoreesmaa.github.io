@@ -30,7 +30,6 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:justification:industry_standard",
-        "llm:justification:business_needs",
         "llm:addresses-gdpr-request"
       ],
       [
@@ -43,9 +42,9 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:justification:user_experience",
-        "llm:justification:industry_standard",
         "llm:justification:account_security",
-        "llm:justification:business_needs",
+        "llm:justification:industry_standard",
+        "llm:justification:customer_support",
         "llm:remediation-status:refused",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
@@ -244,7 +243,6 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:justification:industry_standard",
-        "llm:justification:business_needs",
         "llm:addresses-gdpr-request"
       ],
       "attachments": [
@@ -279,16 +277,15 @@
         "legal_basis": {
           "formal_legal_basis": [],
           "justification_keywords": [
-            "industry_standard",
-            "business_needs"
+            "industry_standard"
           ],
           "quotes": [
-            "\"laialt levinud praktika\"",
-            "\"mitte GDPR-i nõuete täitmine mõnikord tõlgendamise küsimus\""
+            "Lühidalt – meie hinnangul on selline lähenemine laialt levinud praktika ning seda kasutavad ka paljud tuntud teenusepakkujad (nt Evernote, Microsoft jt, vt. lisa)"
           ]
         },
         "remediation": {
           "status": "not_mentioned",
+          "scope": null,
           "deadline": null,
           "quotes": null
         }
@@ -342,9 +339,9 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:justification:user_experience",
-        "llm:justification:industry_standard",
         "llm:justification:account_security",
-        "llm:justification:business_needs",
+        "llm:justification:industry_standard",
+        "llm:justification:customer_support",
         "llm:remediation-status:refused",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
@@ -358,39 +355,37 @@
           "quotes": null
         },
         "vulnerability_acknowledged": {
-          "status": "disagree",
-          "quotes": [
-            "ei pea me kirjeldatud olukorda GDPR-i rikkumiseks",
-            "Antud turvamehhanismide käitumine ei kujuta endast meie hinnangul isikuandmete töötlemist sellisel kujul ja eesmärgil, mis kvalifitseeruks ebaseaduslikuks",
-            "jääme eriarvamusele töötlemise liigituse osas"
-          ]
+          "status": "not_mentioned",
+          "quotes": null
         },
         "privacy_risk_acknowledged": {
           "status": "disagree",
           "quotes": [
-            "ei pea me kirjeldatud olukorda GDPR-i rikkumiseks",
-            "Antud turvamehhanismide käitumine ei kujuta endast meie hinnangul isikuandmete töötlemist sellisel kujul ja eesmärgil, mis kvalifitseeruks ebaseaduslikuks"
+            "Nagu ka varasemas kirjavahetuses märgitud, ei pea me kirjeldatud olukorda GDPR-i rikkumiseks.",
+            "Antud turvamehhanismide käitumine ei kujuta endast meie hinnangul isikuandmete töötlemist sellisel kujul ja eesmärgil, mis kvalifitseeruks ebaseaduslikuks."
           ]
         },
         "legal_basis": {
           "formal_legal_basis": [],
           "justification_keywords": [
             "user_experience",
-            "industry_standard",
             "account_security",
-            "business_needs"
+            "industry_standard",
+            "customer_support"
           ],
           "quotes": [
-            "Praktikas on sarnaseid lahendusi kasutusel paljudes teenustes (nt e-kaubanduses, hotellinduses jne)",
-            "süsteemid peavad suutma tuvastada olemasoleva konto olemasolu, et pakkuda asjakohaseid teenuseid (nt parooli lähtestamine)"
+            "Nagu ka varasemas kirjavahetuses märgitud, ei pea me kirjeldatud olukorda GDPR-i rikkumiseks.",
+            "Praktikas on sarnaseid lahendusi kasutusel paljudes teenustes (nt e-kaubanduses, hotellinduses jne), kus süsteemid peavad suutma tuvastada olemasoleva konto olemasolu, et pakkuda asjakohaseid teenuseid (nt parooli lähtestamine).",
+            "Käsitleme konto olemasolu süsteemis osana teenuseosutamisest, mis on kasutustingimuste ning teiepoolse konto loomise kaudu alguse saanud õigussuhe."
           ]
         },
         "remediation": {
           "status": "refused",
+          "scope": null,
           "deadline": null,
           "quotes": [
-            "Antud turvamehhanismide käitumine ei kujuta endast meie hinnangul isikuandmete töötlemist sellisel kujul ja eesmärgil, mis kvalifitseeruks ebaseaduslikuks.",
-            "Kui tegemist on teie hinnangul ebaseadusliku töötlemisega ja soovite andmete eemaldamist, on teil alati võimalik oma konto sulgeda ning isikuandmed kustutada vastavalt meie privaatsuspoliitikas sätestatud korrale."
+            "Nagu ka varasemas kirjavahetuses märgitud, ei pea me kirjeldatud olukorda GDPR-i rikkumiseks.",
+            "Teie seisukoht on arusaadav, kuid antud juhul jääme eriarvamusele töötlemise liigituse osas."
           ]
         }
       }

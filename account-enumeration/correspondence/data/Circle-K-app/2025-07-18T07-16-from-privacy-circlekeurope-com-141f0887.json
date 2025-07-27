@@ -26,12 +26,8 @@
     "purpose:gdpr",
     "subpurpose:gdpr-response",
     "llm:basis:article6-paragraph1-point:b",
-    "llm:basis:article6-paragraph1-point:f",
-    "llm:justification:technical_limitations",
-    "llm:justification:business_needs",
-    "llm:justification:contractual_performance",
-    "llm:justification:security_standards",
-    "llm:justification:service_reliability",
+    "llm:justification:technical_limitation",
+    "llm:justification:contractual_necessity",
     "llm:remediation-status:planned",
     "llm:addresses-gdpr-request"
   ],
@@ -75,25 +71,19 @@
     },
     "legal_basis": {
       "formal_legal_basis": [
-        "b",
-        "f"
+        "b"
       ],
       "justification_keywords": [
-        "technical_limitations",
-        "business_needs",
-        "contractual_performance",
-        "security_standards",
-        "service_reliability"
+        "technical_limitation",
+        "contractual_necessity"
       ],
       "quotes": [
-        "“Mis puudutab teie IKÜM artikli 18 alusel esitatud andmete töötlemise piiramise taotlust, siis kinnitame teie õigust sellist piiramist taotleda.”",
-        "“Mis puudutab teie vastuväidet IKÜM artikli 21 alusel, siis peame täpsustama, et teie isikuandmete töötlemise õiguslik alus meie autentimissüsteemides on meievahelise lepingu täitmine vastavalt IKÜM-i artikli 1 lõike 1 punktile b, nagu on sätestatud meie teenusetingimustes.”",
-        "“We process authentication data, including email verification processes, as an essential component of providing secure access to your account and our services.”",
-        "“This process, while thorough and necessary, extends beyond immediate remediation timelines as we ensure any modifications maintain service reliability and security standards across all markets we operate in.”"
+        "\"...the legal basis for processing your personal data within our authentication systems is the performance of our contract with you as outlined in our Terms of Service, pursuant to Article 6(1)(b) of the GDPR.\""
       ]
     },
     "remediation": {
       "status": "planned",
+      "scope": null,
       "deadline": null,
       "quotes": [
         "Following receipt of your initial report in April, Circle K’s responsible technical and security teams immediately began the process of evaluating and implementing modifications to our login system architecture.",

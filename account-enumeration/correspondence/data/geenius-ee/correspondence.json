@@ -28,7 +28,6 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:extension-asked",
         "llm:remediation-status:planned",
         "llm:addresses-gdpr-request"
       ]
@@ -224,25 +223,23 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:extension-asked",
         "llm:remediation-status:planned",
         "llm:addresses-gdpr-request"
       ],
       "attachments": [],
       "llmAnalysis": {
         "extension": {
-          "asked": true,
-          "justification_keywords": [
-            "holiday_period"
-          ],
-          "until": "2024-07-07",
-          "quotes": [
-            "kuna hetkel puhatakse aktiivselt, siis saame sellega edasi tegeleda alates 7. juulist"
-          ]
+          "asked": false,
+          "justification_keywords": null,
+          "until": null,
+          "quotes": null
         },
         "vulnerability_acknowledged": {
-          "status": "not_mentioned",
-          "quotes": null
+          "status": "agree",
+          "quotes": [
+            "See töö on meil IT-kalendris",
+            "kuna hetkel puhatakse aktiivselt, siis saame sellega edasi tegeleda alates 7. juulist."
+          ]
         },
         "privacy_risk_acknowledged": {
           "status": "not_mentioned",
@@ -255,10 +252,10 @@
         },
         "remediation": {
           "status": "planned",
-          "deadline": "2024-07-07",
+          "scope": null,
+          "deadline": "2025-07-07",
           "quotes": [
-            "See töö on meil IT-kalendris",
-            "kuna hetkel puhatakse aktiivselt, siis saame sellega edasi tegeleda alates 7. juulist"
+            "See töö on meil IT-kalendris, aga kuna hetkel puhatakse aktiivselt, siis saame sellega edasi tegeleda alates 7. juulist."
           ]
         }
       }

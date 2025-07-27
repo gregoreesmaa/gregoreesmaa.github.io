@@ -19,22 +19,15 @@
   "labels": [
     "from:service-provider",
     "purpose:gdpr",
-    "subpurpose:gdpr-response",
-    "llm:extension-asked"
+    "subpurpose:gdpr-response"
   ],
   "attachments": [],
   "llmAnalysis": {
     "extension": {
-      "asked": true,
-      "justification_keywords": [
-        "internal_review",
-        "legal_review",
-        "technical_assessment"
-      ],
-      "until": "30 days",
-      "quotes": [
-        "Teie esitatud päringule ammendava vastuse koostamine eeldab mitmete õiguslike ja tehniliste asjaolude ettevõttesisest põhjalikku kaalumist ja seetõttu ei ole meil kahjuks võimalik vastata Teie päringule 30 päeva jooksul."
-      ]
+      "asked": false,
+      "justification_keywords": null,
+      "until": null,
+      "quotes": null
     },
     "vulnerability_acknowledged": {
       "status": "not_mentioned",
@@ -51,6 +44,7 @@
     },
     "remediation": {
       "status": "not_mentioned",
+      "scope": null,
       "deadline": null,
       "quotes": null
     }

@@ -19,18 +19,15 @@
   "labels": [
     "from:service-provider",
     "purpose:gdpr",
-    "subpurpose:gdpr-response",
-    "llm:extension-asked"
+    "subpurpose:gdpr-response"
   ],
   "attachments": [],
   "llmAnalysis": {
     "extension": {
-      "asked": true,
+      "asked": false,
       "justification_keywords": null,
-      "until": "30 days",
-      "quotes": [
-        "Kinnitan, et oleme Teie taotluse kätte saanud ning vastame sellele hiljemalt 30 päeva jooksul."
-      ]
+      "until": null,
+      "quotes": null
     },
     "vulnerability_acknowledged": {
       "status": "not_mentioned",
@@ -47,6 +44,7 @@
     },
     "remediation": {
       "status": "not_mentioned",
+      "scope": null,
       "deadline": null,
       "quotes": null
     }

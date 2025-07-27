@@ -20,12 +20,10 @@
     "from:service-provider",
     "purpose:gdpr",
     "subpurpose:gdpr-response",
-    "llm:extension-asked",
     "llm:justification:preventing_duplicates",
-    "llm:justification:account_security",
     "llm:justification:industry_standard",
-    "llm:justification:technical_limitations",
-    "llm:remediation-status:partially_completed",
+    "llm:remediation-status:planned",
+    "llm:remediation-scope:full",
     "llm:privacy-risk:agree",
     "llm:addresses-gdpr-request"
   ],
@@ -48,19 +46,17 @@
   ],
   "llmAnalysis": {
     "extension": {
-      "asked": true,
+      "asked": false,
       "justification_keywords": [
-        "development_change"
+        "technical_assessment"
       ],
       "until": null,
-      "quotes": [
-        "seega palub Elisa Teilt mõistvat suhtumist kuni muudatuse rakendumiseni."
-      ]
+      "quotes": null
     },
     "vulnerability_acknowledged": {
       "status": "agree",
       "quotes": [
-        "Elisa nõustub Teiega, et veateade „See e-posti aadress on juba kasutusel“ võimaldab konto registreerijal saada isikuandmeid"
+        "Elisa nõustub Teiega, et veateade „See e-posti aadress on juba kasutusel“ võimaldab konto registreerijale saada isikuandmeid, täpsemalt kliendiks oleku fakti."
       ]
     },
     "privacy_risk_acknowledged": {
@@ -73,23 +69,20 @@
       "formal_legal_basis": [],
       "justification_keywords": [
         "preventing_duplicates",
-        "account_security",
-        "industry_standard",
-        "technical_limitations"
+        "industry_standard"
       ],
       "quotes": [
         "Vastavalt Elisa äppide kasutamise tingimuste p-le 2.3. tuleb Elisa äpi (sh Elisa Raamatu) kasutamiseks end esmalt autentida ja luua Elisa äpi konto.",
-        "Elisa kontrollib pärast andmete sisestamist, kas sellise e-posti aadressiga konto on juba loodud, et vältida duplikaatkontosid ja sellega seotud turvariske.",
         "Praeguseni on Elisa kasutanud eelkirjeldatud lahendust kui turul laialt levinud varianti."
       ]
     },
     "remediation": {
-      "status": "partially_completed",
+      "status": "planned",
+      "scope": "full",
       "deadline": null,
       "quotes": [
-        "Elisa nõustub Teiega, et veateade „See e-posti aadress on juba kasutusel“ võimaldab konto registreerijal saada isikuandmeid...",
-        "Sellest lähtuvalt muudab Elisa senist praktikat Elisa Raamatu konto registreerimisel ning võtab kasutusse teistsuguse veateate.",
-        "Kuivõrd selline muudatus eeldab,arendusmuudatust, võtab muudatuse jõustumine aega"
+        "\"Elisa nõustub Teiega, et veateade „See e-posti aadress on juba kasutusel“ võimaldab konto registreerijale saada isikuandmeid... Sellest lähtuvalt muudab Elisa senist praktikat Elisa Raamatu konto registreerimisel ning võtab kasutusse teistsuguse veateate.\"",
+        "\"Kuivõrd selline muudatus eeldab, arendusmuudatust, võtab muudatuse jõustumine aega\""
       ]
     }
   }

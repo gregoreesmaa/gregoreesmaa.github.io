@@ -22,24 +22,33 @@
     "from:service-provider",
     "purpose:gdpr",
     "subpurpose:gdpr-response",
+    "llm:extension-asked",
     "llm:remediation-status:planned",
+    "llm:privacy-risk:agree",
     "llm:addresses-gdpr-request"
   ],
   "attachments": [],
   "llmAnalysis": {
     "extension": {
-      "asked": false,
-      "justification_keywords": null,
-      "until": null,
-      "quotes": null
+      "asked": true,
+      "justification_keywords": [
+        "complex_request"
+      ],
+      "until": "2025-09-27",
+      "quotes": [
+        "I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt)."
+      ]
     },
     "vulnerability_acknowledged": {
       "status": "not_mentioned",
       "quotes": null
     },
     "privacy_risk_acknowledged": {
-      "status": "not_mentioned",
-      "quotes": null
+      "status": "agree",
+      "quotes": [
+        "mida pean ebaseaduslikuks ning mis võib viia nende avaldamiseni selleks volitamata isikutele ilma selge õigusliku aluseta",
+        "what I believe to be the unlawful processing of my personal data by fv.ee, potentially leading to its disclosure to unauthorised parties without a clear legal basis."
+      ]
     },
     "legal_basis": {
       "formal_legal_basis": [],
@@ -48,7 +57,8 @@
     },
     "remediation": {
       "status": "planned",
-      "deadline": "1 month",
+      "scope": null,
+      "deadline": "2025-08-27",
       "quotes": [
         "I request that you review and act upon it accordingly, within the timeframe established by Article 12(3) of the GDPR (one month from receipt)."
       ]

@@ -25,11 +25,12 @@
     "from:service-provider",
     "purpose:gdpr",
     "subpurpose:gdpr-response",
-    "llm:justification:industry_standard",
-    "llm:justification:privacy_enhancement",
-    "llm:justification:balancing_test",
+    "llm:justification:fraud_prevention",
+    "llm:justification:account_security",
+    "llm:justification:technical_limitation",
     "llm:remediation-status:planned",
-    "llm:privacy-risk:disagree",
+    "llm:remediation-scope:full",
+    "llm:privacy-risk:agree",
     "llm:addresses-gdpr-request"
   ],
   "attachments": [],
@@ -43,39 +44,35 @@
     "vulnerability_acknowledged": {
       "status": "agree",
       "quotes": [
-        "Kuigi meie senine praktika ei pidanud pelgalt e-posti aadressi isikuandmeteks, mõistame teie muret ning astume vajalikke samme, et vältida kaudseid andmelekke riske tulevikus.",
         "Täname teid konstruktiivse tagasiside ja teadliku turvanõrkuse teavituse eest."
       ]
     },
     "privacy_risk_acknowledged": {
-      "status": "disagree",
+      "status": "agree",
       "quotes": [
-        "Kuigi meie senine praktika ei pidanud pelgalt e-posti aadressi isikuandmeteks",
-        "Samuti oleme arvestanud, et kasutajad võivad vabalt luua oma kontosid isikustamata e-posti aadressidega, ning seetõttu ei olnud meie hinnangul tegemist isikuandmete avaldamisega GDPR-i mõistes.",
-        "Antud juhul ei hinnanud me konto olemasolu kaudset kinnitamist e-posti alusel kui andmeleket ega ebaseaduslikku töötlemist"
+        "Kuigi meie senine praktika ei pidanud pelgalt e-posti aadressi isikuandmeteks, mõistame teie muret ning astume vajalikke samme, et vältida kaudseid andmelekke riske tulevikus."
       ]
     },
     "legal_basis": {
       "formal_legal_basis": [],
       "justification_keywords": [
-        "industry_standard",
-        "privacy_enhancement",
-        "balancing_test"
+        "fraud_prevention",
+        "account_security",
+        "technical_limitation"
       ],
       "quotes": [
-        "Meie lähenemine on olnud kooskõlas laialdase tõlgendusega, mille kohaselt on e-posti aadress isikuandmetena käsitletav juhul, kui see võimaldab tuvastada konkreetset füüsilist isikut",
-        "Samuti oleme arvestanud, et kasutajad võivad vabalt luua oma kontosid isikustamata e-posti aadressidega, ning seetõttu ei olnud meie hinnangul tegemist isikuandmete avaldamisega GDPR-i mõistes.",
-        "See soovitus lähtub praktikas rakendatavatest privaatsuse tugevdamise põhimõtetest ning aitab vähendada isikuandmete juhuslikku avaldumist erinevates veebiteenustes."
+        "\"Tuginedes antud olukorrale soovitame kasutajatel: ... eelistada neutraalseid või pseudonüümseid aadresse, juhul kui soovitakse maksimeerida oma privaatsust.\""
       ]
     },
     "remediation": {
       "status": "planned",
+      "scope": "full",
       "deadline": null,
       "quotes": [
         "Tegeleme hetkel võimalike muudatustega, et ühtlustada süsteemide vastuseid nii olemasolevatele kui mitteeksisteerivatele kontodele",
         "Vaatame üle võimalused visuaalsete või tehniliste erinevuste kõrvaldamiseks, mis võiksid lubada konto olemasolu tuvastamist",
         "Arutame CAPTCHA või muude meetmete rakendamist, mis vähendaksid automatiseeritud päringute riski",
-        "Hindame uuesti oma õigustatud huvi vastavust andmesubjektide õigustele ja ootustele"
+        "Hindame uuesti oma õigustatud huvi vastavust andmesubjektide õigustele ja ootustele."
       ]
     }
   }

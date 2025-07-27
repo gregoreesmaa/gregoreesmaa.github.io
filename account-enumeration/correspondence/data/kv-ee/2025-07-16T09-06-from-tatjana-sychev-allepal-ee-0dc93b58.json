@@ -35,13 +35,13 @@
     "vulnerability_acknowledged": {
       "status": "disagree",
       "quotes": [
-        "olen seisukohal, et kv.ee hetke süsteemi toimimine ei ole turvarisk"
+        "Olen seisukohal, et kv.ee hetke süsteemi toimimine ei ole turvarisk"
       ]
     },
     "privacy_risk_acknowledged": {
       "status": "disagree",
       "quotes": [
-        "olen seisukohal, et kv.ee hetke süsteemi toimimine ei ole turvarisk"
+        "Olen seisukohal, et kv.ee hetke süsteemi toimimine ei ole turvarisk"
       ]
     },
     "legal_basis": {
@@ -51,6 +51,7 @@
     },
     "remediation": {
       "status": "refused",
+      "scope": null,
       "deadline": null,
       "quotes": [
         "Olen seisukohal, et kv.ee hetke süsteemi toimimine ei ole turvarisk ja ei riku isikuandmete töötlemise põhimõteid.",
