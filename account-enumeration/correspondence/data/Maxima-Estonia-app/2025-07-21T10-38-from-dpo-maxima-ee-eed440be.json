@@ -20,44 +20,32 @@
     "from:service-provider",
     "purpose:gdpr",
     "subpurpose:gdpr-response",
-    "llm:extension-asked",
+    "llm:justification:technical_limitation",
     "llm:remediation-status:planned",
+    "llm:remediation-scope:full",
+    "llm:privacy-risk:disagree",
     "llm:addresses-gdpr-request"
   ],
   "attachments": [],
   "llmAnalysis": {
     "extension": {
-      "asked": true,
-      "justification_keywords": [
-        "complex_request",
-        "holiday_period"
-      ],
-      "until": "2025-08-01",
-      "quotes": [
-        "pikendame kooskõlas IKÜM artikli 12 lõikega 3 Teie taotlusele vastamise tähtaega kuni 01.08.2025"
-      ]
-    },
-    "vulnerability_acknowledged": {
-      "status": "not_mentioned",
-      "quotes": null
+      "asked": false,
+      "justification_keywords": null,
+      "until": null
     },
     "privacy_risk_acknowledged": {
-      "status": "not_mentioned",
-      "quotes": null
+      "status": "disagree"
     },
     "legal_basis": {
       "formal_legal_basis": [],
-      "justification_keywords": null,
-      "quotes": null
+      "justification_keywords": [
+        "technical_limitation"
+      ]
     },
     "remediation": {
       "status": "planned",
-      "scope": null,
-      "deadline": "2025-08-01",
-      "quotes": [
-        "Paraku on juuni ja juuli peamised puhkuste kuud ja protsessid ning koostöö osakondade vahel ei toimu siis tavapärase kiirusega.",
-        "Võimalusel vastame varem."
-      ]
+      "scope": "full",
+      "deadline": "2025-08-01"
     }
   }
 }

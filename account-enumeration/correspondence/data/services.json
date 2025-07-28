@@ -72,7 +72,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:justification:customer_support",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request",
         "automated-reply"
       ],
@@ -80,7 +80,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:justification:customer_support",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       [
@@ -93,7 +93,8 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:justification:customer_support",
+        "llm:justification:technical_limitation",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       [
@@ -104,12 +105,16 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:author",
@@ -125,7 +130,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:justification:customer_support",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request",
         "automated-reply"
       ],
@@ -138,12 +143,9 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:b",
-        "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:user_experience",
-        "llm:justification:account_security",
-        "llm:remediation-status:partial",
-        "llm:privacy-risk:agree",
+        "llm:justification:technical_limitation",
+        "llm:justification:industry_standard",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       [
@@ -213,16 +215,16 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:planned",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:f",
         "llm:justification:user_experience",
-        "llm:justification:customer_support",
+        "llm:justification:technical_limitation",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       [
@@ -367,6 +369,9 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
+        "llm:remediation-status:refused",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request",
         "automated-reply"
       ],
       [
@@ -379,18 +384,18 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
+        "llm:remediation-status:refused",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request",
         "automated-reply"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:a",
-        "llm:justification:security",
+        "llm:justification:technical_limitation",
         "llm:justification:industry_standard",
-        "llm:remediation-status:planned",
-        "llm:remediation-scope:partial",
-        "llm:privacy-risk:agree",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       [
@@ -496,7 +501,11 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:justification:tehnoloogiline limiteerimine",
+        "llm:justification:kohalikud standardid",
+        "llm:privacy-risk:agree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:author",
@@ -563,7 +572,9 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
@@ -574,10 +585,9 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:b",
         "llm:justification:technical_limitation",
-        "llm:justification:contractual_necessity",
-        "llm:remediation-status:planned",
+        "llm:justification:industry_standard",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       [
@@ -594,7 +604,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:planned",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -690,17 +700,19 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:user_experience",
+        "llm:justification:technical_limitation",
+        "llm:justification:industry_standard",
         "llm:remediation-status:planned",
-        "llm:remediation-scope:partial",
-        "llm:privacy-risk:agree",
+        "llm:remediation-scope:full",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -752,6 +764,8 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request",
         "automated-reply"
       ],
       [
@@ -764,10 +778,8 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:preventing_duplicates",
-        "llm:justification:account_security",
-        "llm:remediation-status:refused",
+        "llm:justification:technical_limitation",
+        "llm:justification:industry_standard",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
@@ -831,8 +843,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:extension-asked",
-        "llm:remediation-status:planned",
+        "llm:justification:technical_limitation",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request",
         "automated-reply"
@@ -840,17 +851,17 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:account_security",
-        "llm:justification:preventing_duplicates",
-        "llm:justification:customer_support",
-        "llm:remediation-status:planned",
+        "llm:justification:technical_limitation",
+        "llm:justification:industry_standard",
+        "llm:remediation-status:partial",
         "llm:remediation-scope:full",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
@@ -939,7 +950,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:justification:account_security",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request",
         "automated-reply"
       ],
@@ -951,17 +962,17 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:justification:preventing_duplicates",
+        "llm:justification:technical_limitation",
         "llm:justification:industry_standard",
-        "llm:remediation-status:planned",
-        "llm:remediation-scope:full",
-        "llm:privacy-risk:agree",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -1012,7 +1023,9 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ]
     ],
     "stats": {
@@ -1068,9 +1081,8 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:justification:user_experience",
-        "llm:remediation-status:planned",
-        "llm:remediation-scope:full",
-        "llm:privacy-risk:agree",
+        "llm:justification:technical_limitation",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -1124,7 +1136,9 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:justification:industry_standard",
+        "llm:justification:user_experience",
+        "llm:justification:technical_limitation",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       [
@@ -1136,11 +1150,8 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:justification:user_experience",
-        "llm:justification:account_security",
+        "llm:justification:technical_limitation",
         "llm:justification:industry_standard",
-        "llm:justification:customer_support",
-        "llm:remediation-status:refused",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
@@ -1198,13 +1209,10 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:b",
-        "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:account_security",
-        "llm:justification:preventing_duplicates",
         "llm:justification:technical_limitation",
+        "llm:justification:industry_standard",
         "llm:remediation-status:planned",
-        "llm:remediation-scope:partial",
+        "llm:remediation-scope:full",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
@@ -1297,8 +1305,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:extension-asked",
-        "llm:remediation-status:planned",
+        "llm:justification:technical_limitation",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request",
         "automated-reply"
@@ -1307,8 +1314,11 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:planned",
+        "llm:justification:user_experience",
+        "llm:justification:account_security",
+        "llm:remediation-status:partial",
         "llm:remediation-scope:full",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       [
@@ -1321,7 +1331,8 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:justification:technical_limitation",
-        "llm:justification:privacy_policy",
+        "llm:justification:industry_standard",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -1373,7 +1384,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:planned",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -1427,7 +1438,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:planned",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -1473,15 +1484,18 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
+        "llm:justification:technical_limitation",
         "llm:remediation-status:planned",
         "llm:remediation-scope:full",
-        "llm:privacy-risk:agree",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -1537,8 +1551,8 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:justification:industry_standard",
-        "llm:remediation-status:partial",
+        "llm:justification:user_experience",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -1630,16 +1644,17 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:b",
-        "llm:justification:contractual_necessity",
-        "llm:remediation-status:completed",
-        "llm:remediation-scope:partial",
+        "llm:justification:user_experience",
+        "llm:justification:account_security",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -1735,8 +1750,9 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:planned",
-        "llm:privacy-risk:agree",
+        "llm:justification:technical_limitation",
+        "llm:justification:industry_standard",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       [
@@ -1744,8 +1760,8 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:justification:technical_limitation",
-        "llm:remediation-status:completed",
-        "llm:remediation-scope:partial",
+        "llm:justification:industry_standard",
+        "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ],
       [
@@ -1864,8 +1880,11 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
+        "llm:justification:user_experience",
         "llm:justification:technical_limitation",
         "llm:remediation-status:planned",
+        "llm:remediation-scope:full",
+        "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ],
       [
@@ -1877,14 +1896,11 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:account_security",
-        "llm:justification:preventing_duplicates",
         "llm:justification:user_experience",
-        "llm:justification:industry_standard",
-        "llm:remediation-status:planned",
+        "llm:justification:account_security",
+        "llm:remediation-status:partial",
         "llm:remediation-scope:full",
-        "llm:privacy-risk:agree",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -1938,11 +1954,9 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:b",
-        "llm:basis:article6-paragraph1-point:f",
+        "llm:justification:user_experience",
         "llm:justification:account_security",
-        "llm:justification:fraud_prevention",
-        "llm:remediation-status:completed",
+        "llm:remediation-status:partial",
         "llm:remediation-scope:full",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
@@ -1996,9 +2010,8 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:refused",
-        "llm:remediation-scope:partial",
-        "llm:privacy-risk:agree",
+        "llm:justification:technical_limitation",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       [
@@ -2006,7 +2019,8 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:justification:technical_limitation",
-        "llm:remediation-status:partial",
+        "llm:justification:industry_standard",
+        "llm:remediation-status:completed",
         "llm:remediation-scope:full",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
@@ -2076,18 +2090,17 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:fraud_prevention",
-        "llm:justification:account_security",
+        "llm:justification:technical_limitation",
         "llm:justification:industry_standard",
-        "llm:remediation-status:partial",
-        "llm:remediation-scope:full",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -2225,7 +2238,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:refused",
+        "llm:justification:technical_limitation",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
@@ -2307,16 +2320,16 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:justification:customer_support",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
+        "llm:justification:user_experience",
         "llm:justification:account_security",
-        "llm:justification:technical_limitation",
-        "llm:justification:privacy",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -2374,14 +2387,18 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:extension-asked",
+        "llm:justification:technical_limitation",
         "llm:remediation-status:planned",
+        "llm:remediation-scope:full",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -2433,6 +2450,8 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request",
         "automated-reply"
       ],
       [
@@ -2444,7 +2463,9 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ]
     ],
     "stats": {
@@ -2501,7 +2522,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:completed",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       [
@@ -2614,10 +2635,8 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:preventing_duplicates",
-        "llm:justification:account_security",
-        "llm:remediation-status:refused",
+        "llm:justification:technical_limitation",
+        "llm:justification:industry_standard",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
@@ -2676,18 +2695,17 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:b",
-        "llm:justification:account_security",
-        "llm:justification:customer_support",
-        "llm:remediation-status:partial",
-        "llm:remediation-scope:full",
-        "llm:privacy-risk:disagree",
+        "llm:justification:user_experience",
+        "llm:justification:technical_limitation",
+        "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -2743,22 +2761,21 @@
       [
         "from:service-provider",
         "purpose:gdpr",
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
+      ],
+      [
+        "from:service-provider",
+        "purpose:gdpr",
         "subpurpose:gdpr-response"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:justification:customer_support",
-        "llm:addresses-gdpr-request"
-      ],
-      [
-        "from:service-provider",
-        "purpose:gdpr",
-        "subpurpose:gdpr-response",
         "llm:justification:technical_limitation",
-        "llm:remediation-status:completed",
-        "llm:remediation-scope:full",
+        "llm:justification:industry_standard",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
@@ -2923,12 +2940,18 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
+        "llm:justification:user_experience",
+        "llm:justification:account_security",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request",
         "automated-reply"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ]
     ],
     "stats": {
@@ -2979,9 +3002,8 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:justification:fraud_prevention",
-        "llm:justification:account_security",
         "llm:justification:technical_limitation",
+        "llm:justification:industry_standard",
         "llm:remediation-status:planned",
         "llm:remediation-scope:full",
         "llm:privacy-risk:agree",
@@ -3045,12 +3067,8 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:b",
-        "llm:justification:user_experience",
-        "llm:justification:account_security",
-        "llm:justification:fraud_prevention",
-        "llm:remediation-status:partial",
-        "llm:remediation-scope:full",
+        "llm:justification:technical_limitation",
+        "llm:justification:industry_standard",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ]
@@ -3108,8 +3126,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:planned",
-        "llm:privacy-risk:agree",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -3177,7 +3194,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:planned",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request",
         "automated-reply"
       ],
@@ -3185,8 +3202,8 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:account_security",
+        "llm:justification:technical_limitation",
+        "llm:justification:industry_standard",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
@@ -3371,18 +3388,10 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
-      ],
-      [
-        "from:author",
-        "purpose:gdpr",
-        "subpurpose:follow-up"
-      ],
-      [
-        "from:service-provider",
-        "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:justification:technical_limitation",
+        "llm:justification:industry_standard",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       [
@@ -3394,8 +3403,21 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:completed",
-        "llm:remediation-scope:partial",
+        "llm:justification:technical_limitation",
+        "llm:justification:industry_standard",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
+      ],
+      [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up"
+      ],
+      [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response",
+        "llm:justification:technical_limitation",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ],
@@ -3408,8 +3430,10 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:completed",
-        "llm:remediation-scope:partial",
+        "llm:justification:technical_limitation",
+        "llm:remediation-status:planned",
+        "llm:remediation-scope:full",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -3462,6 +3486,9 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
+        "llm:remediation-status:refused",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request",
         "automated-reply"
       ],
       [
@@ -3518,14 +3545,13 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:planned",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:refused",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],

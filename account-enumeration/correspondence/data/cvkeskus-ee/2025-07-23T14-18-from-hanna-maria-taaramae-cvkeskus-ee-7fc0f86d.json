@@ -20,11 +20,11 @@
     "from:service-provider",
     "purpose:gdpr",
     "subpurpose:gdpr-response",
-    "llm:basis:article6-paragraph1-point:f",
-    "llm:justification:user_experience",
+    "llm:justification:technical_limitation",
+    "llm:justification:industry_standard",
     "llm:remediation-status:planned",
-    "llm:remediation-scope:partial",
-    "llm:privacy-risk:agree",
+    "llm:remediation-scope:full",
+    "llm:privacy-risk:disagree",
     "llm:addresses-gdpr-request"
   ],
   "attachments": [
@@ -48,40 +48,22 @@
     "extension": {
       "asked": false,
       "justification_keywords": null,
-      "until": null,
-      "quotes": null
-    },
-    "vulnerability_acknowledged": {
-      "status": "not_mentioned",
-      "quotes": null
+      "until": null
     },
     "privacy_risk_acknowledged": {
-      "status": "agree",
-      "quotes": [
-        "Siiski mõistame ja tunnistame tõsiseid muresid, mida olete esile tõstnud seoses privaatsusega seotud riskidega ja kasutajakontode loendamise ohuga.",
-        "Seetõttu oleme algatanud neljas e-posti kasutamise juhtumis kuvatava sõnumi muutmise protsessi. Teeme kõik endast oleneva, et teha muudatusi, mis ei mõjutaks ebaproportsionaalselt kasutaja teekonda, kuid prioritiseeriksid meie kasutajate privaatsust ja õiguste kaitset."
-      ]
+      "status": "disagree"
     },
     "legal_basis": {
-      "formal_legal_basis": [
-        "f"
-      ],
+      "formal_legal_basis": [],
       "justification_keywords": [
-        "user_experience"
-      ],
-      "quotes": [
-        "Teie kirjas esile tõstetud andmetöötluse liikide õiguslik alus on olnud CVKeskus.ee õigustatud huvi (isikuandmete kaitse üldmääruse artikli 6 lõike 1 punkt f).",
-        "Tööplatvormina püüame pakkuda parimat kasutajakogemust nii tööotsijatele kui ka klientidele, lihtsustades kasutajateekonda oma parimate võimaluste piires."
+        "technical_limitation",
+        "industry_standard"
       ]
     },
     "remediation": {
       "status": "planned",
-      "scope": "partial",
-      "deadline": null,
-      "quotes": [
-        "Seetõttu oleme algatanud neljas e-posti kasutamise juhtumis kuvatava sõnumi muutmise protsessi.",
-        "Teeme kõik endast oleneva, et teha muudatusi, mis ei mõjutaks ebaproportsionaalselt kasutaja teekonda, kuid prioritiseeriksid meie kasutajate privaatsust ja õiguste kaitset."
-      ]
+      "scope": "full",
+      "deadline": "2025-08-31"
     }
   }
 }

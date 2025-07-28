@@ -34,9 +34,8 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:justification:user_experience",
-        "llm:remediation-status:planned",
-        "llm:remediation-scope:full",
-        "llm:privacy-risk:agree",
+        "llm:justification:technical_limitation",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -264,9 +263,8 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:justification:user_experience",
-        "llm:remediation-status:planned",
-        "llm:remediation-scope:full",
-        "llm:privacy-risk:agree",
+        "llm:justification:technical_limitation",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       "attachments": [],
@@ -274,39 +272,22 @@
         "extension": {
           "asked": false,
           "justification_keywords": null,
-          "until": null,
-          "quotes": null
-        },
-        "vulnerability_acknowledged": {
-          "status": "agree",
-          "quotes": [
-            "olukord, kus kolmandal osapoolel võib olla võimalik tuvastada, kas konkreetne e-posti aadress on registreeritud meie süsteemis, on meile teada"
-          ]
+          "until": null
         },
         "privacy_risk_acknowledged": {
-          "status": "agree",
-          "quotes": [
-            "olukord, kus kolmandal osapoolel võib olla võimalik tuvastada, kas konkreetne e-posti aadress on registreeritud meie süsteemis, on meile teada",
-            "meie hinnangul ei kaasne pelgalt teadmisest, et Teie e-posti aadressiga on konto olemas, kohest ja olulist riski teistele isikuandmetele ja nende kaitsele."
-          ]
+          "status": "disagree"
         },
         "legal_basis": {
           "formal_legal_basis": [],
           "justification_keywords": [
-            "user_experience"
-          ],
-          "quotes": [
-            "Töötame aktiivselt kasutajakogemuse parandamise nimel"
+            "user_experience",
+            "technical_limitation"
           ]
         },
         "remediation": {
-          "status": "planned",
-          "scope": "full",
-          "deadline": "2025-08-31",
-          "quotes": [
-            "Vaatamata sellele, kiiremas korras rakendame täiendavaid bruteforce’i vastaseid mehhanisme sh peale mitmeid ebaõnnestunud registreerimise katseid vähendame päringute kiirust.",
-            "Töötame aktiivselt kasutajakogemuse parandamise nimel, kaasates ka UX meeskonda, ning usume, et olukorrale leitakse püsiv lahendus hilisemalt suve lõpuks, kuna praegu on aktiivne puhkuste periood."
-          ]
+          "status": "not_mentioned",
+          "scope": null,
+          "deadline": null
         }
       }
     }

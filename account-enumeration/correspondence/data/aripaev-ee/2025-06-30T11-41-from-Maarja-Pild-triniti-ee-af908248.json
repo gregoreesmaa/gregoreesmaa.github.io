@@ -20,12 +20,9 @@
     "from:service-provider",
     "purpose:gdpr",
     "subpurpose:gdpr-response",
-    "llm:basis:article6-paragraph1-point:a",
-    "llm:justification:security",
+    "llm:justification:technical_limitation",
     "llm:justification:industry_standard",
-    "llm:remediation-status:planned",
-    "llm:remediation-scope:partial",
-    "llm:privacy-risk:agree",
+    "llm:privacy-risk:disagree",
     "llm:addresses-gdpr-request"
   ],
   "attachments": [
@@ -49,40 +46,22 @@
     "extension": {
       "asked": false,
       "justification_keywords": null,
-      "until": null,
-      "quotes": null
-    },
-    "vulnerability_acknowledged": {
-      "status": "not_mentioned",
-      "quotes": null
+      "until": null
     },
     "privacy_risk_acknowledged": {
-      "status": "agree",
-      "quotes": [
-        "Küll aga lisab vastustaja peatselt veel ühe täiendava kaitsemeetme. Nimelt plaanib vastustaja saata kasutajale, kes püüab sama e-postiga ennast uuesti registreerida, e-kirja küsimusega, kas kasutaja proovis just endale sama e-postiga uut kasutajat teha ning kui vastus on ei, siis sellest Äripäeva teavitada ning olla ka ise turvariskidest teadlik.",
-        "Kokkuvõtvalt ei ole keegi kunagi petturite ja kõigi võimalike nõrkuste eest lõpuni kaitstud, kahjuks käivad teatud riskid iga teenuse osutamisega kaasas."
-      ]
+      "status": "disagree"
     },
     "legal_basis": {
-      "formal_legal_basis": [
-        "a"
-      ],
+      "formal_legal_basis": [],
       "justification_keywords": [
-        "security",
+        "technical_limitation",
         "industry_standard"
-      ],
-      "quotes": [
-        "Andmetöötluse alus. Vastustaja selgitab, et registreerimise protsessis e-posti sisestamine ja selle tulemusena info saamine, et kasutaja on juba olemas, on mõeldud vaid konkreetse e-posti omaniku jaoks ja sellisel juhul toimub andmetöötlus IKÜM artikkel 6.1.a alusel, kas andmesubjekti enda poolt või tema volitusel.",
-        "Samasugust kasutaja registreerimise lahendust ning riskide maandamise meetodit kasutavad ka näiteks Amazon, Google, Apple ja Microsoft."
       ]
     },
     "remediation": {
-      "status": "planned",
-      "scope": "partial",
-      "deadline": null,
-      "quotes": [
-        "Nimelt plaanib vastustaja saata kasutajale, kes püüab sama e-postiga ennast uuesti registreerida, e-kirja küsimusega, kas kasutaja proovis just endale sama e-postiga uut kasutajat teha ning kui vastus on ei, siis sellest Äripäeva teavitada ning olla ka ise turvariskidest teadlik."
-      ]
+      "status": "not_mentioned",
+      "scope": null,
+      "deadline": null
     }
   }
 }

@@ -30,14 +30,13 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:planned",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:refused",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
@@ -234,7 +233,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:planned",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       "attachments": [],
@@ -242,29 +241,19 @@
         "extension": {
           "asked": false,
           "justification_keywords": null,
-          "until": null,
-          "quotes": null
-        },
-        "vulnerability_acknowledged": {
-          "status": "not_mentioned",
-          "quotes": null
+          "until": null
         },
         "privacy_risk_acknowledged": {
-          "status": "not_mentioned",
-          "quotes": null
+          "status": "disagree"
         },
         "legal_basis": {
           "formal_legal_basis": [],
-          "justification_keywords": null,
-          "quotes": null
+          "justification_keywords": null
         },
         "remediation": {
-          "status": "planned",
+          "status": "not_mentioned",
           "scope": null,
-          "deadline": "2025-08-10",
-          "quotes": [
-            "I will pass your request and concern to our internal department for investigation. Will come back to you within 7 working days."
-          ]
+          "deadline": null
         }
       }
     },
@@ -290,7 +279,6 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:refused",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
@@ -299,33 +287,19 @@
         "extension": {
           "asked": false,
           "justification_keywords": null,
-          "until": null,
-          "quotes": null
-        },
-        "vulnerability_acknowledged": {
-          "status": "disagree",
-          "quotes": [
-            "after thorough checks Im afraid we do not see the relevant vulnerability in this situation."
-          ]
+          "until": null
         },
         "privacy_risk_acknowledged": {
-          "status": "disagree",
-          "quotes": [
-            "We do not see the relevant vulnerability in this situation."
-          ]
+          "status": "disagree"
         },
         "legal_basis": {
           "formal_legal_basis": [],
-          "justification_keywords": null,
-          "quotes": null
+          "justification_keywords": null
         },
         "remediation": {
-          "status": "refused",
+          "status": "not_mentioned",
           "scope": null,
-          "deadline": null,
-          "quotes": [
-            "We do not see the relevant vulnerability in this situation."
-          ]
+          "deadline": null
         }
       }
     },

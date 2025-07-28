@@ -25,11 +25,9 @@
     "from:service-provider",
     "purpose:gdpr",
     "subpurpose:gdpr-response",
-    "llm:basis:article6-paragraph1-point:b",
-    "llm:basis:article6-paragraph1-point:f",
+    "llm:justification:user_experience",
     "llm:justification:account_security",
-    "llm:justification:fraud_prevention",
-    "llm:remediation-status:completed",
+    "llm:remediation-status:partial",
     "llm:remediation-scope:full",
     "llm:privacy-risk:agree",
     "llm:addresses-gdpr-request"
@@ -46,48 +44,22 @@
     "extension": {
       "asked": false,
       "justification_keywords": null,
-      "until": null,
-      "quotes": null
-    },
-    "vulnerability_acknowledged": {
-      "status": "agree",
-      "quotes": [
-        "As a result, we have taken the corrective actions, and the reported issue potentially affecting the login and registration forms has been fully resolved.",
-        "This has now been addressed."
-      ]
+      "until": null
     },
     "privacy_risk_acknowledged": {
-      "status": "agree",
-      "quotes": [
-        "Accordingly, the Data Subject requested the Company to respond to the questions set out in the Notice.",
-        "This has now been addressed.",
-        "the previously reported issue has been rectified and the vulnerability removed",
-        "the objection has been noted and respected"
-      ]
+      "status": "agree"
     },
     "legal_basis": {
-      "formal_legal_basis": [
-        "b",
-        "f"
-      ],
+      "formal_legal_basis": [],
       "justification_keywords": [
-        "account_security",
-        "fraud_prevention"
-      ],
-      "quotes": [
-        "\"necessary for the performance of a contract — specifically, to provide users with access to account-based services.\"",
-        "\"supported by the Company’s legitimate interest under Article 6(1)(f), in ensuring the integrity and protection of user accounts.\""
+        "user_experience",
+        "account_security"
       ]
     },
     "remediation": {
-      "status": "completed",
+      "status": "partial",
       "scope": "full",
-      "deadline": null,
-      "quotes": [
-        "As a result, we have taken the corrective actions, and the reported issue potentially affecting the login and registration forms has been fully resolved.",
-        "The system has been updated to ensure that no indication is provided as to whether a specific email address is registered",
-        "the previously reported issue has been rectified and the vulnerability removed"
-      ]
+      "deadline": "2025-08-31"
     }
   }
 }

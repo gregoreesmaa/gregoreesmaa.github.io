@@ -24,7 +24,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:justification:account_security",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request",
         "automated-reply"
       ],
@@ -36,17 +36,17 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:justification:preventing_duplicates",
+        "llm:justification:technical_limitation",
         "llm:justification:industry_standard",
-        "llm:remediation-status:planned",
-        "llm:remediation-scope:full",
-        "llm:privacy-risk:agree",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -245,7 +245,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:justification:account_security",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       "attachments": [],
@@ -253,32 +253,19 @@
         "extension": {
           "asked": false,
           "justification_keywords": null,
-          "until": null,
-          "quotes": null
-        },
-        "vulnerability_acknowledged": {
-          "status": "not_mentioned",
-          "quotes": null
+          "until": null
         },
         "privacy_risk_acknowledged": {
-          "status": "not_mentioned",
-          "quotes": null
+          "status": "disagree"
         },
         "legal_basis": {
           "formal_legal_basis": [],
-          "justification_keywords": [
-            "account_security"
-          ],
-          "quotes": [
-            "juhul, kui Te ei edastanud päringut enda kontakt e-posti aadressilt, siis selleks, et saaksime veenduda pöörduja isikusamasuses",
-            "Isikusamasuse tuvastamiseks palume iseteenindusse sisse logida."
-          ]
+          "justification_keywords": null
         },
         "remediation": {
           "status": "not_mentioned",
           "scope": null,
-          "deadline": null,
-          "quotes": null
+          "deadline": null
         }
       }
     },
@@ -362,34 +349,28 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       "attachments": [],
       "llmAnalysis": {
         "extension": {
           "asked": false,
           "justification_keywords": null,
-          "until": null,
-          "quotes": null
-        },
-        "vulnerability_acknowledged": {
-          "status": "not_mentioned",
-          "quotes": null
+          "until": null
         },
         "privacy_risk_acknowledged": {
-          "status": "not_mentioned",
-          "quotes": null
+          "status": "disagree"
         },
         "legal_basis": {
           "formal_legal_basis": [],
-          "justification_keywords": null,
-          "quotes": null
+          "justification_keywords": null
         },
         "remediation": {
           "status": "not_mentioned",
           "scope": null,
-          "deadline": null,
-          "quotes": null
+          "deadline": null
         }
       }
     },
@@ -415,11 +396,9 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:justification:preventing_duplicates",
+        "llm:justification:technical_limitation",
         "llm:justification:industry_standard",
-        "llm:remediation-status:planned",
-        "llm:remediation-scope:full",
-        "llm:privacy-risk:agree",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       "attachments": [
@@ -442,43 +421,23 @@
       "llmAnalysis": {
         "extension": {
           "asked": false,
-          "justification_keywords": [
-            "technical_assessment"
-          ],
-          "until": null,
-          "quotes": null
-        },
-        "vulnerability_acknowledged": {
-          "status": "agree",
-          "quotes": [
-            "Elisa nõustub Teiega, et veateade „See e-posti aadress on juba kasutusel“ võimaldab konto registreerijale saada isikuandmeid, täpsemalt kliendiks oleku fakti."
-          ]
+          "justification_keywords": null,
+          "until": null
         },
         "privacy_risk_acknowledged": {
-          "status": "agree",
-          "quotes": [
-            "Elisa nõustub Teiega, et veateade „See e-posti aadress on juba kasutusel“ võimaldab konto registreerijal saada isikuandmeid, täpsemalt kliendiks oleku fakti, mis IKÜM artikkel 4 kohaselt on eraisikut tuvastav teave."
-          ]
+          "status": "disagree"
         },
         "legal_basis": {
           "formal_legal_basis": [],
           "justification_keywords": [
-            "preventing_duplicates",
+            "technical_limitation",
             "industry_standard"
-          ],
-          "quotes": [
-            "Vastavalt Elisa äppide kasutamise tingimuste p-le 2.3. tuleb Elisa äpi (sh Elisa Raamatu) kasutamiseks end esmalt autentida ja luua Elisa äpi konto.",
-            "Praeguseni on Elisa kasutanud eelkirjeldatud lahendust kui turul laialt levinud varianti."
           ]
         },
         "remediation": {
-          "status": "planned",
-          "scope": "full",
-          "deadline": null,
-          "quotes": [
-            "\"Elisa nõustub Teiega, et veateade „See e-posti aadress on juba kasutusel“ võimaldab konto registreerijale saada isikuandmeid... Sellest lähtuvalt muudab Elisa senist praktikat Elisa Raamatu konto registreerimisel ning võtab kasutusse teistsuguse veateate.\"",
-            "\"Kuivõrd selline muudatus eeldab, arendusmuudatust, võtab muudatuse jõustumine aega\""
-          ]
+          "status": "not_mentioned",
+          "scope": null,
+          "deadline": null
         }
       }
     }

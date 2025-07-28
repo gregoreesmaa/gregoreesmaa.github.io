@@ -40,18 +40,17 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:fraud_prevention",
-        "llm:justification:account_security",
+        "llm:justification:technical_limitation",
         "llm:justification:industry_standard",
-        "llm:remediation-status:partial",
-        "llm:remediation-scope:full",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -299,34 +298,28 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       "attachments": [],
       "llmAnalysis": {
         "extension": {
           "asked": false,
           "justification_keywords": null,
-          "until": null,
-          "quotes": null
-        },
-        "vulnerability_acknowledged": {
-          "status": "not_mentioned",
-          "quotes": null
+          "until": null
         },
         "privacy_risk_acknowledged": {
-          "status": "not_mentioned",
-          "quotes": null
+          "status": "disagree"
         },
         "legal_basis": {
           "formal_legal_basis": [],
-          "justification_keywords": null,
-          "quotes": null
+          "justification_keywords": null
         },
         "remediation": {
           "status": "not_mentioned",
           "scope": null,
-          "deadline": null,
-          "quotes": null
+          "deadline": null
         }
       }
     },
@@ -352,12 +345,9 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:fraud_prevention",
-        "llm:justification:account_security",
+        "llm:justification:technical_limitation",
         "llm:justification:industry_standard",
-        "llm:remediation-status:partial",
-        "llm:remediation-scope:full",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       "attachments": [
@@ -381,46 +371,22 @@
         "extension": {
           "asked": false,
           "justification_keywords": null,
-          "until": null,
-          "quotes": null
-        },
-        "vulnerability_acknowledged": {
-          "status": "agree",
-          "quotes": [
-            "We have read with great interest the research report \"Account Enumeration Vulnerability: kaup24.ee\" conducted as part of your master´s thesis ...",
-            "Regarding issue A, we have considered your finding and can indeed assure you that anti-bot measures were implemented ...",
-            "Regarding issue B, we do not acknowledge the enumeration, however the possibility is limited to targeted (spear) enumeration ...",
-            "Regarding issue C, I would like to point out that stated enumeration possibility is limited to targeted (spear) enumeration ..."
-          ]
+          "until": null
         },
         "privacy_risk_acknowledged": {
-          "status": "not_mentioned",
-          "quotes": null
+          "status": "disagree"
         },
         "legal_basis": {
-          "formal_legal_basis": [
-            "f"
-          ],
+          "formal_legal_basis": [],
           "justification_keywords": [
-            "fraud_prevention",
-            "account_security",
+            "technical_limitation",
             "industry_standard"
-          ],
-          "quotes": [
-            "We consider it appropriate to divide our response to your request into two parts, one of which addresses the IT aspect and the other the personal data protection aspect.",
-            "Regarding the vulnerability issues outlined in your attached report “Account Enumeration Vulnerability: kaup24.ee” we noticed that you have identified three separate issues.",
-            "Considering the Company’s legitimate interest in ensuring the security of the service and preventing fraud, we are obliged to implement the necessary technical and organizational measures to minimize the impact of such security risks."
           ]
         },
         "remediation": {
-          "status": "partial",
-          "scope": "full",
-          "deadline": null,
-          "quotes": [
-            "we have considered your finding and can indeed assure you that anti-bot measures were implemented as per your note in a form of rare limiting",
-            "we are improving the responses and error messages of related systems to prevent the disclosure of user data to prevent unauthorized users from being granted access",
-            "we are developing a more comprehensive permanent solution, which is planned to be implemented in the near future"
-          ]
+          "status": "not_mentioned",
+          "scope": null,
+          "deadline": null
         }
       }
     }

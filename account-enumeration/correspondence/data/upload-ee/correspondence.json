@@ -32,18 +32,10 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
-      ],
-      [
-        "from:author",
-        "purpose:gdpr",
-        "subpurpose:follow-up"
-      ],
-      [
-        "from:service-provider",
-        "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:justification:technical_limitation",
+        "llm:justification:industry_standard",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       [
@@ -55,8 +47,21 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:completed",
-        "llm:remediation-scope:partial",
+        "llm:justification:technical_limitation",
+        "llm:justification:industry_standard",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
+      ],
+      [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up"
+      ],
+      [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response",
+        "llm:justification:technical_limitation",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ],
@@ -69,8 +74,10 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:completed",
-        "llm:remediation-scope:partial",
+        "llm:justification:technical_limitation",
+        "llm:remediation-status:planned",
+        "llm:remediation-scope:full",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -269,34 +276,33 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:justification:technical_limitation",
+        "llm:justification:industry_standard",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       "attachments": [],
       "llmAnalysis": {
         "extension": {
           "asked": false,
           "justification_keywords": null,
-          "until": null,
-          "quotes": null
-        },
-        "vulnerability_acknowledged": {
-          "status": "not_mentioned",
-          "quotes": null
+          "until": null
         },
         "privacy_risk_acknowledged": {
-          "status": "not_mentioned",
-          "quotes": null
+          "status": "disagree"
         },
         "legal_basis": {
           "formal_legal_basis": [],
-          "justification_keywords": null,
-          "quotes": null
+          "justification_keywords": [
+            "technical_limitation",
+            "industry_standard"
+          ]
         },
         "remediation": {
           "status": "not_mentioned",
           "scope": null,
-          "deadline": null,
-          "quotes": null
+          "deadline": null
         }
       }
     },
@@ -348,6 +354,8 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:justification:technical_limitation",
+        "llm:justification:industry_standard",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       "attachments": [],
@@ -355,32 +363,22 @@
         "extension": {
           "asked": false,
           "justification_keywords": null,
-          "until": null,
-          "quotes": null
-        },
-        "vulnerability_acknowledged": {
-          "status": "not_mentioned",
-          "quotes": null
+          "until": null
         },
         "privacy_risk_acknowledged": {
-          "status": "not_mentioned",
-          "quotes": null
+          "status": "disagree"
         },
         "legal_basis": {
           "formal_legal_basis": [],
           "justification_keywords": [
-            "technical_limitation"
-          ],
-          "quotes": [
-            "kas olete kirjutanud samalaadsed kirjad ka github, facebook, google, airbnb jne lehtedele, kus on sama definitsiooni järgi ohus sadade miljonite kasutajate andmed?",
-            "vaadates neid eelnimetatud lehti, kus hetkel jätkuvalt ei rakendata sellist ähmast lähenemist, kas nendele siis GDPR rakendub kuidagi teistmoodi, kui väiksematele ettevõtetele?"
+            "technical_limitation",
+            "industry_standard"
           ]
         },
         "remediation": {
           "status": "not_mentioned",
           "scope": null,
-          "deadline": null,
-          "quotes": null
+          "deadline": null
         }
       }
     },
@@ -431,8 +429,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:completed",
-        "llm:remediation-scope:partial",
+        "llm:justification:technical_limitation",
         "llm:privacy-risk:agree",
         "llm:addresses-gdpr-request"
       ],
@@ -441,34 +438,21 @@
         "extension": {
           "asked": false,
           "justification_keywords": null,
-          "until": null,
-          "quotes": null
-        },
-        "vulnerability_acknowledged": {
-          "status": "agree",
-          "quotes": [
-            "Hmm, njah, affected ja selected rows näitas debug andmetes ridade arvuga kaudselt ära kasutaja olemasolu."
-          ]
+          "until": null
         },
         "privacy_risk_acknowledged": {
-          "status": "agree",
-          "quotes": [
-            "Hmm, njah, affected ja selected rows näitas debug andmetes ridade arvuga kaudselt ära kasutaja olemasolu."
-          ]
+          "status": "agree"
         },
         "legal_basis": {
           "formal_legal_basis": [],
-          "justification_keywords": null,
-          "quotes": null
+          "justification_keywords": [
+            "technical_limitation"
+          ]
         },
         "remediation": {
-          "status": "completed",
-          "scope": "partial",
-          "deadline": null,
-          "quotes": [
-            "\"ründatud ja selected rows näitas debug andmetes ridade arvuga kaudselt ära kasutaja olemasolu\"",
-            "\"kaks muutujat regamise ja parooli taastamise lehel ning login lehel on nüüd peidus\""
-          ]
+          "status": "not_mentioned",
+          "scope": null,
+          "deadline": null
         }
       }
     },
@@ -519,8 +503,10 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:completed",
-        "llm:remediation-scope:partial",
+        "llm:justification:technical_limitation",
+        "llm:remediation-status:planned",
+        "llm:remediation-scope:full",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       "attachments": [],
@@ -528,33 +514,21 @@
         "extension": {
           "asked": false,
           "justification_keywords": null,
-          "until": null,
-          "quotes": null
-        },
-        "vulnerability_acknowledged": {
-          "status": "agree",
-          "quotes": [
-            "Njah, kui kirja välja ei saada siis tõlkesüsteemi kasutuskordade logi näitas erinevust jah."
-          ]
+          "until": null
         },
         "privacy_risk_acknowledged": {
-          "status": "not_mentioned",
-          "quotes": null
+          "status": "disagree"
         },
         "legal_basis": {
           "formal_legal_basis": [],
-          "justification_keywords": null,
-          "quotes": null
+          "justification_keywords": [
+            "technical_limitation"
+          ]
         },
         "remediation": {
-          "status": "completed",
-          "scope": "partial",
-          "deadline": null,
-          "quotes": [
-            "Njah, kui kirja välja ei saada siis tõlkesüsteemi kasutuskordade logi näitas erinevust jah.",
-            "Nüüd on mysql ja tõlkesüsteemi info login+register+forgotpassword lehtedel kinni keeratud, juhul kui formi submit on toimunud.",
-            "Parooli lähtestamise leht peaks nüüd alati formi reseti triggerdama, see erisus on ka kadunud."
-          ]
+          "status": "planned",
+          "scope": "full",
+          "deadline": null
         }
       }
     }

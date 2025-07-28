@@ -39,10 +39,8 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:preventing_duplicates",
-        "llm:justification:account_security",
-        "llm:remediation-status:refused",
+        "llm:justification:technical_limitation",
+        "llm:justification:industry_standard",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
@@ -290,10 +288,8 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:preventing_duplicates",
-        "llm:justification:account_security",
-        "llm:remediation-status:refused",
+        "llm:justification:technical_limitation",
+        "llm:justification:industry_standard",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
@@ -318,43 +314,22 @@
         "extension": {
           "asked": false,
           "justification_keywords": null,
-          "until": null,
-          "quotes": null
-        },
-        "vulnerability_acknowledged": {
-          "status": "disagree",
-          "quotes": [
-            "Kirjeldatud tegevus jääb andmekaitseõiguse mõttes halli alasse, kus puudub lõplik selgus.",
-            "Oleme seisukohal, et kirjeldatud andmetöötlus on seaduslik"
-          ]
+          "until": null
         },
         "privacy_risk_acknowledged": {
-          "status": "disagree",
-          "quotes": [
-            "Kirjastus ei väljasta kellelegi Teie meiliaadressi.",
-            "kui Te meie seisukohtadega ei nõustu, on Teil loomulikult õigus pöörduda Andmekaitse Inspektsiooni poole."
-          ]
+          "status": "disagree"
         },
         "legal_basis": {
-          "formal_legal_basis": [
-            "f"
-          ],
+          "formal_legal_basis": [],
           "justification_keywords": [
-            "preventing_duplicates",
-            "account_security"
-          ],
-          "quotes": [
-            "\"Teavitus konto olemasolust tugineb andmekaitseöiguslikult vastutava töötleja ja tema klientide öigustatud huvile (IKÜm art 18 lg 1 f). Vastutava töötleja huvi seisneb topeltkontode loomise vöimaluse välistamises. Kliendi huvi on samuti, et keegi teine ei saaks tema meiliaadressiga luua uut kontot.\""
+            "technical_limitation",
+            "industry_standard"
           ]
         },
         "remediation": {
-          "status": "refused",
+          "status": "not_mentioned",
           "scope": null,
-          "deadline": null,
-          "quotes": [
-            "\"me ei rakenda\"",
-            "\"Me ei saa arvestada\""
-          ]
+          "deadline": null
         }
       }
     }

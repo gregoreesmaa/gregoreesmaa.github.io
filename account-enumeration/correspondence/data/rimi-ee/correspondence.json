@@ -45,7 +45,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:planned",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request",
         "automated-reply"
       ],
@@ -53,8 +53,8 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:account_security",
+        "llm:justification:technical_limitation",
+        "llm:justification:industry_standard",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
@@ -338,7 +338,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:planned",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       "attachments": [],
@@ -346,33 +346,19 @@
         "extension": {
           "asked": false,
           "justification_keywords": null,
-          "until": null,
-          "quotes": null
-        },
-        "vulnerability_acknowledged": {
-          "status": "not_mentioned",
-          "quotes": null
+          "until": null
         },
         "privacy_risk_acknowledged": {
-          "status": "not_mentioned",
-          "quotes": null
+          "status": "disagree"
         },
         "legal_basis": {
           "formal_legal_basis": [],
-          "justification_keywords": null,
-          "quotes": [
-            "Art.12 IKÜM",
-            "Art.12 GDPR",
-            "BDAR 12 str."
-          ]
+          "justification_keywords": null
         },
         "remediation": {
-          "status": "planned",
+          "status": "not_mentioned",
           "scope": null,
-          "deadline": "2025-08-27",
-          "quotes": [
-            "We will respond to a request related to processing of personal data as soon as possible and no later than within one month."
-          ]
+          "deadline": null
         }
       }
     },
@@ -398,8 +384,8 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:basis:article6-paragraph1-point:f",
-        "llm:justification:account_security",
+        "llm:justification:technical_limitation",
+        "llm:justification:industry_standard",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
@@ -408,38 +394,22 @@
         "extension": {
           "asked": false,
           "justification_keywords": null,
-          "until": null,
-          "quotes": null
-        },
-        "vulnerability_acknowledged": {
-          "status": "agree",
-          "quotes": [
-            "We would like to indicate that enumeration vulnerability is a potential weakness in a system."
-          ]
+          "until": null
         },
         "privacy_risk_acknowledged": {
-          "status": "disagree",
-          "quotes": [
-            "\"It does not, in itself, involve the transmission, access, or disclosure of personal data unless exploited.\"",
-            "\"The mere confirmation of existence of a data point (e.g. a registered email) may not meet the threshold of disclosure unless it is accompanied by additional identifiable information or is used in a context that leads to identification of a data subject.\""
-          ]
+          "status": "disagree"
         },
         "legal_basis": {
-          "formal_legal_basis": [
-            "f"
-          ],
+          "formal_legal_basis": [],
           "justification_keywords": [
-            "account_security"
-          ],
-          "quotes": [
-            "We process your personal data based on our legitimate interest to ensure IIT environment security."
+            "technical_limitation",
+            "industry_standard"
           ]
         },
         "remediation": {
           "status": "not_mentioned",
           "scope": null,
-          "deadline": null,
-          "quotes": null
+          "deadline": null
         }
       }
     }

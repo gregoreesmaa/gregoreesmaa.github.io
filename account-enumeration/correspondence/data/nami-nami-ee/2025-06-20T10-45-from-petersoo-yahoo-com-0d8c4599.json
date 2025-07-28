@@ -20,7 +20,7 @@
     "from:service-provider",
     "purpose:gdpr",
     "subpurpose:gdpr-response",
-    "llm:remediation-status:completed",
+    "llm:privacy-risk:disagree",
     "llm:addresses-gdpr-request"
   ],
   "attachments": [],
@@ -28,31 +28,19 @@
     "extension": {
       "asked": false,
       "justification_keywords": null,
-      "until": null,
-      "quotes": null
-    },
-    "vulnerability_acknowledged": {
-      "status": "agree",
-      "quotes": [
-        "\"see murekoht lahendatud olema\""
-      ]
+      "until": null
     },
     "privacy_risk_acknowledged": {
-      "status": "not_mentioned",
-      "quotes": null
+      "status": "disagree"
     },
     "legal_basis": {
       "formal_legal_basis": [],
-      "justification_keywords": null,
-      "quotes": null
+      "justification_keywords": null
     },
     "remediation": {
-      "status": "completed",
+      "status": "not_mentioned",
       "scope": null,
-      "deadline": null,
-      "quotes": [
-        "\"see murekoht lahendatud olema\""
-      ]
+      "deadline": null
     }
   }
 }

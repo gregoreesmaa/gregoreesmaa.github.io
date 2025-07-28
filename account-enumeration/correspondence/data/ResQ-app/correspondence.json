@@ -32,8 +32,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:planned",
-        "llm:privacy-risk:agree",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -284,8 +283,7 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
-        "llm:remediation-status:planned",
-        "llm:privacy-risk:agree",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       "attachments": [],
@@ -293,37 +291,19 @@
         "extension": {
           "asked": false,
           "justification_keywords": null,
-          "until": null,
-          "quotes": null
-        },
-        "vulnerability_acknowledged": {
-          "status": "agree",
-          "quotes": [
-            "We were not aware of these issues before this.",
-            "It highlights the issues in our system",
-            "We have registered them and created a plan on how to address and fix them."
-          ]
+          "until": null
         },
         "privacy_risk_acknowledged": {
-          "status": "agree",
-          "quotes": [
-            "We were not aware of these issues before this."
-          ]
+          "status": "disagree"
         },
         "legal_basis": {
           "formal_legal_basis": [],
-          "justification_keywords": null,
-          "quotes": null
+          "justification_keywords": null
         },
         "remediation": {
-          "status": "planned",
+          "status": "not_mentioned",
           "scope": null,
-          "deadline": null,
-          "quotes": [
-            "We have registered them and created a plan on how to address and fix them.",
-            "We will tackle these tasks as soon as possible",
-            "the Finnish summer holiday season may cause a delay."
-          ]
+          "deadline": null
         }
       }
     }

@@ -20,8 +20,10 @@
     "from:service-provider",
     "purpose:gdpr",
     "subpurpose:gdpr-response",
-    "llm:remediation-status:completed",
-    "llm:remediation-scope:partial",
+    "llm:justification:technical_limitation",
+    "llm:remediation-status:planned",
+    "llm:remediation-scope:full",
+    "llm:privacy-risk:disagree",
     "llm:addresses-gdpr-request"
   ],
   "attachments": [],
@@ -29,33 +31,21 @@
     "extension": {
       "asked": false,
       "justification_keywords": null,
-      "until": null,
-      "quotes": null
-    },
-    "vulnerability_acknowledged": {
-      "status": "agree",
-      "quotes": [
-        "Njah, kui kirja välja ei saada siis tõlkesüsteemi kasutuskordade logi näitas erinevust jah."
-      ]
+      "until": null
     },
     "privacy_risk_acknowledged": {
-      "status": "not_mentioned",
-      "quotes": null
+      "status": "disagree"
     },
     "legal_basis": {
       "formal_legal_basis": [],
-      "justification_keywords": null,
-      "quotes": null
+      "justification_keywords": [
+        "technical_limitation"
+      ]
     },
     "remediation": {
-      "status": "completed",
-      "scope": "partial",
-      "deadline": null,
-      "quotes": [
-        "Njah, kui kirja välja ei saada siis tõlkesüsteemi kasutuskordade logi näitas erinevust jah.",
-        "Nüüd on mysql ja tõlkesüsteemi info login+register+forgotpassword lehtedel kinni keeratud, juhul kui formi submit on toimunud.",
-        "Parooli lähtestamise leht peaks nüüd alati formi reseti triggerdama, see erisus on ka kadunud."
-      ]
+      "status": "planned",
+      "scope": "full",
+      "deadline": null
     }
   }
 }

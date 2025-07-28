@@ -21,6 +21,8 @@
     "purpose:gdpr",
     "subpurpose:gdpr-response",
     "llm:justification:technical_limitation",
+    "llm:justification:industry_standard",
+    "llm:privacy-risk:disagree",
     "llm:addresses-gdpr-request"
   ],
   "attachments": [],
@@ -28,32 +30,22 @@
     "extension": {
       "asked": false,
       "justification_keywords": null,
-      "until": null,
-      "quotes": null
-    },
-    "vulnerability_acknowledged": {
-      "status": "not_mentioned",
-      "quotes": null
+      "until": null
     },
     "privacy_risk_acknowledged": {
-      "status": "not_mentioned",
-      "quotes": null
+      "status": "disagree"
     },
     "legal_basis": {
       "formal_legal_basis": [],
       "justification_keywords": [
-        "technical_limitation"
-      ],
-      "quotes": [
-        "kas olete kirjutanud samalaadsed kirjad ka github, facebook, google, airbnb jne lehtedele, kus on sama definitsiooni järgi ohus sadade miljonite kasutajate andmed?",
-        "vaadates neid eelnimetatud lehti, kus hetkel jätkuvalt ei rakendata sellist ähmast lähenemist, kas nendele siis GDPR rakendub kuidagi teistmoodi, kui väiksematele ettevõtetele?"
+        "technical_limitation",
+        "industry_standard"
       ]
     },
     "remediation": {
       "status": "not_mentioned",
       "scope": null,
-      "deadline": null,
-      "quotes": null
+      "deadline": null
     }
   }
 }

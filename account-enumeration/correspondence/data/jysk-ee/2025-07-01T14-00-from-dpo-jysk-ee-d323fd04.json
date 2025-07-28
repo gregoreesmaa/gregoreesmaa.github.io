@@ -24,14 +24,11 @@
     "from:service-provider",
     "purpose:gdpr",
     "subpurpose:gdpr-response",
-    "llm:basis:article6-paragraph1-point:f",
-    "llm:justification:account_security",
-    "llm:justification:preventing_duplicates",
     "llm:justification:user_experience",
-    "llm:justification:industry_standard",
-    "llm:remediation-status:planned",
+    "llm:justification:account_security",
+    "llm:remediation-status:partial",
     "llm:remediation-scope:full",
-    "llm:privacy-risk:agree",
+    "llm:privacy-risk:disagree",
     "llm:addresses-gdpr-request"
   ],
   "attachments": [
@@ -46,44 +43,22 @@
     "extension": {
       "asked": false,
       "justification_keywords": null,
-      "until": null,
-      "quotes": null
-    },
-    "vulnerability_acknowledged": {
-      "status": "agree",
-      "quotes": [
-        "we have now revised the mechanism to return the same user-facing message regardless of account existence. This eliminates even the theoretical possibility of account enumeration through this method."
-      ]
+      "until": null
     },
     "privacy_risk_acknowledged": {
-      "status": "agree",
-      "quotes": [
-        "Nonetheless, to further minimize this risk and in accordance with the principle of data protection by design and by default, we have now revised the mechanism to return the same user-facing message regardless of account existence. This eliminates even the theoretical possibility of account enumeration through this method."
-      ]
+      "status": "disagree"
     },
     "legal_basis": {
-      "formal_legal_basis": [
-        "f"
-      ],
+      "formal_legal_basis": [],
       "justification_keywords": [
-        "account_security",
-        "preventing_duplicates",
         "user_experience",
-        "industry_standard"
-      ],
-      "quotes": [
-        "\"based on Jysk’s legitimate interest in ensuring user account security, preventing abuse, and facilitating efficient user support\"",
-        "\"It is a common and established market practice among online service providers to notify users when an account with the same identifier already exists\""
+        "account_security"
       ]
     },
     "remediation": {
-      "status": "planned",
+      "status": "partial",
       "scope": "full",
-      "deadline": "2025-09-30",
-      "quotes": [
-        "we have now revised the mechanism to return the same user-facing message regardless of account existence",
-        "changes will be completed and implemented by 30.09.2025"
-      ]
+      "deadline": "2025-09-30"
     }
   }
 }

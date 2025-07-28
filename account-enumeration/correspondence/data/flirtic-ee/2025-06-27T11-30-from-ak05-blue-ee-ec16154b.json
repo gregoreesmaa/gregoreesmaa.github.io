@@ -20,11 +20,8 @@
     "from:service-provider",
     "purpose:gdpr",
     "subpurpose:gdpr-response",
-    "llm:justification:user_experience",
-    "llm:justification:account_security",
+    "llm:justification:technical_limitation",
     "llm:justification:industry_standard",
-    "llm:justification:customer_support",
-    "llm:remediation-status:refused",
     "llm:privacy-risk:disagree",
     "llm:addresses-gdpr-request"
   ],
@@ -33,42 +30,22 @@
     "extension": {
       "asked": false,
       "justification_keywords": null,
-      "until": null,
-      "quotes": null
-    },
-    "vulnerability_acknowledged": {
-      "status": "not_mentioned",
-      "quotes": null
+      "until": null
     },
     "privacy_risk_acknowledged": {
-      "status": "disagree",
-      "quotes": [
-        "Nagu ka varasemas kirjavahetuses märgitud, ei pea me kirjeldatud olukorda GDPR-i rikkumiseks.",
-        "Antud turvamehhanismide käitumine ei kujuta endast meie hinnangul isikuandmete töötlemist sellisel kujul ja eesmärgil, mis kvalifitseeruks ebaseaduslikuks."
-      ]
+      "status": "disagree"
     },
     "legal_basis": {
       "formal_legal_basis": [],
       "justification_keywords": [
-        "user_experience",
-        "account_security",
-        "industry_standard",
-        "customer_support"
-      ],
-      "quotes": [
-        "Nagu ka varasemas kirjavahetuses märgitud, ei pea me kirjeldatud olukorda GDPR-i rikkumiseks.",
-        "Praktikas on sarnaseid lahendusi kasutusel paljudes teenustes (nt e-kaubanduses, hotellinduses jne), kus süsteemid peavad suutma tuvastada olemasoleva konto olemasolu, et pakkuda asjakohaseid teenuseid (nt parooli lähtestamine).",
-        "Käsitleme konto olemasolu süsteemis osana teenuseosutamisest, mis on kasutustingimuste ning teiepoolse konto loomise kaudu alguse saanud õigussuhe."
+        "technical_limitation",
+        "industry_standard"
       ]
     },
     "remediation": {
-      "status": "refused",
+      "status": "not_mentioned",
       "scope": null,
-      "deadline": null,
-      "quotes": [
-        "Nagu ka varasemas kirjavahetuses märgitud, ei pea me kirjeldatud olukorda GDPR-i rikkumiseks.",
-        "Teie seisukoht on arusaadav, kuid antud juhul jääme eriarvamusele töötlemise liigituse osas."
-      ]
+      "deadline": null
     }
   }
 }

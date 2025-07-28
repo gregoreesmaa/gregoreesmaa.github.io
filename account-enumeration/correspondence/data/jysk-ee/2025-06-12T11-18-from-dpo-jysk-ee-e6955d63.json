@@ -24,8 +24,11 @@
     "from:service-provider",
     "purpose:gdpr",
     "subpurpose:gdpr-response",
+    "llm:justification:user_experience",
     "llm:justification:technical_limitation",
     "llm:remediation-status:planned",
+    "llm:remediation-scope:full",
+    "llm:privacy-risk:agree",
     "llm:addresses-gdpr-request"
   ],
   "attachments": [],
@@ -33,37 +36,22 @@
     "extension": {
       "asked": false,
       "justification_keywords": null,
-      "until": null,
-      "quotes": null
-    },
-    "vulnerability_acknowledged": {
-      "status": "agree",
-      "quotes": [
-        "We are currently evaluating and addressing the technical concerns raised, including the reported account enumeration issue."
-      ]
+      "until": null
     },
     "privacy_risk_acknowledged": {
-      "status": "not_mentioned",
-      "quotes": null
+      "status": "agree"
     },
     "legal_basis": {
       "formal_legal_basis": [],
       "justification_keywords": [
+        "user_experience",
         "technical_limitation"
-      ],
-      "quotes": [
-        "We are processing your request in accordance with Articles 15, 18, and 21 of the GDPR",
-        "We are currently evaluating and addressing the technical concerns raised, including the reported account enumeration issue."
       ]
     },
     "remediation": {
       "status": "planned",
-      "scope": null,
-      "deadline": "2025-09-26",
-      "quotes": [
-        "We are currently evaluating and addressing the technical concerns raised, including the reported account enumeration issue.",
-        "We are processing your request in accordance with Articles 15, 18, and 21 of the GDPR and will respond within the one-month time frame established by Article 12(3)."
-      ]
+      "scope": "full",
+      "deadline": "2025-08-12"
     }
   }
 }

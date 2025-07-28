@@ -23,15 +23,18 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       [
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
+        "llm:justification:technical_limitation",
         "llm:remediation-status:planned",
         "llm:remediation-scope:full",
-        "llm:privacy-risk:agree",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
     ],
@@ -194,34 +197,28 @@
       "labels": [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ],
       "attachments": [],
       "llmAnalysis": {
         "extension": {
           "asked": false,
           "justification_keywords": null,
-          "until": null,
-          "quotes": null
-        },
-        "vulnerability_acknowledged": {
-          "status": "not_mentioned",
-          "quotes": null
+          "until": null
         },
         "privacy_risk_acknowledged": {
-          "status": "not_mentioned",
-          "quotes": null
+          "status": "disagree"
         },
         "legal_basis": {
           "formal_legal_basis": [],
-          "justification_keywords": null,
-          "quotes": null
+          "justification_keywords": null
         },
         "remediation": {
           "status": "not_mentioned",
           "scope": null,
-          "deadline": null,
-          "quotes": null
+          "deadline": null
         }
       }
     },
@@ -247,9 +244,10 @@
         "from:service-provider",
         "purpose:gdpr",
         "subpurpose:gdpr-response",
+        "llm:justification:technical_limitation",
         "llm:remediation-status:planned",
         "llm:remediation-scope:full",
-        "llm:privacy-risk:agree",
+        "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
       "attachments": [],
@@ -257,36 +255,21 @@
         "extension": {
           "asked": false,
           "justification_keywords": null,
-          "until": null,
-          "quotes": null
-        },
-        "vulnerability_acknowledged": {
-          "status": "agree",
-          "quotes": [
-            "Olete õigesti viidanud probleemile, mis puudutab kasutajakonto olemasolu loendamise (account enumeration) võimalust meiliaadressi vahetamise vormil.",
-            "Tuvastatud turvanõrkus on kinnitust leidnud"
-          ]
+          "until": null
         },
         "privacy_risk_acknowledged": {
-          "status": "agree",
-          "quotes": [
-            "Olete õigesti viidanud probleemile, mis puudutab kasutajakonto olemasolu loendamise (account enumeration) võimalust meiliaadressi vahetamise vormil.",
-            "Tuvastatud turvanõrkus on kinnitust leidnud."
-          ]
+          "status": "disagree"
         },
         "legal_basis": {
           "formal_legal_basis": [],
-          "justification_keywords": null,
-          "quotes": null
+          "justification_keywords": [
+            "technical_limitation"
+          ]
         },
         "remediation": {
           "status": "planned",
           "scope": "full",
-          "deadline": "2025-06-30",
-          "quotes": [
-            "Tuvastatud turvanõrkus on kinnitust leidnud ning arendaja töötab praegu lahenduse kallal.",
-            "Esialgse ajakava kohaselt avaldame paranduse 30. juunil 2025."
-          ]
+          "deadline": "2025-06-30"
         }
       }
     }

@@ -20,8 +20,9 @@
     "from:service-provider",
     "purpose:gdpr",
     "subpurpose:gdpr-response",
-    "llm:remediation-status:planned",
-    "llm:privacy-risk:agree",
+    "llm:justification:technical_limitation",
+    "llm:justification:industry_standard",
+    "llm:privacy-risk:disagree",
     "llm:addresses-gdpr-request"
   ],
   "attachments": [],
@@ -29,35 +30,22 @@
     "extension": {
       "asked": false,
       "justification_keywords": null,
-      "until": null,
-      "quotes": null
-    },
-    "vulnerability_acknowledged": {
-      "status": "agree",
-      "quotes": [
-        "Teie mure turvanõrkuse osas on täiesti arusaadav ja meie hinnangul ka sisuliselt põhjendatud.",
-        "Kuna me ei ole selles kontekstis andmete vastutav töötleja, edastasime Teie taotluse ja mure teenusepakkujale siin samas keskkonnas, kes vastutab süsteemi toimimise, andmetöötluse ja isikuandmete kaitse eest vastavalt IKÜM nõuetele."
-      ]
+      "until": null
     },
     "privacy_risk_acknowledged": {
-      "status": "agree",
-      "quotes": [
-        "Teie mure turvanõrkuse osas on täiesti arusaadav ja meie hinnangul ka sisuliselt põhjendatud."
-      ]
+      "status": "disagree"
     },
     "legal_basis": {
       "formal_legal_basis": [],
-      "justification_keywords": null,
-      "quotes": null
+      "justification_keywords": [
+        "technical_limitation",
+        "industry_standard"
+      ]
     },
     "remediation": {
-      "status": "planned",
+      "status": "not_mentioned",
       "scope": null,
-      "deadline": null,
-      "quotes": [
-        "Meie asutusel puudub võimalus mõjutada või muuta sisselogimisvormi käitumist",
-        "edastasime Teie taotluse ja mure teenusepakkujale"
-      ]
+      "deadline": null
     }
   }
 }

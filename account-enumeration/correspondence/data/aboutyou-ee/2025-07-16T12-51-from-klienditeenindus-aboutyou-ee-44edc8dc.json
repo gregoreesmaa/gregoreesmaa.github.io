@@ -20,12 +20,9 @@
     "from:service-provider",
     "purpose:gdpr",
     "subpurpose:gdpr-response",
-    "llm:basis:article6-paragraph1-point:b",
-    "llm:basis:article6-paragraph1-point:f",
-    "llm:justification:user_experience",
-    "llm:justification:account_security",
-    "llm:remediation-status:partial",
-    "llm:privacy-risk:agree",
+    "llm:justification:technical_limitation",
+    "llm:justification:industry_standard",
+    "llm:privacy-risk:disagree",
     "llm:addresses-gdpr-request"
   ],
   "attachments": [
@@ -40,42 +37,22 @@
     "extension": {
       "asked": false,
       "justification_keywords": null,
-      "until": null,
-      "quotes": null
-    },
-    "vulnerability_acknowledged": {
-      "status": "not_mentioned",
-      "quotes": null
+      "until": null
     },
     "privacy_risk_acknowledged": {
-      "status": "agree",
-      "quotes": [
-        "However, we have severe concerns about the justification of any of your data subject requests, because you have written on behalf of the University of Tartu, which indicates that not you as a data subject is making the request, but you on behalf of the University (for maybe research purposes?). If this is the case, the request would be considered an abuse of rights.",
-        "Please note that we are considering contacting the University Tartu to verify whether they are aware you are acting in their name."
-      ]
+      "status": "disagree"
     },
     "legal_basis": {
-      "formal_legal_basis": [
-        "b",
-        "f"
-      ],
+      "formal_legal_basis": [],
       "justification_keywords": [
-        "user_experience",
-        "account_security"
-      ],
-      "quotes": [
-        "However, please note as a general remark (which suƯices from our perspective to answer your limited request re. Art. 15 GDPR), that the purpose for the processing of personal data via the \"Password Reset Form\", the Account Registration Form\" and \"Email Change Form\", is to enable customers to use these functions in a user-friendly manner...Besides, the specific form of providing the above-mentioned functions is also based on legitimate interests.",
-        "Due to this, the legal bases are Art. 6 (1) (b) and Art. 6 (1) (f) GDPR."
+        "technical_limitation",
+        "industry_standard"
       ]
     },
     "remediation": {
-      "status": "partial",
+      "status": "not_mentioned",
       "scope": null,
-      "deadline": null,
-      "quotes": [
-        "\"the purpose for the processing of personal data via the \"Password Reset Form\", the Account Registration Form\" and \"Email Change Form\", is to enable customers to use these functions in a user-friendly manner\"",
-        "\"the legal bases are Art. 6 (1) (b) and Art. 6 (1) (f) GDPR\""
-      ]
+      "deadline": null
     }
   }
 }
