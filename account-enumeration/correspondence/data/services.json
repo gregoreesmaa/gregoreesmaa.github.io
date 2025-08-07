@@ -397,6 +397,16 @@
         "from:author",
         "purpose:gdpr",
         "subpurpose:follow-up"
+      ],
+      [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response",
+        "llm:basis:article6-paragraph1-point:a",
+        "llm:justification:user_experience",
+        "llm:remediation-status:refused",
+        "llm:privacy-risk:disagree",
+        "llm:addresses-gdpr-request"
       ]
     ],
     "stats": {
@@ -404,15 +414,15 @@
         "initialReport": "2025-03-16T19:18:36.000Z",
         "gdprRequest": "2025-05-31T12:41:42.000Z",
         "firstResponseAfterGdpr": "2025-06-30T11:41:04.000Z",
-        "lastCommunication": "2025-07-17T07:52:08.000Z"
+        "lastCommunication": "2025-08-06T10:59:43.000Z"
       },
       "counts": {
-        "total": 9,
+        "total": 10,
         "sent": 5,
         "received": {
           "automated": 3,
-          "manual": 1,
-          "total": 4
+          "manual": 2,
+          "total": 5
         }
       }
     }
@@ -2526,8 +2536,8 @@
       ],
       [
         "from:author",
-        "purpose:gdpr",
-        "subpurpose:follow-up"
+        "purpose:disclosure",
+        "subpurpose:fix-confirmation"
       ]
     ],
     "stats": {
@@ -2536,6 +2546,7 @@
         "firstResponseAfterDisclosure": "2025-06-02T04:25:31.000Z",
         "gdprRequest": "2025-05-31T12:41:58.000Z",
         "firstResponseAfterGdpr": "2025-06-20T10:45:19.000Z",
+        "fixConfirmation": "2025-06-21T18:54:51.000Z",
         "lastCommunication": "2025-06-21T18:54:51.000Z"
       },
       "counts": {
