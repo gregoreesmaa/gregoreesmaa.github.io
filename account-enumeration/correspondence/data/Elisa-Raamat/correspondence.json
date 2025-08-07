@@ -1,7 +1,7 @@
 {
   "service": {
-    "id": "Elisa-Raamat-app",
-    "name": "Elisa Raamat app",
+    "id": "Elisa-Raamat",
+    "name": "Elisa Raamat",
     "type": "app",
     "messageLabels": [
       [

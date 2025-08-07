@@ -1,7 +1,7 @@
 {
   "service": {
-    "id": "Maxima-Estonia-app",
-    "name": "Maxima Estonia app",
+    "id": "Maxima-Estonia",
+    "name": "Maxima Estonia",
     "type": "app",
     "messageLabels": [
       [

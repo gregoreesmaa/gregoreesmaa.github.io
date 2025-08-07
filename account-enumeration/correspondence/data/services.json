@@ -533,8 +533,8 @@
     }
   },
   {
-    "id": "Circle-K-app",
-    "name": "Circle K app",
+    "id": "Circle-K",
+    "name": "Circle K",
     "type": "app",
     "messageLabels": [
       [
@@ -935,8 +935,8 @@
     }
   },
   {
-    "id": "Elisa-Raamat-app",
-    "name": "Elisa Raamat app",
+    "id": "Elisa-Raamat",
+    "name": "Elisa Raamat",
     "type": "app",
     "messageLabels": [
       [
@@ -2272,8 +2272,8 @@
     }
   },
   {
-    "id": "LIDL-Plus-app",
-    "name": "LIDL Plus app",
+    "id": "LIDL-Plus",
+    "name": "LIDL Plus",
     "type": "app",
     "messageLabels": [
       [
@@ -2358,8 +2358,8 @@
     }
   },
   {
-    "id": "Maxima-Estonia-app",
-    "name": "Maxima Estonia app",
+    "id": "Maxima-Estonia",
+    "name": "Maxima Estonia",
     "type": "app",
     "messageLabels": [
       [
@@ -3105,8 +3105,8 @@
     }
   },
   {
-    "id": "ResQ-app",
-    "name": "ResQ app",
+    "id": "ResQ-Club",
+    "name": "ResQ Club",
     "type": "app",
     "messageLabels": [
       [

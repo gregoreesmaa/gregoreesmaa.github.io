@@ -1,7 +1,7 @@
 {
   "service": {
-    "id": "Circle-K-app",
-    "name": "Circle K app",
+    "id": "Circle-K",
+    "name": "Circle K",
     "type": "app",
     "messageLabels": [
       [

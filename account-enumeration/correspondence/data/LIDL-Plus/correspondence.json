@@ -1,7 +1,7 @@
 {
   "service": {
-    "id": "LIDL-Plus-app",
-    "name": "LIDL Plus app",
+    "id": "LIDL-Plus",
+    "name": "LIDL Plus",
     "type": "app",
     "messageLabels": [
       [
