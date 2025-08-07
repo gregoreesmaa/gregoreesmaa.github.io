@@ -68,7 +68,6 @@
         "subpurpose:gdpr-response",
         "llm:basis:article6-paragraph1-point:a",
         "llm:justification:user_experience",
-        "llm:remediation-status:refused",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ]
@@ -500,7 +499,6 @@
         "subpurpose:gdpr-response",
         "llm:basis:article6-paragraph1-point:a",
         "llm:justification:user_experience",
-        "llm:remediation-status:refused",
         "llm:privacy-risk:disagree",
         "llm:addresses-gdpr-request"
       ],
@@ -524,7 +522,7 @@
           ]
         },
         "remediation": {
-          "status": "refused",
+          "status": "not_mentioned",
           "scope": "unknown",
           "deadline": null
         },
