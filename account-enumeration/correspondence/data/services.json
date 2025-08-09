@@ -1,44 +1,5 @@
 [
   {
-    "id": "1182-ee",
-    "name": "1182.ee",
-    "type": "website",
-    "messageLabels": [
-      [
-        "from:author",
-        "purpose:disclosure",
-        "subpurpose:report"
-      ],
-      [
-        "from:author",
-        "purpose:gdpr",
-        "subpurpose:gdpr-request"
-      ],
-      [
-        "from:author",
-        "purpose:gdpr",
-        "subpurpose:gdpr-request",
-        "providing-container-contents"
-      ]
-    ],
-    "stats": {
-      "dates": {
-        "initialReport": "2025-03-23T10:39:24.000Z",
-        "gdprRequest": "2025-05-31T12:42:12.000Z",
-        "lastCommunication": "2025-05-31T18:40:37.000Z"
-      },
-      "counts": {
-        "total": 3,
-        "sent": 3,
-        "received": {
-          "automated": 0,
-          "manual": 0,
-          "total": 0
-        }
-      }
-    }
-  },
-  {
     "id": "aboutyou-ee",
     "name": "aboutyou.ee",
     "type": "website",
@@ -1244,45 +1205,6 @@
           "automated": 0,
           "manual": 2,
           "total": 2
-        }
-      }
-    }
-  },
-  {
-    "id": "forum-solnet-ee",
-    "name": "forum.solnet.ee",
-    "type": "website",
-    "messageLabels": [
-      [
-        "from:author",
-        "purpose:disclosure",
-        "subpurpose:report"
-      ],
-      [
-        "from:author",
-        "purpose:gdpr",
-        "subpurpose:gdpr-request"
-      ],
-      [
-        "from:author",
-        "purpose:gdpr",
-        "subpurpose:gdpr-request",
-        "providing-container-contents"
-      ]
-    ],
-    "stats": {
-      "dates": {
-        "initialReport": "2025-03-16T19:18:36.000Z",
-        "gdprRequest": "2025-05-31T12:41:40.000Z",
-        "lastCommunication": "2025-05-31T18:46:06.000Z"
-      },
-      "counts": {
-        "total": 3,
-        "sent": 3,
-        "received": {
-          "automated": 0,
-          "manual": 0,
-          "total": 0
         }
       }
     }
@@ -2851,38 +2773,6 @@
     }
   },
   {
-    "id": "osport-ee",
-    "name": "osport.ee",
-    "type": "website",
-    "messageLabels": [
-      [
-        "from:author",
-        "purpose:disclosure",
-        "subpurpose:report"
-      ],
-      [
-        "from:author",
-        "purpose:disclosure",
-        "subpurpose:report"
-      ]
-    ],
-    "stats": {
-      "dates": {
-        "initialReport": "2025-03-16T19:18:45.000Z",
-        "lastCommunication": "2025-03-23T10:39:22.000Z"
-      },
-      "counts": {
-        "total": 2,
-        "sent": 2,
-        "received": {
-          "automated": 0,
-          "manual": 0,
-          "total": 0
-        }
-      }
-    }
-  },
-  {
     "id": "paavlikaltsukas-ee",
     "name": "paavlikaltsukas.ee",
     "type": "website",
@@ -3467,61 +3357,6 @@
           "automated": 0,
           "manual": 6,
           "total": 6
-        }
-      }
-    }
-  },
-  {
-    "id": "www-ee",
-    "name": "www.ee",
-    "type": "website",
-    "messageLabels": [
-      [
-        "from:author",
-        "purpose:disclosure",
-        "subpurpose:report"
-      ],
-      [
-        "from:service-provider",
-        "purpose:disclosure",
-        "subpurpose:disclosure-response",
-        "automated-reply"
-      ],
-      [
-        "from:author",
-        "purpose:disclosure",
-        "subpurpose:report"
-      ],
-      [
-        "from:author",
-        "purpose:gdpr",
-        "subpurpose:gdpr-request"
-      ],
-      [
-        "from:service-provider",
-        "purpose:gdpr",
-        "subpurpose:gdpr-response",
-        "automated-reply"
-      ],
-      [
-        "from:author",
-        "purpose:gdpr",
-        "subpurpose:gdpr-request"
-      ]
-    ],
-    "stats": {
-      "dates": {
-        "initialReport": "2025-03-16T19:18:46.000Z",
-        "gdprRequest": "2025-06-01T13:04:09.000Z",
-        "lastCommunication": "2025-06-01T13:09:09.000Z"
-      },
-      "counts": {
-        "total": 6,
-        "sent": 4,
-        "received": {
-          "automated": 2,
-          "manual": 0,
-          "total": 2
         }
       }
     }
