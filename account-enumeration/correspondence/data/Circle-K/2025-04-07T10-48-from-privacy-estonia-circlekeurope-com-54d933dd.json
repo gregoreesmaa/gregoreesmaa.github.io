@@ -20,7 +20,8 @@
     "from:service-provider",
     "purpose:disclosure",
     "subpurpose:disclosure-response",
-    "llm:language:en"
+    "llm:language:en",
+    "llm:remediation-status:planned"
   ],
   "attachments": [],
   "llmAnalysis": {
@@ -42,7 +43,7 @@
       "justification_keywords": null
     },
     "remediation": {
-      "status": "not_mentioned",
+      "status": "planned",
       "scope": "unknown",
       "deadline": null
     },

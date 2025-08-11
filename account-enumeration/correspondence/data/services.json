@@ -287,7 +287,8 @@
       [
         "from:service-provider",
         "purpose:disclosure",
-        "subpurpose:disclosure-response"
+        "subpurpose:disclosure-response",
+        "llm:language:et"
       ],
       [
         "from:service-provider",
@@ -552,7 +553,8 @@
         "from:service-provider",
         "purpose:disclosure",
         "subpurpose:disclosure-response",
-        "llm:language:en"
+        "llm:language:en",
+        "llm:remediation-status:planned"
       ],
       [
         "from:author",
@@ -1362,6 +1364,12 @@
       [
         "from:author",
         "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
         "subpurpose:follow-up"
       ],
       [
@@ -1700,7 +1708,9 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:is-formal:yes",
+        "llm:language:en"
       ],
       [
         "from:service-provider",
@@ -1792,7 +1802,12 @@
       [
         "from:service-provider",
         "purpose:disclosure",
-        "subpurpose:disclosure-response"
+        "subpurpose:disclosure-response",
+        "llm:language:et",
+        "llm:justification:denial_of_risk",
+        "llm:justification:widespread_practice",
+        "llm:remediation-status:refused",
+        "llm:privacy-risk:disagree"
       ],
       [
         "from:author",
@@ -1800,6 +1815,9 @@
         "subpurpose:follow-up"
       ],
       [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request",
         "from:author",
         "purpose:gdpr",
         "subpurpose:gdpr-request"
@@ -2629,7 +2647,9 @@
       [
         "from:service-provider",
         "purpose:disclosure",
-        "subpurpose:disclosure-response"
+        "subpurpose:disclosure-response",
+        "llm:language:et",
+        "llm:remediation-status:planned"
       ],
       [
         "from:service-provider",
@@ -2898,7 +2918,9 @@
       [
         "from:service-provider",
         "purpose:gdpr",
-        "subpurpose:gdpr-response"
+        "subpurpose:gdpr-response",
+        "llm:is-formal:yes",
+        "llm:language:et"
       ],
       [
         "from:service-provider",
@@ -2953,7 +2975,9 @@
       [
         "from:service-provider",
         "purpose:disclosure",
-        "subpurpose:disclosure-response"
+        "subpurpose:disclosure-response",
+        "llm:addresses-issue:partial",
+        "llm:language:et"
       ],
       [
         "from:author",
@@ -3147,7 +3171,8 @@
       [
         "from:service-provider",
         "purpose:disclosure",
-        "subpurpose:disclosure-response"
+        "subpurpose:disclosure-response",
+        "llm:language:et"
       ],
       [
         "from:service-provider",
@@ -3362,8 +3387,7 @@
       [
         "from:author",
         "purpose:gdpr",
-        "subpurpose:gdpr-request",
-        "sent-from-wrong-email"
+        "subpurpose:gdpr-request"
       ],
       [
         "from:author",
@@ -3453,8 +3477,7 @@
       [
         "from:author",
         "purpose:gdpr",
-        "subpurpose:gdpr-request",
-        "sent-from-wrong-email"
+        "subpurpose:gdpr-request"
       ],
       [
         "from:author",
