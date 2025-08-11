@@ -18,8 +18,8 @@
   "hiddenReasons": [],
   "labels": [
     "from:author",
-    "purpose:disclosure",
-    "subpurpose:fix-confirmation"
+    "purpose:gdpr",
+    "subpurpose:follow-up"
   ],
   "attachments": []
 }
