@@ -52,6 +52,24 @@
         "subpurpose:follow-up",
         "from:author",
         "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
         "subpurpose:follow-up"
       ],
       [
@@ -59,8 +77,7 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:is-formal:yes",
-        "llm:language:en",
-        "llm:remediation-status:refused"
+        "llm:language:en"
       ]
     ],
     "stats": {
@@ -378,6 +395,24 @@
         "subpurpose:follow-up",
         "from:author",
         "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
         "subpurpose:follow-up"
       ]
     },
@@ -404,8 +439,7 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:is-formal:yes",
-        "llm:language:en",
-        "llm:remediation-status:refused"
+        "llm:language:en"
       ],
       "attachments": [],
       "llmAnalysis": {
@@ -433,7 +467,7 @@
           "justification_keywords": null
         },
         "remediation": {
-          "status": "refused",
+          "status": "not_mentioned",
           "scope": "unknown",
           "deadline": null
         },

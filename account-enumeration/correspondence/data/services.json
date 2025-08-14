@@ -629,8 +629,8 @@
         "llm:is-formal:yes",
         "llm:language:et",
         "llm:language:en",
-        "llm:remediation-status:completed",
-        "llm:remediation-scope:partial"
+        "llm:remediation-status:partial",
+        "llm:remediation-scope:full"
       ]
     ],
     "stats": {
@@ -1147,7 +1147,7 @@
         "llm:justification:dpa_consultation",
         "llm:justification:user_experience",
         "llm:remediation-status:partial",
-        "llm:remediation-scope:partial",
+        "llm:remediation-scope:full",
         "llm:privacy-risk:partially_agree"
       ]
     ],
@@ -1370,6 +1370,24 @@
         "subpurpose:follow-up",
         "from:author",
         "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
         "subpurpose:follow-up"
       ],
       [
@@ -1377,8 +1395,7 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:is-formal:yes",
-        "llm:language:en",
-        "llm:remediation-status:refused"
+        "llm:language:en"
       ]
     ],
     "stats": {
@@ -1820,6 +1837,24 @@
         "subpurpose:gdpr-request",
         "from:author",
         "purpose:gdpr",
+        "subpurpose:gdpr-request",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request",
+        "from:author",
+        "purpose:gdpr",
         "subpurpose:gdpr-request"
       ],
       [
@@ -1841,8 +1876,7 @@
         "llm:language:et",
         "llm:justification:denial_of_risk",
         "llm:justification:widespread_practice",
-        "llm:remediation-status:completed",
-        "llm:remediation-scope:partial",
+        "llm:remediation-status:refused",
         "llm:privacy-risk:partially_agree"
       ],
       [

@@ -45,7 +45,7 @@
         "llm:justification:dpa_consultation",
         "llm:justification:user_experience",
         "llm:remediation-status:partial",
-        "llm:remediation-scope:partial",
+        "llm:remediation-scope:full",
         "llm:privacy-risk:partially_agree"
       ]
     ],
@@ -309,7 +309,7 @@
         "llm:justification:dpa_consultation",
         "llm:justification:user_experience",
         "llm:remediation-status:partial",
-        "llm:remediation-scope:partial",
+        "llm:remediation-scope:full",
         "llm:privacy-risk:partially_agree"
       ],
       "attachments": [],
@@ -343,7 +343,7 @@
         },
         "remediation": {
           "status": "partial",
-          "scope": "partial",
+          "scope": "full",
           "deadline": "2025-09-30"
         },
         "thinking": "**Summary of Analysis of GDPR Response Email**\n\nOkay, so I've received an Estonian email in response to a GDPR request regarding an account enumeration vulnerability. The user has invoked Articles 15, 18, and 21. Let's break this down.\n\nFirstly, the email is quite formal, as expected, starting with a polite greeting and acknowledgement of the request. The user is asking about the legal basis for processing and seeking restriction or objection to it. The response acknowledges the situation (\"we are dealing with it\") but also downplays the associated risk. They mention measures against mass queries and state that in their assessment, it doesn't pose an immediate and significant risk.\n\nThey indicate that they've consulted the Data Protection Inspectorate (DPA) and that their views on resolving the issue are aligned. They also justify the approach based on \"the principle of reasonableness\".  This suggests a delay in complete remediation.\n\nIn terms of remediation, they mention they'll promptly implement additional measures to mitigate brute-force attempts and reduce the query speed.  They are making a partial fix right now, adding to the ones that already exist. They mention that a permanent solution is planned for the end of September. Although they don't explicitly request an extension, they acknowledge the holiday period as a reason, which subtly stretches the response timeline.\n\nThe email doesn't provide the requested legal basis, so I'll mark the request addressal as partial. They do address the issue but don't meet the requirements as specified in the original request.  They also provide an estimated end date: September 30, 2025."
