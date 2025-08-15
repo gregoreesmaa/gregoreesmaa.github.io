@@ -504,10 +504,7 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:is-formal:yes",
-        "llm:language:et",
-        "llm:justification:legitimate_interests",
-        "llm:justification:account_management",
-        "llm:justification:legal_requirements"
+        "llm:language:et"
       ],
       [
         "from:author",
@@ -1388,6 +1385,9 @@
         "subpurpose:follow-up",
         "from:author",
         "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
         "subpurpose:follow-up"
       ],
       [
@@ -1832,6 +1832,9 @@
         "subpurpose:follow-up"
       ],
       [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request",
         "from:author",
         "purpose:gdpr",
         "subpurpose:gdpr-request",

@@ -64,6 +64,9 @@
     "subpurpose:gdpr-request",
     "from:author",
     "purpose:gdpr",
+    "subpurpose:gdpr-request",
+    "from:author",
+    "purpose:gdpr",
     "subpurpose:gdpr-request"
   ]
 }

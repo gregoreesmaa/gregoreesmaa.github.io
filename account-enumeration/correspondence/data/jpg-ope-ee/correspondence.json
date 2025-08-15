@@ -48,6 +48,9 @@
         "subpurpose:gdpr-request",
         "from:author",
         "purpose:gdpr",
+        "subpurpose:gdpr-request",
+        "from:author",
+        "purpose:gdpr",
         "subpurpose:gdpr-request"
       ],
       [
@@ -271,6 +274,9 @@
       ],
       "hiddenReasons": [],
       "labels": [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request",
         "from:author",
         "purpose:gdpr",
         "subpurpose:gdpr-request",

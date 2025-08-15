@@ -24,10 +24,7 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:is-formal:yes",
-        "llm:language:et",
-        "llm:justification:legitimate_interests",
-        "llm:justification:account_management",
-        "llm:justification:legal_requirements"
+        "llm:language:et"
       ],
       [
         "from:author",
@@ -188,10 +185,7 @@
         "purpose:gdpr",
         "subpurpose:gdpr-response",
         "llm:is-formal:yes",
-        "llm:language:et",
-        "llm:justification:legitimate_interests",
-        "llm:justification:account_management",
-        "llm:justification:legal_requirements"
+        "llm:language:et"
       ],
       "attachments": [],
       "llmAnalysis": {
@@ -216,11 +210,7 @@
         },
         "legal_basis": {
           "formal_legal_basis": [],
-          "justification_keywords": [
-            "legitimate_interests",
-            "account_management",
-            "legal_requirements"
-          ]
+          "justification_keywords": []
         },
         "remediation": {
           "status": "not_mentioned",
