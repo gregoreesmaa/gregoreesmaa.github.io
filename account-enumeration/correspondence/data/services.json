@@ -118,6 +118,18 @@
         "from:author",
         "purpose:gdpr",
         "subpurpose:follow-up"
+      ],
+      [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response",
+        "llm:addresses-gdpr-request:yes",
+        "llm:is-formal:yes",
+        "llm:language:en",
+        "llm:basis:article6-paragraph1-point:f",
+        "llm:justification:benefit_outweighs_risk",
+        "llm:remediation-status:refused",
+        "llm:privacy-risk:partially_agree"
       ]
     ],
     "stats": {
@@ -126,15 +138,15 @@
         "firstResponseAfterDisclosure": "2025-03-18T10:49:50.000Z",
         "gdprRequest": "2025-05-31T12:41:39.000Z",
         "firstResponseAfterGdpr": "2025-05-31T12:47:23.000Z",
-        "lastCommunication": "2025-07-23T10:52:26.000Z"
+        "lastCommunication": "2025-08-11T12:01:56.000Z"
       },
       "counts": {
-        "total": 18,
+        "total": 19,
         "sent": 9,
         "received": {
           "automated": 2,
-          "manual": 7,
-          "total": 9
+          "manual": 8,
+          "total": 10
         }
       }
     }
@@ -1388,6 +1400,15 @@
         "subpurpose:follow-up",
         "from:author",
         "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:follow-up",
+        "from:author",
+        "purpose:gdpr",
         "subpurpose:follow-up"
       ],
       [
@@ -1832,6 +1853,15 @@
         "subpurpose:follow-up"
       ],
       [
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request",
+        "from:author",
+        "purpose:gdpr",
+        "subpurpose:gdpr-request",
         "from:author",
         "purpose:gdpr",
         "subpurpose:gdpr-request",
@@ -2372,7 +2402,6 @@
         "llm:justification:user_experience",
         "llm:justification:account_security",
         "llm:remediation-status:planned",
-        "llm:remediation-scope:partial",
         "llm:privacy-risk:agree"
       ],
       [
@@ -2791,7 +2820,7 @@
         "llm:justification:user_experience",
         "llm:justification:widespread_practice",
         "llm:remediation-status:planned",
-        "llm:remediation-scope:full",
+        "llm:remediation-scope:partial",
         "llm:privacy-risk:partially_agree"
       ],
       [
@@ -3592,7 +3621,6 @@
         "llm:justification:user_experience",
         "llm:justification:widespread_practice",
         "llm:remediation-status:completed",
-        "llm:remediation-scope:partial",
         "llm:privacy-risk:partially_agree"
       ],
       [
@@ -3609,7 +3637,6 @@
         "llm:justification:username_is_not_personal_data",
         "llm:justification:widespread_practice",
         "llm:remediation-status:completed",
-        "llm:remediation-scope:partial",
         "llm:privacy-risk:partially_agree"
       ],
       [
@@ -3623,7 +3650,6 @@
         "subpurpose:gdpr-response",
         "llm:language:et",
         "llm:remediation-status:completed",
-        "llm:remediation-scope:partial",
         "llm:privacy-risk:agree"
       ],
       [

@@ -52,7 +52,6 @@
         "llm:justification:user_experience",
         "llm:justification:widespread_practice",
         "llm:remediation-status:completed",
-        "llm:remediation-scope:partial",
         "llm:privacy-risk:partially_agree"
       ],
       [
@@ -69,7 +68,6 @@
         "llm:justification:username_is_not_personal_data",
         "llm:justification:widespread_practice",
         "llm:remediation-status:completed",
-        "llm:remediation-scope:partial",
         "llm:privacy-risk:partially_agree"
       ],
       [
@@ -83,7 +81,6 @@
         "subpurpose:gdpr-response",
         "llm:language:et",
         "llm:remediation-status:completed",
-        "llm:remediation-scope:partial",
         "llm:privacy-risk:agree"
       ],
       [
@@ -370,7 +367,6 @@
         "llm:justification:user_experience",
         "llm:justification:widespread_practice",
         "llm:remediation-status:completed",
-        "llm:remediation-scope:partial",
         "llm:privacy-risk:partially_agree"
       ],
       "attachments": [],
@@ -400,7 +396,7 @@
         },
         "remediation": {
           "status": "completed",
-          "scope": "partial",
+          "scope": null,
           "deadline": null
         },
         "thinking": "**My Analysis of the Estonian Email**\n\nOkay, so I've got this Estonian email responding to a GDPR request about an account enumeration vulnerability. Let's break it down. First, the language is Estonian (`et`), and the tone is incredibly informal and sarcastic; not exactly what you'd expect in a GDPR response. They clearly aren't taking this seriously.\n\nThey've made *some* changes, specifically to the error messages, making them more generic, which is a partial fix for the account enumeration issue.  It looks like they're addressing the \"restrict\" and \"object\" portions of the request (Articles 18 & 21), but completely sidestepping Article 15 (access rights).  The \"Upload.ee Team\" is mentioned, but there's no personal data to speak of in the actual message.\n\nThe email's tone is dripping with sarcasm, asking if I'm also going after \"hundreds of millions\" of users on sites like Facebook and Google. They are trying to dismiss the issue through \"whataboutism\", and playing on user experience concerns. They seem to be arguing a *widespread practice* and concern for *user experience*.\n\nIn terms of the JSON schema, the email warrants a \"partially agree\" acknowledgement, given they did make a change, but downplay its importance.  They've completed *some* remediation, but it's only a partial fix.\n\nThe response is a bit dismissive, but at least they've taken *some* action. I still need to follow up regarding the lack of addressing Article 15. The rest of the schema mapping seems pretty straightforward. The remediation is *completed*, and is of *partial* scope, affecting error messages. The rest of the metadata looks good, too. Time to draft a solid follow-up."
@@ -458,7 +454,6 @@
         "llm:justification:username_is_not_personal_data",
         "llm:justification:widespread_practice",
         "llm:remediation-status:completed",
-        "llm:remediation-scope:partial",
         "llm:privacy-risk:partially_agree"
       ],
       "attachments": [],
@@ -489,7 +484,7 @@
         },
         "remediation": {
           "status": "completed",
-          "scope": "partial",
+          "scope": null,
           "deadline": null
         },
         "thinking": "**Analyzing the GDPR Response from Upload.ee**\n\nAs an expert in this field, here's my interpretation of the email response from Upload.ee regarding the GDPR request about account enumeration:\n\nThe email, written in Estonian, is a response to a report about a vulnerability related to account enumeration. It's clear that they've addressed *some* of the concerns but not all of them, and their tone is somewhat defensive. They've made a change to their registration form, specifically to display the same text regardless of email existence, which is a positive step. However, they continue to assert that the username check mechanism remains in place, primarily due to their argument that usernames are not considered personal data according to the Estonian DPA, which aligns with my prior thought regarding the email's contents.\n\nTheir justification for the username check and their comparison to other tech companies suggest a \"widespread_practice\" argument. They're also downplaying the vulnerability, saying that their method of detecting account existence through username checks on the platform is acceptable. In this manner, and after reviewing the email and the GDPR articles in context with each other, it's safe to say that I can pick \"no\" for the addresses_request field as they didn't explicitly reference them, even though some steps have been taken.\n\nRegarding the password reset page, they acknowledge its \"bad\" or vague design from a UX perspective. However, they're defending its current state, stating no changes were made and implying the lack of clarity serves a security purpose by hindering enumeration.\n\nWhile they've implemented a fix on the registration form, they've not restricted the checks through the enumeration on the platform. The remediation scope seems very \"partial\" at the moment. It appears that, from their perspective, the fixes are \"completed\" because they believe the current state is acceptable, despite the ongoing vulnerability."
@@ -544,7 +539,6 @@
         "subpurpose:gdpr-response",
         "llm:language:et",
         "llm:remediation-status:completed",
-        "llm:remediation-scope:partial",
         "llm:privacy-risk:agree"
       ],
       "attachments": [],
@@ -571,7 +565,7 @@
         },
         "remediation": {
           "status": "completed",
-          "scope": "partial",
+          "scope": null,
           "deadline": null
         },
         "thinking": "**GDPR Response Analysis: Summary**\n\nOkay, so I've got this email response to a GDPR request, and I need to break it down. It's in Estonian mostly, with some English technical terms mixed in. The tone is super informal, which is a bit unusual. It's like, \"Hmm, yeah, we did that thing you reported.\"\n\nThe key here is understanding what the email *actually* says. They acknowledge that there was a vulnerability – specifically, that debug data was leaking user existence information. They say they've \"hidden\" this data on the registration, password reset, and login pages. But here's the catch: they only mention hiding it on *form submission* (a POST request). They explicitly say it's *still* visible on the initial page load (a GET request). That makes me think the fix is partial, and the original issue, the ability to indirectly determine if a user exists, might still be exploitable.\n\nSo, let's look at the GDPR stuff. It was about Articles 15, 18, and 21. They *don't* mention those articles or any legal basis. It seems like a technical fix to a bug, not a legal response. It's a bug fix, not a GDPR response. So, no, they don't explicitly address the GDPR requests in the email. There's no legal basis or restriction in their response.  It's just a fix.\n\nRegarding personal data, they only mention \"Upload.ee Team,\" which is a generic role, not any personal data. It's a no on an extension, and there's no justification or legal argument. The fix they describe – hiding the variables – is completed, but the scope of it is partial, as it only addresses form submissions (POST requests). They don't give a remediation date; it's already done."

@@ -118,6 +118,18 @@
         "from:author",
         "purpose:gdpr",
         "subpurpose:follow-up"
+      ],
+      [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response",
+        "llm:addresses-gdpr-request:yes",
+        "llm:is-formal:yes",
+        "llm:language:en",
+        "llm:basis:article6-paragraph1-point:f",
+        "llm:justification:benefit_outweighs_risk",
+        "llm:remediation-status:refused",
+        "llm:privacy-risk:partially_agree"
       ]
     ],
     "stats": {
@@ -126,15 +138,15 @@
         "firstResponseAfterDisclosure": "2025-03-18T10:49:50.000Z",
         "gdprRequest": "2025-05-31T12:41:39.000Z",
         "firstResponseAfterGdpr": "2025-05-31T12:47:23.000Z",
-        "lastCommunication": "2025-07-23T10:52:26.000Z"
+        "lastCommunication": "2025-08-11T12:01:56.000Z"
       },
       "counts": {
-        "total": 18,
+        "total": 19,
         "sent": 9,
         "received": {
           "automated": 2,
-          "manual": 7,
-          "total": 9
+          "manual": 8,
+          "total": 10
         }
       }
     }
@@ -966,6 +978,77 @@
         "subpurpose:follow-up"
       ],
       "attachments": []
+    },
+    {
+      "id": "2025-08-11T12-01-from-klienditeenindus-aboutyou-ee-f7a2f633",
+      "type": "email",
+      "subject": "[ABOUT YOU] Re: RE: IKÜM taotlus seoses isikuandmete töötlemisega teenuses aboutyou.ee / GDPR Request Regarding Processing of Personal Data on aboutyou.ee (Klienditeenindus 19778553)",
+      "from": {
+        "address": "klienditeenindus@aboutyou.ee",
+        "name": "ABOUT YOU"
+      },
+      "to": [
+        {
+          "address": "gregoreesmaa1@gmail.com",
+          "name": "Gregor Eesmaa"
+        }
+      ],
+      "cc": [],
+      "date": "2025-08-11T12:01:56.000Z",
+      "bodyHtml": "<head>\n    <title>ABOUT YOU</title>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <style type=\"text/css\">\n        * {\n            -ms-text-size-adjust: 100%;\n            -webkit-text-size-adjust: none;\n            -webkit-text-resize: 100%;\n            text-resize: 100%;\n        }\n\n        a {\n            outline: none;\n        }\n\n        .wrapper {\n            table-layout: fixed !important;\n        }\n\n        @media screen and (max-width: 900px) {\n            .wrapper {\n                table-layout: auto !important;\n            }\n        }\n\n        @media only screen and (max-width: 500px) {\n            table.flexible {\n                width: 100% !important;\n            }\n\n            td.nav {\n                width: 100% !important;\n                text-align: center !important;\n                border-bottom: 1px solid #ccc !important;\n                border-top: 1px solid #ccc !important;\n                padding: 5px 5px 5px 5px !important;\n                font-size: 14px !important;\n                line-height: 16px !important;\n                word-spacing: 0 !important;\n            }\n\n            .wrapper {\n                table-layout: fixed !important;\n            }\n\n            table.wrapper {\n                min-width: 250px !important;\n            }\n\n            td.indent-01 {\n                padding: 20px 0 0 !important;\n            }\n\n            td.indent-01_nav {\n                padding: 20px 0 10px 0 !important;\n            }\n\n            td.style-01 {\n                border-style: none !important;\n            }\n\n            td.style-01 {\n                border-style: none !important;\n            }\n        }\n\n        {\n        {\n            styles\n        }\n        }\n    </style>\n    <style type=\"text/css\">\n        body {\n            font-family: 'Montserrat', sans-serif;\n            font-weight: 400;\n        }\n    </style>\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');\n    </style>\n\n          <style type=\"text/css\">\n            @media only screen and (max-width: 768px) {\n              .simplified-email-footer .namecard {\n                display: block;\n                min-width: 100%;\n                padding: 0 0 16px 0; }\n\n              .simplified-email-footer .content {\n                padding: 16px; }\n            }\n          </style>\n        </head>\n\n<body style=\"margin: 0; padding: 0;\" bgcolor=\"#ffffff\" link=\"#000000\">\n<style>\n    .button-outlook {\n        padding: 7px 5px !important;\n    }\n    .button-outlook a {\n        padding: 0 !important;\n    }\n</style>\n<table class=\"wrapper\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" bgcolor=\"#ffffff\">\n    <tbody><tr>\n        <td>\n                <table class=\"flexible\" width=\"600\" align=\"center\" style=\"margin: 0 auto;\" cellpadding=\"0\" cellspacing=\"0\">\n                    <!-- Pre-Header -->\n                    <tbody><tr>\n                        <td align=\"center\" style=\"padding: 10px 0 0 0; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: 14px;  color: rgb(153, 153, 153);\">\n                            ##- Palun ärge selle joone alla kirjutage -##\n                        </td>\n                    </tr>\n                    <!-- header -->\n                    <tr>\n                        </tr><tr>\n                            <td class=\"indent-01_nav\" bgcolor=\"#ffffff\" style=\"padding: 20px 20px 0px 20px;\">\n                                <table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\">\n                                    <tbody><tr>\n                                        <td class=\"style-01\" style=\"border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(238, 238, 238);\">\n                                            <table class=\"flexible\" width=\"100%\" align=\"\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse;\">\n                                                <tbody><tr>\n                                                    <td align=\"center\" style=\"padding: 0px 0px 10px;\">\n\n                                                    </td>\n                                                </tr>\n                                            </tbody></table>\n                                        </td>\n                                    </tr>\n                                </tbody></table>\n                            </td>\n                        </tr>                        \n                        <tr><td align=\"left\" style=\"font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 15px; line-height: 24px;  color: rgb(0, 0, 0); padding:15px 20px;font-family: 'Montserrat', sans-serif;\">\n                            <p dir=\"ltr\"></p><p style=\"text-align:right; vertical-align: top;\" dir=\"ltr\"><a href=\"https://www.aboutyou.ee\"><img src=\"https://i.imgur.com/ZQC0zX8.png\" width=\"140px\" height=\"29px\"></a></p><p dir=\"ltr\"></p><div style=\"border-top:1px solid rgb(238,238,238)\"></div><br><strong>Nils Perucca</strong><br><span style=\"font-size: 13px;line-height: 25px;margin-bottom: 15px;margin-top: 0;padding: 0;color: #bbbbbb;\"><br>    11 August 2025 at 14:01<br></span><div class=\"zd-comment\" dir=\"auto\" style=\"color: #2b2e2f; line-height: 22px; margin: 15px 0;\">Hi Gregor,<br>&nbsp;<br>Thank you for your message.<br>&nbsp;<br>We have reviewed your request together with our data protection officer and have concluded that the interests you have presented still do not outweigh our own, nor those of other About You customers. We therefore continue to hold the view that the current situation and the data processing carried out in the respective forms is legitimate based on our legitimate interests (Art. 6 (1) (f) GDPR). Accordingly, we are not obliged to comply with your right to object pursuant to Art. 21 (1) GDPR, nor are we required to restrict data processing pursuant to Art. 18 (1) GDPR.<br>&nbsp;<br>However, we thank you for your requests and for bringing potential improvements in our product to our attention.<br>&nbsp;<br>If you have any questions, please let us know.<br>&nbsp;<br>Best regards<br><div class=\"signature\"><p dir=\"ltr\" style=\"color: #2b2e2f; line-height: 22px; margin: 15px 0;\">Nils Perucca</p></div></div><p dir=\"ltr\"></p><p dir=\"ltr\"></p><div style=\"border-top:1px solid rgb(238,238,238)\"></div><br><p style=\"margin:0px\" dir=\"ltr\"><br>    Klienditeenindus<br></p><p dir=\"ltr\"></p><p style=\"margin:0px\" dir=\"ltr\"><a href=\"https://www.aboutyou.ee\"><img src=\"https://i.imgur.com/eS1cvt4.png?1\"></a></p><br><p style=\"margin:0px ; font-size:60% ; line-height: 1.5\" dir=\"ltr\"><br>    ABOUT YOU SE &amp; Co. KG<br>Domstrasse 10<br>20095 Hamburg</p><br><table class=\"flexible\" align=\"center\" width=\"600px\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><td align=\"center\" style=\"font-style: normal; font-variant: normal; font-weight: normal; font-size: 11px; line-height: 18px; font-family: Montserrat, sans-serif; letter-spacing: 0px; color: #919191; padding:15px 20px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(238, 238, 238); border-top-width: 1px; border-top-style: solid; border-top-color: rgb(238, 238, 238);\">ABOUT YOU SE &amp; Co. KG • Domstrasse 10 •&nbsp;20095 Hamburg •&nbsp;Saksamaa<br>Registreerimiskohus: Hamburgi ringkonnakohus • Registrikood: HRA 126781<br class=\"hide\">&nbsp;Käibemaksukohustuslase number: EE102360745<br class=\"hide\">&nbsp;seaduslikult esindatud: ABOUT YOU Verwaltungs SE<br>Registreerimiskohus: Hamburgi ringkonnakohus • Registrikood: HRB 171601<br class=\"hide\">&nbsp;Juhatuse liikmed: Sebastian Betz, Tarek Müller, Hannes Wiese<br class=\"hide\">&nbsp;Nõukogu esimees: Sebastian Klauke</td></tr></tbody></table> <table class=\"flexible\" align=\"center\" width=\"600px\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><td align=\"center\" style=\"font-style: normal; font-variant: normal; font-weight: normal; font-size: 11px; line-height: 20px; font-family: Montserrat, sans-serif; letter-spacing: 1px; color: #919191; padding: 10px 10px 10px;\"><a target=\"_blank\" style=\"text-decoration: none; color: #919191;\" href=\"https://www.aboutyou.ee/h/kontakt?&amp;utm_content=f_kontakt\">Kontakt | </a><a target=\"_blank\" style=\"text-decoration: none; color: #919191;\" href=\"https://www.aboutyou.ee/impressum?&amp;utm_content=f_impressum\"> Impressum | </a><a target=\"_blank\" style=\"text-decoration: none; color: #919191;\" href=\"https://www.aboutyou.ee/privaatsuspoliitika?&amp;utm_content=f_datenschutz\">Privaatsuspoliitika | </a><a target=\"_blank\" style=\"text-decoration: none; color: #919191;\" href=\"https://www.aboutyou.ee/uldtingimused?&amp;utm_content=f_agb\">Üldtingimused</a></td></tr></tbody></table>\n                        </td>\n                    </tr>\n                </tbody></table>\n                <!-- footer -->\n                    <table align=\"center\" width=\"600px\" cellpadding=\"0\" cellspacing=\"0\">\n                        <tbody>\n                        <tr>\n                            <td align=\"center\" style=\"font-style:normal;font-variant:normal;font-weight:normal;font-size:11px;line-height:18px;font-family:Arial,Helvetica,sans-serif;letter-spacing:0px;color:#919191;padding:15px 20px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgb(238,238,238);border-top-width:1px;border-top-style:solid;border-top-color:rgb(238,238,238)\">\n                                See kiri on kasutajatoe teenus ABOUT YOUlt\n                            </td>\n                        </tr>\n                        </tbody>\n                    </table>\n                    </td>\n                    </tr>\n                </tbody></table>\n<span style=\"color:#FFFFFF\" aria-hidden=\"true\" class=\"zd_encoded_id\">[NKZELY-77245]</span>\n\n\n<div itemscope=\"\" itemtype=\"http://schema.org/EmailMessage\" style=\"display:none\">  <div itemprop=\"action\" itemscope=\"\" itemtype=\"http://schema.org/ViewAction\">    <link itemprop=\"url\" href=\"https://aboutyou.zendesk.com/hc/requests/19778553\">    <meta itemprop=\"name\" content=\"View ticket\">  </div></div></body>",
+      "hiddenReasons": [],
+      "labels": [
+        "from:service-provider",
+        "purpose:gdpr",
+        "subpurpose:gdpr-response",
+        "llm:addresses-gdpr-request:yes",
+        "llm:is-formal:yes",
+        "llm:language:en",
+        "llm:basis:article6-paragraph1-point:f",
+        "llm:justification:benefit_outweighs_risk",
+        "llm:remediation-status:refused",
+        "llm:privacy-risk:partially_agree"
+      ],
+      "attachments": [],
+      "llmAnalysis": {
+        "model": "gemini-2.5-pro",
+        "prompt_version": 2,
+        "is_formal": true,
+        "languages": [
+          "en"
+        ],
+        "addresses_request": "yes",
+        "personal_data": [
+          "Gregor",
+          "Nils Perucca",
+          "Sebastian Betz",
+          "Tarek Müller",
+          "Hannes Wiese",
+          "Sebastian Klauke"
+        ],
+        "extension": {
+          "asked": false,
+          "justification_keywords": null,
+          "until": null
+        },
+        "privacy_risk_acknowledged": {
+          "status": "partially_agree"
+        },
+        "legal_basis": {
+          "formal_legal_basis": [
+            "f"
+          ],
+          "justification_keywords": [
+            "benefit_outweighs_risk"
+          ]
+        },
+        "remediation": {
+          "status": "refused",
+          "scope": "unknown",
+          "deadline": null
+        },
+        "thinking": "**Analyzing a GDPR Response: A Deep Dive**\n\nOkay, so I'm diving into this email response to a GDPR request about an account enumeration vulnerability. My goal is to extract specific details and translate them into a structured JSON object.\n\nFirst, the context. It's a response from ABOUT YOU SE & Co. KG to a user named Gregor. He's raised concerns about this vulnerability, specifically invoking Articles 15 (access), 18 (restriction), and 21 (objection). We're working with a response from August 16, 2025.\n\nBreaking down the content: Nils Perucca from ABOUT YOU is sending the response to Gregor. The main body's in English, but the template has some Estonian. Focusing on the substance, the language is formal, professional, and directly addresses the request, citing relevant GDPR articles. They acknowledge the request concerning the right to object (Art. 21) and the right to restrict (Art. 18), and they provide their legal basis for Art. 15 (access).\n\nNow, the personal data. I've spotted \"Nils Perucca\" and \"Gregor\". Company details, like the address, aren't personal data in this context. However, the board members *are* natural persons, so I'll include \"Sebastian Betz\", \"Tarek Müller\", \"Hannes Wiese\", and \"Sebastian Klauke\".\n\nCrucially, there's no extension requested. The response is definitive. And regarding the vulnerability, they acknowledge the report but frame it as a \"potential improvement\". They argue that their legitimate interests outweigh Gregor's, so I'm classifying the acknowledgement as \"partially_agree\". They acknowledge the *report* but disagree with the *implication* of it requiring action.\n\nFor the legal basis (Art. 15), they explicitly cite \"legitimate interests (Art. 6 (1) (f) GDPR)\". I'm noting this as the explicit point. The discussion revolves around balancing their business needs and those of other customers, prioritizing the \"benefit_outweighs_risk\". In essence, they're saying their interests are more significant.\n\nRegarding the rights to object and restrict (Art. 18 & 21), the response is clear: \"we are not obliged to comply.\" They're explicitly refusing action. So, \"remediation_status\" is \"refused,\" and because they're refusing, \"remediation_scope\" is \"not_mentioned\" since it's not applicable. And finally, \"remediation_finish_date\" is `null`, of course.\n\nSo, here's my interpretation of the final JSON based on the schema:\n\n*   **languages**: `\"en\"`\n*   **is_formal**: `true`\n*   **addresses_request**: `\"yes\"`\n*   **personal_data**: `[\"Gregor\", \"Nils Perucca\", \"Sebastian Betz\", \"Tarek Müller\", \"Hannes Wiese\", \"Sebastian Klauke\"]`\n*   **extension_explicitly_requested**: `false`\n*   **extension_deadline**: `null`\n*   **extension_reasons**: `null`\n*   **acknowledgement**: `\"partially_agree\"`\n*   **justification_explicit_article6_paragraph1_points**: `[\"f\"]`\n*   **justification_topics**: `[\"benefit_outweighs_risk\"]`\n*   **remediation_status**: `\"refused\"`\n*   **remediation_scope**: `\"not_mentioned\"`\n*   **remediation_finish_date**: `null`\n\nI've carefully reviewed this to be sure it is correct based on the schema, and I'm confident in the outcome."
+      }
     }
   ]
 }

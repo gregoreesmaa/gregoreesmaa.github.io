@@ -25,7 +25,6 @@
     "llm:justification:username_is_not_personal_data",
     "llm:justification:widespread_practice",
     "llm:remediation-status:completed",
-    "llm:remediation-scope:partial",
     "llm:privacy-risk:partially_agree"
   ],
   "attachments": [],
@@ -56,7 +55,7 @@
     },
     "remediation": {
       "status": "completed",
-      "scope": "partial",
+      "scope": null,
       "deadline": null
     },
     "thinking": "**Analyzing the GDPR Response from Upload.ee**\n\nAs an expert in this field, here's my interpretation of the email response from Upload.ee regarding the GDPR request about account enumeration:\n\nThe email, written in Estonian, is a response to a report about a vulnerability related to account enumeration. It's clear that they've addressed *some* of the concerns but not all of them, and their tone is somewhat defensive. They've made a change to their registration form, specifically to display the same text regardless of email existence, which is a positive step. However, they continue to assert that the username check mechanism remains in place, primarily due to their argument that usernames are not considered personal data according to the Estonian DPA, which aligns with my prior thought regarding the email's contents.\n\nTheir justification for the username check and their comparison to other tech companies suggest a \"widespread_practice\" argument. They're also downplaying the vulnerability, saying that their method of detecting account existence through username checks on the platform is acceptable. In this manner, and after reviewing the email and the GDPR articles in context with each other, it's safe to say that I can pick \"no\" for the addresses_request field as they didn't explicitly reference them, even though some steps have been taken.\n\nRegarding the password reset page, they acknowledge its \"bad\" or vague design from a UX perspective. However, they're defending its current state, stating no changes were made and implying the lack of clarity serves a security purpose by hindering enumeration.\n\nWhile they've implemented a fix on the registration form, they've not restricted the checks through the enumeration on the platform. The remediation scope seems very \"partial\" at the moment. It appears that, from their perspective, the fixes are \"completed\" because they believe the current state is acceptable, despite the ongoing vulnerability."
